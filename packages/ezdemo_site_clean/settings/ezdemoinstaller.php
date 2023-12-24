@@ -102,7 +102,7 @@ class ezdemoInstaller extends eZSiteInstaller
             $this->setting( 'admin_siteaccess' )
         ) ) );
         $this->addSetting( 'access_type', eZSiteInstaller::getParam( $parameters, 'site_type/access_type', '' ) );
-        $this->addSetting( 'access_type_value', eZSiteInstaller::getParam( $parameters, 'site_type/access_type_value', '' ) );
+        $this->addSetting( 'access_type_value', (int)eZSiteInstaller::getParam( $parameters, 'site_type/access_type_value', '' ) );
         $this->addSetting( 'admin_access_type_value', eZSiteInstaller::getParam( $parameters, 'site_type/admin_access_type_value', '' ) );
         $this->addSetting( 'host', eZSiteInstaller::getParam( $parameters, 'host', '' ) );
         $siteaccessUrls = array( 
