@@ -1281,6 +1281,9 @@ class ezdemoInstaller extends eZSiteInstaller
 
         switch ( $db->databaseName() )
         {
+            case 'sqlite':
+                $path = $package->path() . '/ezextension/' . $extensionName . '/sql/sqlite';
+                break;
             case 'mysql':
                 $path = $package->path() . '/ezextension/' . $extensionName . '/sql/mysql';
                 break;
