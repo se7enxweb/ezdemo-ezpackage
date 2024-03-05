@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package version="5.0-0"
+<package version="1.0-1"
          development="false"
          is_active="true"
          install_type="import">
   <name>ezdemo_site</name>
   <summary>eZ Publish Demo Site</summary>
   <description></description>
-  <vendor>eZ systems</vendor>
+  <vendor>7x</vendor>
   <type value="site" />
   <ezpublish>
-    <version>4.7.0</version>
-    <named-version>4.7</named-version>
+    <version>6.0.0</version>
+    <named-version>6.0</named-version>
   </ezpublish>
   <maintainers>
     <maintainer>
       <name>Administrator User</name>
-      <email>nospam@ez.no</email>
+      <email>nospam@se7enx.com</email>
       <role>lead</role>
     </maintainer>
   </maintainers>
   <packaging>
     <timestamp>1153313252</timestamp>
-    <host>packages.ez.no</host>
+    <host>packages.se7enx.com</host>
   </packaging>
   <documents>
     <document mime-type="text/plain"
@@ -29,7 +29,7 @@
   </documents>
   <changelog>
     <entry person="Administrator User"
-           email="nospam@ez.no"
+           email="nospam@se7enx.com"
            release="1">
       <change>Creation of package.</change>
     </entry>
@@ -51,7 +51,7 @@
   </files>
   <version>
     <number>1.0</number>
-    <release>0</release>
+    <release>1</release>
   </version>
   <licence>GPL</licence>
   <state>stable</state>
@@ -63,10 +63,13 @@
                min-version="5.1" />
       <require type="ezpackage"
                name="ezstarrating_extension"
-               min-version="5.1" />
+               min-version="1.0" />
       <require type="ezpackage"
                name="ezgmaplocation_extension"
-               min-version="5.1" />
+               min-version="1.0" />
+      <require type="ezpackage"
+               name="ezpaypal_extension"
+               min-version="1.0" />
       <require type="ezpackage"
                name="ezdemo_extension"
                min-version="5.1" />
