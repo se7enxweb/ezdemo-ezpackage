@@ -4350,5 +4350,23 @@ class ezdemoInstaller extends eZSiteInstaller
         }
         return parent::contentObjectByName( $params );
     }
+
+    /*!
+     The node of a path such as 'users/Subscribers': as written, else in lower case, the form the path
+     identification string is stored in.
+    */
+    function nodeByUrl( $params )
+    {
+        if ( isset( $params['location'] ) && is_string( $params['location'] ) && $params['location'] !== '' )
+        {
+            foreach ( array_unique( array( $params['location'], strtolower( $params['location'] ) ) ) as $path )
+            {
+                $node = eZContentObjectTreeNode::fetchByURLPath( $path );
+                if ( is_object( $node ) )
+                    return $node;
+            }
+        }
+        return parent::nodeByUrl( $params );
+    }
 }
 ?>
