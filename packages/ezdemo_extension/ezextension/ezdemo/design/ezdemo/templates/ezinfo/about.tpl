@@ -1,14 +1,14 @@
 
 <div class="attribute-header">
-    <h1 class="long">{'eZ Publish information: %version'|i18n('design/ezdemo/ezinfo/about',,hash( '%version', $ezinfo ) )|wash}</h1>
+    <h1 class="long">{'Exponential information: %version'|i18n('design/ezdemo/ezinfo/about',,hash( '%version', $ezinfo ) )|wash}</h1>
 </div>
 
 <div class="attribute-header">
-    <h2>eZ Publish</h2>
+    <h2>Exponential</h2>
 </div>
 
 <div class="attribute-header">
-    <h3>{'What is eZ Publish?'|i18n( 'design/ezdemo/ezinfo/about' )}</h3>
+    <h3>{'What is Exponential?'|i18n( 'design/ezdemo/ezinfo/about' )}</h3>
 </div>
 
 {if is_set( $what_is_ez_publish )}
@@ -31,7 +31,7 @@
     </div>
 
     <p>
-        The following is a list of <a href="http://ez.no/ezpublish">eZ Publish</a> contributors who have licensed their work for use by <a href="http://ez.no/">eZ Systems AS</a> under the terms and conditions of
+        The following is a list of <a href="https://exponential.earth">Exponential</a> contributors who have licensed their work for use by <a href="http://ez.no/">eZ Systems AS</a> under the terms and conditions of
         the eZ Contributor Licensing Agreement. As permitted by this agreement with the contributors, <a href="http://ez.no/">eZ Systems AS</a> is redistributing the
         contribution under the same license as the file that the contribution is included in. The list of contributors includes the contributors&apos;s
         name, optional contact info and a list of files that they have either contributed or contributed work to.
@@ -59,7 +59,7 @@
     </div>
 
     <p>
-        The following is a list of the third-party software that is distributed with this copy of <a href="http://ez.no/ezpublish">eZ Publish</a>. The list of third party
+        The following is a list of the third-party software that is distributed with this copy of <a href="https://exponential.earth">Exponential</a>. The list of third party
         software includes the license for the software in question and the directory or files that contain the third-party software.
     </p>
 
@@ -74,7 +74,7 @@
     <h2>{'Extensions'|i18n('design/ezdemo/ezinfo/about')}</h2>
 </div>
 
-<p>The following is a list of the extensions that have been loaded at run-time by this copy of <a href="http://ez.no/ezpublish">eZ Publish</a>.</p>
+<p>The following is a list of the extensions that have been loaded at run-time by this copy of <a href="https://exponential.earth">Exponential</a>.</p>
 {if is_set( $extensions )}
     {foreach $extensions as $ext_name => $extension}
         {if is_array( $extension )}
@@ -83,12 +83,12 @@
                     {foreach $extension as $ext_key => $ext_info}
                         {$ext_key|wash}:
                         {if not( is_array( $ext_info ) )}
-                            {$ext_info}<br />
+                            {$ext_info}<br>
                         {else}
                             <ul>
                                 <li>
                                     {foreach $ext_info as $ext_info_key => $ext_info_value}
-                                        {$ext_info_key} : {$ext_info_value}<br />
+                                        {$ext_info_key} : {$ext_info_value}<br>
                                     {/foreach}
                                 </li>
                             </ul>

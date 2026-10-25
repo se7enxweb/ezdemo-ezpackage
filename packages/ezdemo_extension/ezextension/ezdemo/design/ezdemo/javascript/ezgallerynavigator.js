@@ -1,8 +1,7 @@
-YUI(YUI3_config).add('ezgallerynavigator', function (Y) {
+(function ($) {
+    'use strict';
 
-    Y.namespace('eZ');
-
-    var L = Y.Lang;
+    $.eZ = $.eZ || {};
 
     var defaultConfig = {
         gallery: '',
@@ -15,50 +14,55 @@ YUI(YUI3_config).add('ezgallerynavigator', function (Y) {
         easing: 'cubic-bezier'
     };
 
+    // inline style first (the target of a running transition), computed style otherwise
+    function style(el, prop) {
+        el = $(el)[0];
+        return el.style[prop] || window.getComputedStyle(el)[prop];
+    }
+
     function width(el) {
-        return parseInt(el.getStyle('width'));
+        return parseInt(style(el, 'width'));
     }
 
     function left(el) {
-        return parseInt(el.getStyle('left'));
+        return parseInt(style(el, 'left'));
+    }
+
+    // x position of the element in the document
+    function getX(el) {
+        return $(el).offset().left;
     }
 
     /**
-     * Constructor of the Y.eZ.GalleryNavigator component
+     * Constructor of the $.eZ.GalleryNavigator component
      *
      * @param conf
      */
     function eZGN(conf) {
-        var that = this;
+        this.conf = $.extend({}, defaultConfig, conf);
+        this._listeners = {};
 
-        this.conf = Y.merge(defaultConfig, conf);
+        this.gallery = $(this.conf.gallery).first();
 
-        if ( L.isString(this.conf.gallery) ) {
-            this.gallery = Y.one(this.conf.gallery);
-        } else if ( L.isObject(this.conf.gallery) ) {
-            this.gallery = this.conf.gallery;
-        }
+        this.container = this.gallery.find(this.conf.container).first();
+        this.nextLink = this.gallery.find(this.conf.next).first();
+        this.prevLink = this.gallery.find(this.conf.prev).first();
 
-        this.container = this.gallery.one(this.conf.container);
-        this.nextLink = this.gallery.one(this.conf.next);
-        this.prevLink = this.gallery.one(this.conf.prev);
-
-        this.images = this.container.all(this.conf.images);
+        this.images = this.container.find(this.conf.images);
         this.index = 0;
-        this.total = this.images.size();
+        this.total = this.images.length;
 
-        this.cursor = this.gallery.one(this.conf.cursor);
-        this.cursor.setStyles({
+        this.cursor = this.gallery.find(this.conf.cursor).first();
+        this.cursor.css({
             left: this._computeCursorX(this.getSelectedImage()) + 'px',
             display: 'inline-block'
-         });
+        });
 
         this._init();
     }
 
     eZGN.DEFAULT_CONFIG = defaultConfig;
 
-   
     eZGN.prototype._init = function () {
         var that = this;
 
@@ -72,42 +76,62 @@ YUI(YUI3_config).add('ezgallerynavigator', function (Y) {
             that.previous();
         });
 
-        this.images.each(function(img, k) {
-            img.on('click', function (e) {
+        this.images.each(function (k, img) {
+            $(img).on('click', function (e) {
                 e.preventDefault();
                 that.select(k);
             });
         });
-    }
+    };
 
     eZGN.NAME = 'gallerynavigator';
 
     /**
+     * Subscribes to an event, "select" is fired when an image is selected.
+     * Listeners are called with the navigator as this and an event object.
+     */
+    eZGN.prototype.on = function (type, fn) {
+        (this._listeners[type] = this._listeners[type] || []).push(fn);
+        return this;
+    };
+
+    /**
+     * Fires an event
+     */
+    eZGN.prototype.fire = function (type, data) {
+        var l = (this._listeners[type] || []).slice(),
+            e = $.extend({ type: type, target: this }, data);
+        for ( var i = 0; i < l.length; i++ ) {
+            l[i].call(this, e);
+        }
+    };
+
+    /**
      * Returns the selected figure
      *
-     * @return Y.Node
+     * @return jQuery
      */
     eZGN.prototype.getSelectedImage = function () {
-        return this.images.item(this.index);
-    }
+        return this.images.eq(this.index);
+    };
 
     /**
      * Returns a list of figures in the navigator
      *
-     * @return Y.NodeList
+     * @return jQuery
      */
     eZGN.prototype.getImages = function () {
         return this.images;
-    }
+    };
 
     /**
      * Returns the main container of the navigator
      *
-     * @return Y.Node
+     * @return jQuery
      */
     eZGN.prototype.getContainer = function () {
         return this.container;
-    }
+    };
 
     /**
      * Selects an image based on its position. When this method is called,
@@ -118,7 +142,7 @@ YUI(YUI3_config).add('ezgallerynavigator', function (Y) {
     eZGN.prototype.select = function (i) {
         var p = this.index;
 
-        if ( !L.isUndefined(i) ) {
+        if ( typeof i !== 'undefined' ) {
             this.index = i;
         }
 
@@ -127,21 +151,21 @@ YUI(YUI3_config).add('ezgallerynavigator', function (Y) {
             index: this.index,
             previous: p,
             total: this.total,
-            imageNode: s,
+            imageNode: s
         });
         this._handleNavigationLink();
         this._animate();
-    }
+    };
 
     /**
      * Moves to the next image if possible
      */
     eZGN.prototype.next = function () {
-        if ( this.index == (this.total -1) ) {
+        if ( this.index == (this.total - 1) ) {
             return;
         }
         this.select(this.index + 1);
-    }
+    };
 
     /**
      * Moves to the previous image if possible
@@ -151,7 +175,7 @@ YUI(YUI3_config).add('ezgallerynavigator', function (Y) {
             return;
         }
         this.select(this.index - 1);
-    }
+    };
 
     /**
      * Checks whether the selected image is outside of the navigator
@@ -161,12 +185,9 @@ YUI(YUI3_config).add('ezgallerynavigator', function (Y) {
      */
     eZGN.prototype._isSelectedImageOutsideRight = function () {
         var s = this.getSelectedImage(),
-            lRight = this.gallery.getX() + parseInt(this.gallery.getStyle('width'));
-       if ( ((s.getX() + parseInt(s.getStyle('width'))) > lRight) ) {
-           return true;
-       }
-       return false;
-    }
+            lRight = getX(this.gallery) + width(this.gallery);
+        return (getX(s) + width(s)) > lRight;
+    };
 
     /**
      * Checks whether the selected image is outside of the navigator
@@ -175,28 +196,23 @@ YUI(YUI3_config).add('ezgallerynavigator', function (Y) {
      * @private
      */
     eZGN.prototype._isSelectedImageOutsideLeft = function () {
-        var s = this.getSelectedImage(),
-            lLeft = this.gallery.getX();
-       if ( s.getX() < lLeft ) {
-          return true;
-       }
-       return false;
-    }
+        return getX(this.getSelectedImage()) < getX(this.gallery);
+    };
 
     /**
      * Computes the left position of the cusor so that it is centered
      * on the s figure.
      *
-     * @param s Y.Node corresponding to the selected figure
+     * @param s jQuery object of the selected figure
      * @private
      */
     eZGN.prototype._computeCursorX = function (s) {
-        var offset = this.gallery.getX(),
+        var offset = getX(this.gallery),
             selectedWidth = width(s),
             cursorWidth = width(this.cursor);
-        return s.getX() - offset + selectedWidth/2 - cursorWidth/2;
-    }
- 
+        return getX(s) - offset + selectedWidth / 2 - cursorWidth / 2;
+    };
+
     /**
      * Animates the cursor and/or the container of images
      *
@@ -213,7 +229,7 @@ YUI(YUI3_config).add('ezgallerynavigator', function (Y) {
             // Image is outside in the right
             // Moving images so that selected images becomes the first visible one
             containerXOrig = left(this.container);
-            containerX = this.container.getX() - sel.getX();
+            containerX = getX(this.container) - getX(sel);
             cursorX += containerX - containerXOrig;
             trConf['left'] = containerX + 'px';
             this._doTransition(this.container, trConf);
@@ -221,47 +237,33 @@ YUI(YUI3_config).add('ezgallerynavigator', function (Y) {
             // Image is outside in the left
             // Looking for the image in the left so that the selected image is the last visible one
             containerXOrig = left(this.container);
-            var selectedBorderLeft = sel.getX() + width(sel), sizeBetween,
+            var selectedBorderLeft = getX(sel) + width(sel), sizeBetween,
                 widthGallery = width(this.gallery);
-            for(var i = this.index; i >= 0; i--) {
-                sizeBetween = selectedBorderLeft - this.images.item(i).getX();
+            for ( var i = this.index; i >= 0; i-- ) {
+                sizeBetween = selectedBorderLeft - getX(this.images.eq(i));
                 if ( sizeBetween > widthGallery ) {
                     i++;
-                    // this.images.item(i) should be the first visible
+                    // this.images.eq(i) should be the first visible
                     break;
                 }
             }
             if ( i < 0 )
                 i = 0;
-            containerX = this.container.getX() - this.images.item(i).getX();
+            containerX = getX(this.container) - getX(this.images.eq(i));
             cursorX += containerX - containerXOrig;
             trConf['left'] = containerX + 'px';
             this._doTransition(this.container, trConf);
         }
         trConf['left'] = cursorX + 'px';
         this._doTransition(this.cursor, trConf);
-    }
+    };
 
     /**
-     * Workaround an IE9 bug where transtion does not work as expected. So,
-     * in IE9, we fallback to Y.Anim instead of a native transition.
+     * Runs a CSS transition on node
      */
-    eZGN.prototype._doTransition = function(node, conf) {
-        if ( Y.UA.ie ) {
-            var anim = new Y.Anim({
-                node: node,
-                duration: conf.duration,
-                to: {
-                    left: conf.left
-                 }
-            });
-            anim.run();
-
-        } else {
-            node.transition(conf);
-        }
-
-    }
+    eZGN.prototype._doTransition = function (node, conf) {
+        node.ezTransition($.extend({}, conf));
+    };
 
     /**
      * Shows and Hides previous/next links when needed
@@ -269,33 +271,27 @@ YUI(YUI3_config).add('ezgallerynavigator', function (Y) {
     eZGN.prototype._handleNavigationLink = function () {
         var d = this.conf.transitionDuration,
             showC = {
-                opacity:1,
+                opacity: 1,
                 duration: d
             },
             hideC = {
-                opacity:0,
+                opacity: 0,
                 duration: d
             };
 
         if ( this.index == 0 ) {
-            this.prevLink.transition(hideC);
+            this.prevLink.ezTransition(hideC);
         } else if ( this.index >= 1 ) {
-            this.prevLink.transition(showC);
+            this.prevLink.ezTransition(showC);
         }
 
-        if ( this.index == (this.total -1) ) {
-            this.nextLink.transition(hideC);
+        if ( this.index == (this.total - 1) ) {
+            this.nextLink.ezTransition(hideC);
         } else if ( this.index <= (this.total - 2) ) {
-            this.nextLink.transition(showC);
+            this.nextLink.ezTransition(showC);
         }
-    }
+    };
 
+    $.eZ.GalleryNavigator = eZGN;
 
-    Y.augment(eZGN, Y.EventTarget, true, null, {emitFacade: true});
-    Y.eZ.GalleryNavigator = eZGN;
-
-}, '1.0.0', {
-    requires: [
-        'event-custom', 'transition', 'node-base', 'node-screen', 'anim'
-    ]
-});
+})(jQuery);

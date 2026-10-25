@@ -11,19 +11,8 @@
 
 {if $enable_print}
 {* Add print <link> tag in JS to be cache safe with query string (not included in cache-block key by default in pagelayout) *}
-<script type="text/javascript">
-(function() {ldelim}
-
-    var head = document.getElementsByTagName('head')[0];
-    var printNode = document.createElement('link');
-    printNode.rel = 'Alternate';
-    printNode.href = "{concat( 'layout/set/print/', $site.uri.original_uri )|ezurl( 'no' )}" + document.location.search;
-    printNode.media = 'print';
-    printNode.title = "{'Printable version'|i18n('design/ezdemo/link')}";
-    head.appendChild(printNode);
-
-{rdelim})();
-</script>
+<meta name="ezdemo-print-link" content="{concat( 'layout/set/print/', $site.uri.original_uri )|ezurl( 'no' )|wash}" data-title="{'Printable version'|i18n('design/ezdemo/link')|wash}" />
+{ezscript( array( 'ezdemo_actions.js' ) )}
 {/if}
 
 {/default}

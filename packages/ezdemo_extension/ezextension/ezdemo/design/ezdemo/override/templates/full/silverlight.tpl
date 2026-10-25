@@ -21,23 +21,11 @@
         {set $height = $attribute.content.height}
     {/if}
 
-    {literal}
-    <script type="text/javascript">
-        function onErrorHandler(sender, args) { };
-
-        function onLoadHandler(sender, args) { };
-
-        function onResizeHandler(sender, args) {
-            var slPlugin = sender.getHost();
-            slPlugin.width = sender.content.actualWidth;
-            slPlugin.height = sender.content.actualHeight; 
-        };
-    </script>
-    {/literal}
+    {ezscript( array( 'ezdemo_actions.js' ) )}
 
     <div id="silverlightControlHost">
       <!-- Silverlight plug-in control -->
-        <object data="data:application/x-silverlight," type="application/x-silverlight-2-b2" width="{$width}" height="{$height}">
+        <object data="data:application/x-silverlight," type="application/x-silverlight-2-b2" width="{$width}" height="{$height}" data-ezdemo-silverlight-autosize="1">
             <param name="source" value="{concat( "content/download/", $attribute.contentobject_id, "/", $attribute.content.contentobject_attribute_id, "/", $attribute.content.original_filename)|ezurl( 'no' )}" />
             <param name="onError" value="onErrorHandler" />
             <param name="onLoad" value="onLoadHandler" />

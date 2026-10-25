@@ -2,7 +2,7 @@
      $images = array()
      $several = $valid_nodes|count|gt( 1 )}
 <!-- BLOCK: START -->
-<div class="block-type-campaign">
+<div class="block-type-campaign" data-ezdemo-campaign="1">
     <div class="campaign">
         <a href="#" class="navig prev" style="opacity:0;"><span class="hide">&lt;</span></a>
         <a href={cond( $several, $valid_nodes[1].url_alias|ezurl, '"#"' )} class="navig next{cond( $several|not, ' disabled', '' )}"><span class="hide">&gt;</span></a>
@@ -17,19 +17,5 @@
     </div>
 </div>
 <!-- BLOCK: END -->
-{run-once}
-<script type="text/javascript">
-{literal}
-YUI(YUI3_config).use('event', 'ezsimplegallery', function (Y) {
-    Y.on('domready', function () {
-        Y.all('.block-type-campaign').each(function () {
-            var gal = new Y.eZ.SimpleGallery({
-                gallery: this
-            });
-        });
-    });
-});
-{/literal}
-</script>
-{/run-once}
+{ezscript( array( 'ezdemo_actions.js' ) )}
 {undef $valid_nodes $images $several}

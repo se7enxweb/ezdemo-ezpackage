@@ -1,8 +1,7 @@
-YUI(YUI3_config).add('ezsimplegallery', function (Y) {
+(function ($) {
+    'use strict';
 
-    Y.namespace('eZ');
-
-    var L = Y.Lang;
+    $.eZ = $.eZ || {};
 
     var defaultConfig = {
         gallery: '',
@@ -17,10 +16,10 @@ YUI(YUI3_config).add('ezsimplegallery', function (Y) {
     };
 
     /**
-     * Constructor of Y.eZ.SimpleGallery component
+     * Constructor of $.eZ.SimpleGallery component
      *
      * @param conf configuration object containing:
-     *      - gallery (required): the node or a selector to the node containing the gallery
+     *      - gallery (required): the element (DOM or jQuery) or a selector to the element containing the gallery
      *      - next (default .next): selector to the element that allows to see the next image
      *      - prev (default .prev): selector to the element that allows to see the previous image
      *      - indicators (default .indicators li): selector to elements that will be used as an indicator of the position in the gallery
@@ -28,25 +27,20 @@ YUI(YUI3_config).add('ezsimplegallery', function (Y) {
      *      - container (default .images): selector to the element containing the images, its left CSS value will be changed
      *      - images (default figure): selector to element representing an image
      *      - transitionDuration (default 0.8): number of second the transition should last between two images
-     *      - easing: the easing to use for the transition
+     *      - easing: the easing to use for the transition (a CSS timing function)
      */
     function eZSG(conf) {
-        this.conf = Y.merge(defaultConfig, conf);
+        this.conf = $.extend({}, defaultConfig, conf);
 
-        if ( L.isString(this.conf.gallery) ) {
-            this.gallery = Y.one(this.conf.gallery);
-        } else if ( L.isObject(this.conf.gallery) ) {
-            this.gallery = this.conf.gallery;
-        }
+        this.gallery = $(this.conf.gallery).first();
 
-
-        this.container = this.gallery.one(this.conf.container);
-        this.next = this.gallery.one(this.conf.next);
-        this.prev = this.gallery.one(this.conf.prev);
-        this.indicators = this.gallery.all(this.conf.indicators);
+        this.container = this.gallery.find(this.conf.container).first();
+        this.next = this.gallery.find(this.conf.next).first();
+        this.prev = this.gallery.find(this.conf.prev).first();
+        this.indicators = this.gallery.find(this.conf.indicators);
 
         this.index = 0;
-        this.total = this.gallery.all(this.conf.images).size();
+        this.total = this.gallery.find(this.conf.images).length;
 
         this._init();
     }
@@ -54,7 +48,7 @@ YUI(YUI3_config).add('ezsimplegallery', function (Y) {
     /**
      * Initialises the component:
      *  - init click events on prev/next links and on the indicators
-     *  - init windowresize event to adapt the position of the currently seen images
+     *  - init resize event to adapt the position of the currently seen images
      */
     eZSG.prototype._init = function () {
         var that = this;
@@ -67,19 +61,19 @@ YUI(YUI3_config).add('ezsimplegallery', function (Y) {
             e.preventDefault();
             that.showPrev();
         });
-        Y.on('windowresize', function () {
+        $(window).on('resize', function () {
             // realign the gallery when the window is resized
             that.scrollTo(that.index);
         });
 
-        this.indicators.each(function(ind, k) {
-            ind.on('click', function (e) {
-                if ( !this.hasClass(that.conf.selectedIndactorClass) ) {
+        this.indicators.each(function (k, ind) {
+            $(ind).on('click', function () {
+                if ( !this.classList.contains(that.conf.selectedIndactorClass) ) {
                     that.scrollTo(k);
                 }
             });
         });
-    }
+    };
 
     /**
      * Scrolls to the next images if there's one
@@ -89,7 +83,7 @@ YUI(YUI3_config).add('ezsimplegallery', function (Y) {
             return;
         }
         this.scrollTo(this.index + 1);
-    }
+    };
 
     /**
      * Scrolls to the previous images if there's one
@@ -99,7 +93,7 @@ YUI(YUI3_config).add('ezsimplegallery', function (Y) {
             return;
         }
         this.scrollTo(this.index - 1);
-    }
+    };
 
     /**
      * Scrolls to a given image by its index
@@ -107,48 +101,35 @@ YUI(YUI3_config).add('ezsimplegallery', function (Y) {
     eZSG.prototype.scrollTo = function (newIndex) {
         var f = 1, s = this.conf.selectedIndactorClass,
             c = this.container, o = this.index * this._getOffset() * -1,
-            hasIndicator = (this.indicators.size() > 0);
+            hasIndicator = (this.indicators.length > 0);
 
-        f =  this.index - newIndex;
+        f = this.index - newIndex;
 
         if ( f != 0 ) {
             if ( hasIndicator )
-                this.indicators.item(this.index).removeClass(s);
+                this.indicators.eq(this.index).removeClass(s);
             this.index = newIndex;
             if ( hasIndicator )
-                this.indicators.item(this.index).addClass(s);
+                this.indicators.eq(this.index).addClass(s);
         }
 
         var target = o + (f * this._getOffset());
-        if ( Y.UA.ie ) {
-            // IE seems to have some issue with this transition ?!?
-            // so we fall back on Anim instead...
-            var anim = new Y.Anim({
-                node: c,
+        c.ezTransition({
+            left: {
+                value: target + 'px',
                 duration: this.conf.transitionDuration,
-                to: {
-                    left: target + 'px'
-                }
-           });
-           anim.run();
-        } else {
-            c.transition({
-                left: {
-                    value: target + 'px',
-                    duration: this.conf.transitionDuration,
-                    easing: this.conf.easing
-                }
-            });
-        }
+                easing: this.conf.easing
+            }
+        });
         this._handleNavigationLink();
-    }
+    };
 
     /**
      * Calculates the offset between two images
      */
     eZSG.prototype._getOffset = function () {
-        return this.gallery.get('clientWidth');
-    }
+        return this.gallery[0].clientWidth;
+    };
 
     /**
      * Shows and Hides previous/next links when needed
@@ -156,33 +137,39 @@ YUI(YUI3_config).add('ezsimplegallery', function (Y) {
     eZSG.prototype._handleNavigationLink = function () {
         var d = this.conf.transitionDuration,
             showC = {
-                opacity:1,
+                opacity: 1,
                 duration: d
             },
             hideC = {
-                opacity:0,
+                opacity: 0,
                 duration: d
-            }
+            };
 
         if ( this.index == 0 ) {
-            this.prev.transition(hideC);
+            this.prev.ezTransition(hideC);
         } else if ( this.index >= 1 ) {
-            this.prev.transition(showC);
+            this.prev.ezTransition(showC);
         }
 
-        if ( this.index == (this.total -1) ) {
-            this.next.transition(hideC);
+        if ( this.index == (this.total - 1) ) {
+            this.next.ezTransition(hideC);
         } else if ( this.index <= (this.total - 2) ) {
-            this.next.transition(showC);
+            this.next.ezTransition(showC);
         }
-    }
+    };
 
+    $.eZ.SimpleGallery = eZSG;
 
-    Y.eZ.SimpleGallery = eZSG;
+    /**
+     * $(selector).ezSimpleGallery(conf): one $.eZ.SimpleGallery per element,
+     * the element being the gallery
+     */
+    $.fn.ezSimpleGallery = function (conf) {
+        return this.each(function () {
+            if ( !$.data(this, 'ezSimpleGallery') ) {
+                $.data(this, 'ezSimpleGallery', new eZSG($.extend({}, conf, { gallery: this })));
+            }
+        });
+    };
 
-
-}, '1.0.0', {
-    requires: [
-        'node-base', 'node-screen', 'transition', 'anim', 'event-resize'
-    ]
-});
+})(jQuery);

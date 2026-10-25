@@ -11,12 +11,18 @@
 {if is_set( $extra_cache_key )|not}
     {def $extra_cache_key = ''}
 {/if}
+{* Error pages can arrive with the same URI while their title and path name the error: key them
+   by error type and number too (every other page keeps the plain URI key) *}
+{def $uri_cache_key = $module_result.uri}
+{if is_set( $module_result.errorType )}
+{set $uri_cache_key = concat( $module_result.uri, '|error|', $module_result.errorType, '|', first_set( $module_result.errorNumber, '' ) )}
+{/if}
 
 {def $pagedata        = ezpagedata()
      $inner_column_size = $pagedata.inner_column_size
      $outer_column_size = $pagedata.outer_column_size}
 
-{cache-block keys=array( $module_result.uri, $basket_is_empty, $current_user.contentobject_id, $extra_cache_key )}
+{cache-block keys=array( $uri_cache_key, $basket_is_empty, $current_user.contentobject_id, $extra_cache_key )}
 {def $pagestyle        = $pagedata.css_classes
      $locales          = fetch( 'content', 'translation_list' )
      $current_node_id  = $pagedata.node_id}
@@ -38,7 +44,7 @@
     {/foreach}
     {/if}
 
-    {cache-block keys=array( $module_result.uri, $user_hash, $extra_cache_key, $current_user.contentobject_id|eq( $pagedata.owner_id ) )}
+    {cache-block keys=array( $uri_cache_key, $user_hash, $extra_cache_key, $current_user.contentobject_id|eq( $pagedata.owner_id ) )}
 
     <!-- Toolbar area: START -->
     {if and( $pagedata.website_toolbar, $pagedata.is_edit|not)}
@@ -59,7 +65,7 @@
             <!-- Main area: START -->
             {include uri='design:page_mainarea.tpl'}
             <!-- Main area: END -->
-            {cache-block keys=array( $module_result.uri, $user_hash, $access_type.name, $extra_cache_key )}
+            {cache-block keys=array( $uri_cache_key, $user_hash, $access_type.name, $extra_cache_key )}
 
             <!-- Extra area: START -->
             {if $pagedata.extra_menu}

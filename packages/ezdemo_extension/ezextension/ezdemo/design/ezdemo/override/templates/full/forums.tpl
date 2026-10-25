@@ -28,7 +28,7 @@
             </tr>
                 {foreach $children as $child}               
             <tr>
-                <td class="forum"><a href={$child.url_alias|ezurl}>{$child.name|wash}</a><br />
+                <td class="forum"><a href={$child.url_alias|ezurl}>{$child.name|wash}</a><br>
                     <div class="attribute-short"> {attribute_view_gui attribute=$child.data_map.description} </div></td>
                 <td>{fetch('content','list_count',hash(parent_node_id,$child.node_id))}</td>
                 <td>{fetch('content','tree_count',hash(parent_node_id,$child.node_id))}</td>

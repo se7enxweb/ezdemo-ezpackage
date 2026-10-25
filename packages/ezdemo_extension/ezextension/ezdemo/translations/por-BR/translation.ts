@@ -2,29 +2,6 @@
 <!DOCTYPE TS>
 <TS version="2.0">
 <context>
-    <name>design/admin/content/datatype</name>
-    <message>
-        <source>Year</source>
-        <translation type="obsolete">Ano</translation>
-    </message>
-    <message>
-        <source>Month</source>
-        <translation type="obsolete">Mês</translation>
-    </message>
-    <message>
-        <source>Day</source>
-        <translation type="obsolete">Dia</translation>
-    </message>
-    <message>
-        <source>Hour</source>
-        <translation type="obsolete">Hora</translation>
-    </message>
-    <message>
-        <source>Minute</source>
-        <translation type="obsolete">Minuto</translation>
-    </message>
-</context>
-<context>
     <name>design/admin/content/edit_attribute</name>
     <message>
         <source>not translatable</source>
@@ -43,15 +20,15 @@
     <name>design/admin/preview/article</name>
     <message>
         <source>Comments allowed</source>
-        <translation type="unfinished"></translation>
+        <translation>Comentários permitidos</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Sim</translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>Não</translation>
     </message>
 </context>
 <context>
@@ -84,25 +61,25 @@
     <name>design/ezdemo/block/feedback_form</name>
     <message>
         <source>Send form</source>
-        <translation type="unfinished">Enviar formulário</translation>
+        <translation>Enviar formulário</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/block_item/call_to_action</name>
     <message>
         <source>Download!</source>
-        <translation type="unfinished"></translation>
+        <translation>Baixar!</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/block_item/product</name>
     <message>
         <source>Amount</source>
-        <translation type="unfinished">Quantidade</translation>
+        <translation>Quantidade</translation>
     </message>
     <message>
         <source>Buy</source>
-        <translation type="unfinished"></translation>
+        <translation>Comprar</translation>
     </message>
 </context>
 <context>
@@ -160,11 +137,11 @@
     </message>
     <message>
         <source>Tag cloud</source>
-        <translation type="unfinished">Tags</translation>
+        <translation>Nuvem de tags</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished">Descrição</translation>
+        <translation>Descrição</translation>
     </message>
 </context>
 <context>
@@ -178,12 +155,12 @@
         <translation>Agradecemos a sua cooperação.</translation>
     </message>
     <message>
-        <source>Return to site</source>
-        <translation>Retornar ao site</translation>
-    </message>
-    <message>
         <source>You have already submitted this form. The data you entered was:</source>
         <translation>Você já enviou suas informações. Os dados enviados foram:</translation>
+    </message>
+    <message>
+        <source>Return to site</source>
+        <translation>Retornar ao site</translation>
     </message>
 </context>
 <context>
@@ -243,26 +220,26 @@
     <name>design/ezdemo/colledtedinfomail</name>
     <message>
         <source>Collected information from %1</source>
-        <translation type="unfinished">Informações coletadas de %1</translation>
+        <translation>Informações coletadas de %1</translation>
     </message>
     <message>
         <source>The following information was collected</source>
-        <translation type="unfinished">As seguintes informações foram coletadas</translation>
+        <translation>As seguintes informações foram coletadas</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/comment/view</name>
     <message>
         <source>Avatar</source>
-        <translation type="unfinished"></translation>
+        <translation>Avatar</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">Editar</translation>
+        <translation>Editar</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Excluir</translation>
     </message>
 </context>
 <context>
@@ -332,12 +309,12 @@
         <translation>Busca</translation>
     </message>
     <message>
-        <source>No results were found when searching for &quot;%1&quot;</source>
-        <translation>Nenhum resultado foi encontrado ao buscar por &quot;%1&quot;</translation>
+        <source>No results were found when searching for "%1"</source>
+        <translation>Nenhum resultado foi encontrado ao buscar por "%1"</translation>
     </message>
     <message>
-        <source>Search for &quot;%1&quot; returned %2 matches</source>
-        <translation>A buscar por &quot;%1&quot; retornou %2 resultados</translation>
+        <source>Search for "%1" returned %2 matches</source>
+        <translation>A buscar por "%1" retornou %2 resultados</translation>
     </message>
     <message>
         <source>Last month</source>
@@ -351,8 +328,12 @@
         <translation>Procurar</translation>
     </message>
     <message>
-        <source>To select objects, choose the appropriate radiobutton or checkbox(es), and click the &quot;Select&quot; button.</source>
-        <translation>Para selecionar objetos, escolha o botão rádio apropriado ou caixa(s) de verificação e clique no botão &quot;Selecionar&quot;.</translation>
+        <source>To select objects, choose the appropriate radiobutton or checkbox(es), and click the "Select" button.</source>
+        <translation>Para selecionar objetos, escolha o botão rádio apropriado ou caixa(s) de verificação e clique no botão "Selecionar".</translation>
+    </message>
+    <message>
+        <source>To select an object that is a child of one of the displayed objects, click the parent object name to display a list of its children.</source>
+        <translation>Para selecionar um objeto que é filho de um dos objetos exibidos, clique no nome do objeto para obter uma lista dos filhos do objeto.</translation>
     </message>
     <message>
         <source>Back</source>
@@ -370,13 +351,13 @@
         <source>Cancel</source>
         <translation>Cancelar</translation>
     </message>
-    <message>
-        <source>To select an object that is a child of one of the displayed objects, click the parent object name to display a list of its children.</source>
-        <translation>Para selecionar um objeto que é filho de um dos objetos exibidos, clique no nome do objeto para obter uma lista dos filhos do objeto.</translation>
-    </message>
 </context>
 <context>
     <name>design/ezdemo/content/browse_mode_list</name>
+    <message>
+        <source>Invert selection</source>
+        <translation>Inverter seleção</translation>
+    </message>
     <message>
         <source>Name</source>
         <translation>Nome</translation>
@@ -384,29 +365,6 @@
     <message>
         <source>Type</source>
         <translation>Tipo</translation>
-    </message>
-    <message>
-        <source>Invert selection</source>
-        <translation>Inverter seleção</translation>
-    </message>
-</context>
-<context>
-    <name>design/ezdemo/content/datatype</name>
-    <message>
-        <source>Year</source>
-        <translation type="obsolete">Ano</translation>
-    </message>
-    <message>
-        <source>Month</source>
-        <translation type="obsolete">Mês</translation>
-    </message>
-    <message>
-        <source>Day</source>
-        <translation type="obsolete">Dia</translation>
-    </message>
-    <message>
-        <source>Show calendar to select a date.</source>
-        <translation type="obsolete">Mostrar calendário para selecionar uma data.</translation>
     </message>
 </context>
 <context>
@@ -424,10 +382,8 @@
         <translation>Meus rascunhos</translation>
     </message>
     <message>
-        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
-      You can either edit the drafts or remove them if you don&apos;t need them any more.</source>
-        <translation>Estes são os objetos que você está trabalhando no momento. Estes rascunhos pertencem à você e só podem ser vistos por você.
-	  Você pode editar os rascunhos ou removê-los se não precisar mais deles.</translation>
+        <source>Empty draft</source>
+        <translation>Rascunho vazio</translation>
     </message>
     <message>
         <source>Name</source>
@@ -466,8 +422,10 @@
         <translation>Você não possui rascunhos</translation>
     </message>
     <message>
-        <source>Empty draft</source>
-        <translation>Rascunho vazio</translation>
+        <source>These are the current objects you are working on. The drafts are owned by you and can only be seen by you.
+      You can either edit the drafts or remove them if you don't need them any more.</source>
+        <translation>Estes são os objetos que você está trabalhando no momento. Estes rascunhos pertencem à você e só podem ser vistos por você.
+	  Você pode editar os rascunhos ou removê-los se não precisar mais deles.</translation>
     </message>
 </context>
 <context>
@@ -532,12 +490,6 @@
         <translation>O objeto pertence à %owner.</translation>
     </message>
     <message>
-        <source>This object is already being edited by you.
-        You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>Este objeto já está sendo editado por você.
-    Você pode continuar editando um de seus rascunhos ou pode criar um novo rascunho.</translation>
-    </message>
-    <message>
         <source>Current drafts</source>
         <translation>Rascunhos atuais</translation>
     </message>
@@ -551,7 +503,7 @@
     </message>
     <message>
         <source>Owner</source>
-        <translation>Dono</translation>
+        <translation>Proprietário</translation>
     </message>
     <message>
         <source>Created</source>
@@ -572,16 +524,20 @@
     <message>
         <source>This object is already being edited by yourself and others.
     You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation>Este objeto já está sendo editado por você ou por outros.
-    Você pode continuar editando um de seus rascunhos ou pode criar um novo rascunho.  
-        </translation>
+        <translation>Este objeto já está sendo editado por você e por outras pessoas.
+    Você pode continuar editando um de seus rascunhos ou criar um novo rascunho.</translation>
+    </message>
+    <message>
+        <source>This object is already being edited by you.
+        You can either continue editing one of your drafts or you can create a new draft.</source>
+        <translation>Este objeto já está sendo editado por você.
+    Você pode continuar editando um de seus rascunhos ou pode criar um novo rascunho.</translation>
     </message>
     <message>
         <source>This object is already being edited by someone else.
         You should either contact the person about their draft or create a new draft for your own use.</source>
         <translation>Este objeto já está sendo editado por outra pessoa.
-        Você pode contactar a pessoa sobre o rascunho ou criar um novo rascunho para o seu próprio uso.
-        </translation>
+        Entre em contato com a pessoa sobre o rascunho dela ou crie um novo rascunho para seu próprio uso.</translation>
     </message>
 </context>
 <context>
@@ -591,24 +547,12 @@
         <translation>Idiomas existentes</translation>
     </message>
     <message>
-        <source>New languages</source>
-        <translation>Novos idiomas</translation>
-    </message>
-    <message>
-        <source>You do not have permission to edit the object in any available languages.</source>
-        <translation>Você não tem permissão para editar o objeto em nenhum dos idiomas disponíveis.</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Editar</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Cancelar</translation>
-    </message>
-    <message>
         <source>Select the language you want to use when editing the object.</source>
         <translation>Selecione o idioma no qual você deseja editar o objeto.</translation>
+    </message>
+    <message>
+        <source>New languages</source>
+        <translation>Novos idiomas</translation>
     </message>
     <message>
         <source>Select the language you want to add to the object.</source>
@@ -630,6 +574,18 @@
         <source>However, you can select one of the following languages for editing.</source>
         <translation>Entretanto, você pode selecionar um dos seguintes idiomas para edição</translation>
     </message>
+    <message>
+        <source>You do not have permission to edit the object in any available languages.</source>
+        <translation>Você não tem permissão para editar o objeto em nenhum dos idiomas disponíveis.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Editar</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Cancelar</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/content/history</name>
@@ -638,8 +594,20 @@
         <translation>Esta versão não é rascunho</translation>
     </message>
     <message>
+        <source>Version %1 is not available for editing anymore. Only drafts can be edited.</source>
+        <translation>A versão %1 não está mais disponível para edição. Apenas rascunhos podem ser editados.</translation>
+    </message>
+    <message>
+        <source>To edit this version, first create a copy of it.</source>
+        <translation>Para editar esta versão, primeiro crie uma cópia da mesma.</translation>
+    </message>
+    <message>
         <source>Version not yours</source>
         <translation>Esta versão não é sua</translation>
+    </message>
+    <message>
+        <source>Version %1 was not created by you. Only your own drafts can be edited.</source>
+        <translation>A versão %1 não foi criada por você. Você só pode editar seus próprios rascunhos.</translation>
     </message>
     <message>
         <source>Unable to create new version</source>
@@ -650,8 +618,16 @@
         <translation>Limite do histórico de versões foi excedido e a versão não arquivada pode ser removida pelo sistema.</translation>
     </message>
     <message>
+        <source>You can either change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
+        <translation>Você pode alterar as configurações do histórico de versão em content.ini, remover ou editar um rascunho existente.</translation>
+    </message>
+    <message>
         <source>Versions for &lt;%object_name&gt; [%version_count]</source>
         <translation>Versões para &lt;%object_name&gt; [%version_count]</translation>
+    </message>
+    <message>
+        <source>Toggle selection</source>
+        <translation>Inverter seleção</translation>
     </message>
     <message>
         <source>Version</source>
@@ -676,6 +652,10 @@
     <message>
         <source>Select version #%version_number for removal.</source>
         <translation>Selecionar versão #%version_number para remoção.</translation>
+    </message>
+    <message>
+        <source>Version #%version_number cannot be removed because it is either the published version of the object or because you do not have permission to remove it.</source>
+        <translation>A versão #%version_number não pode ser removida porque pode ser a versão publicada do objeto ou porque você não tem permissão para removê-la.</translation>
     </message>
     <message>
         <source>View the contents of version #%version_number. Translation: %translation.</source>
@@ -706,12 +686,24 @@
         <translation>Rascunho não tocado</translation>
     </message>
     <message>
+        <source>There is no need to do a copies of untouched drafts.</source>
+        <translation>Não há necessidade para fazer cópias dos rascunhos não tocados.</translation>
+    </message>
+    <message>
         <source>Create a copy of version #%version_number.</source>
-        <translation>Criar uma cópia da versão #%version_number. </translation>
+        <translation>Criar uma cópia da versão #%version_number.</translation>
+    </message>
+    <message>
+        <source>You cannot make copies of versions because you do not have permission to edit the object.</source>
+        <translation>Você não pode fazer cópias de versões porque você não tem permissão para editar o objeto.</translation>
     </message>
     <message>
         <source>Edit the contents of version #%version_number.</source>
         <translation>Editar os conteúdos da versão #%version_number.</translation>
+    </message>
+    <message>
+        <source>You cannot edit the contents of version #%version_number either because it is not a draft or because you do not have permission to edit the object.</source>
+        <translation>Você não pode editar o conteúdo da versão #%version_number porque não é um rascunho ou porque você não tem permissão para editar o objeto.</translation>
     </message>
     <message>
         <source>This object does not have any versions.</source>
@@ -772,42 +764,6 @@
     <message>
         <source>Back to history</source>
         <translation>Voltar ao histórico</translation>
-    </message>
-    <message>
-        <source>There is no need to do a copies of untouched drafts.</source>
-        <translation>Não há necessidade para fazer cópias dos rascunhos não tocados.</translation>
-    </message>
-    <message>
-        <source>Version %1 is not available for editing anymore. Only drafts can be edited.</source>
-        <translation>A versão %1 não está mais disponível para edição. Apenas rascunhos podem ser editados.</translation>
-    </message>
-    <message>
-        <source>To edit this version, first create a copy of it.</source>
-        <translation>Para editar esta versão, primeiro crie uma cópia da mesma.</translation>
-    </message>
-    <message>
-        <source>Version %1 was not created by you. Only your own drafts can be edited.</source>
-        <translation>A versão %1 não foi criada por você. Você só pode editar seus próprios rascunhos.</translation>
-    </message>
-    <message>
-        <source>You can either change your version history settings in content.ini, remove draft versions or edit existing drafts.</source>
-        <translation>Você pode alterar as configurações do histórico de versão em content.ini, remover ou editar um rascunho existente.</translation>
-    </message>
-    <message>
-        <source>Toggle selection</source>
-        <translation>Inverter seleção</translation>
-    </message>
-    <message>
-        <source>Version #%version_number cannot be removed because it is either the published version of the object or because you do not have permission to remove it.</source>
-        <translation>A versão #%version_number não pode ser removida porque pode ser a versão publicada do objeto ou porque você não tem permissão para removê-la.</translation>
-    </message>
-    <message>
-        <source>You cannot make copies of versions because you do not have permission to edit the object.</source>
-        <translation>Você não pode fazer cópias de versões porque você não tem permissão para editar o objeto.</translation>
-    </message>
-    <message>
-        <source>You cannot edit the contents of version #%version_number either because it is not a draft or because you do not have permission to edit the object.</source>
-        <translation>Você não pode editar o conteúdo da versão #%version_number porque não é um rascunho ou porque você não tem permissão para editar o objeto.</translation>
     </message>
     <message>
         <source>Modified translation</source>
@@ -876,6 +832,14 @@
         <translation>Para mais opções tente em %1Busca Avançada%2</translation>
     </message>
     <message>
+        <source>The following words were excluded from the search:</source>
+        <translation>As seguintes palavras foram excluídas da pesquisa</translation>
+    </message>
+    <message>
+        <source>No results were found when searching for "%1".</source>
+        <translation>Nenhum resultado foi encontrado ao pesquisar por "%1"</translation>
+    </message>
+    <message>
         <source>Search tips</source>
         <translation>Dicas de busca</translation>
     </message>
@@ -884,20 +848,8 @@
         <translation>Verifique a ortografia das palavras-chave.</translation>
     </message>
     <message>
-        <source>Search for &quot;%1&quot; returned %2 matches</source>
-        <translation>A buscar por &quot;%1&quot; retornou %2 resultados</translation>
-    </message>
-    <message>
-        <source>The following words were excluded from the search:</source>
-        <translation>As seguintes palavras foram excluídas da pesquisa</translation>
-    </message>
-    <message>
-        <source>No results were found when searching for &quot;%1&quot;.</source>
-        <translation>Nenhum resultado foi encontrado ao pesquisar por &quot;%1&quot;</translation>
-    </message>
-    <message>
-        <source>Try changing some keywords (eg, &quot;car&quot; instead of &quot;cars&quot;).</source>
-        <translation>Tente alterar algumas palavras-chave ex: &amp;quot;automóveis&amp;quot; em vez de  &amp;quot;carros&amp;quot;.</translation>
+        <source>Try changing some keywords (eg, "car" instead of "cars").</source>
+        <translation>Tente alterar algumas palavras-chave (por exemplo, "carro" em vez de "carros").</translation>
     </message>
     <message>
         <source>Try searching with less specific keywords.</source>
@@ -906,6 +858,10 @@
     <message>
         <source>Reduce number of keywords to get more results.</source>
         <translation>Reduza o número de palavras-chave até obter um resultado.</translation>
+    </message>
+    <message>
+        <source>Search for "%1" returned %2 matches</source>
+        <translation>A buscar por "%1" retornou %2 resultados</translation>
     </message>
 </context>
 <context>
@@ -940,11 +896,11 @@
     </message>
     <message>
         <source>Your email address</source>
-        <translation>Email</translation>
+        <translation>E-mail</translation>
     </message>
     <message>
-        <source>Recipient&apos;s email address</source>
-        <translation>Quem recebe (email)</translation>
+        <source>Recipient's email address</source>
+        <translation>Quem recebe (e-mail)</translation>
     </message>
     <message>
         <source>Comment</source>
@@ -1036,8 +992,12 @@
 <context>
     <name>design/ezdemo/ezinfo/about</name>
     <message>
-        <source>eZ Publish information: %version</source>
-        <translation>Informações sobre o eZ Publish: %version</translation>
+        <source>Exponential information: %version</source>
+        <translation>Informações sobre o Exponential: %version</translation>
+    </message>
+    <message>
+        <source>What is Exponential?</source>
+        <translation>O que é o Exponential</translation>
     </message>
     <message>
         <source>Licence</source>
@@ -1049,7 +1009,7 @@
     </message>
     <message>
         <source>Copyright Notice</source>
-        <translation>Copyright Notice</translation>
+        <translation>Aviso de direitos autorais</translation>
     </message>
     <message>
         <source>Third-Party Software</source>
@@ -1059,16 +1019,16 @@
         <source>Extensions</source>
         <translation>Extensões</translation>
     </message>
-    <message>
-        <source>What is eZ Publish?</source>
-        <translation>O que é o eZ Publish</translation>
-    </message>
 </context>
 <context>
     <name>design/ezdemo/ezodf/browse_place</name>
     <message>
         <source>Choose document placement</source>
         <translation>Escolher o local para o documento</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Selecionar</translation>
     </message>
     <message>
         <source>Please choose the placement for the OpenOffice.org object.
@@ -1082,10 +1042,6 @@
     Usar os itens recentes e os favoritos para um posicionamento rápido também é possível.
     Clique nos nomes dos locais para navegar pela lista de locais.</translation>
     </message>
-    <message>
-        <source>Select</source>
-        <translation>Selecionar</translation>
-    </message>
 </context>
 <context>
     <name>design/ezdemo/ezodf/export</name>
@@ -1094,16 +1050,16 @@
         <translation>Exportar OpenOffice.org</translation>
     </message>
     <message>
-        <source>Export eZ publish content to OpenOffice.org</source>
-        <translation>Exportar conteúdo do eZ Publish para o OpenOffice.org</translation>
+        <source>Export Exponential content to OpenOffice.org</source>
+        <translation>Exportar conteúdo do Exponential para o OpenOffice.org</translation>
     </message>
     <message>
         <source>Error</source>
         <translation>Erro</translation>
     </message>
     <message>
-        <source>Here you can export any eZ publish content object to an OpenOffice.org Writer document format.</source>
-        <translation>Aqui você pode exportar qualquer conteúdo de um objeto do eZ Publish para um documento no formato OpenOffice.org Writer</translation>
+        <source>Here you can export any Exponential content object to an OpenOffice.org Writer document format.</source>
+        <translation>Aqui você pode exportar qualquer conteúdo de um objeto do Exponential para um documento no formato OpenOffice.org Writer</translation>
     </message>
     <message>
         <source>Export Object</source>
@@ -1114,21 +1070,21 @@
     <name>design/ezdemo/footer/address</name>
     <message>
         <source>Get in touch</source>
-        <translation type="unfinished"></translation>
+        <translation>Entre em contato</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/footer/latest_news</name>
     <message>
         <source>Latest News</source>
-        <translation type="unfinished"></translation>
+        <translation>Últimas notícias</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/footer/links</name>
     <message>
         <source>eZ Links</source>
-        <translation type="unfinished"></translation>
+        <translation>Links do eZ</translation>
     </message>
 </context>
 <context>
@@ -1155,7 +1111,7 @@
     </message>
     <message>
         <source>Location</source>
-        <translation type="unfinished">Local</translation>
+        <translation>Local</translation>
     </message>
 </context>
 <context>
@@ -1176,7 +1132,7 @@
     <name>design/ezdemo/full/call_to_action</name>
     <message>
         <source>Submit</source>
-        <translation type="unfinished"></translation>
+        <translation>Enviar</translation>
     </message>
 </context>
 <context>
@@ -1328,6 +1284,10 @@
         <translation>Mantenha me atualizado</translation>
     </message>
     <message>
+        <source>You need to be logged in to get access to the forums. You can do so %login_link_start%here%login_link_end%</source>
+        <translation>Você precisa entrar com seu usuário e senha para ter acesso aos fóruns. Você pode fazer isso %login_link_start%aqui%login_link_end%</translation>
+    </message>
+    <message>
         <source>Author</source>
         <translation>Autor</translation>
     </message>
@@ -1355,10 +1315,6 @@
         <source>Remove this item.</source>
         <translation>Remover este item.</translation>
     </message>
-    <message>
-        <source>You need to be logged in to get access to the forums. You can do so %login_link_start%here%login_link_end%</source>
-        <translation>Você precisa entrar com seu usuário e senha para ter acesso aos fóruns. Você pode fazer isso %login_link_start%aqui%login_link_end%</translation>
-    </message>
 </context>
 <context>
     <name>design/ezdemo/full/forums</name>
@@ -1368,7 +1324,7 @@
     </message>
     <message>
         <source>Posts</source>
-        <translation>Posts</translation>
+        <translation>Mensagens</translation>
     </message>
     <message>
         <source>Last reply</source>
@@ -1376,7 +1332,7 @@
     </message>
     <message>
         <source>Forum</source>
-        <translation>Forum</translation>
+        <translation>Fórum</translation>
     </message>
 </context>
 <context>
@@ -1436,18 +1392,22 @@
     </message>
     <message>
         <source>Amount</source>
-        <translation type="unfinished">Quantidade</translation>
+        <translation>Quantidade</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/full/video</name>
     <message>
         <source>Download</source>
-        <translation type="unfinished"></translation>
+        <translation>Baixar</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/full/wiki_page</name>
+    <message>
+        <source>Table of contents</source>
+        <translation>Índice</translation>
+    </message>
     <message>
         <source>Created:</source>
         <translation>Criado:</translation>
@@ -1455,10 +1415,6 @@
     <message>
         <source>Modified:</source>
         <translation>Modificado:</translation>
-    </message>
-    <message>
-        <source>Table of contents</source>
-        <translation>Índice</translation>
     </message>
 </context>
 <context>
@@ -1486,15 +1442,15 @@
     <name>design/ezdemo/line/file</name>
     <message>
         <source>File size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamanho do arquivo:</translation>
     </message>
     <message>
         <source>Modified:</source>
-        <translation type="unfinished">Modificado:</translation>
+        <translation>Modificado:</translation>
     </message>
     <message>
         <source>Download file</source>
-        <translation type="unfinished"></translation>
+        <translation>Baixar arquivo</translation>
     </message>
 </context>
 <context>
@@ -1507,20 +1463,20 @@
 <context>
     <name>design/ezdemo/line/forum</name>
     <message>
-        <source>Last reply</source>
-        <translation>Última resposta</translation>
-    </message>
-    <message>
-        <source>Enter forum</source>
-        <translation>Entrar no fórum</translation>
-    </message>
-    <message>
         <source>Number of topics</source>
         <translation>Número de tópicos</translation>
     </message>
     <message>
         <source>Number of posts</source>
         <translation>Número de posts</translation>
+    </message>
+    <message>
+        <source>Last reply</source>
+        <translation>Última resposta</translation>
+    </message>
+    <message>
+        <source>Enter forum</source>
+        <translation>Entrar no fórum</translation>
     </message>
 </context>
 <context>
@@ -1545,11 +1501,11 @@
     <name>design/ezdemo/line/product</name>
     <message>
         <source>Amount</source>
-        <translation type="unfinished">Quantidade</translation>
+        <translation>Quantidade</translation>
     </message>
     <message>
         <source>Buy</source>
-        <translation type="unfinished"></translation>
+        <translation>Comprar</translation>
     </message>
 </context>
 <context>
@@ -1599,7 +1555,7 @@
     <name>design/ezdemo/menu</name>
     <message>
         <source>Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>Navegação</translation>
     </message>
 </context>
 <context>
@@ -1625,16 +1581,16 @@
         <translation>Nota</translation>
     </message>
     <message>
+        <source>If %trashname is checked, removed items can be found in the trash.</source>
+        <translation>Se %trashname for marcado, os itens removidos podem ser encontrados na lixeira.</translation>
+    </message>
+    <message>
         <source>Confirm</source>
         <translation>Confirmar</translation>
     </message>
     <message>
         <source>Cancel</source>
         <translation>Cancelar</translation>
-    </message>
-    <message>
-        <source>If %trashname is checked, removed items can be found in the trash.</source>
-        <translation>Se %trashname for marcado, os itens removidos podem ser encontrados na lixeira.</translation>
     </message>
     <message>
         <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
@@ -1676,7 +1632,7 @@
     </message>
     <message>
         <source>Once per week, on </source>
-        <translation>Uma vez por semana, no(a)</translation>
+        <translation>Uma vez por semana, em </translation>
     </message>
     <message>
         <source>Once per month, on day number</source>
@@ -1761,7 +1717,7 @@
     </message>
     <message>
         <source>Logout</source>
-        <translation>Logout</translation>
+        <translation>Sair</translation>
     </message>
     <message>
         <source>Register</source>
@@ -1785,7 +1741,7 @@
     </message>
     <message>
         <source>Search text</source>
-        <translation type="unfinished"></translation>
+        <translation>Texto a pesquisar</translation>
     </message>
 </context>
 <context>
@@ -1834,12 +1790,12 @@
         <translation>URL do Site</translation>
     </message>
     <message>
-        <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and eZ Publish configuration.</source>
-        <translation type="unfinished"></translation>
+        <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. "http://www.example.com/index.php") and the path to the object (e.g. "/articles/my_article"). The Site URL depends on your web server and Exponential configuration.</source>
+        <translation>Use este campo para inserir a URL base do site. Ela é usada para produzir as URLs de exportação, composta pela URL do Site (por exemplo, "http://www.exemplo.com/index.php"), bem como o caminho para o objeto (por exemplo, "/artigos/meu_artigo"). A URL do site depende do seu servidor web e da configuração do Exponential.</translation>
     </message>
     <message>
         <source>Leave this field emty if you want system automaticaly detect the URL of your site from the URL you access feed with</source>
-        <translation type="unfinished"></translation>
+        <translation>Deixe este campo vazio se você deseja que seu sistema identifique automaticamente a URL do seu site a partir da URL que o feed é acessado</translation>
     </message>
     <message>
         <source>Image</source>
@@ -1867,67 +1823,67 @@
     </message>
     <message>
         <source>Use this drop-down menu to select the RSS version to use for the export. You must select RSS 2.0 in order to export the image selected above.</source>
-        <translation type="unfinished"></translation>
+        <translation>Use o menu suspenso para selecionar a versão RSS para usar para a exportação. Você deve selecionar RSS 2.0 a fim exportar a imagem selecionada acima.</translation>
     </message>
     <message>
         <source>Number of objects</source>
-        <translation type="unfinished"></translation>
+        <translation>Número de objetos</translation>
     </message>
     <message>
         <source>Use this drop-down to select the maximum number of objects included in the RSS feed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Use o menu suspenso para selecionar o número máximo de objetos incluso no RSS.</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Ativo</translation>
     </message>
     <message>
         <source>Use this checkbox to control if the RSS export is active or not. An inactive export will not be automatically updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Use esta caixa de seleção para controlar se a exportação de RSS esta ativa ou não. Uma exportação inativa não será atualizada automaticamente.</translation>
     </message>
     <message>
         <source>Main node only</source>
-        <translation type="unfinished"></translation>
+        <translation>Somente o nó principal</translation>
     </message>
     <message>
         <source>Check if you want to only feed the object from the main node.</source>
-        <translation type="unfinished"></translation>
+        <translation>Confira se você quiser apenas alimentar o objeto a partir do nó principal.</translation>
     </message>
     <message>
         <source>Access URL</source>
-        <translation type="unfinished"></translation>
+        <translation>URL de acesso</translation>
     </message>
     <message>
-        <source>Use this field to set the URL where the RSS export should be available. Note that &quot;rss/feed/&quot; will be appended to the real URL. </source>
-        <translation type="unfinished"></translation>
+        <source>Use this field to set the URL where the RSS export should be available. Note that "rss/feed/" will be appended to the real URL. </source>
+        <translation>Use este campo para definir a URL em que a exportação RSS deve estar disponível. Observe que "rss/feed/" será acrescentado à URL real. </translation>
     </message>
     <message>
         <source>Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Fonte</translation>
     </message>
     <message>
         <source>Source path</source>
-        <translation type="unfinished"></translation>
+        <translation>Caminho de origem</translation>
     </message>
     <message>
         <source>Click this button to select the source node for the RSS export source. Objects of the type selected in the drop-down below published as sub items of the selected node will be included in the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Clique neste botão para selecionar o nó de origem para exportação RSS. Os objetos selecionados no menu suspenso abaixo  e publicados como subitens do nó selecionado serão incluídos na exportação RSS.</translation>
     </message>
     <message>
         <source>Subnodes</source>
-        <translation type="unfinished"></translation>
+        <translation>Subnós</translation>
     </message>
     <message>
         <source>Activate this checkbox if objects from the subnodes of the source should also be fed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ative esta opção se os objetos dos subitens da fonte também devem ser alimentados.</translation>
     </message>
     <message>
         <source>Class</source>
         <translation>Classe</translation>
     </message>
     <message>
-        <source>Use this drop-down to select the type of object that triggers the export. Click the &quot;Set&quot; button to load the correct attribute types for the remaining fields.</source>
-        <translation type="unfinished"></translation>
+        <source>Use this drop-down to select the type of object that triggers the export. Click the "Set" button to load the correct attribute types for the remaining fields.</source>
+        <translation>Use este menu suspenso para selecionar o tipo de objeto que ativa a exportação. Clique no botão "Definir" para carregar os tipos de atributo corretos para os campos restantes .</translation>
     </message>
     <message>
         <source>Set</source>
@@ -1935,7 +1891,7 @@
     </message>
     <message>
         <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
-        <translation type="unfinished"></translation>
+        <translation>Clique neste botão para carregar os valores corretos para o menu suspenso abaixo. Use o menu suspenso à esquerda para selecionar a classe.</translation>
     </message>
     <message>
         <source>Title</source>
@@ -1943,98 +1899,98 @@
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the title of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Use este menu suspenso para selecionar o atributo que deve ser exportado como o título do item na exportação RSS.</translation>
     </message>
     <message>
         <source>optional</source>
-        <translation type="unfinished"></translation>
+        <translation>opcional</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the description of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Use este menu suspenso para selecionar o atributo que deve ser exportado como a descrição do item na exportação RSS.</translation>
     </message>
     <message>
         <source>Skip</source>
-        <translation type="unfinished"></translation>
+        <translation>Pular</translation>
     </message>
     <message>
         <source>Category</source>
-        <translation type="unfinished">Categoria</translation>
+        <translation>Categoria</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the category of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilize este menu para selecionar o atributo que deverá ser exportado como a categoria desta exportação RSS.</translation>
     </message>
     <message>
         <source>Remove this source</source>
-        <translation type="unfinished"></translation>
+        <translation>Remover esta fonte</translation>
     </message>
     <message>
         <source>Click to remove this source from the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Clique para remover esta fonte da exportação de RSS.</translation>
     </message>
     <message>
         <source>Add source</source>
-        <translation type="unfinished"></translation>
+        <translation>Adicionar fonte</translation>
     </message>
     <message>
         <source>Click to add a new source to the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Clique para adicionar uma nova fonte à exportação de RSS.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">OK</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Apply the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplicar as mudanças e retornar para a visão geral do RSS.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Cancelar</translation>
+        <translation>Cancelar</translation>
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cancelar as mudanças e retornar à visão geral de RSS.</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/rss/edit_import</name>
     <message>
         <source>Edit &lt;%rss_import_name&gt; [RSS Import]</source>
-        <translation type="unfinished"></translation>
+        <translation>Editar &lt;%rss_import_name&gt; [RSS Import]</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Nome</translation>
+        <translation>Nome</translation>
     </message>
     <message>
         <source>Name of the RSS import. This name is used in the Administration Interface only, to distinguish the different imports from each other.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nome da importação RSS. Este nome é utilizado apenas na Área Administrativa, para distinguir as diferentes importanções de RSS.</translation>
     </message>
     <message>
         <source>Source URL</source>
-        <translation type="unfinished"></translation>
+        <translation>URL de origem</translation>
     </message>
     <message>
         <source>Use this field to enter the source URL of the RSS feed to import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Use este campo inserir a URL da fonte da alimentação de RSS para importar.</translation>
     </message>
     <message>
         <source>Update</source>
-        <translation type="unfinished">Atualizar</translation>
+        <translation>Atualizar</translation>
     </message>
     <message>
         <source>Click this button to proceed and analyze the import feed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Clique neste botão para proceder e analisar o RSS importado.</translation>
     </message>
     <message>
         <source>RSS Version</source>
-        <translation type="unfinished"></translation>
+        <translation>Versão RSS</translation>
     </message>
     <message>
         <source>Destination path</source>
-        <translation type="unfinished"></translation>
+        <translation>Caminho do destino</translation>
     </message>
     <message>
         <source>Browse</source>
@@ -2042,11 +1998,11 @@
     </message>
     <message>
         <source>Click this button to select the destination node where objects created by the import are located.</source>
-        <translation type="unfinished"></translation>
+        <translation>Clique neste botão para selecionar o nó de destino onde os objetos criados pela importação são encontrados.</translation>
     </message>
     <message>
         <source>Imported objects will be owned by</source>
-        <translation type="unfinished"></translation>
+        <translation>Os objetos importados serão possuídos por</translation>
     </message>
     <message>
         <source>Change user</source>
@@ -2054,162 +2010,162 @@
     </message>
     <message>
         <source>Click this button to select the user who should own the objects created by the import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Clique neste botão para selecionar o usuário que deve possuir os objetos criados pela importação.</translation>
     </message>
     <message>
         <source>Class</source>
         <translation>Classe</translation>
     </message>
     <message>
-        <source>Use this drop-down to select the type of object the import should create. Click the &quot;Set&quot; button to load the attribute types for the remaining fields.</source>
-        <translation type="unfinished"></translation>
+        <source>Use this drop-down to select the type of object the import should create. Click the "Set" button to load the attribute types for the remaining fields.</source>
+        <translation>Use este menu suspenso para selecionar o tipo de objeto que a importação deve criar. Clique no botão "Definir" para carregar os tipos de atributo corretos para os campos restantes.</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished">Definir</translation>
+        <translation>Definir</translation>
     </message>
     <message>
         <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
-        <translation type="unfinished"></translation>
+        <translation>Clique neste botão para carregar os valores corretos para o menu suspenso abaixo. Use o menu suspenso à esquerda para selecionar a classe.</translation>
     </message>
     <message>
         <source>Class attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>Atributos da classe</translation>
     </message>
     <message>
         <source>Use this drop-down menu to select the attribute that should bet set as information from the RSS stream.</source>
-        <translation type="unfinished"></translation>
+        <translation>Use este menu suspenso para selecionar o atributo que deve ser definido como informação sobre o RSS.</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorar</translation>
     </message>
     <message>
         <source>Object attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>Atributos do objeto</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Ativo</translation>
     </message>
     <message>
         <source>Use this checkbox to control if the RSS feed is active or not. An inactive feed will not be automatically updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Use esta caixa de seleção para controlar se a alimentação RSS esta ativa ou não. Uma alimentação inativa não será atualizada automaticamente.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">OK</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Apply the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplicar as mudanças e retornar para a visão geral do RSS.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Cancelar</translation>
+        <translation>Cancelar</translation>
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cancelar as mudanças e retornar à visão geral de RSS.</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/rss/list</name>
     <message>
         <source>RSS exports [%exports_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportações RSS [%exports_count]</translation>
     </message>
     <message>
         <source>Invert selection</source>
-        <translation type="unfinished">Inverter seleção</translation>
+        <translation>Inverter seleção</translation>
     </message>
     <message>
         <source>Invert selection.</source>
-        <translation type="unfinished">Inverter seleção.</translation>
+        <translation>Inverter seleção.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Nome</translation>
+        <translation>Nome</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished">Versão</translation>
+        <translation>Versão</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation type="unfinished">Status</translation>
+        <translation>Status</translation>
     </message>
     <message>
         <source>Modifier</source>
-        <translation type="unfinished">Modificado por</translation>
+        <translation>Modificado por</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation type="unfinished">Modificado</translation>
+        <translation>Modificado</translation>
     </message>
     <message>
         <source>Select RSS export for removal.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecione a exportação de RSS a ser removida.</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Ativo</translation>
     </message>
     <message>
         <source>Inactive</source>
-        <translation type="unfinished"></translation>
+        <translation>Inativo</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">Editar</translation>
+        <translation>Editar</translation>
     </message>
     <message>
         <source>Edit the &lt;%name&gt; RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Editar a exportação de RSS &lt;%name&gt;.</translation>
     </message>
     <message>
         <source>The RSS export list is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>A lista de exportação de RSS está vazia.</translation>
     </message>
     <message>
         <source>Remove selected</source>
-        <translation type="unfinished">Remover selecionados</translation>
+        <translation>Remover selecionados</translation>
     </message>
     <message>
         <source>Remove selected RSS exports.</source>
-        <translation type="unfinished"></translation>
+        <translation>Remover as exportações de RSS selecionadas.</translation>
     </message>
     <message>
         <source>New export</source>
-        <translation type="unfinished"></translation>
+        <translation>Nova exportação</translation>
     </message>
     <message>
         <source>Create a new RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Criar uma nova exportação de RSS.</translation>
     </message>
     <message>
         <source>RSS imports [%imports_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>Importações RSS [%imports_count]</translation>
     </message>
     <message>
         <source>Select RSS import for removal.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecione a importação de RSS a ser removida.</translation>
     </message>
     <message>
         <source>Edit the &lt;%name&gt; RSS import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Editar a importação de RSS &lt;%name&gt;.</translation>
     </message>
     <message>
         <source>The RSS import list is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>A lista de importação de RSS está vazia.</translation>
     </message>
     <message>
         <source>Remove selected RSS imports.</source>
-        <translation type="unfinished"></translation>
+        <translation>Remover as importações de RSS selecionadas.</translation>
     </message>
     <message>
         <source>New import</source>
-        <translation type="unfinished"></translation>
+        <translation>Nova importação</translation>
     </message>
     <message>
         <source>Create a new RSS import.</source>
@@ -2233,6 +2189,10 @@
     <message>
         <source>Basket</source>
         <translation>Cesta</translation>
+    </message>
+    <message>
+        <source>The following items were removed from your basket because the products were changed.</source>
+        <translation>Os seguintes itens foram removidos de sua cesta, porque os produtos foram alterados</translation>
     </message>
     <message>
         <source>VAT is unknown</source>
@@ -2271,6 +2231,18 @@
         <translation>Desconto</translation>
     </message>
     <message>
+        <source>Total price ex. VAT</source>
+        <translation>Preço total sem ICMS</translation>
+    </message>
+    <message>
+        <source>Total price inc. VAT</source>
+        <translation>Preço total com ICMS</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Desconhecido</translation>
+    </message>
+    <message>
         <source>Update</source>
         <translation>Atualizar</translation>
     </message>
@@ -2281,6 +2253,14 @@
     <message>
         <source>Selected options</source>
         <translation>Opções selecionadas</translation>
+    </message>
+    <message>
+        <source>Subtotal ex. VAT</source>
+        <translation>Subtotal sem ICMS</translation>
+    </message>
+    <message>
+        <source>Subtotal inc. VAT</source>
+        <translation>Subtotal com ICMS</translation>
     </message>
     <message>
         <source>Shipping</source>
@@ -2297,30 +2277,6 @@
     <message>
         <source>Checkout</source>
         <translation>Concluir a compra</translation>
-    </message>
-    <message>
-        <source>The following items were removed from your basket because the products were changed.</source>
-        <translation>Os seguintes itens foram removidos de sua cesta, porque os produtos foram alterados</translation>
-    </message>
-    <message>
-        <source>Total price ex. VAT</source>
-        <translation>Preço total sem ICMS</translation>
-    </message>
-    <message>
-        <source>Total price inc. VAT</source>
-        <translation>Preço total com ICMS</translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation>Desconhecido</translation>
-    </message>
-    <message>
-        <source>Subtotal ex. VAT</source>
-        <translation>Subtotal sem ICMS</translation>
-    </message>
-    <message>
-        <source>Subtotal inc. VAT</source>
-        <translation>Subtotal com ICMS</translation>
     </message>
     <message>
         <source>You have no products in your basket.</source>
@@ -2362,6 +2318,14 @@
         <translation>Desconto</translation>
     </message>
     <message>
+        <source>Total price ex. VAT</source>
+        <translation>Preço total sem ICMS</translation>
+    </message>
+    <message>
+        <source>Total price inc. VAT</source>
+        <translation>Preço total com ICMS</translation>
+    </message>
+    <message>
         <source>Selected options</source>
         <translation>Opções selecionadas</translation>
     </message>
@@ -2386,14 +2350,6 @@
         <translation>Confirmar</translation>
     </message>
     <message>
-        <source>Total price ex. VAT</source>
-        <translation>Preço total sem ICMS</translation>
-    </message>
-    <message>
-        <source>Total price inc. VAT</source>
-        <translation>Preço total com ICMS</translation>
-    </message>
-    <message>
         <source>Summary</source>
         <translation>Resumo</translation>
     </message>
@@ -2408,6 +2364,10 @@
 </context>
 <context>
     <name>design/ezdemo/shop/customerorderview</name>
+    <message>
+        <source>Customer information</source>
+        <translation>Informações do cliente</translation>
+    </message>
     <message>
         <source>Order list</source>
         <translation>Lista de pedidos</translation>
@@ -2439,10 +2399,6 @@
     <message>
         <source>Amount</source>
         <translation>Quantidade</translation>
-    </message>
-    <message>
-        <source>Customer information</source>
-        <translation>Informações do cliente</translation>
     </message>
 </context>
 <context>
@@ -2547,6 +2503,14 @@
         <translation>Desconto</translation>
     </message>
     <message>
+        <source>Total price ex. VAT</source>
+        <translation>Preço total sem ICMS</translation>
+    </message>
+    <message>
+        <source>Total price inc. VAT</source>
+        <translation>Preço total com ICMS</translation>
+    </message>
+    <message>
         <source>Order summary</source>
         <translation>Resumo da encomenda</translation>
     </message>
@@ -2565,14 +2529,6 @@
     <message>
         <source>Order history</source>
         <translation>Histórico do pedido</translation>
-    </message>
-    <message>
-        <source>Total price ex. VAT</source>
-        <translation>Preço total sem ICMS</translation>
-    </message>
-    <message>
-        <source>Total price inc. VAT</source>
-        <translation>Preço total com ICMS</translation>
     </message>
     <message>
         <source>Date</source>
@@ -2602,12 +2558,20 @@
         <translation>Suas informações da conta</translation>
     </message>
     <message>
+        <source>Input did not validate. All fields marked with * must be filled in.</source>
+        <translation>As informações inseridas não são válidas. Todos os campos marcados com * devem ser preenchidos.</translation>
+    </message>
+    <message>
         <source>First name</source>
         <translation>Nome</translation>
     </message>
     <message>
         <source>Last name</source>
         <translation>Sobrenome</translation>
+    </message>
+    <message>
+        <source>Email</source>
+        <translation>E-mail</translation>
     </message>
     <message>
         <source>Company</source>
@@ -2648,14 +2612,6 @@
     <message>
         <source>All fields marked with * must be filled in.</source>
         <translation>Todos os campos marcados com * devem ser preenchidos.</translation>
-    </message>
-    <message>
-        <source>Input did not validate. All fields marked with * must be filled in.</source>
-        <translation>As informações inseridas não são válidas. Todos os campos marcados com * devem ser preenchidos.</translation>
-    </message>
-    <message>
-        <source>Email</source>
-        <translation>E-mail</translation>
     </message>
 </context>
 <context>
@@ -2722,6 +2678,10 @@
         <translation>Nome do usuário</translation>
     </message>
     <message>
+        <source>Email</source>
+        <translation>E-mail</translation>
+    </message>
+    <message>
         <source>Name</source>
         <translation>Nome</translation>
     </message>
@@ -2750,10 +2710,6 @@
         <translation>Mudar minha senha</translation>
     </message>
     <message>
-        <source>Email</source>
-        <translation>Email</translation>
-    </message>
-    <message>
         <source>My pending items</source>
         <translation>Meus itens pendentes</translation>
     </message>
@@ -2761,28 +2717,24 @@
 <context>
     <name>design/ezdemo/user/forgotpassword</name>
     <message>
+        <source>An email has been sent to the following address: %1. It contains a link you need to click so that we can confirm that the correct user has received the new password.</source>
+        <translation>Um e-mail foi enviado para o endereço de e-mail %1. O e-mail contém um link no qual você deve clicar para confirmar que o usuário correto está recebendo a nova senha.</translation>
+    </message>
+    <message>
+        <source>There is no registered user with that email address.</source>
+        <translation>Não existe nenhum usuário registrado com esse endereço de email.</translation>
+    </message>
+    <message>
         <source>Password was successfully generated and sent to: %1</source>
         <translation>A senha foi gerada com sucesso e enviada para: %1</translation>
     </message>
     <message>
         <source>The key is invalid or has been used. </source>
-        <translation>A chave é inválida ou está em uso.</translation>
+        <translation>A chave é inválida ou já foi usada. </translation>
     </message>
     <message>
         <source>Have you forgotten your password?</source>
         <translation>Você esqueceu sua senha?</translation>
-    </message>
-    <message>
-        <source>Generate new password</source>
-        <translation>Gerar nova senha</translation>
-    </message>
-    <message>
-        <source>An email has been sent to the following address: %1. It contains a link you need to click so that we can confirm that the correct user has received the new password.</source>
-        <translation>Um email foi enviado para o endereço de e-mail %1. O e-mail contém um link no qual você deve clicar para confirmar que o usuário correto está recebendo a nova senha.</translation>
-    </message>
-    <message>
-        <source>There is no registered user with that email address.</source>
-        <translation>Não existe nenhum usuário registrado com esse endereço de email.</translation>
     </message>
     <message>
         <source>If you have forgotten your password, enter your email address and we will create a new password and send it to you.</source>
@@ -2791,6 +2743,10 @@
     <message>
         <source>Email</source>
         <translation>E-mail</translation>
+    </message>
+    <message>
+        <source>Generate new password</source>
+        <translation>Gerar nova senha</translation>
     </message>
 </context>
 <context>
@@ -2825,6 +2781,10 @@
         <translation>Senha</translation>
     </message>
     <message>
+        <source>Log in to the Exponential Administration Interface</source>
+        <translation>Entrar na Área Administrativa do Exponential</translation>
+    </message>
+    <message>
         <source>Remember me</source>
         <translation>Lembre-me</translation>
     </message>
@@ -2834,17 +2794,13 @@
         <translation>Entrar</translation>
     </message>
     <message>
-        <source>Forgot your password?</source>
-        <translation>Esqueceu sua senha?</translation>
-    </message>
-    <message>
-        <source>Log in to the eZ Publish Administration Interface</source>
-        <translation>Entrar na Área Administrativa do eZ Publish</translation>
-    </message>
-    <message>
         <source>Sign up</source>
         <comment>Button</comment>
         <translation>Registre-se</translation>
+    </message>
+    <message>
+        <source>Forgot your password?</source>
+        <translation>Esqueceu sua senha?</translation>
     </message>
 </context>
 <context>
@@ -2858,7 +2814,7 @@
         <translation>Redigite sua senha antiga.</translation>
     </message>
     <message>
-        <source>Password didn&apos;t match, please retype your new password.</source>
+        <source>Password didn't match, please retype your new password.</source>
         <translation>A senha não coincide, por favor, redigite sua nova senha.</translation>
     </message>
     <message>
@@ -2888,6 +2844,74 @@
     <message>
         <source>The new password must be at least %1 characters long, please retype your new password.</source>
         <translation>A nova senha deve ter pelo menos %1 caracteres, redigite sua nova senha.</translation>
+    </message>
+    <message>
+        <source>Change your password</source>
+        <translation>Alterar sua senha</translation>
+    </message>
+    <message>
+        <source>Your password has been changed</source>
+        <translation>Sua senha foi alterada</translation>
+    </message>
+    <message>
+        <source>You are still signed in here. Use the new password the next time you sign in.</source>
+        <translation>Você continua conectado aqui. Use a nova senha na próxima vez que entrar.</translation>
+    </message>
+    <message>
+        <source>You were signed out on your other devices.</source>
+        <translation>Você foi desconectado dos seus outros dispositivos.</translation>
+    </message>
+    <message>
+        <source>We sent a confirmation to your e-mail address.</source>
+        <translation>Enviamos uma confirmação para o seu endereço de e-mail.</translation>
+    </message>
+    <message>
+        <source>Continue</source>
+        <translation>Continuar</translation>
+    </message>
+    <message>
+        <source>Your password was not changed</source>
+        <translation>Sua senha não foi alterada</translation>
+    </message>
+    <message>
+        <source>Signed in as %1.</source>
+        <translation>Conectado como %1.</translation>
+    </message>
+    <message>
+        <source>Current password</source>
+        <translation>Senha atual</translation>
+    </message>
+    <message>
+        <source>current password</source>
+        <translation>senha atual</translation>
+    </message>
+    <message>
+        <source>new password</source>
+        <translation>nova senha</translation>
+    </message>
+    <message>
+        <source>Your new password needs:</source>
+        <translation>Sua nova senha precisa ter:</translation>
+    </message>
+    <message>
+        <source>At least %1 characters</source>
+        <translation>Pelo menos %1 caracteres</translation>
+    </message>
+    <message>
+        <source>Generate a strong password</source>
+        <translation>Gerar uma senha forte</translation>
+    </message>
+    <message>
+        <source>new password again</source>
+        <translation>repita a nova senha</translation>
+    </message>
+    <message>
+        <source>Confirm new password</source>
+        <translation>Confirme a nova senha</translation>
+    </message>
+    <message>
+        <source>Change password</source>
+        <translation>Mudar minha senha</translation>
     </message>
 </context>
 <context>
@@ -2928,12 +2952,156 @@
         <translation>Usuário registrado</translation>
     </message>
     <message>
+        <source>Your account was successfully created. An email will be sent to the specified address. Follow the instructions in that email to activate your account.</source>
+        <translation>Sua conta foi criada com sucesso. Um e-mail será enviado para o endereço de e-mail especificado. Siga as instruções contidas nesse e-mail para ativar sua conta.</translation>
+    </message>
+    <message>
         <source>Your account was successfully created.</source>
         <translation>Sua conta foi criada com sucesso.</translation>
     </message>
     <message>
-        <source>Your account was successfully created. An email will be sent to the specified address. Follow the instructions in that email to activate your account.</source>
-        <translation>Sua conta foi criada com sucesso. Um email será enviado para o endereço de email especificado. Siga as instruções contidas nesse email para ativar sua conta.</translation>
+        <source>Check your e-mail</source>
+        <translation>Verifique seu e-mail</translation>
+    </message>
+    <message>
+        <source>Your account has been created. One step is left: confirm your e-mail address.</source>
+        <translation>Sua conta foi criada. Falta uma etapa: confirmar seu endereço de e-mail.</translation>
+    </message>
+    <message>
+        <source>We sent a message to %email. Open the link in it to activate your account; then you can sign in.</source>
+        <translation>Enviamos uma mensagem para %email. Abra o link contido nela para ativar sua conta; depois você poderá entrar.</translation>
+    </message>
+    <message>
+        <source>We sent a message to the e-mail address you entered. Open the link in it to activate your account; then you can sign in.</source>
+        <translation>Enviamos uma mensagem para o endereço de e-mail que você informou. Abra o link contido nela para ativar sua conta; depois você poderá entrar.</translation>
+    </message>
+    <message>
+        <source>No message after a few minutes? Look in your spam folder.</source>
+        <translation>Nenhuma mensagem depois de alguns minutos? Verifique sua pasta de spam.</translation>
+    </message>
+    <message>
+        <source>Your account is waiting for approval</source>
+        <translation>Sua conta está aguardando aprovação</translation>
+    </message>
+    <message>
+        <source>Your account has been created. An administrator checks new accounts before they can be used.</source>
+        <translation>Sua conta foi criada. Um administrador verifica as novas contas antes que possam ser usadas.</translation>
+    </message>
+    <message>
+        <source>You will get an e-mail as soon as your account is approved; then you can sign in.</source>
+        <translation>Você receberá um e-mail assim que sua conta for aprovada; depois você poderá entrar.</translation>
+    </message>
+    <message>
+        <source>Welcome, %name</source>
+        <translation>Bem-vindo(a), %name</translation>
+    </message>
+    <message>
+        <source>Welcome</source>
+        <translation>Boas-vindas</translation>
+    </message>
+    <message>
+        <source>Your account is ready and you are signed in.</source>
+        <translation>Sua conta está pronta e você está conectado.</translation>
+    </message>
+    <message>
+        <source>Your e-mail address is confirmed</source>
+        <translation>Seu endereço de e-mail foi confirmado</translation>
+    </message>
+    <message>
+        <source>Your account is active and you are signed in.</source>
+        <translation>Sua conta está ativa e você está conectado.</translation>
+    </message>
+    <message>
+        <source>Your account is active. You can sign in now.</source>
+        <translation>Sua conta está ativa. Você já pode entrar.</translation>
+    </message>
+    <message>
+        <source>An administrator checks new accounts before they can be used.</source>
+        <translation>Um administrador verifica as novas contas antes que possam ser usadas.</translation>
+    </message>
+    <message>
+        <source>Your account is already active</source>
+        <translation>Sua conta já está ativa</translation>
+    </message>
+    <message>
+        <source>You are signed in.</source>
+        <translation>Você está conectado.</translation>
+    </message>
+    <message>
+        <source>The account was activated before. You can sign in.</source>
+        <translation>A conta já foi ativada antes. Você pode entrar.</translation>
+    </message>
+    <message>
+        <source>This activation link does not work</source>
+        <translation>Este link de ativação não funciona</translation>
+    </message>
+    <message>
+        <source>The link is not valid, or it has been used already. Your account was not activated.</source>
+        <translation>O link não é válido ou já foi usado. Sua conta não foi ativada.</translation>
+    </message>
+    <message>
+        <source>Copy the whole link from the e-mail into the address bar of your browser. If you activated the account before, sign in.</source>
+        <translation>Copie o link inteiro do e-mail para a barra de endereços do seu navegador. Se você já ativou a conta antes, entre.</translation>
+    </message>
+    <message>
+        <source>We could not find your account</source>
+        <translation>Não foi possível encontrar sua conta</translation>
+    </message>
+    <message>
+        <source>The account of this registration does not exist (any more).</source>
+        <translation>A conta deste cadastro não existe (mais).</translation>
+    </message>
+    <message>
+        <source>Please register again, or contact us if the problem stays.</source>
+        <translation>Cadastre-se novamente ou entre em contato conosco se o problema persistir.</translation>
+    </message>
+    <message>
+        <source>Your account is ready</source>
+        <translation>Sua conta está pronta</translation>
+    </message>
+    <message>
+        <source>Your account has been created and you are signed in.</source>
+        <translation>Sua conta foi criada e você está conectado.</translation>
+    </message>
+    <message>
+        <source>Your account has been created. You can sign in now.</source>
+        <translation>Sua conta foi criada. Você já pode entrar.</translation>
+    </message>
+    <message>
+        <source>Next steps</source>
+        <translation>Próximos passos</translation>
+    </message>
+    <message>
+        <source>Sign in</source>
+        <translation>Entrar</translation>
+    </message>
+    <message>
+        <source>My profile</source>
+        <translation>Meu perfil</translation>
+    </message>
+    <message>
+        <source>Edit profile</source>
+        <translation>Editar perfil</translation>
+    </message>
+    <message>
+        <source>Register</source>
+        <translation>Registrar</translation>
+    </message>
+    <message>
+        <source>Home</source>
+        <translation>Início</translation>
+    </message>
+    <message>
+        <source>Sitemap</source>
+        <translation>Mapa do site</translation>
+    </message>
+    <message>
+        <source>Tag cloud</source>
+        <translation>Tags</translation>
+    </message>
+    <message>
+        <source>Administration</source>
+        <translation>Administração</translation>
     </message>
 </context>
 <context>
@@ -3019,68 +3187,61 @@
     <name>design/ezflow/edit/frontpage</name>
     <message>
         <source>Search phrase</source>
-        <translation type="unfinished"></translation>
+        <translation>Pesquisar frase</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation type="unfinished">Busca</translation>
+        <translation>Pesquisar</translation>
     </message>
     <message>
         <source>Results</source>
-        <translation type="unfinished">Resultados</translation>
+        <translation>Resultados</translation>
     </message>
     <message>
         <source>Select:</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecione:</translation>
     </message>
     <message>
         <source>Add to block</source>
-        <translation type="unfinished"></translation>
+        <translation>Adicionar ao bloco</translation>
     </message>
     <message>
         <source>Edit &lt;%object_name&gt; (%class_name)</source>
-        <translation type="unfinished">Editar &lt;%object_name&gt; (%class_name)</translation>
+        <translation>Editar &lt;%object_name&gt; (%class_name)</translation>
     </message>
     <message>
         <source>Translating content from %from_lang to %to_lang</source>
-        <translation type="unfinished">Traduzindo o conteúdo de %from_lang para %to_lang</translation>
+        <translation>Traduzindo o conteúdo de %from_lang para %to_lang</translation>
     </message>
     <message>
         <source>Content in %language</source>
-        <translation type="unfinished">Conteúdo em %language</translation>
+        <translation>Conteúdo em %language</translation>
     </message>
     <message>
         <source>Send for publishing</source>
-        <translation type="unfinished">Enviar para publicação</translation>
+        <translation>Enviar para publicação</translation>
     </message>
     <message>
         <source>Store draft</source>
-        <translation type="unfinished">Salvar o rascunho</translation>
+        <translation>Salvar rascunho</translation>
     </message>
     <message>
         <source>Discard draft</source>
-        <translation type="unfinished">Descartar o rascunho</translation>
+        <translation>Descartar rascunho</translation>
     </message>
 </context>
 <context>
     <name>design/ezflow/embed/poll</name>
     <message>
         <source>Vote</source>
-        <translation type="unfinished">Votar</translation>
-    </message>
-</context>
-<context>
-    <name>design/standard/content/datatype</name>
-    <message>
-        <source>Second</source>
-        <translation type="obsolete">Segundo</translation>
+        <translation>Votar</translation>
     </message>
 </context>
 <context>
     <name>design/standard/user</name>
     <message>
         <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
-        <translation>Seu endereço de email foi confirmado. Um administrador precisa aprovar sua requisição de cadastro, antes que seu login torne-se válido.</translation>
+        <translation>Seu endereço de e-mail foi confirmado. Um administrador precisa aprovar sua requisição de cadastro, antes que seu login torne-se válido.</translation>
     </message>
     <message>
         <source>Your account is now activated.</source>
@@ -3099,85 +3260,141 @@
     <name>extension/ezstarrating/datatype</name>
     <message>
         <source>Rating: %current_rating/5</source>
-        <translation type="unfinished"></translation>
+        <translation>Avaliado: %current_rating/5</translation>
     </message>
     <message>
         <source>%rating_count votes cast</source>
-        <translation type="unfinished"></translation>
+        <translation>%rating_count votos realizados</translation>
     </message>
 </context>
 <context>
     <name>ezcomments/comment/add</name>
     <message>
         <source>reCAPTCHA API key missing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Chave de API do reCAPTCHA ausente.</translation>
     </message>
 </context>
 <context>
     <name>ezcomments/comment/add/form</name>
     <message>
         <source>Post a comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Publicar um comentário</translation>
     </message>
     <message>
         <source>Title:</source>
-        <translation type="unfinished"></translation>
+        <translation>Título:</translation>
     </message>
     <message>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nome:</translation>
     </message>
     <message>
         <source>Website:</source>
-        <translation type="unfinished"></translation>
+        <translation>Site:</translation>
     </message>
     <message>
         <source>Email:</source>
-        <translation type="unfinished"></translation>
+        <translation>E-mail:</translation>
     </message>
     <message>
         <source>(The email address will not be shown)</source>
-        <translation type="unfinished"></translation>
+        <translation>(O endereço de e-mail não será exibido)</translation>
     </message>
     <message>
         <source>Content:</source>
-        <translation type="unfinished"></translation>
+        <translation>Conteúdo:</translation>
     </message>
     <message>
         <source>Notify me of new comments</source>
-        <translation type="unfinished"></translation>
+        <translation>Notificar-me sobre novos comentários</translation>
     </message>
     <message>
         <source>Security text:</source>
-        <translation type="unfinished"></translation>
+        <translation>Texto de segurança:</translation>
     </message>
     <message>
         <source>Enter both words below, with or without a space.</source>
-        <translation type="unfinished"></translation>
+        <translation>Digite as duas palavras abaixo, com ou sem espaço.</translation>
     </message>
     <message>
         <source>The letters are not case-sensitive.</source>
-        <translation type="unfinished"></translation>
+        <translation>As letras não diferenciam maiúsculas de minúsculas.</translation>
     </message>
     <message>
-        <source>Can&apos;t read this?</source>
-        <translation type="unfinished"></translation>
+        <source>Can't read this?</source>
+        <translation>Não consegue ler?</translation>
     </message>
     <message>
         <source>Try another</source>
-        <translation type="unfinished"></translation>
+        <translation>Tentar outro</translation>
     </message>
     <message>
         <source>Remember me</source>
-        <translation type="unfinished">Lembre-me</translation>
+        <translation>Lembrar de mim</translation>
     </message>
     <message>
         <source>Add comment</source>
-        <translation type="unfinished">Comentar</translation>
+        <translation>Adicionar comentário</translation>
     </message>
     <message>
         <source>Reset form</source>
-        <translation type="unfinished"></translation>
+        <translation>Limpar formulário</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/content/datatype</name>
+    <message>
+        <source>Year</source>
+        <translation>Ano</translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation>Mês</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Dia</translation>
+    </message>
+    <message>
+        <source>Hour</source>
+        <translation>Hora</translation>
+    </message>
+    <message>
+        <source>Minute</source>
+        <translation>Minuto</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/content/datatype</name>
+    <message>
+        <source>Year</source>
+        <translation>Ano</translation>
+    </message>
+    <message>
+        <source>Month</source>
+        <translation>Mês</translation>
+    </message>
+    <message>
+        <source>Day</source>
+        <translation>Dia</translation>
+    </message>
+    <message>
+        <source>Show calendar to select a date.</source>
+        <translation type="obsolete">Mostrar calendário para selecionar uma data.</translation>
+    </message>
+</context>
+<context>
+    <name>design/admin/ezinfo/about</name>
+    <message>
+        <source>Could not load LICENSE file! You should have a LICENSE file in your eZ Publish root directory.</source>
+        <translation>Não foi possível carregar o arquivo LICENSE! Deve haver um arquivo LICENSE no diretório raiz do eZ Publish.</translation>
+    </message>
+</context>
+<context>
+    <name>design/standard/content/datatype</name>
+    <message>
+        <source>Second</source>
+        <translation type="obsolete">Segundo</translation>
     </message>
 </context>
 </TS>

@@ -18,7 +18,7 @@
 
     <input class="button" type="submit" name="Store" value="{'Apply changes'|i18n('design/ezdemo/notification/settings')}" />
 
-    <br />
+    <br>
 
     {include handler=$handlers.ezsubtree view_parameters=$view_parameters uri=concat( 'design:notification/handler/', $handlers.ezsubtree.id_string, '/settings/edit.tpl' )}
 

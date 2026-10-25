@@ -37,12 +37,12 @@
 </div>
 {if ezini( 'SiteSettings', 'AdditionalLoginFormActionURL' )}
     <div class="button-right">
-    <a href="{ezini( 'SiteSettings', 'AdditionalLoginFormActionURL' )}">{"Log in to the eZ Publish Administration Interface"|i18n("design/ezdemo/user/login")}</a>
+    <a href="{ezini( 'SiteSettings', 'AdditionalLoginFormActionURL' )}">{"Log in to the Exponential Administration Interface"|i18n("design/ezdemo/user/login")}</a>
     </div>
 {/if}
 {if ezini( 'Session', 'RememberMeTimeout' )}
 <div class="block">
-<input type="checkbox" tabindex="1" name="Cookie" id="id4" /><label for="id4" style="display:inline;">{"Remember me"|i18n("design/ezdemo/user/login")}</label>
+<input type="checkbox" tabindex="1" name="Cookie" id="id4" checked="checked" /><label for="id4" style="display:inline;">{"Remember me"|i18n("design/ezdemo/user/login")}</label>
 </div>
 {/if}
 

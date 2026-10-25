@@ -29,6 +29,11 @@
 </ul>
 </div>
 
+{* The objects that point at what goes (content.ini [RemoveSettings] ReverseRelationCheck): listed with warn, and with
+   block Confirm stays disabled while there are any; the view refuses the removal itself as well. *}
+{def $rr_blocked = false()}
+{if and( is_set( $reverse_relation_check ), $reverse_relation_check )}{set $rr_blocked = $reverse_relation_check.blocked}{include uri='design:content/reverse_relation_check.tpl' check=$reverse_relation_check operation='remove'}{/if}
+
 {if and( $move_to_trash_allowed, eq( $exceeded_limit, false() ) )}
   <input type="hidden" name="SupportsMoveToTrash" value="1" />
   <p><input type="checkbox" name="MoveToTrash" value="1" checked="checked" />{'Move to trash'|i18n('design/ezdemo/node/removeobject')}</p>
@@ -36,13 +41,14 @@
   <p><strong>{"Note"|i18n("design/ezdemo/node/removeobject")}:</strong> {"If %trashname is checked, removed items can be found in the trash."
                                                     |i18n( 'design/ezdemo/node/removeobject',,
                                                            hash( '%trashname', concat( '<i>', 'Move to trash' | i18n( 'design/ezdemo/node/removeobject' ), '</i>' ) ) )}</p>
-  <br />
+  <br>
 {/if}
 
 
 <div class="buttonblock">
-{include uri="design:gui/button.tpl" name=Store id_name=ConfirmButton value="Confirm"|i18n("design/ezdemo/node/removeobject") disabled=$exceeded_limit}
+{include uri="design:gui/button.tpl" name=Store id_name=ConfirmButton value="Confirm"|i18n("design/ezdemo/node/removeobject") disabled=or( $exceeded_limit, $rr_blocked )}
 {include uri="design:gui/defaultbutton.tpl" name=Discard id_name=CancelButton value="Cancel"|i18n("design/ezdemo/node/removeobject")}
 </div>
 
 </form>
+{undef $rr_blocked}

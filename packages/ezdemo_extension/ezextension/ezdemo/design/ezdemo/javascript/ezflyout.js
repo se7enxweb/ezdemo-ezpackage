@@ -1,8 +1,7 @@
-YUI(YUI3_config).add('ezflyout', function (Y) {
+(function ($) {
+    'use strict';
 
-    Y.namespace('eZ');
-
-    var L = Y.Lang;
+    $.eZ = $.eZ || {};
 
     var defaultConfig = {
         element: '',
@@ -17,81 +16,108 @@ YUI(YUI3_config).add('ezflyout', function (Y) {
         }
     };
 
+    function isPlainObject(v) {
+        return v !== null && typeof v === 'object' && !(v instanceof $) && !v.nodeType;
+    }
+
     /**
-     * Constructor of Y.eZ.FlyOut object
+     * Constructor of $.eZ.FlyOut object
      *
      * @param conf configuration object containing the following elements:
      *      - element String (required), a selector to the element that will be shown/hidden
      *      - close String (default ".close"), a selector relative the element pointing to nodes on which a click will hide the element
-     *      - scrollTrigger (default 0) int|string|Node if it's an integer, the number of pixel to scroll to show the element;
-     *          if it's a string, a selector to a Node, its y position will be used as the limit;
-     *          if it's a Node, its y position will be used as the limit
-     *      - trackInitialScroll bool (default true), if true, the Y.eZ.FlyOut will check the initial scroll to show the element
+     *      - scrollTrigger (default 0) int|string|element if it's an integer, the number of pixel to scroll to show the element;
+     *          if it's a string, a selector to an element, its y position will be used as the limit;
+     *          if it's an element (DOM or jQuery), its y position will be used as the limit
+     *      - trackInitialScroll bool (default true), if true, the $.eZ.FlyOut will check the initial scroll to show the element
      *      - hideTransition configuration object for the transition to hide the element
      *      - showTransition (required) configuration object for the transition to show the element
-     * 
-     * see http://yuilibrary.com/yui/docs/transition/ for hideTransition and showTransition configuration object.
-     * In addition, Y.eZ.FlyOut also allows to put function instead of plain values in the transition properties.
-     * The transtion's start and end callbacks are also usable.
+     *
+     * See eztransition.js ($.fn.ezTransition) for the hideTransition and showTransition
+     * configuration objects: duration, easing, delay, on.start/on.end and the CSS properties.
+     * In addition, $.eZ.FlyOut also allows to put function instead of plain values in the transition properties.
      */
     function eZFlyOut(conf) {
-        this.conf = Y.merge(defaultConfig, conf);
-        this.element = Y.one(this.conf.element);
+        this.conf = $.extend({}, defaultConfig, conf);
+        this.element = $(this.conf.element).first();
         this.hidden = true;
         this.scrollSubscription = false;
+        this._listeners = {};
 
         this._initEvents();
     }
 
     /**
-     * Checks wether the Y.eZ.FlyOut is hidden or not
+     * Subscribes to an event ("ready", "show", "hide", "close")
+     */
+    eZFlyOut.prototype.on = function (type, fn) {
+        (this._listeners[type] = this._listeners[type] || []).push(fn);
+        return this;
+    };
+
+    /**
+     * Fires an event, listeners are called with the instance as this
+     */
+    eZFlyOut.prototype.fire = function (type, data) {
+        var l = (this._listeners[type] || []).slice(),
+            e = $.extend({ type: type, target: this }, data);
+        for ( var i = 0; i < l.length; i++ ) {
+            l[i].call(this, e);
+        }
+    };
+
+    /**
+     * Checks wether the $.eZ.FlyOut is hidden or not
      */
     eZFlyOut.prototype.isHidden = function () {
         return this.hidden;
-    }
+    };
 
     /**
-     * Shows the Y.eZ.FlyOut using the show transition configuration object.
+     * Shows the $.eZ.FlyOut using the show transition configuration object.
      * It triggers the "show" event.
      */
     eZFlyOut.prototype.show = function () {
         if ( this.isHidden() ) {
-            this.element.transition(
+            this.element.ezTransition(
                 this._transitionConf(this.conf.showTransition)
             );
             this.hidden = false;
             this.fire('show');
         }
-    }
+    };
 
     /**
-     * Hides the Y.eZ.FlyOut using the hide transition configuration object.
+     * Hides the $.eZ.FlyOut using the hide transition configuration object.
      * It triggers the "hide" event.
      */
     eZFlyOut.prototype.hide = function () {
         if ( !this.isHidden() ) {
-            this.element.transition(
+            this.element.ezTransition(
                 this._transitionConf(this.conf.hideTransition)
             );
             this.hidden = true;
             this.fire('hide');
         }
-    }
+    };
 
     /**
-     * Closes the Y.eZ.FlyOut. This method is supposed to be called when
+     * Closes the $.eZ.FlyOut. This method is supposed to be called when
      * the user clicks on a "close" element. It hides the element and
-     * completely disables the Y.eZ.FlyOut instance;
+     * completely disables the $.eZ.FlyOut instance;
      * It triggers the "close" event.
      */
     eZFlyOut.prototype.close = function () {
-        this.scrollSubscription.detach();
+        if ( this.scrollSubscription ) {
+            $(window).off('scroll', this.scrollSubscription);
+            this.scrollSubscription = false;
+        }
         this.hide();
         this.fire('close');
-    }
+    };
 
     /**
-     * Initializes the events needed by Y.eZ.FlyOut:
+     * Initializes the events needed by $.eZ.FlyOut:
      *   - scroll event to detect the scroll beyond the configured limit
      *   - click event on a "close" element
      * @private
@@ -99,36 +125,37 @@ YUI(YUI3_config).add('ezflyout', function (Y) {
     eZFlyOut.prototype._initEvents = function () {
         var that = this,
             handleScroll = function () {
-            var limit = false;
-            if ( L.isNumber(that.conf.scrollTrigger) ) {
-                limit = that.conf.scrollTrigger;
+            var limit = false, trigger = that.conf.scrollTrigger;
+            if ( typeof trigger === 'number' ) {
+                limit = trigger;
             } else {
-                if ( L.isString(that.conf.scrollTrigger) ) {
-                    limit = Y.one(that.conf.scrollTrigger);
+                if ( typeof trigger === 'string' || (trigger && (trigger.nodeType || trigger instanceof $)) ) {
+                    limit = $(trigger).first();
                 }
-                if ( !L.isObject(limit) ) {
+                if ( !limit || !limit.length ) {
                     return;
                 }
-                limit = limit.getY();
+                limit = limit.offset().top;
             }
-            if ( that.element.get('docScrollY') >= limit ) {
+            if ( window.pageYOffset >= limit ) {
                 that.show();
             } else {
                 that.hide();
             }
         };
 
-        this.scrollSubscription = Y.on('scroll', handleScroll);
+        this.scrollSubscription = handleScroll;
+        $(window).on('scroll', handleScroll);
 
-        this.element.delegate('click', function () {
+        this.element.on('click', this.conf.close, function () {
             that.close();
-        }, this.conf.close);
+        });
 
         this.fire('ready');
         if ( this.conf.trackInitialScroll ) {
             handleScroll();
         }
-    }
+    };
 
     /**
      * Creates a transition config object by cloning the conf parameter and
@@ -138,24 +165,24 @@ YUI(YUI3_config).add('ezflyout', function (Y) {
      * @private
      * @return object
      */
-    eZFlyOut.prototype._transitionConf = function(conf) {
-        var res = Y.clone(conf, false);
-        Y.Object.each(res, function(v, k) {
-            if ( L.isFunction(v) ) {
-                res[k] = v.call(this);
-            } else if ( k !== 'on' && L.isObject(v) ) {
-                res[k] = this._transitionConf(v);
+    eZFlyOut.prototype._transitionConf = function (conf) {
+        var res = {}, k, v;
+        for ( k in conf ) {
+            if ( !Object.prototype.hasOwnProperty.call(conf, k) ) {
+                continue;
             }
-        }, this);
+            v = conf[k];
+            if ( typeof v === 'function' ) {
+                res[k] = v.call(this);
+            } else if ( k !== 'on' && isPlainObject(v) ) {
+                res[k] = this._transitionConf(v);
+            } else {
+                res[k] = v;
+            }
+        }
         return res;
-    }
+    };
 
-    Y.augment(eZFlyOut, Y.EventTarget, true, null, {emitFacade: true});
+    $.eZ.FlyOut = eZFlyOut;
 
-    Y.eZ.FlyOut = eZFlyOut;
-
-}, '1.0.0', {
-    requires: [
-        'event', 'node-screen', 'transition', 'node-event-delegate'
-    ]
-});
+})(jQuery);

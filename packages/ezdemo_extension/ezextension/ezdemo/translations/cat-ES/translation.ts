@@ -1031,12 +1031,12 @@
 <context>
     <name>design/ezdemo/ezinfo/about</name>
     <message>
-        <source>eZ Publish information: %version</source>
-        <translation>Informació d&apos;eZ Publish: %version</translation>
+        <source>Exponential information: %version</source>
+        <translation>Informació d&apos;Exponential: %version</translation>
     </message>
     <message>
-        <source>What is eZ Publish?</source>
-        <translation>Què és eZ Publish?</translation>
+        <source>What is Exponential?</source>
+        <translation>Què és Exponential?</translation>
     </message>
     <message>
         <source>Licence</source>
@@ -1089,16 +1089,16 @@
         <translation>Exportació OpenOffice.org</translation>
     </message>
     <message>
-        <source>Export eZ publish content to OpenOffice.org</source>
-        <translation>Exporta el contingut eZ publish a OpenOffice.org</translation>
+        <source>Export Exponential content to OpenOffice.org</source>
+        <translation>Exporta el contingut Exponential a OpenOffice.org</translation>
     </message>
     <message>
         <source>Error</source>
         <translation>Error</translation>
     </message>
     <message>
-        <source>Here you can export any eZ publish content object to an OpenOffice.org Writer document format.</source>
-        <translation>Aquí pots exportar qualsevol objecte de contingut eZ publish a format OpenOffice.org Writer.</translation>
+        <source>Here you can export any Exponential content object to an OpenOffice.org Writer document format.</source>
+        <translation>Aquí pots exportar qualsevol objecte de contingut Exponential a format OpenOffice.org Writer.</translation>
     </message>
     <message>
         <source>Export Object</source>
@@ -1829,7 +1829,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and eZ Publish configuration.</source>
+        <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and Exponential configuration.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2820,8 +2820,8 @@
         <translation>Contrasenya</translation>
     </message>
     <message>
-        <source>Log in to the eZ Publish Administration Interface</source>
-        <translation>Connecta a la interfície d&apos;administració d&apos;eZ Publish</translation>
+        <source>Log in to the Exponential Administration Interface</source>
+        <translation>Connecta a la interfície d&apos;administració d&apos;Exponential</translation>
     </message>
     <message>
         <source>Remember me</source>

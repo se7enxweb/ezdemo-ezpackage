@@ -1,4 +1,5 @@
 {ezscript_require( 'tools/ezjsselection.js' )}
+{ezscript( array( 'ezdemo_actions.js' ) )}
 
 <div class="content-history">
 
@@ -49,7 +50,7 @@
 {if $list_count}
 <table class="list" cellspacing="0">
 <tr>
-    <th class="tight"><img src={'toggle-button-16x16.gif'|ezimage} alt="{'Toggle selection'|i18n( 'design/ezdemo/content/history' )}" onclick="ezjs_toggleCheckboxes( document.versionsform, 'DeleteIDArray[]' ); return false;" /></th>
+    <th class="tight"><img src={'toggle-button-16x16.gif'|ezimage} alt="{'Toggle selection'|i18n( 'design/ezdemo/content/history' )}" data-ezdemo-form="versionsform" data-ezdemo-toggle-checkboxes="DeleteIDArray[]" /></th>
     <th>{'Version'|i18n( 'design/ezdemo/content/history' )}</th>
     <th>{'Status'|i18n( 'design/ezdemo/content/history' )}</th>
     <th>{'Modified translation'|i18n( 'design/ezdemo/content/history' )}</th>
@@ -207,7 +208,7 @@
 
 <div class="break"></div>
 
-<br />
+<br>
 {if and( is_set( $object ), is_set( $diff ), is_set( $oldVersion ), is_set( $newVersion ) )|not}
 
 <div class="attribute-header">
@@ -235,7 +236,7 @@
     {* Translations *}
     <td>
         {foreach $published_item.language_list as $lang}
-            {delimiter}<br />{/delimiter}
+            {delimiter}<br>{/delimiter}
             <img src="{$lang.language_code|flag_icon}" alt="{$lang.language_code|wash}" />&nbsp;
             <a href={concat("/content/versionview/",$object.id,"/",$published_item.version,"/",$lang.language_code,"/")|ezurl}>{$lang.locale.intl_language_name|wash}</a>
         {/foreach}
@@ -356,14 +357,6 @@
 {/if}
 
 {elseif and( is_set( $object ), is_set( $diff ), is_set( $oldVersion ), is_set( $newVersion ) )}
-{literal}
-<script type="text/javascript">
-function show( element, method )
-{
-    document.getElementById( element ).className = method;
-}
-</script>
-{/literal}
 
 <div class="attribute-header">
     <h1 class="long">{'Differences between versions %oldVersion and %newVersion'|i18n( 'design/ezdemo/content/history',, hash( '%oldVersion', $oldVersion, '%newVersion', $newVersion ) )}</h1>
@@ -371,9 +364,7 @@ function show( element, method )
 
 <div id="diffview">
 
-<script type="text/javascript">
-document.write('<div class="context-toolbar"><div class="block"><ul><li><a href="#" onclick="show(\'diffview\', \'previous\'); return false;">{'Old version'|i18n( 'design/ezdemo/content/history' )}</a></li><li><a href="#" onclick="show(\'diffview\', \'inlinechanges\'); return false;">{'Inline changes'|i18n( 'design/ezdemo/content/history' )}</a></li><li><a href="#" onclick="show(\'diffview\', \'blockchanges\'); return false;">{'Block changes'|i18n( 'design/ezdemo/content/history' )}</a></li><li><a href="#" onclick="show(\'diffview\', \'latest\'); return false;">{'New version'|i18n( 'design/ezdemo/content/history' )}</a></li></ul></div></div>');
-</script>
+<div class="context-toolbar ezdemo-js-only" hidden><div class="block"><ul><li><a href="#" data-ezdemo-diff-target="diffview" data-ezdemo-diff-mode="previous">{'Old version'|i18n( 'design/ezdemo/content/history' )}</a></li><li><a href="#" data-ezdemo-diff-target="diffview" data-ezdemo-diff-mode="inlinechanges">{'Inline changes'|i18n( 'design/ezdemo/content/history' )}</a></li><li><a href="#" data-ezdemo-diff-target="diffview" data-ezdemo-diff-mode="blockchanges">{'Block changes'|i18n( 'design/ezdemo/content/history' )}</a></li><li><a href="#" data-ezdemo-diff-target="diffview" data-ezdemo-diff-mode="latest">{'New version'|i18n( 'design/ezdemo/content/history' )}</a></li></ul></div></div>
 
 {foreach $object.data_map as $attr}
 <div class="block">

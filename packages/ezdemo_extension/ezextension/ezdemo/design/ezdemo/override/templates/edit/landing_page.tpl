@@ -9,7 +9,7 @@
 
     <!-- SEARCH BOX: START -->
 
-    <div id="ajaxsearchbox" class="tab-container">
+    <div id="ajaxsearchbox" class="tab-container" data-ezdemo-ajax-search="{$object.id}" data-ezdemo-ajax-search-bullet={"item-bullet.gif"|ezimage}>
 
     <div class="block">
         <label>{'Search phrase'|i18n( 'design/ezflow/edit/frontpage' )}</label>
@@ -26,19 +26,8 @@
 
     {foreach $content_attributes as $content_attribute}
     {if eq( $content_attribute.data_type_string, 'ezpage' )}
-    <script type="text/javascript">
-    {literal}
-    function addBlock( object, id )
-    {
-        var $select = object;
-        var $id = id;
-        var addToBlock = document.getElementById( 'addtoblock' );
-        addToBlock.name = 'CustomActionButton[' + $id  +'_new_item' + '-' + $select.value + ']';
-    }
-    {/literal}
-    </script>
     <p>
-    <select name="zonelist" onchange="addBlock( this, {$content_attribute.id} );">
+    <select name="zonelist" data-ezdemo-add-block="{$content_attribute.id}">
     <option>{'Select:'|i18n( 'design/ezflow/edit/frontpage' )}</option>
     {def $zone_id = ''
          $zone_name = ezini( $content_attribute.content.zone_layout, 'ZoneName', 'zone.ini' )}
@@ -65,18 +54,9 @@
 
     </div>
 
-    {ezscript_require( array( 'ezjsc::yui3', 'ezjsc::yui3io', 'ezajaxsearch.js' ) )}
+    {ezscript_require( array( 'ezjsc::jquery', 'ezjsc::jqueryio', 'ezajaxsearch.js' ) )}
 
-    <script type="text/javascript">
-    eZAJAXSearch.cfg = {ldelim}
-                            searchstring: '#search-string-{$object.id}',
-                            searchbutton: '#search-button-{$object.id}',
-                            searchresults: '#search-results-{$object.id}',
-                            dateformattype: 'shortdatetime',
-                            resulttemplate: '<div class="result-item float-break"><div class="item-title"><img src={"item-bullet.gif"|ezimage} />&nbsp;{ldelim}title{rdelim}</div><div class="item-published-date">[{ldelim}class_name{rdelim}] {ldelim}date{rdelim}</div><div class="item-selector"><input type="checkbox" value="{ldelim}node_id{rdelim}" name="SelectedNodeIDArray[]" /></div></div>'
-                       {rdelim};
-    eZAJAXSearch.init();
-    </script>
+    {ezscript( array( 'ezdemo_actions.js' ) )}
 
     <!-- SEARCH BOX: END -->
     </div>

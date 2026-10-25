@@ -21,7 +21,7 @@
                  $owner_map=$owner.data_map}
                 <p class="author">{$owner.name|wash}
                 {if is_set( $owner_map.title )}
-                    <br />{$owner_map.title.content|wash}
+                    <br>{$owner_map.title.content|wash}
                 {/if}</p>
                 {if $owner_map.image.has_content}
                 <div class="authorimage">

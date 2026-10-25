@@ -43,28 +43,20 @@
     <div class="buttonblock">
          <input class="button" type="hidden" name="UserID" value="{$content_attributes[0].contentobject_id}" />
     {if and( is_set( $checkErrNodeId ), $checkErrNodeId )|not()}
-        <input class="button" type="submit" id="PublishButton" name="PublishButton" value="{'Register'|i18n('design/ezdemo/user/register')}" onclick="window.setTimeout( disableButtons, 1 ); return true;" />
+        <input class="button" type="submit" id="PublishButton" name="PublishButton" value="{'Register'|i18n('design/ezdemo/user/register')}" data-ezdemo-disable-buttons="1" />
     {else}    
-           <input class="button" type="submit" id="PublishButton" name="PublishButton" disabled="disabled" value="{'Register'|i18n('design/ezdemo/user/register')}" onclick="window.setTimeout( disableButtons, 1 ); return true;" />
+           <input class="button" type="submit" id="PublishButton" name="PublishButton" disabled="disabled" value="{'Register'|i18n('design/ezdemo/user/register')}" data-ezdemo-disable-buttons="1" />
     {/if}
-    <input class="button" type="submit" id="CancelButton" name="CancelButton" value="{'Discard'|i18n('design/ezdemo/user/register')}" onclick="window.setTimeout( disableButtons, 1 ); return true;" />
+    <input class="button" type="submit" id="CancelButton" name="CancelButton" value="{'Discard'|i18n('design/ezdemo/user/register')}" data-ezdemo-disable-buttons="1" />
     </div>
 {else}
     <div class="warning">
          <h2>{"Unable to register new user"|i18n("design/ezdemo/user/register")}</h2>
     </div>
-    <input class="button" type="submit" id="CancelButton" name="CancelButton" value="{'Back'|i18n('design/ezdemo/user/register')}" onclick="window.setTimeout( disableButtons, 1 ); return true;" />
+    <input class="button" type="submit" id="CancelButton" name="CancelButton" value="{'Back'|i18n('design/ezdemo/user/register')}" data-ezdemo-disable-buttons="1" />
 {/if}
 </form>
 
 </div>
 
-{literal}
-<script type="text/javascript">
-    function disableButtons()
-    {
-        document.getElementById( 'PublishButton' ).disabled = true;
-        document.getElementById( 'CancelButton' ).disabled = true;
-    }
-</script>
-{/literal}
+{ezscript( array( 'ezdemo_actions.js' ) )}

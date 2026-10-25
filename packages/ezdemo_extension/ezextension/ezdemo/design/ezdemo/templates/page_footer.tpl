@@ -4,7 +4,7 @@
     <div class="claim-wrapper">
         <div class="container">
             <div class="nav-collapse">
-                Powered by <a href="http://ez.no/ezpublish" title="eZ Publish&#8482; CMS Open Source Web Content Management">eZ Publish&#8482; CMS Open Source Web Content Management</a>.
+                Powered by <a href="https://exponential.earth" title="Exponential CMS Open Source Web Content Management">Exponential CMS Open Source Web Content Management</a>.
             </div>
         </div>
     </div>

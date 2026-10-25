@@ -1,11 +1,16 @@
-YUI(YUI3_config).use('event-base', 'node-base', 'event-outside', function (Y) {
-    Y.on('domready', function () {
-        Y.all('.transition-showed').each(function () {
-            this.on('clickoutside', function (e) {
-                if ( this.get('id') === location.hash.replace('#', '') ) {
-                    location.hash = '';
-                }
-            });
+jQuery(function ($) {
+    var elems = $('.transition-showed');
+
+    if ( !elems.length ) {
+        return;
+    }
+    // a click outside an element shown through the location hash hides it
+    $(document).on('click', function (e) {
+        elems.each(function () {
+            if ( this !== e.target && !this.contains(e.target)
+                    && this.id === location.hash.replace('#', '') ) {
+                location.hash = '';
+            }
         });
     });
 });

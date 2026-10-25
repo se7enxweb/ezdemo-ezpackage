@@ -7,7 +7,7 @@
      $first = $children.0
      $big_image_class = 'galleryfull'
      $render_image_once = false()}
-<div class="embed-gallery">
+<div class="embed-gallery" data-ezdemo-gallery="embed">
     <div class="gallery-viewer">
         {node_view_gui view='gallery_viewer' big_class=$big_image_class total_items=$children_count content_node=$first}
         {foreach $children as $gallery_item offset 1}
@@ -32,60 +32,5 @@
         </ul>
     </div>
 </div>
-<script type="text/javascript">
-{literal}
-
-YUI(YUI3_config).use('ezgallery', 'event', function (Y) {
-    Y.on('domready', function () {
-        var g = new Y.eZ.Gallery({
-            title: 'h3 a',
-            caption: 'figcaption div',
-            autoFixSizes: false,
-            navigator: {
-                gallery: '.embed-gallery'
-            },
-            initFunc: function () {
-                var imgs = this.navigator.getImages();
-
-                // make the browser caches images
-                setTimeout(function () {
-                    imgs.each(function(elem) {
-                        (new Image).src = elem.getAttribute('data-gallery-src');
-                    });
-                }, 0);
-            },
-            updateFunc: function (item) {
-                var node = item.imageNode,
-                    img = this.container.one('.gallery-viewer-image').one('> img');
-
-                if ( node.getAttribute('data-gallery-item') == 'image' ) {
-                    this.container.one('.visible').replaceClass('visible', 'hidden');
-                    this.container.one('.gallery-viewer-image').replaceClass('hidden', 'visible');
-                } else if ( node.getAttribute('data-gallery-item') == 'video' ) {
-                    this.container.one('.gallery-viewer-image').replaceClass('visible', 'hidden');
-                    this.container.one('#gallery-viewer-video-' + node.getAttribute('data-gallery-node-id')).replaceClass('hidden', 'visible');
-                }
-
-                if ( img ) {
-                    img.setAttribute('src', node.getAttribute('data-gallery-src'));
-                    img.setAttribute('height', node.getAttribute('data-gallery-height'));
-                    img.setAttribute('width', node.getAttribute('data-gallery-width'));
-                    img.setAttribute('alt', node.get('title'));
-                }
-
-                var t = this.container.one('.visible ' + this.conf.title),
-                    cap = this.container.one('.visible ' + this.conf.caption),
-                    c = this.container.one('.visible ' + this.conf.counter);
-
-                t.setContent(node.get('title'));
-                t.setAttribute('href', node.getAttribute('data-gallery-node-url'));
-                c.setContent(item.index + 1);
-                cap.setContent(node.one('figcaption').getContent());
-            }
-        });
-    });
-});
-
-{/literal}
-</script>
+{ezscript( array( 'ezdemo_actions.js' ) )}
 {undef $children $first $big_image_class $render_image_once}

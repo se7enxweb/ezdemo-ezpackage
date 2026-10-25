@@ -708,3 +708,35 @@
     margin-left: 30px;
   }
 }
+
+/* The next steps of the registration result page (user/success.tpl): a list of links with 44px targets
+   and a visible keyboard focus, one per row on narrow screens and side by side where they fit. */
+.user-success .user-success-next ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.user-success .user-success-next li {
+  flex: 1 1 12em;
+  margin: 0;
+}
+.user-success .user-success-next a {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+.user-success .user-success-next a:hover {
+  border-color: currentColor;
+}
+.user-success .user-success-next a:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 2px;
+}

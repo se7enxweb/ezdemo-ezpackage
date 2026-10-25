@@ -40,7 +40,7 @@
     </div>
     <div class="break"></div>
 </div>
-<br />
+<br>
 <div class="block">
 <label>
 {"Email"|i18n("design/ezdemo/shop/userregister")}:*
