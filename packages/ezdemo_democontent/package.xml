@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package version="5.3.0">
+<package version="5.4.0">
     <name>ezdemo_democontent</name>
     <summary></summary>
     <description></description>
     <vendor>eZ systems</vendor>
     <type value="contentobject"/>
     <ezpublish>
-        <version>5.3.0</version>
-        <named-version>5.3</named-version>
+        <version>5.4.0</version>
+        <named-version>5.4</named-version>
     </ezpublish>
     <maintainers>
         <maintainer>
@@ -69,7 +69,7 @@
       <simple-file key="b51bed037d13f4a66c1a7d63aa9bdeb3" original-path="var/ezdemo_site/storage/images/media/images/mount-castor/646-1-eng-GB/mount-Castor.jpg" package-path="simplefiles/af41107b.jpg"/>
     </simple-files>
     <version>
-        <number>5.3</number>
+        <number>5.4</number>
         <release>0</release>
     </version>
     <licence>GPL</licence>
