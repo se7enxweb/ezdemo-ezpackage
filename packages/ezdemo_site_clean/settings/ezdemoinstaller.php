@@ -97,7 +97,6 @@ class ezdemoInstaller extends eZSiteInstaller
             'bcwebsitestatistics', 
             'bccie', 
             'xrowextract', 
-            'bcwebshop', 
             'ezflow', 
             'ezwebin', 
             'ezmultiupload' 
