@@ -336,7 +336,7 @@
   <file name="ezpage" path="/design/ezdemo/stylesheets" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="ezpage.css" path="/design/ezdemo/stylesheets/ezpage" md5sum="e257dc141d25b9acf9d65d1c19991191"/>
   <file name="print.css" path="/design/ezdemo/stylesheets" md5sum="9dc8843ed65c17fedbb802ea765d871e"/>
-  <file name="responsive.css" path="/design/ezdemo/stylesheets" md5sum="99ea16f807356db111b76d3363454b9f"/>
+  <file name="responsive.css" path="/design/ezdemo/stylesheets" md5sum="e8883d331fb6aa236ccb5492392578cf"/>
   <file name="star_rating.css" path="/design/ezdemo/stylesheets" md5sum="d41d8cd98f00b204e9800998ecf8427e"/>
   <file name="video.css" path="/design/ezdemo/stylesheets" md5sum="1d5dd7d3edce7b3c8d33b1c22bd6d686"/>
   <file name="templates" path="/design/ezdemo" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
@@ -479,9 +479,9 @@
   <file name="tagcloud.tpl" path="/design/ezdemo/templates/tagcloud" md5sum="8f11b63f8c62630473cb556ef6929222"/>
   <file name="user" path="/design/ezdemo/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="activate.tpl" path="/design/ezdemo/templates/user" md5sum="9487a488b93ecdec9356f08a7c30657a"/>
-  <file name="edit.tpl" path="/design/ezdemo/templates/user" md5sum="662a18dead813196918bbde091028c89"/>
+  <file name="edit.tpl" path="/design/ezdemo/templates/user" md5sum="317b7d3ed389fe65b4930cb21c91e34a"/>
   <file name="forgotpassword.tpl" path="/design/ezdemo/templates/user" md5sum="0b7e7f631a2f941b5acd22e9fdda7a3d"/>
-  <file name="login.tpl" path="/design/ezdemo/templates/user" md5sum="73f798446437b171ad9a6296f4bb2ff6"/>
+  <file name="login.tpl" path="/design/ezdemo/templates/user" md5sum="7ee0b968c32193c6abfc5f16ba5e93af"/>
   <file name="password.tpl" path="/design/ezdemo/templates/user" md5sum="6704c8c3abfa00629100f4d437643934"/>
   <file name="register.tpl" path="/design/ezdemo/templates/user" md5sum="26a8f3cf9be31b30b3c78f7d5f9af043"/>
   <file name="success.tpl" path="/design/ezdemo/templates/user" md5sum="fdfa828521febee481c78e65c0fcb831"/>
@@ -492,8 +492,8 @@
   <file name="3zoneslayout1.tpl" path="/design/ezdemo/templates/zone" md5sum="468aca86d0ed4b45be810da39c1bb753"/>
   <file name="3zoneslayout2.tpl" path="/design/ezdemo/templates/zone" md5sum="c2927aad25b98da50ea0d224db024a89"/>
   <file name="globalzonelayout.tpl" path="/design/ezdemo/templates/zone" md5sum="daac4365a4ce5744013c70b5cf669fb1"/>
-  <file name="extension.xml" md5sum="80a732fe7713021c725679aced90150d"/>
-  <file name="ezinfo.php" md5sum="0073c498314a668d81a67e5d5f3d1ce2"/>
+  <file name="extension.xml" md5sum="119c5921e6edd6d7a41c2099b92d9140"/>
+  <file name="ezinfo.php" md5sum="6fababa2e2331b863a18a9e4294d2e94"/>
   <file name="packages" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="5.0" path="/packages" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="call_to_action-1.0-1.ezpkg" path="/packages/5.0" md5sum="cb56671d0446152c9de15f1fd84663fb"/>

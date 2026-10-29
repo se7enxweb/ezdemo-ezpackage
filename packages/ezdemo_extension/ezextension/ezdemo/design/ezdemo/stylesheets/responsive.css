@@ -740,3 +740,9 @@
   outline: 3px solid currentColor;
   outline-offset: 2px;
 }
+
+/* "Sign in with a passkey" below the login form (user/login.tpl, the kernel's user/parts/passkey_login.tpl): the
+   design's .button sets display: inline-block, which would show the button and the status line before the script
+   has found that the browser can use passkeys; the hidden attribute wins here. */
+.exp-passkey-login { margin: 1em 0 0; }
+.exp-passkey-login [hidden] { display: none !important; }
