@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension name="ezdemo">
-  <file name="LICENSE" md5sum="09e5ab0a2578bb8948c4cf98eba08b02"/>
+  <file name="LICENSE" md5sum="eee5f9135e5b658adce09e7e046c881f"/>
   <file name="README" md5sum="d41d8cd98f00b204e9800998ecf8427e"/>
   <file name="autoloads" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="ezarchive.php" path="/autoloads" md5sum="f13e52cd58e6f33d1fd28131a859ef90"/>
-  <file name="ezkeywordlist.php" path="/autoloads" md5sum="17eaba29225067159247bbc7146ed753"/>
-  <file name="ezpagedata.php" path="/autoloads" md5sum="1acb42c5d7d356cf39d34b6907edfc8e"/>
-  <file name="eztagcloud.php" path="/autoloads" md5sum="86e92f7d9cff184c01a667fb693cf705"/>
-  <file name="eztemplateautoload.php" path="/autoloads" md5sum="6bd34b79af6eb01a79bb5f90977962de"/>
+  <file name="ezarchive.php" path="/autoloads" md5sum="a9db0a124dd32653bacb9a0e32895947"/>
+  <file name="ezkeywordlist.php" path="/autoloads" md5sum="bf07516b9ce350b30fc39a1246618819"/>
+  <file name="ezpagedata.php" path="/autoloads" md5sum="d4d97965b24cc54b656cd0f4a1e5f16f"/>
+  <file name="eztagcloud.php" path="/autoloads" md5sum="e6ae0f73f6bf1daea70d5284947e6d30"/>
+  <file name="eztemplateautoload.php" path="/autoloads" md5sum="aab5dfaa5598f862629636cf4f4ab45d"/>
   <file name="composer.json" md5sum="28155830f6f9d5433bc2f8a60cc4b0a2"/>
   <file name="design" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="admin" path="/design" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
@@ -492,8 +492,8 @@
   <file name="3zoneslayout1.tpl" path="/design/ezdemo/templates/zone" md5sum="468aca86d0ed4b45be810da39c1bb753"/>
   <file name="3zoneslayout2.tpl" path="/design/ezdemo/templates/zone" md5sum="c2927aad25b98da50ea0d224db024a89"/>
   <file name="globalzonelayout.tpl" path="/design/ezdemo/templates/zone" md5sum="daac4365a4ce5744013c70b5cf669fb1"/>
-  <file name="extension.xml" md5sum="119c5921e6edd6d7a41c2099b92d9140"/>
-  <file name="ezinfo.php" md5sum="6fababa2e2331b863a18a9e4294d2e94"/>
+  <file name="extension.xml" md5sum="de8882d400318ac9302712739e92619d"/>
+  <file name="ezinfo.php" md5sum="7a9ddfe4e173ef51ab46ba4d780c6acc"/>
   <file name="packages" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="5.0" path="/packages" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="call_to_action-1.0-1.ezpkg" path="/packages/5.0" md5sum="cb56671d0446152c9de15f1fd84663fb"/>

@@ -2,8 +2,8 @@
 <software>
     <metadata>
         <name>Exponential Demo Design LS</name>
-        <version>6.0.18</version>
-        <copyright>Copyright (C) 1998 - 2026 7x &amp; Exponential Foundation. Copyright (C) eZ Systems AS. All rights reserved.</copyright>
+        <version>6.0.19</version>
+        <copyright>Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved. Copyright (C) eZ Systems AS. All rights reserved.</copyright>
         <license>GNU General Public License v2.0 (or any later version)</license>
         <info_url>https://github.com/se7enxweb/ezdemo</info_url>
     </metadata>
