@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="518" name="Great release" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="13" ezremote:published="Tue, 03 Nov 2026 15:42:50 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" remote_id="ezdemo-comment-release-1" class_remote_id="000c14f4f475e9f2955dedab72799941" ezremote:class_identifier="comment" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="90" name="Great release" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="13" ezremote:published="Tue, 03 Nov 2026 15:42:50 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:07 GMT" remote_id="ezdemo-comment-release-1" class_remote_id="000c14f4f475e9f2955dedab72799941" ezremote:class_identifier="comment" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:29 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" initial_language="eng-US">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:07 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:07 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Great release">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2497" ezremote:identifier="subject" name="Subject" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="379" ezremote:identifier="subject" name="Subject" type="ezstring">
           <text>Great release</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2498" ezremote:identifier="author" name="Author" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="380" ezremote:identifier="author" name="Author" type="ezstring">
           <text>Jordan</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2499" ezremote:identifier="message" name="Message" type="eztext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="381" ezremote:identifier="message" name="Message" type="eztext">
           <text>The upgrade from 6.0.14 took ten minutes. The new toolbar is a big step for our editors.</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2500" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="946" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>Great release</title>
             <keywords>comment</keywords>
@@ -35,7 +35,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-exponential-6-0-15-is-here" name="Great release" node-id="520" remote-id="ezdemo-node-comment-release-1" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-exponential-6-0-15-is-here" name="Great release" node-id="92" remote-id="ezdemo-node-comment-release-1" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

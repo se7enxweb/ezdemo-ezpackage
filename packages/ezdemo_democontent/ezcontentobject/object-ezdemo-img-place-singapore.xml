@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="464" name="Singapore" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 03 Nov 2026 15:42:48 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:26 GMT" remote_id="ezdemo-img-place-singapore" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="165" name="Singapore" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 03 Nov 2026 15:42:48 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:04 GMT" remote_id="ezdemo-img-place-singapore" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:26 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:26 GMT" initial_language="eng-US">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:04 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:04 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Singapore">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2175" ezremote:identifier="name" name="Name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="721" ezremote:identifier="name" name="Name" type="ezstring">
           <text>Singapore</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2176" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="722" ezremote:identifier="caption" name="Caption" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>Photo: DvTor8303, CC0 1.0, via <link href="https://commons.wikimedia.org/wiki/File:Skyline_of_Singapore_Central_Business_District_20250903.jpg">Wikimedia Commons</link>.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2177" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="2057b6c205d6ff83ef6e2cc80e505edf" alternative-text="The skyline of Singapore across the bay"/>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2178" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="723" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="ad72490c65f4a60d822071fc8bf17688" alternative-text="The skyline of Singapore across the bay"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="928" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>Singapore</title>
             <keywords>image</keywords>
@@ -35,7 +35,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-images-photos" name="Singapore" node-id="466" remote-id="ezdemo-node-img-place-singapore" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-images-photos" name="Singapore" node-id="167" remote-id="ezdemo-node-img-place-singapore" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

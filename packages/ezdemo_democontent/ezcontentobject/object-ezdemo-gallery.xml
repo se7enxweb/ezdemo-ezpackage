@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="439" name="Gallery" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="25" ezremote:published="Tue, 03 Nov 2026 15:42:46 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" remote_id="ezdemo-gallery" class_remote_id="6a320cdc3e274841b82fcd63a86f80d1" ezremote:class_identifier="gallery" ezremote:always_available="1" initial_language="eng-US">
-  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="4">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="4" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:29 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="58" name="Gallery" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="25" ezremote:published="Tue, 03 Nov 2026 15:42:46 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:07 GMT" remote_id="ezdemo-gallery" class_remote_id="6a320cdc3e274841b82fcd63a86f80d1" ezremote:class_identifier="gallery" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="3">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="3" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:07 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:07 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Gallery">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2073" ezremote:identifier="name" name="Name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="189" ezremote:identifier="name" name="Name" type="ezstring">
           <text>Gallery</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2074" ezremote:identifier="short_description" name="Short description" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="190" ezremote:identifier="short_description" name="Short description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>Places that inspire us, photographed by the community and shared under CC0.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2075" ezremote:identifier="description" name="Description" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="191" ezremote:identifier="description" name="Description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>Every photo in this gallery is a CC0 work from Wikimedia Commons. Open one to see it large, step through the set with the arrow keys and read who took it.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2076" ezremote:identifier="image" name="Image" type="ezobjectrelation">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="192" ezremote:identifier="image" name="Image" type="ezobjectrelation">
           <related-object-remote-id>ezdemo-img-gal-fjord</related-object-remote-id>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2077" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="193" ezremote:identifier="tags" name="Tags" type="ezkeyword">
           <keyword-string>gallery, photography</keyword-string>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2078" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="194" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>Gallery</title>
             <keywords>gallery, photography</keywords>
@@ -45,7 +45,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="f3e90596361e31d496d4026eb624c983" name="Gallery" node-id="441" remote-id="ezdemo-node-gallery" sort-field="path" sort-order="1" priority="50"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="f3e90596361e31d496d4026eb624c983" name="Gallery" node-id="60" remote-id="ezdemo-node-gallery" sort-field="path" sort-order="1" priority="50"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

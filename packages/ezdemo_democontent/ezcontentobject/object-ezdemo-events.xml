@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="520" name="Events" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="30" ezremote:published="Tue, 03 Nov 2026 15:42:50 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" remote_id="ezdemo-events" class_remote_id="020cbeb6382c8c89dcec2cd406fb47a8" ezremote:class_identifier="event_calendar" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="97" name="Events" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="30" ezremote:published="Tue, 03 Nov 2026 15:42:50 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:07 GMT" remote_id="ezdemo-events" class_remote_id="020cbeb6382c8c89dcec2cd406fb47a8" ezremote:class_identifier="event_calendar" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:29 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" initial_language="eng-US">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:07 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:07 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Events">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2505" ezremote:identifier="title" name="Title" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="410" ezremote:identifier="title" name="Title" type="ezstring">
           <text>Events</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2506" ezremote:identifier="view" name="View" type="ezselection">
-          <data-int></data-int>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="411" ezremote:identifier="view" name="View" type="ezselection">
+          <data-int>0</data-int>
           <data-float>0</data-float>
           <data-text>1</data-text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2507" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="412" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>Events</title>
             <keywords>events</keywords>
@@ -34,7 +34,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="f3e90596361e31d496d4026eb624c983" name="Events" node-id="522" remote-id="ezdemo-node-events" sort-field="published" sort-order="1" priority="60"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="f3e90596361e31d496d4026eb624c983" name="Events" node-id="99" remote-id="ezdemo-node-events" sort-field="published" sort-order="1" priority="60"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

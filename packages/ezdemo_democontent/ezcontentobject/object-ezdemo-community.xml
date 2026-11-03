@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="535" name="Community" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="1" ezremote:published="Tue, 03 Nov 2026 15:42:50 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" remote_id="ezdemo-community" class_remote_id="a3d405b81be900468eb153d774f4f0d2" ezremote:class_identifier="folder" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="112" name="Community" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="1" ezremote:published="Tue, 03 Nov 2026 15:42:50 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:07 GMT" remote_id="ezdemo-community" class_remote_id="a3d405b81be900468eb153d774f4f0d2" ezremote:class_identifier="folder" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:29 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" initial_language="eng-US">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:07 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:07 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Community">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2612" ezremote:identifier="name" name="Name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="511" ezremote:identifier="name" name="Name" type="ezstring">
           <text>Community</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2613" ezremote:identifier="short_name" name="Short name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="512" ezremote:identifier="short_name" name="Short name" type="ezstring">
           <text></text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2614" ezremote:identifier="short_description" name="Summary" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="513" ezremote:identifier="short_description" name="Summary" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>Ask questions, share what you built, improve the handbook and vote in our poll.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2615" ezremote:identifier="description" name="Description" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="514" ezremote:identifier="description" name="Description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>The community is where Exponential gets better. These forums, wiki pages and the poll are part of the demo, so you can try them out.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2616" ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="515" ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
           <value>1</value>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2617" ezremote:identifier="call_for_action" name="Call For Action" type="ezpage">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="825" ezremote:identifier="call_for_action" name="Call For Action" type="ezpage">
           <page>
   <zone_layout>CallForActionLayout</zone_layout>
-  <zone id="id_a1302fce2665fde01dfb4d975d5e4017">
+  <zone id="id_cebf39e32201fab7bcee156cef1f3f5c">
     <zone_identifier>main</zone_identifier>
   </zone>
 </page>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2618" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="842" ezremote:identifier="tags" name="Tags" type="ezkeyword">
           <keyword-string>community</keyword-string>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2619" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="859" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>Community</title>
             <keywords>community</keywords>
@@ -56,7 +56,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="f3e90596361e31d496d4026eb624c983" name="Community" node-id="537" remote-id="ezdemo-node-community" sort-field="path" sort-order="1" priority="80"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="f3e90596361e31d496d4026eb624c983" name="Community" node-id="114" remote-id="ezdemo-node-community" sort-field="path" sort-order="1" priority="80"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

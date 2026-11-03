@@ -9,7 +9,7 @@
   <vendor>7x</vendor>
   <type value="site" />
   <ezpublish>
-    <version>6.0.0</version>
+    <version>6.0.15-stable</version>
     <named-version>6.0</named-version>
   </ezpublish>
   <maintainers>
@@ -50,8 +50,8 @@
      </collection>
   </files>
   <version>
-    <number>1.0</number>
-    <release>1</release>
+    <number>6.0</number>
+    <release>15-stable</release>
   </version>
   <licence>GPL</licence>
   <state>stable</state>

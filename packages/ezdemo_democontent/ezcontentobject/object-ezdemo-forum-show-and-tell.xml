@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="541" name="Show and tell" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="26" ezremote:published="Tue, 03 Nov 2026 15:42:51 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" remote_id="ezdemo-forum-show-and-tell" class_remote_id="b241f924b96b267153f5f55904e0675a" ezremote:class_identifier="forum" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="118" name="Show and tell" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="26" ezremote:published="Tue, 03 Nov 2026 15:42:51 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:08 GMT" remote_id="ezdemo-forum-show-and-tell" class_remote_id="b241f924b96b267153f5f55904e0675a" ezremote:class_identifier="forum" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:29 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" initial_language="eng-US">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:08 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:08 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Show and tell">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2637" ezremote:identifier="name" name="Name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="533" ezremote:identifier="name" name="Name" type="ezstring">
           <text>Show and tell</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2638" ezremote:identifier="description" name="Description" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="534" ezremote:identifier="description" name="Description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>Share the sites, designs and extensions you have built.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2639" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="535" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>Show and tell</title>
             <keywords>forum</keywords>
@@ -34,7 +34,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-forums" name="Show and tell" node-id="543" remote-id="ezdemo-node-forum-show-and-tell" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-forums" name="Show and tell" node-id="120" remote-id="ezdemo-node-forum-show-and-tell" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

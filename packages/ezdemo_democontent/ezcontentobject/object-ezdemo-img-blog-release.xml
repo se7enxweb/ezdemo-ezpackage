@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="453" name="A new day" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 03 Nov 2026 15:42:47 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:26 GMT" remote_id="ezdemo-img-blog-release" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="154" name="A new day" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 03 Nov 2026 15:42:47 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:03 GMT" remote_id="ezdemo-img-blog-release" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:26 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:26 GMT" initial_language="eng-US">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:03 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:03 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="A new day">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2131" ezremote:identifier="name" name="Name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="688" ezremote:identifier="name" name="Name" type="ezstring">
           <text>A new day</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2132" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="689" ezremote:identifier="caption" name="Caption" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>Photo: Jiafei Slay Queen, CC0 1.0, via <link href="https://commons.wikimedia.org/wiki/File:Sunrise_by_the_mountains_and_the_clouds.jpg">Wikimedia Commons</link>.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2133" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="46e7b99da5c75765927def8cdb40c97a" alternative-text="The sun rising over mountains and a calm lake"/>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2134" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="690" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="c0c850b3bd3ef1a67b282d3ed4ad4ad6" alternative-text="The sun rising over mountains and a calm lake"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="917" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>A new day</title>
             <keywords>image</keywords>
@@ -35,7 +35,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-images-photos" name="A new day" node-id="455" remote-id="ezdemo-node-img-blog-release" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-images-photos" name="A new day" node-id="156" remote-id="ezdemo-node-img-blog-release" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

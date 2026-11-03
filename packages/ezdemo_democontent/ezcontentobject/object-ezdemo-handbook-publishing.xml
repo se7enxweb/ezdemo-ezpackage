@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="546" name="Publishing workflow" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="23" ezremote:published="Tue, 03 Nov 2026 15:42:51 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:30 GMT" remote_id="ezdemo-handbook-publishing" class_remote_id="d4a05eed0402e4d70fedfda2023f1aa2" ezremote:class_identifier="wiki_page" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="123" name="Publishing workflow" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="23" ezremote:published="Tue, 03 Nov 2026 15:42:51 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:08 GMT" remote_id="ezdemo-handbook-publishing" class_remote_id="d4a05eed0402e4d70fedfda2023f1aa2" ezremote:class_identifier="wiki_page" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:30 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:30 GMT" initial_language="eng-US">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:08 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:08 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Publishing workflow">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2663" ezremote:identifier="title" name="Title" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="559" ezremote:identifier="title" name="Title" type="ezstring">
           <text>Publishing workflow</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2664" ezremote:identifier="body" name="Body" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="560" ezremote:identifier="body" name="Body" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>Write a draft, preview it, ask a colleague to review it and publish. Every step is kept in the version history.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2665" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
-          <data-int></data-int>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="561" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+          <data-int>0</data-int>
           <data-float>0</data-float>
           <data-text></data-text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2666" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="562" ezremote:identifier="tags" name="Tags" type="ezkeyword">
           <keyword-string>workflow, handbook</keyword-string>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2667" ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="563" ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
           <value>0</value>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2668" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="564" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>Publishing workflow</title>
             <keywords>wiki</keywords>
@@ -45,7 +45,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-handbook" name="Publishing workflow" node-id="548" remote-id="ezdemo-node-handbook-publishing" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-handbook" name="Publishing workflow" node-id="125" remote-id="ezdemo-node-handbook-publishing" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

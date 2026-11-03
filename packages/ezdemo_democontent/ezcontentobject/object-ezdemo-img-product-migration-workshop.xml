@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="470" name="Migration Workshop" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 03 Nov 2026 15:42:48 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:26 GMT" remote_id="ezdemo-img-product-migration-workshop" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="172" name="Migration Workshop" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 03 Nov 2026 15:42:48 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:04 GMT" remote_id="ezdemo-img-product-migration-workshop" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:26 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:26 GMT" initial_language="eng-US">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:04 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:04 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Migration Workshop">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2199" ezremote:identifier="name" name="Name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="744" ezremote:identifier="name" name="Name" type="ezstring">
           <text>Migration Workshop</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2200" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="745" ezremote:identifier="caption" name="Caption" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>Illustration: Exponential Foundation and 7x, CC0 1.0.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2201" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="5f1ceaa7ee8575e6de4fc86a7b3e199d" alternative-text="A route between two points on an amber gradient"/>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2202" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="746" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="eced14f3770093e36269e055ef6d8e16" alternative-text="A route between two points on an amber gradient"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="934" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>Migration Workshop</title>
             <keywords>image</keywords>
@@ -35,7 +35,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-images-illustrations" name="Migration Workshop" node-id="472" remote-id="ezdemo-node-img-product-migration-workshop" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-images-illustrations" name="Migration Workshop" node-id="174" remote-id="ezdemo-node-img-product-migration-workshop" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

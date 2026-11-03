@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="447" name="Speed by design" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 03 Nov 2026 15:42:47 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:25 GMT" remote_id="ezdemo-img-feat-velocity" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="148" name="Speed by design" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 03 Nov 2026 15:42:47 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:03 GMT" remote_id="ezdemo-img-feat-velocity" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:25 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:25 GMT" initial_language="eng-US">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:03 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:03 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Speed by design">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2107" ezremote:identifier="name" name="Name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="670" ezremote:identifier="name" name="Name" type="ezstring">
           <text>Speed by design</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2108" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="671" ezremote:identifier="caption" name="Caption" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>Photo: Jamie Street jamie452, CC0 1.0, via <link href="https://commons.wikimedia.org/wiki/File:Highway_light_trains_at_night_(Unsplash).jpg">Wikimedia Commons</link>.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2109" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="0a1439cd10621b28e4a8425ed325e696" alternative-text="Light trails of traffic on a highway at night"/>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2110" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="672" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="d3f437c70e8639bf90290d2ea0761217" alternative-text="Light trails of traffic on a highway at night"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="911" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>Speed by design</title>
             <keywords>image</keywords>
@@ -35,7 +35,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-images-photos" name="Speed by design" node-id="449" remote-id="ezdemo-node-img-feat-velocity" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-images-photos" name="Speed by design" node-id="150" remote-id="ezdemo-node-img-feat-velocity" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="457" name="Color" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 03 Nov 2026 15:42:47 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:26 GMT" remote_id="ezdemo-img-blog-tokens" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="158" name="Color" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 03 Nov 2026 15:42:47 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:04 GMT" remote_id="ezdemo-img-blog-tokens" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:26 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:26 GMT" initial_language="eng-US">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:04 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:04 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Color">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2147" ezremote:identifier="name" name="Name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="700" ezremote:identifier="name" name="Name" type="ezstring">
           <text>Color</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2148" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="701" ezremote:identifier="caption" name="Caption" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>Photo: Artsy Crafty, CC0 1.0, via <link href="https://commons.wikimedia.org/wiki/File:Colored_pencils_lined_up_on_pink_surface.jpg">Wikimedia Commons</link>.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2149" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="ea6eee08677c04ed93769d7b7aad027d" alternative-text="Colored pencils lined up on a pink surface"/>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2150" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="702" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="efa8549c1b4a10a5a90ef32bdf6d579b" alternative-text="Colored pencils lined up on a pink surface"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="921" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>Color</title>
             <keywords>image</keywords>
@@ -35,7 +35,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-images-photos" name="Color" node-id="459" remote-id="ezdemo-node-img-blog-tokens" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-images-photos" name="Color" node-id="160" remote-id="ezdemo-node-img-blog-tokens" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

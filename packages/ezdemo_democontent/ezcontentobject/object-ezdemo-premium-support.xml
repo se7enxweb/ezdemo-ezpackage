@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="507" name="Premium Support" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="20" ezremote:published="Tue, 03 Nov 2026 15:42:49 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:28 GMT" remote_id="ezdemo-premium-support" class_remote_id="77f3ede996a3a39c7159cc69189c5307" ezremote:class_identifier="product" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="84" name="Premium Support" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="20" ezremote:published="Tue, 03 Nov 2026 15:42:49 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:06 GMT" remote_id="ezdemo-premium-support" class_remote_id="77f3ede996a3a39c7159cc69189c5307" ezremote:class_identifier="product" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:28 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:28 GMT" initial_language="eng-US">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:06 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:06 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Premium Support">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2419" ezremote:identifier="name" name="Name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="326" ezremote:identifier="name" name="Name" type="ezstring">
           <text>Premium Support</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2420" ezremote:identifier="product_number" name="Product number" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="327" ezremote:identifier="product_number" name="Product number" type="ezstring">
           <text>EXP-SUP-PRM</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2421" ezremote:identifier="short_description" name="Short description" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="328" ezremote:identifier="short_description" name="Short description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>Around-the-clock support with a named engineer and a four-hour response time.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2422" ezremote:identifier="description" name="Description" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="329" ezremote:identifier="description" name="Description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>Everything in Standard Support, plus a named engineer who knows your site, a four-hour response time for urgent issues and a yearly architecture review.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2423" ezremote:identifier="price" name="Price" type="ezprice">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="330" ezremote:identifier="price" name="Price" type="ezprice">
           <price>4800</price>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2424" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="ad1697d03703ff963ea6868460351b10" alternative-text="Premium Support"/>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2425" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="331" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="742ad63f2c2310e4089cbdac0f9fe85e" alternative-text="Premium Support"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="332" ezremote:identifier="caption" name="Caption (Image)" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>Illustration: Exponential Foundation and 7x.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2426" ezremote:identifier="additional_options" name="Additional options" type="ezmultioption">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="333" ezremote:identifier="additional_options" name="Additional options" type="ezmultioption">
           <ezmultioption option_counter="0">
             <name/>
             <multioptions/>
           </ezmultioption>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2427" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
-          <data-int></data-int>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="334" ezremote:identifier="star_rating" name="Star Rating" type="ezsrrating">
+          <data-int>0</data-int>
           <data-float>0</data-float>
           <data-text></data-text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2428" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="335" ezremote:identifier="tags" name="Tags" type="ezkeyword">
           <keyword-string>premium support, services</keyword-string>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2429" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="336" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>Premium Support</title>
             <keywords>services</keywords>
@@ -65,7 +65,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-services" name="Premium Support" node-id="509" remote-id="ezdemo-node-premium-support" sort-field="path" sort-order="1" priority="30"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-services" name="Premium Support" node-id="86" remote-id="ezdemo-node-premium-support" sort-field="path" sort-order="1" priority="30"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

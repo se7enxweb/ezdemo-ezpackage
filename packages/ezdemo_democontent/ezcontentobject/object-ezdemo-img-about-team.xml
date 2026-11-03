@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="465" name="Where we work" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 03 Nov 2026 15:42:48 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:26 GMT" remote_id="ezdemo-img-about-team" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="166" name="Where we work" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 03 Nov 2026 15:42:48 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:04 GMT" remote_id="ezdemo-img-about-team" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:26 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:26 GMT" initial_language="eng-US">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:04 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:04 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Where we work">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2179" ezremote:identifier="name" name="Name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="724" ezremote:identifier="name" name="Name" type="ezstring">
           <text>Where we work</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2180" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="725" ezremote:identifier="caption" name="Caption" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>Photo: JustWritingHere, CC0 1.0, via <link href="https://commons.wikimedia.org/wiki/File:Coworking_space_2026-09-27.jpg">Wikimedia Commons</link>.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2181" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="ef23b1b44c555f87ea67e8d33cc6b530" alternative-text="Quiet booths in a coworking space"/>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2182" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="726" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="1081c72aafe67c6a516784e2d68a2d6b" alternative-text="Quiet booths in a coworking space"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="929" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>Where we work</title>
             <keywords>image</keywords>
@@ -35,7 +35,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-images-photos" name="Where we work" node-id="467" remote-id="ezdemo-node-img-about-team" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-images-photos" name="Where we work" node-id="168" remote-id="ezdemo-node-img-about-team" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

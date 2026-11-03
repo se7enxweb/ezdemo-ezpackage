@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="538" name="Which site package should I start with?" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="27" ezremote:published="Tue, 03 Nov 2026 15:42:51 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" remote_id="ezdemo-topic-first-site" class_remote_id="71f99c516743a33562c3893ef98c9b60" ezremote:class_identifier="forum_topic" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="115" name="Which site package should I start with?" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="27" ezremote:published="Tue, 03 Nov 2026 15:42:51 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:07 GMT" remote_id="ezdemo-topic-first-site" class_remote_id="71f99c516743a33562c3893ef98c9b60" ezremote:class_identifier="forum_topic" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:29 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" initial_language="eng-US">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:07 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:07 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Which site package should I start with?">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2626" ezremote:identifier="subject" name="Subject" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="522" ezremote:identifier="subject" name="Subject" type="ezstring">
           <text>Which site package should I start with?</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2627" ezremote:identifier="message" name="Message" type="eztext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="523" ezremote:identifier="message" name="Message" type="eztext">
           <text>I am setting up my first Exponential site. Which site package is the best starting point for a company website with a blog?</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2628" ezremote:identifier="sticky" name="Sticky" type="ezboolean">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="524" ezremote:identifier="sticky" name="Sticky" type="ezboolean">
           <value>1</value>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2629" ezremote:identifier="notify_me" name="Notify me about updates" type="ezsubtreesubscription">
-          <value></value>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="525" ezremote:identifier="notify_me" name="Notify me about updates" type="ezsubtreesubscription">
+          <value>0</value>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2630" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="526" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>Which site package should I start with?</title>
             <keywords>forum</keywords>
@@ -38,7 +38,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-forum-getting-started" name="Which site package should I start with?" node-id="540" remote-id="ezdemo-node-topic-first-site" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-forum-getting-started" name="Which site package should I start with?" node-id="117" remote-id="ezdemo-node-topic-first-site" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

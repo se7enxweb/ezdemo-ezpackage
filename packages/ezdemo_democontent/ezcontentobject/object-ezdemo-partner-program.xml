@@ -1,36 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="560" name="Partner program" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="2" ezremote:published="Tue, 03 Nov 2026 15:42:51 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:30 GMT" remote_id="ezdemo-partner-program" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="137" name="Partner program" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="2" ezremote:published="Tue, 03 Nov 2026 15:42:51 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:08 GMT" remote_id="ezdemo-partner-program" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:30 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:30 GMT" initial_language="eng-US">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:08 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:08 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Partner program">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2743" ezremote:identifier="title" name="Title" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="627" ezremote:identifier="title" name="Title" type="ezstring">
           <text>The partner program</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2744" ezremote:identifier="short_title" name="Short title" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="628" ezremote:identifier="short_title" name="Short title" type="ezstring">
           <text>Partner program</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2745" ezremote:identifier="author" name="Author" type="ezauthor">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="629" ezremote:identifier="author" name="Author" type="ezauthor">
           <ezauthor>
             <authors>
               <author id="0" name="Exponential Foundation" email=""/>
             </authors>
           </ezauthor>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2746" ezremote:identifier="intro" name="Intro" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="630" ezremote:identifier="intro" name="Intro" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>Agencies and integrators who build with Exponential get early access to releases, co-marketing and a direct line to the maintainers.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2747" ezremote:identifier="body" name="Body" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="631" ezremote:identifier="body" name="Body" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">hero-team</paragraph>
+            <section>
+              <section>
+                <header>Benefits</header>
+                <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                  <ul>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Early access to release candidates.</paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">A listing in the partner directory.</paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Training and certification for your team.</paragraph>
+                    </li>
+                  </ul>
+                </paragraph>
+              </section>
+            </section>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2748" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="632" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
           <value>0</value>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2749" ezremote:identifier="image" name="Image" type="ezobjectrelation"/>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2750" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="633" ezremote:identifier="image" name="Image" type="ezobjectrelation">
+          <related-object-remote-id>ezdemo-img-hero-team</related-object-remote-id>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="880" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>The partner program</title>
             <keywords/>
@@ -53,7 +72,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-partner-portal" name="Partner program" node-id="562" remote-id="ezdemo-node-partner-program" sort-field="path" sort-order="1" priority="10"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-partner-portal" name="Partner program" node-id="139" remote-id="ezdemo-node-partner-program" sort-field="path" sort-order="1" priority="10"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

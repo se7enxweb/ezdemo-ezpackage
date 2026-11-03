@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="57" name="Home" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="22" ezremote:published="Mon, 19 Nov 2007 13:54:46 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:30 GMT" remote_id="8a9c9c761004866fb458d89910f52bee" class_remote_id="e36c458e3e4a81298a0945f53a2c81f4" ezremote:class_identifier="landing_page" ezremote:always_available="1" initial_language="eng-US">
-  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="5">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="5" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:30 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:30 GMT" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="57" name="Home" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="22" ezremote:published="Mon, 19 Nov 2007 13:54:46 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:08 GMT" remote_id="8a9c9c761004866fb458d89910f52bee" class_remote_id="e36c458e3e4a81298a0945f53a2c81f4" ezremote:class_identifier="landing_page" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:08 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:08 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Home">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2054" ezremote:identifier="name" name="Name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="186" ezremote:identifier="name" name="Name" type="ezstring">
           <text>Home</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2055" ezremote:identifier="page" name="Layout" type="ezpage">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="187" ezremote:identifier="page" name="Layout" type="ezpage">
           <page>
   <zone_layout>2ZonesLayout3</zone_layout>
   <zone id="id_7edf5fa8b3c72a97e09f2918c05e5d35">
@@ -70,7 +70,7 @@
       <view>default</view>
       <overflow_id/>
       <custom_attributes>
-        <poll_node_id>549</poll_node_id>
+        <poll_node_id>126</poll_node_id>
       </custom_attributes>
     </block>
     <block id="id_df019b47b18fbf3938a02784751b5ff6">
@@ -83,7 +83,7 @@
   </zone>
 </page>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2056" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="188" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>Exponential: open source content management</title>
             <keywords>exponential, cms, open source</keywords>

@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="526" name="About" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="1" ezremote:published="Tue, 03 Nov 2026 15:42:50 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" remote_id="ezdemo-about" class_remote_id="a3d405b81be900468eb153d774f4f0d2" ezremote:class_identifier="folder" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="103" name="About" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="1" ezremote:published="Tue, 03 Nov 2026 15:42:50 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:07 GMT" remote_id="ezdemo-about" class_remote_id="a3d405b81be900468eb153d774f4f0d2" ezremote:class_identifier="folder" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:29 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" initial_language="eng-US">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:07 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:07 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="About">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2548" ezremote:identifier="name" name="Name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="453" ezremote:identifier="name" name="Name" type="ezstring">
           <text>About</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2549" ezremote:identifier="short_name" name="Short name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="454" ezremote:identifier="short_name" name="Short name" type="ezstring">
           <text></text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2550" ezremote:identifier="short_description" name="Summary" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="455" ezremote:identifier="short_description" name="Summary" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>Exponential is maintained by the Exponential Foundation and 7x, together with a worldwide community.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2551" ezremote:identifier="description" name="Description" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="456" ezremote:identifier="description" name="Description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>Exponential is free software under the GNU General Public License. It is developed in the open, released on a predictable schedule and used by publishers, governments, schools and businesses around the world.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2552" ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="457" ezremote:identifier="show_children" name="Display sub items" type="ezboolean">
           <value>1</value>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2553" ezremote:identifier="call_for_action" name="Call For Action" type="ezpage">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="824" ezremote:identifier="call_for_action" name="Call For Action" type="ezpage">
           <page>
   <zone_layout>CallForActionLayout</zone_layout>
-  <zone id="id_134fc7e42409ea46901ed1e35cb244d3">
+  <zone id="id_84a0ec0ac390d348163a894051dcd785">
     <zone_identifier>main</zone_identifier>
   </zone>
 </page>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2554" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="841" ezremote:identifier="tags" name="Tags" type="ezkeyword">
           <keyword-string>about</keyword-string>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2555" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="858" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>About</title>
             <keywords>about</keywords>
@@ -56,7 +56,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="f3e90596361e31d496d4026eb624c983" name="About" node-id="528" remote-id="ezdemo-node-about" sort-field="path" sort-order="1" priority="70"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="f3e90596361e31d496d4026eb624c983" name="About" node-id="105" remote-id="ezdemo-node-about" sort-field="path" sort-order="1" priority="70"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

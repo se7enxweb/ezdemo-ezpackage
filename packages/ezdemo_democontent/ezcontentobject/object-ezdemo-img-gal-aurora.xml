@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="478" name="Northern lights" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 03 Nov 2026 15:42:48 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:27 GMT" remote_id="ezdemo-img-gal-aurora" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="61" name="Northern lights" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 03 Nov 2026 15:42:48 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:05 GMT" remote_id="ezdemo-img-gal-aurora" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:27 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:27 GMT" initial_language="eng-US">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:05 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:05 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Northern lights">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2231" ezremote:identifier="name" name="Name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="201" ezremote:identifier="name" name="Name" type="ezstring">
           <text>Northern lights</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2232" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="202" ezremote:identifier="caption" name="Caption" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>A winter night in Lofoten, Norway. Photo: Johannes Groll followhansi, CC0 1.0, via <link href="https://commons.wikimedia.org/wiki/File:Lofoten,_Norway_(Unsplash).jpg">Wikimedia Commons</link>.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2233" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="0fa359a3e517482465923a36e75f082e" alternative-text="Green aurora over the Lofoten islands"/>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2234" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="203" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="f82ad4d52cc8ff8bd6f3e114bde139c1" alternative-text="Green aurora over the Lofoten islands"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="895" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>Northern lights</title>
             <keywords>image</keywords>
@@ -35,7 +35,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-gallery" name="Northern lights" node-id="480" remote-id="ezdemo-node-img-gal-aurora" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-gallery" name="Northern lights" node-id="63" remote-id="ezdemo-node-img-gal-aurora" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

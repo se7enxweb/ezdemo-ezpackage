@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="503" name="Commerce" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="2" ezremote:published="Tue, 03 Nov 2026 15:42:49 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:28 GMT" remote_id="ezdemo-commerce" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="80" name="Commerce" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="2" ezremote:published="Tue, 03 Nov 2026 15:42:49 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:06 GMT" remote_id="ezdemo-commerce" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:28 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:28 GMT" initial_language="eng-US">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:06 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:06 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Commerce">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2384" ezremote:identifier="title" name="Title" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="296" ezremote:identifier="title" name="Title" type="ezstring">
           <text>Commerce</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2385" ezremote:identifier="short_title" name="Short title" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="297" ezremote:identifier="short_title" name="Short title" type="ezstring">
           <text>Commerce</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2386" ezremote:identifier="author" name="Author" type="ezauthor">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="298" ezremote:identifier="author" name="Author" type="ezauthor">
           <ezauthor>
             <authors>
               <author id="0" name="Exponential Foundation" email=""/>
             </authors>
           </ezauthor>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2387" ezremote:identifier="intro" name="Intro" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="299" ezremote:identifier="intro" name="Intro" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>Sell products and services next to the stories that explain them, with a shop, prices with taxes and payment gateways.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2388" ezremote:identifier="body" name="Body" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="300" ezremote:identifier="body" name="Body" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <section>
               <section>
@@ -31,13 +31,13 @@
             </section>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2389" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="301" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
           <value>0</value>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2390" ezremote:identifier="image" name="Image" type="ezobjectrelation">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="302" ezremote:identifier="image" name="Image" type="ezobjectrelation">
           <related-object-remote-id>ezdemo-img-sol-commerce</related-object-remote-id>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2391" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="874" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>Commerce</title>
             <keywords>solutions, commerce</keywords>
@@ -60,7 +60,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-solutions" name="Commerce" node-id="505" remote-id="ezdemo-node-commerce" sort-field="path" sort-order="1" priority="40"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-solutions" name="Commerce" node-id="82" remote-id="ezdemo-node-commerce" sort-field="path" sort-order="1" priority="40"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

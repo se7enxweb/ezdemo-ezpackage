@@ -1,36 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="527" name="Foundation" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="2" ezremote:published="Tue, 03 Nov 2026 15:42:50 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" remote_id="ezdemo-exponential-foundation" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="104" name="Foundation" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="2" ezremote:published="Tue, 03 Nov 2026 15:42:50 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:07 GMT" remote_id="ezdemo-exponential-foundation" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:29 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" initial_language="eng-US">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:07 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:07 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Foundation">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2556" ezremote:identifier="title" name="Title" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="458" ezremote:identifier="title" name="Title" type="ezstring">
           <text>The Exponential Foundation</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2557" ezremote:identifier="short_title" name="Short title" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="459" ezremote:identifier="short_title" name="Short title" type="ezstring">
           <text>Foundation</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2558" ezremote:identifier="author" name="Author" type="ezauthor">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="460" ezremote:identifier="author" name="Author" type="ezauthor">
           <ezauthor>
             <authors>
               <author id="0" name="Exponential Foundation" email=""/>
             </authors>
           </ezauthor>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2559" ezremote:identifier="intro" name="Intro" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="461" ezremote:identifier="intro" name="Intro" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>The Exponential Foundation stewards the project: its code, its releases, its trademarks and its community.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2560" ezremote:identifier="body" name="Body" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="462" ezremote:identifier="body" name="Body" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">about-foundation</paragraph>
+            <paragraph>The foundation makes sure Exponential stays open, dependable and welcoming. It coordinates releases, reviews security reports, keeps the documentation current and supports the people who contribute.</paragraph>
+            <section>
+              <section>
+                <header>What the foundation does</header>
+                <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                  <ul>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Publishes releases and security fixes on a predictable schedule.</paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Maintains the documentation and the help center.</paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Runs the community forums and events.</paragraph>
+                    </li>
+                  </ul>
+                </paragraph>
+              </section>
+            </section>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2561" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="463" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
           <value>0</value>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2562" ezremote:identifier="image" name="Image" type="ezobjectrelation"/>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2563" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="464" ezremote:identifier="image" name="Image" type="ezobjectrelation">
+          <related-object-remote-id>ezdemo-img-about-foundation</related-object-remote-id>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="876" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>The Exponential Foundation</title>
             <keywords/>
@@ -53,7 +73,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-about" name="Foundation" node-id="529" remote-id="ezdemo-node-exponential-foundation" sort-field="path" sort-order="1" priority="10"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-about" name="Foundation" node-id="106" remote-id="ezdemo-node-exponential-foundation" sort-field="path" sort-order="1" priority="10"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="488" name="Exponential 6.0.15 is here" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="31" ezremote:published="Tue, 03 Nov 2026 15:42:49 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:27 GMT" remote_id="ezdemo-banner-launch" class_remote_id="9cb558e25fd946246bbb32950c00228e" ezremote:class_identifier="banner" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="179" name="Exponential 6.0.15 is here" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="31" ezremote:published="Tue, 03 Nov 2026 15:42:49 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:05 GMT" remote_id="ezdemo-banner-launch" class_remote_id="9cb558e25fd946246bbb32950c00228e" ezremote:class_identifier="banner" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:27 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:27 GMT" initial_language="eng-US">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:05 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:05 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Exponential 6.0.15 is here">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2275" ezremote:identifier="name" name="Name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="767" ezremote:identifier="name" name="Name" type="ezstring">
           <text>Exponential 6.0.15 is here</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2276" ezremote:identifier="url" name="URL" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="768" ezremote:identifier="url" name="URL" type="ezstring">
           <text>/launch</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2277" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="3d104148e6d6d6e02e9272747fd84932" alternative-text="Exponential 6.0.15 is here"/>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2278" ezremote:identifier="image_map" name="Image map" type="eztext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="769" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="77b90662eb3465159ce0a15428ef6a50" alternative-text="Exponential 6.0.15 is here"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="770" ezremote:identifier="image_map" name="Image map" type="eztext">
           <text></text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2279" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="771" ezremote:identifier="tags" name="Tags" type="ezkeyword">
           <keyword-string>launch, release</keyword-string>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2280" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="772" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>Exponential 6.0.15 is here</title>
             <keywords>banner</keywords>
@@ -39,7 +39,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-banners" name="Exponential 6.0.15 is here" node-id="490" remote-id="ezdemo-node-banner-launch" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-banners" name="Exponential 6.0.15 is here" node-id="181" remote-id="ezdemo-node-banner-launch" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

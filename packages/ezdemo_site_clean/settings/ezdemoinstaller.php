@@ -2765,14 +2765,12 @@ class ezdemoInstaller extends eZSiteInstaller
                         'insertmedia.js'
                     ) 
                 )
-/* , 
+,
+                // the kernel's default t02 colour sheets are not part of this design
                 'StylesheetSettings' => array(
                     'SiteCSS' => '',
-                    'ClassesCSS' => '',
-                    'CSSFileList' => array( 
-                    ) 
+                    'ClassesCSS' => ''
                 )
-*/
             ) 
         );
         return $settings;

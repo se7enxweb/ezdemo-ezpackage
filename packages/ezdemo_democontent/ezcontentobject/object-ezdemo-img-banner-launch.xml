@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="472" name="Launch banner" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 03 Nov 2026 15:42:48 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:27 GMT" remote_id="ezdemo-img-banner-launch" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="174" name="Launch banner" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 03 Nov 2026 15:42:48 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:04 GMT" remote_id="ezdemo-img-banner-launch" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:27 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:27 GMT" initial_language="eng-US">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:04 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:04 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Launch banner">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2207" ezremote:identifier="name" name="Name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="750" ezremote:identifier="name" name="Name" type="ezstring">
           <text>Launch banner</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2208" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="751" ezremote:identifier="caption" name="Caption" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>Illustration: Exponential Foundation and 7x, CC0 1.0.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2209" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="6b2b489133533e2951ffd82345cf46c4" alternative-text="A rocket on a night-sky gradient"/>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2210" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="752" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="6054eee5d67f49f31f90b430ade4eff0" alternative-text="A rocket on a night-sky gradient"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="936" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>Launch banner</title>
             <keywords>image</keywords>
@@ -35,7 +35,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-images-illustrations" name="Launch banner" node-id="474" remote-id="ezdemo-node-img-banner-launch" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-images-illustrations" name="Launch banner" node-id="176" remote-id="ezdemo-node-img-banner-launch" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

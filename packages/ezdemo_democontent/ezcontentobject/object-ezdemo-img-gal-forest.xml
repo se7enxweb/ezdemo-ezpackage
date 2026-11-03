@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="485" name="Forest path" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 03 Nov 2026 15:42:49 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:27 GMT" remote_id="ezdemo-img-gal-forest" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="68" name="Forest path" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 03 Nov 2026 15:42:49 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:05 GMT" remote_id="ezdemo-img-gal-forest" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:27 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:27 GMT" initial_language="eng-US">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:05 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:05 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Forest path">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2259" ezremote:identifier="name" name="Name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="222" ezremote:identifier="name" name="Name" type="ezstring">
           <text>Forest path</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2260" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="223" ezremote:identifier="caption" name="Caption" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>A quiet trail in the Jura. Photo: DimiTalen, CC0 1.0, via <link href="https://commons.wikimedia.org/wiki/File:Forest_path_to_Roche_du_Taureau,_Cl%C3%A9ron,_2026.jpg">Wikimedia Commons</link>.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2261" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="5a63101c03703000e316fb1efaad610d" alternative-text="A narrow path through a green forest"/>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2262" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="224" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="07f69eac4be63d4f14ee34ba23e2e6c6" alternative-text="A narrow path through a green forest"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="902" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>Forest path</title>
             <keywords>image</keywords>
@@ -35,7 +35,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-gallery" name="Forest path" node-id="487" remote-id="ezdemo-node-img-gal-forest" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-gallery" name="Forest path" node-id="70" remote-id="ezdemo-node-img-gal-forest" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

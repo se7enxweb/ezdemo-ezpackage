@@ -1,36 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="529" name="History" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="2" ezremote:published="Tue, 03 Nov 2026 15:42:50 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" remote_id="ezdemo-our-history" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="106" name="History" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="2" ezremote:published="Tue, 03 Nov 2026 15:42:50 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:07 GMT" remote_id="ezdemo-our-history" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:29 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" initial_language="eng-US">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:07 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:07 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="History">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2572" ezremote:identifier="title" name="Title" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="472" ezremote:identifier="title" name="Title" type="ezstring">
           <text>Our history</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2573" ezremote:identifier="short_title" name="Short title" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="473" ezremote:identifier="short_title" name="Short title" type="ezstring">
           <text>History</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2574" ezremote:identifier="author" name="Author" type="ezauthor">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="474" ezremote:identifier="author" name="Author" type="ezauthor">
           <ezauthor>
             <authors>
               <author id="0" name="Exponential Foundation" email=""/>
             </authors>
           </ezauthor>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2575" ezremote:identifier="intro" name="Intro" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="475" ezremote:identifier="intro" name="Intro" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>From a small open source project in 1999 to Exponential 6.0.15: a quarter century of content management.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2576" ezremote:identifier="body" name="Body" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="476" ezremote:identifier="body" name="Body" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
-            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">hero-city</paragraph>
+            <paragraph>Exponential has a long history. It began as eZ Publish, an open source content management system first released in 1999. eZ Publish was used by thousands of organizations and grew a large community; its commercial development was discontinued years ago.</paragraph>
+            <paragraph>The community kept the code alive. Under the name Exponential it was brought to modern PHP, given new designs, new security features and a new application server, and released as 6.0.</paragraph>
+            <section>
+              <section>
+                <header>Milestones</header>
+                <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                  <ul>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong>1999</strong>: the first open source release.</paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong>2000s</strong>: content classes, the template language and ezflow landing pages.</paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/"><strong>2020s</strong>: Exponential 6.0 on PHP 8, Velocity, expwt and site packages.</paragraph>
+                    </li>
+                  </ul>
+                </paragraph>
+              </section>
+            </section>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2577" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="477" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
           <value>0</value>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2578" ezremote:identifier="image" name="Image" type="ezobjectrelation"/>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2579" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="478" ezremote:identifier="image" name="Image" type="ezobjectrelation">
+          <related-object-remote-id>ezdemo-img-hero-city</related-object-remote-id>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="878" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>Our history</title>
             <keywords/>
@@ -53,7 +74,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-about" name="History" node-id="531" remote-id="ezdemo-node-our-history" sort-field="path" sort-order="1" priority="30"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-about" name="History" node-id="108" remote-id="ezdemo-node-our-history" sort-field="path" sort-order="1" priority="30"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

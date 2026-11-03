@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="441" name="An open-plan studio" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 03 Nov 2026 15:42:46 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:25 GMT" remote_id="ezdemo-img-hero-team" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="142" name="An open-plan studio" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 03 Nov 2026 15:42:46 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:02 GMT" remote_id="ezdemo-img-hero-team" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:25 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:25 GMT" initial_language="eng-US">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:02 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:02 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="An open-plan studio">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2083" ezremote:identifier="name" name="Name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="652" ezremote:identifier="name" name="Name" type="ezstring">
           <text>An open-plan studio</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2084" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="653" ezremote:identifier="caption" name="Caption" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>Photo: Jadon Barnes xjadonx, CC0 1.0, via <link href="https://commons.wikimedia.org/wiki/File:Lone_office_worker_(Unsplash).jpg">Wikimedia Commons</link>.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2085" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="511fccbaa19817d6f6f54ea4ff672432" alternative-text="A bright industrial office with tall windows"/>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2086" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="654" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="554f92333ac95b9b2c4cf0d207b06aa8" alternative-text="A bright industrial office with tall windows"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="905" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>An open-plan studio</title>
             <keywords>image</keywords>
@@ -35,7 +35,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-images-photos" name="An open-plan studio" node-id="443" remote-id="ezdemo-node-img-hero-team" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-images-photos" name="An open-plan studio" node-id="144" remote-id="ezdemo-node-img-hero-team" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>

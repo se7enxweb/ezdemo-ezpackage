@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="552" name="Source code on GitHub" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="11" ezremote:published="Tue, 03 Nov 2026 15:42:51 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:30 GMT" remote_id="ezdemo-link-github" class_remote_id="74ec6507063150bc813549b22534ad48" ezremote:class_identifier="link" ezremote:always_available="1" initial_language="eng-US">
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="129" name="Source code on GitHub" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="11" ezremote:published="Tue, 03 Nov 2026 15:42:51 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:08 GMT" remote_id="ezdemo-link-github" class_remote_id="74ec6507063150bc813549b22534ad48" ezremote:class_identifier="link" ezremote:always_available="1" initial_language="eng-US">
   <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
-    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:30 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:30 GMT" initial_language="eng-US">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 17:58:08 GMT" ezremote:modified="Tue, 03 Nov 2026 17:58:08 GMT" initial_language="eng-US">
       <ezobject:object-translation language="eng-US" object_name="Source code on GitHub">
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2693" ezremote:identifier="name" name="Name" type="ezstring">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="583" ezremote:identifier="name" name="Name" type="ezstring">
           <text>Source code on GitHub</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2694" ezremote:identifier="description" name="Description" type="ezxmltext">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="584" ezremote:identifier="description" name="Description" type="ezxmltext">
           <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
             <paragraph>The kernel, extensions and designs, developed in the open.</paragraph>
           </section>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2695" ezremote:identifier="location" name="Location" type="ezurl">
-          <url original-url-md5="4033fe97760ef07d04c9203b1a1d44d5" is-valid="1" last-checked="0" created="1793720569" modified="1793720569">https%3A%2F%2Fgithub.com%2Fse7enxweb%2Fexponential</url>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="585" ezremote:identifier="location" name="Location" type="ezurl">
+          <url original-url-md5="4033fe97760ef07d04c9203b1a1d44d5" is-valid="1" last-checked="0" created="1793727337" modified="1793727337">https%3A%2F%2Fgithub.com%2Fse7enxweb%2Fexponential</url>
           <text>Source code on GitHub</text>
         </ezobject:attribute>
-        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2696" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="943" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
           <MetaData>
             <title>Source code on GitHub</title>
             <keywords>links</keywords>
@@ -38,7 +38,7 @@
         </ezobject:attribute>
       </ezobject:object-translation>
       <ezobject:node-assignment-list>
-        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-resources" name="Source code on GitHub" node-id="554" remote-id="ezdemo-node-link-github" sort-field="path" sort-order="1" priority="0"/>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-resources" name="Source code on GitHub" node-id="131" remote-id="ezdemo-node-link-github" sort-field="path" sort-order="1" priority="0"/>
       </ezobject:node-assignment-list>
     </ezobject:version>
   </ezobject:version-list>
