@@ -81,7 +81,7 @@ class ezdemoInstaller extends eZSiteInstaller
         $this->addSetting( 'design_list', eZSiteInstaller::getParam( $parameters, 'design_list', array() ) );
         $this->addSetting( 'main_site_design', strtolower( $this->solutionName() ) );
         $this->addSetting( 'extension_list', array( 
-            'ezwt', 
+            'expwt', 
             'ezstarrating', 
             'ezgmaplocation', 
             'ezautosave', 
@@ -1411,8 +1411,13 @@ class ezdemoInstaller extends eZSiteInstaller
         {
             $this->insertDBFile( 'ezflow_extension', 'ezflow' );
             $this->insertDBFile( 'ezdemo_extension', 'ezdemo', false, true );
-            $this->insertDBFile( 'ezstarrating_extension', 'ezstarrating' );
-            $this->insertDBFile( 'ezgmaplocation_extension', 'ezgmaplocation' );
+            // Composer installs ezstarrating and ezgmaplocation (no package carries them any more): their tables
+            // come from the extension's share/db_schema.dba, created where missing on any database engine.
+            foreach ( array( 'ezstarrating', 'ezgmaplocation' ) as $extensionWithTables )
+            {
+                if ( class_exists( 'expInstallDefaultExtensions' ) )
+                    eZDebug::writeNotice( expInstallDefaultExtensions::ensureExtensionTables( $extensionWithTables, eZExtension::baseDirectory() ), __METHOD__ );
+            }
         }
     }
 
