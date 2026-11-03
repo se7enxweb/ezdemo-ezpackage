@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="57" name="Home" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="22" ezremote:published="Mon, 19 Nov 2007 13:54:46 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:30 GMT" remote_id="8a9c9c761004866fb458d89910f52bee" class_remote_id="e36c458e3e4a81298a0945f53a2c81f4" ezremote:class_identifier="landing_page" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="5">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="5" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:30 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:30 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Home">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2054" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Home</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2055" ezremote:identifier="page" name="Layout" type="ezpage">
+          <page>
+  <zone_layout>2ZonesLayout3</zone_layout>
+  <zone id="id_7edf5fa8b3c72a97e09f2918c05e5d35">
+    <zone_identifier>top</zone_identifier>
+    <block id="id_1c554eac218ecd41723f4e8be92ea281">
+      <name>Welcome</name>
+      <zone_id>7edf5fa8b3c72a97e09f2918c05e5d35</zone_id>
+      <type>MainStory</type>
+      <view>default</view>
+      <overflow_id/>
+    </block>
+  </zone>
+  <zone id="id_26d6bda4d82488dea052de579483e7a1">
+    <zone_identifier>bottom</zone_identifier>
+    <block id="id_282e2c6ee3046ef8d5646e08f3baee66">
+      <name>Why teams choose Exponential</name>
+      <zone_id>26d6bda4d82488dea052de579483e7a1</zone_id>
+      <type>ContentGrid</type>
+      <view>3_columns_2_rows</view>
+      <overflow_id/>
+    </block>
+    <block id="id_29d90c4aeb2aba42bbcaac0b88bf7989">
+      <name>Pages, block by block</name>
+      <zone_id>26d6bda4d82488dea052de579483e7a1</zone_id>
+      <type>HighlightedItem</type>
+      <view>default</view>
+      <overflow_id/>
+    </block>
+    <block id="id_9434896c9d6a676d30e086683cbf419b">
+      <name>Built for your industry</name>
+      <zone_id>26d6bda4d82488dea052de579483e7a1</zone_id>
+      <type>ContentGrid</type>
+      <view>4_columns_1_row</view>
+      <overflow_id/>
+    </block>
+    <block id="id_c3c5f9aa0b0db554c246dfa7897d1a41">
+      <name>From the gallery</name>
+      <zone_id>26d6bda4d82488dea052de579483e7a1</zone_id>
+      <type>Gallery</type>
+      <view>default</view>
+      <overflow_id/>
+    </block>
+    <block id="id_9fc65a3a1e58353f5ed7b6f012b349e9">
+      <name>Latest from the blog</name>
+      <zone_id>26d6bda4d82488dea052de579483e7a1</zone_id>
+      <type>ItemList</type>
+      <view>default</view>
+      <overflow_id/>
+    </block>
+    <block id="id_bf6347cdb825e97cbac9e435018f1bec">
+      <name>Services</name>
+      <zone_id>26d6bda4d82488dea052de579483e7a1</zone_id>
+      <type>ContentGrid</type>
+      <view>3_columns_1_row</view>
+      <overflow_id/>
+    </block>
+    <block id="id_bca47a6da8137e1b58b0eaef12d21393">
+      <name>Have your say</name>
+      <zone_id>26d6bda4d82488dea052de579483e7a1</zone_id>
+      <type>Poll</type>
+      <view>default</view>
+      <overflow_id/>
+      <custom_attributes>
+        <poll_node_id>549</poll_node_id>
+      </custom_attributes>
+    </block>
+    <block id="id_df019b47b18fbf3938a02784751b5ff6">
+      <name>Talk to us</name>
+      <zone_id>26d6bda4d82488dea052de579483e7a1</zone_id>
+      <type>FeedbackForm</type>
+      <view>default</view>
+      <overflow_id/>
+    </block>
+  </zone>
+</page>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2056" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title>Exponential: open source content management</title>
+            <keywords>exponential, cms, open source</keywords>
+            <description>Exponential 6.0.15 demo site: structured content, front-end editing, layouts, multisite and a shop, in one open source platform.</description>
+            <canonical_url/>
+            <priority>0.5</priority>
+            <change>weekly</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+            <license/>
+            <license_holder/>
+            <license_year/>
+            <license_custom_url/>
+            <license_custom_terms/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" name="Home" node-id="2" remote-id="07cdfd23373b17c6b337251c22b7ea57" sort-field="priority" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="481" name="Namib dunes" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 03 Nov 2026 15:42:48 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:27 GMT" remote_id="ezdemo-img-gal-desert" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:27 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:27 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Namib dunes">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2243" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Namib dunes</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2244" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Sossusvlei, some of the tallest dunes on Earth. Photo: Vicartb, CC0 1.0, via <link href="https://commons.wikimedia.org/wiki/File:Sossusvlei_Dunes_Namib.jpg">Wikimedia Commons</link>.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2245" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="994b383bc9db7b48f9014a33234ffcf3" alternative-text="Red sand dunes in the Namib desert under a blue sky"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2246" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title>Namib dunes</title>
+            <keywords>image</keywords>
+            <description>Red sand dunes in the Namib desert under a blue sky</description>
+            <canonical_url/>
+            <priority>0.5</priority>
+            <change>weekly</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+            <license/>
+            <license_holder/>
+            <license_year/>
+            <license_custom_url/>
+            <license_custom_terms/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-gallery" name="Namib dunes" node-id="483" remote-id="ezdemo-node-img-gal-desert" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

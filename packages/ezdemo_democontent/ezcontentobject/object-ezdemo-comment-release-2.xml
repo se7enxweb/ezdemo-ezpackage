@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="519" name="Dark mode" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="13" ezremote:published="Tue, 03 Nov 2026 15:42:50 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" remote_id="ezdemo-comment-release-2" class_remote_id="000c14f4f475e9f2955dedab72799941" ezremote:class_identifier="comment" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:29 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Dark mode">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2501" ezremote:identifier="subject" name="Subject" type="ezstring">
+          <text>Dark mode</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2502" ezremote:identifier="author" name="Author" type="ezstring">
+          <text>Priya</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2503" ezremote:identifier="message" name="Message" type="eztext">
+          <text>Dark mode that follows the system setting, finally. Thank you!</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2504" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title>Dark mode</title>
+            <keywords>comment</keywords>
+            <description>A reader comment</description>
+            <canonical_url/>
+            <priority>0.5</priority>
+            <change>weekly</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+            <license/>
+            <license_holder/>
+            <license_year/>
+            <license_custom_url/>
+            <license_custom_terms/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-exponential-6-0-15-is-here" name="Dark mode" node-id="521" remote-id="ezdemo-node-comment-release-2" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

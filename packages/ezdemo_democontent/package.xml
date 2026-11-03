@@ -3,7 +3,7 @@
     <name>ezdemo_democontent</name>
     <summary></summary>
     <description></description>
-    <vendor>eZ systems</vendor>
+    <vendor>Exponential Foundation and 7x</vendor>
     <type value="contentobject"/>
     <ezpublish>
         <version>5.4.0</version>
@@ -12,62 +12,85 @@
     <maintainers>
         <maintainer>
             <name>Administrator User</name>
-            <email>nospam@ez.no</email>
+            <email>nospam@exponential.earth</email>
             <role>lead</role>
         </maintainer>
     </maintainers>
     <packaging>
         <timestamp>1300109477</timestamp>
-        <host>packages.ez.no</host>
+        <host>packages.exponential.earth</host>
     </packaging>
     <documents>
         <document mime-type="text/plain" name="LICENCE"/>
+        <document mime-type="text/markdown" name="CREDITS.md"/>
     </documents>
     <changelog>
-        <entry timestamp="1300109477" person="Administrator User" email="bk@ez.no" release="1">
+        <entry timestamp="1300109477" person="Administrator User" email="nospam@exponential.earth" release="1">
             <change>Creation of package.</change>
         </entry>
     </changelog>
-    <simple-files>
-      <simple-file key="dcbbca71f9115439cb1a47e9093c4d86" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/automate/1283-5-eng-GB/Automate.jpg" package-path="simplefiles/ba2a2bea.jpg"/>
-      <simple-file key="324db4a22b0841c40e10a153e13f9f77" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/deliver/265-2-eng-GB/Deliver.jpg" package-path="simplefiles/c97d7955.jpg"/>
-      <simple-file key="4daa5223cf84e604df452bbcf77edd44" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/create/277-3-eng-GB/Create.jpg" package-path="simplefiles/92f022f1.jpg"/>
-      <simple-file key="b30c789136efae94eb10e575b887a799" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/optimize/289-3-eng-GB/Optimize.jpg" package-path="simplefiles/bb64019b.jpg"/>
-      <simple-file key="5b71995be15fb77afea60fb3c5305353" original-path="var/ezdemo_site/storage/images/getting-started/selected-features/getting-started-with-ez-publish-5/301-4-eng-GB/Getting-Started-with-eZ-Publish-5.jpg" package-path="simplefiles/1f96ad5f.jpg"/>
-      <simple-file key="58564f4b7283a1af95eebb6c37c6f3a6" original-path="var/ezdemo_site/storage/images/shopping/products/ez-publish-community-iphone-4-case/1367-1-eng-GB/eZ-Publish-Community-iPhone-4-Case.jpg" package-path="simplefiles/94bbf784.jpg"/>
-      <simple-file key="6e4400f4c3a9829c371051c2904d6de2" original-path="var/ezdemo_site/storage/images/shopping/products/ez-publish-samsung-galaxy-siii-case/1378-1-eng-GB/eZ-Publish-Samsung-Galaxy-SIII-Case.jpg" package-path="simplefiles/d1452126.jpg"/>
-      <simple-file key="a728d6d6c96638e0f092698aa68aab92" original-path="var/ezdemo_site/storage/images/shopping/products/ez-publish-community-mug/1389-1-eng-GB/eZ-Publish-Community-Mug.png" package-path="simplefiles/94ba49af.png"/>
-      <simple-file key="33a16d8fd3c6a729a2422a220a4a0b41" original-path="var/ezdemo_site/storage/images/shopping/products/ez-publish-man-jacket/1400-1-eng-GB/eZ-Publish-Man-jacket.jpg" package-path="simplefiles/9f7c6a08.jpg"/>
-      <simple-file key="4aba060e50a2641bdba5539a97a167b0" original-path="var/ezdemo_site/storage/images/shopping/services/support-maintenance/2486-5-eng-GB/Support-Maintenance.jpg" package-path="simplefiles/4ff73fcb.jpg"/>
-      <simple-file key="9a373cdd0838deaf5a855dcc649a82cd" original-path="var/ezdemo_site/storage/images/shopping/services/professional-services/2498-2-eng-GB/Professional-Services.jpg" package-path="simplefiles/d08e25a3.jpg"/>
-      <simple-file key="366fa3244fb4cd170e07218d9920eb9d" original-path="var/ezdemo_site/storage/images/shopping/services/training-services/2510-3-eng-GB/Training-Services.jpg" package-path="simplefiles/138f5201.jpg"/>
-      <simple-file key="d5a4e04e9207c6e82213ffb7be01a1d5" original-path="var/ezdemo_site/storage/images/shopping/services/ez-publish-enterprise-service/451-6-eng-GB/eZ-Publish-Enterprise-Service.jpg" package-path="simplefiles/f6ff91ab.jpg"/>
-      <simple-file key="cfb134a6699adeef34bb96c56265b3c6" original-path="var/ezdemo_site/storage/images/shopping/services/ez-publish-enterprise-service/squares/548-1-eng-GB/squares.png" package-path="simplefiles/a825a4dc.png"/>
-      <simple-file key="c92effff1d66b1073d92b0932b0f133c" original-path="var/ezdemo_site/storage/original/image/e76c8776dccaba21cbfc21f52a02e19f.png" package-path="simplefiles/0e753680.png"/>
-      <simple-file key="282c5b7862371e3651a20204422cc4ac" original-path="var/ezdemo_site/storage/original/image/5abdfbefae47de9dca63bc43e3a23ff4.png" package-path="simplefiles/0508ba70.png"/>
-      <simple-file key="05171a31d40a40d9d3d084befbfb8fdd" original-path="var/ezdemo_site/storage/original/application/63cd472dd7819da7b75e8e2fee507c68.pdf" package-path="simplefiles/530ddbca.pdf"/>
-      <simple-file key="1127499c0508f13c7149661768389db2" original-path="var/ezdemo_site/storage/images/media/images/screen-shot-2013-01-31-at-8.17.26-pm/1297-1-eng-GB/Screen-Shot-2013-01-31-at-8.17.26-PM.png" package-path="simplefiles/07cad76d.png"/>
-      <simple-file key="6479c23df792b75664100b579c86c03e" original-path="var/ezdemo_site/storage/images/media/images/funel2/1413-1-eng-GB/funel.png" package-path="simplefiles/1e653715.png"/>
-      <simple-file key="e287e065f2289fab8979f479a017426f" original-path="var/ezdemo_site/storage/images/about/the-mountains-of-ez/mount-matterhorn/1523-1-eng-GB/mount-matterhorn.jpg" package-path="simplefiles/3963f0b6.jpg"/>
-      <simple-file key="c519455777f8e3d70eb9e305f41139ec" original-path="var/ezdemo_site/storage/images/about/the-mountains-of-ez/mount-annapurna/1528-1-eng-GB/mount-annapurna.jpg" package-path="simplefiles/38d686e0.jpg"/>
-      <simple-file key="e0275413e3a896b6587c3fcab1ad932e" original-path="var/ezdemo_site/storage/images/about/the-mountains-of-ez/mount-stetind/1533-1-eng-GB/mount-stetind.jpg" package-path="simplefiles/05d34e35.jpg"/>
-      <simple-file key="e4222d7656e76e5c6a398128df826d3e" original-path="var/ezdemo_site/storage/images/about/the-mountains-of-ez/mount-ventoux/1538-1-eng-GB/mount-ventoux.jpg" package-path="simplefiles/2323304e.jpg"/>
-      <simple-file key="2e41bd01e9c8d23aba9d31a52413fd54" original-path="var/ezdemo_site/storage/images/about/the-mountains-of-ez/mount-kilimanjaro/1543-1-eng-GB/mount-kilimanjaro.jpg" package-path="simplefiles/b970cf62.jpg"/>
-      <simple-file key="21ab248afb36298bc2356b83069fb1ea" original-path="var/ezdemo_site/storage/images/about/the-mountains-of-ez/mount-etna/1548-1-eng-GB/mount-etna.jpg" package-path="simplefiles/e08a9864.jpg"/>
-      <simple-file key="7256dbd01f723a86d0f4f081656d7ca2" original-path="var/ezdemo_site/storage/images/about/the-mountains-of-ez/mount-fuji/1558-1-eng-GB/mount-fuji.jpg" package-path="simplefiles/58504932.jpg"/>
-      <simple-file key="f978c52678bc8ca8b1043c838d005adf" original-path="var/ezdemo_site/storage/images/about/the-mountains-of-ez/mount-aconcagua/1563-1-eng-GB/mount-aconcagua.jpg" package-path="simplefiles/8d6f1f98.jpg"/>
-      <simple-file key="0121cb57124840749b68a8da7de79716" original-path="var/ezdemo_site/storage/original/video/cbca3a8812784f3989158d295cc0c016.mp4" package-path="simplefiles/ed958bed.mp4"/>
-      <simple-file key="acb69750298ff73d6e5726c04c60e22b" original-path="var/ezdemo_site/storage/images/ez-mountains/mount-fuji/632-2-eng-GB/Mount-Fuji.jpg" package-path="simplefiles/d5c11bd1.jpg"/>
-      <simple-file key="0e54bdfbe8c4d5b4a539a87afeca0dbb" original-path="var/ezdemo_site/storage/images/ez-mountains/mount-matterhorn/638-2-eng-GB/Mount-Matterhorn.jpg" package-path="simplefiles/7df85099.jpg"/>
-      <simple-file key="114b45da7bd17da85121e6f06ef64f74" original-path="var/ezdemo_site/storage/images/ez-mountains/mount-annapurna/644-2-eng-GB/Mount-Annapurna.jpg" package-path="simplefiles/553bfea2.jpg"/>
-      <simple-file key="3ad8ff8e32b9b1040e70239fc3f2b633" original-path="var/ezdemo_site/storage/images/ez-mountains/mount-etna/650-3-eng-GB/Mount-Etna.jpg" package-path="simplefiles/f5aab896.jpg"/>
-      <simple-file key="3cd9223e45e7414f0422ac7632afcdb2" original-path="var/ezdemo_site/storage/images/ez-mountains/mount-kilimanjaro/656-2-eng-GB/Mount-Kilimanjaro.jpg" package-path="simplefiles/944650b0.jpg"/>
-      <simple-file key="968c543d732a626d01e3e393971bb531" original-path="var/ezdemo_site/storage/images/ez-mountains/mount-stadda/662-2-eng-GB/Mount-Stadda.jpg" package-path="simplefiles/4418140f.jpg"/>
-      <simple-file key="c1d90a5b7f607a660972bdc8b01b555a" original-path="var/ezdemo_site/storage/images/ez-mountains/mount-aconcagua/668-2-eng-GB/Mount-Aconcagua.jpg" package-path="simplefiles/08cbe9b8.jpg"/>
-      <simple-file key="f1758fd41ac3aff654b6db0fabb66086" original-path="var/ezdemo_site/storage/images/ez-mountains/mount-ventoux/674-2-eng-GB/Mount-Ventoux.jpg" package-path="simplefiles/f2744337.jpg"/>
-      <simple-file key="6da278a0502e9516147b978fb44eefdc" original-path="var/ezdemo_site/storage/images/ez-mountains/mount-castor/640-1-eng-GB/Mount-Castor.jpg" package-path="simplefiles/45b6205e.jpg"/>
-      <simple-file key="b51bed037d13f4a66c1a7d63aa9bdeb3" original-path="var/ezdemo_site/storage/images/media/images/mount-castor/646-1-eng-GB/mount-Castor.jpg" package-path="simplefiles/af41107b.jpg"/>
-    </simple-files>
+  <simple-files>
+    <simple-file key="842bc7d5235f6c69289a9776210c6356" original-path="var/site/storage/images/gallery/mirror-lake/2225-2-eng-US/mirror-lake.jpg" package-path="simplefiles/cd09f7d8.jpg"/>
+    <simple-file key="c0a1e307e8fc66d741e045b09343c802" original-path="var/site/storage/images/gallery/geirangerfjord/2229-2-eng-US/geirangerfjord.jpg" package-path="simplefiles/27cd4073.jpg"/>
+    <simple-file key="0fa359a3e517482465923a36e75f082e" original-path="var/site/storage/images/gallery/northern-lights/2233-2-eng-US/northern-lights.jpg" package-path="simplefiles/7111371c.jpg"/>
+    <simple-file key="7353b608d1bb8017b15d2836ab10a689" original-path="var/site/storage/images/gallery/grand-canyon/2237-2-eng-US/grand-canyon.jpg" package-path="simplefiles/7d2d36c3.jpg"/>
+    <simple-file key="a6d9bb78198c704078570124f60feceb" original-path="var/site/storage/images/gallery/coastal-arch/2241-2-eng-US/coastal-arch.jpg" package-path="simplefiles/8c04d71d.jpg"/>
+    <simple-file key="994b383bc9db7b48f9014a33234ffcf3" original-path="var/site/storage/images/gallery/namib-dunes/2245-2-eng-US/namib-dunes.jpg" package-path="simplefiles/f0972360.jpg"/>
+    <simple-file key="938fe2ac54daa9a400d318c810cb307d" original-path="var/site/storage/images/gallery/glacier/2249-2-eng-US/glacier.jpg" package-path="simplefiles/f9e0ee17.jpg"/>
+    <simple-file key="eaa8cebbe7a64291a8f74c090103e17a" original-path="var/site/storage/images/gallery/golden-meadow/2253-2-eng-US/golden-meadow.jpg" package-path="simplefiles/2c2d6586.jpg"/>
+    <simple-file key="289eaf62887abc0f4efe073041ec45bc" original-path="var/site/storage/images/gallery/montmorency-falls/2257-2-eng-US/montmorency-falls.jpg" package-path="simplefiles/82febf06.jpg"/>
+    <simple-file key="5a63101c03703000e316fb1efaad610d" original-path="var/site/storage/images/gallery/forest-path/2261-2-eng-US/forest-path.jpg" package-path="simplefiles/f3fb6b5e.jpg"/>
+    <simple-file key="acb607e0c98b28e733d8b3987615f23a" original-path="var/site/storage/images/services/standard-support/2413-2-eng-US/standard-support.jpg" package-path="simplefiles/0fca4427.jpg"/>
+    <simple-file key="ad1697d03703ff963ea6868460351b10" original-path="var/site/storage/images/services/premium-support/2424-2-eng-US/premium-support.jpg" package-path="simplefiles/132ed053.jpg"/>
+    <simple-file key="57693f5313ddb3d79e74e268190643f1" original-path="var/site/storage/images/services/velocity-hosting/2435-2-eng-US/velocity-hosting.jpg" package-path="simplefiles/5cca817a.jpg"/>
+    <simple-file key="8c0bafe17b30a5e17e395292d06755b8" original-path="var/site/storage/images/services/migration-workshop/2446-2-eng-US/migration-workshop.jpg" package-path="simplefiles/069e0c71.jpg"/>
+    <simple-file key="10744930c0352f489d90b564a4ed5a4d" original-path="var/site/storage/images/services/theme-design-package/2457-2-eng-US/theme-design-package.jpg" package-path="simplefiles/ec2bb950.jpg"/>
+    <simple-file key="8cf1c01a5f4e49ffc09b05c567aeaa05" original-path="var/site/storage/images/about/community-hubs/seattle/2586-2-eng-US/seattle.jpg" package-path="simplefiles/e73abeee.jpg"/>
+    <simple-file key="33c391bf04a3e07061887c4b35116423" original-path="var/site/storage/images/about/community-hubs/oslo/2593-2-eng-US/oslo.jpg" package-path="simplefiles/ca5edde4.jpg"/>
+    <simple-file key="d140b22bb7e0b3c7cbd1c125e0eaa68e" original-path="var/site/storage/images/about/community-hubs/berlin/2600-2-eng-US/berlin.jpg" package-path="simplefiles/d2be685e.jpg"/>
+    <simple-file key="051e8dffa6748dc71b100d82e7730c1d" original-path="var/site/storage/images/about/community-hubs/singapore/2607-2-eng-US/singapore.jpg" package-path="simplefiles/3698ed12.jpg"/>
+    <simple-file key="4785b5175589adbd2c34c937764d3fc3" original-path="var/site/storage/images/partner-portal/exponential-brand-mark/2753-2-eng-US/exponential-brand-mark.jpg" package-path="simplefiles/5a9e49f3.jpg"/>
+    <simple-file key="28bf9c4b484161166ee0e8337aa2a75a" original-path="var/site/storage/images/media/images/photography/a-focused-workspace/2081-2-eng-US/a-focused-workspace.jpg" package-path="simplefiles/f3ea2b3e.jpg"/>
+    <simple-file key="511fccbaa19817d6f6f54ea4ff672432" original-path="var/site/storage/images/media/images/photography/an-open-plan-studio/2085-2-eng-US/an-open-plan-studio.jpg" package-path="simplefiles/fa250e1a.jpg"/>
+    <simple-file key="7dc739b416bf39e2e7b7a22a16748f70" original-path="var/site/storage/images/media/images/photography/a-city-that-never-sleeps/2089-2-eng-US/a-city-that-never-sleeps.jpg" package-path="simplefiles/c9714de0.jpg"/>
+    <simple-file key="0cf2bf729f2e9af550b0a63a8b83db10" original-path="var/site/storage/images/media/images/photography/structured-content/2093-2-eng-US/structured-content.jpg" package-path="simplefiles/860d7cc9.jpg"/>
+    <simple-file key="0777bc68898a0a496bb02f8c50091e2b" original-path="var/site/storage/images/media/images/photography/edit-where-you-read/2097-2-eng-US/edit-where-you-read.jpg" package-path="simplefiles/6f0b7957.jpg"/>
+    <simple-file key="8ac2e036de149b8abf7fc832cfde8c7b" original-path="var/site/storage/images/media/images/photography/built-for-every-market/2101-2-eng-US/built-for-every-market.jpg" package-path="simplefiles/c6654bcd.jpg"/>
+    <simple-file key="6435861a43cf69a745e7441ccc0182d0" original-path="var/site/storage/images/media/images/photography/composed-by-blocks/2105-2-eng-US/composed-by-blocks.jpg" package-path="simplefiles/43e1b7aa.jpg"/>
+    <simple-file key="0a1439cd10621b28e4a8425ed325e696" original-path="var/site/storage/images/media/images/photography/speed-by-design/2109-2-eng-US/speed-by-design.jpg" package-path="simplefiles/c132c261.jpg"/>
+    <simple-file key="f453cfd513e7fa27ee8473d3e11aa14b" original-path="var/site/storage/images/media/images/photography/secure-by-default/2113-2-eng-US/secure-by-default.jpg" package-path="simplefiles/dbcd6317.jpg"/>
+    <simple-file key="0a36eb085268eb89666081158097d00e" original-path="var/site/storage/images/media/images/photography/news-and-media/2117-2-eng-US/news-and-media.jpg" package-path="simplefiles/590a4a51.jpg"/>
+    <simple-file key="a1c9abd0ca2a60c1817bb272021f3673" original-path="var/site/storage/images/media/images/photography/public-sector/2121-2-eng-US/public-sector.jpg" package-path="simplefiles/b3da2a11.jpg"/>
+    <simple-file key="3fea9b15413bfc04b14d4ddda27d5962" original-path="var/site/storage/images/media/images/photography/commerce/2125-2-eng-US/commerce.jpg" package-path="simplefiles/d1f391ed.jpg"/>
+    <simple-file key="489971ac458c60645fa8d4240e898ac8" original-path="var/site/storage/images/media/images/photography/education/2129-2-eng-US/education.jpg" package-path="simplefiles/69280edf.jpg"/>
+    <simple-file key="46e7b99da5c75765927def8cdb40c97a" original-path="var/site/storage/images/media/images/photography/a-new-day/2133-2-eng-US/a-new-day.jpg" package-path="simplefiles/5ed9d1ce.jpg"/>
+    <simple-file key="77b9a7e6d0e109273feec6d157e20d97" original-path="var/site/storage/images/media/images/photography/hands-at-work/2137-2-eng-US/hands-at-work.jpg" package-path="simplefiles/fbc0fada.jpg"/>
+    <simple-file key="a1cd4bc6b16af808f37d43eefbc2fc47" original-path="var/site/storage/images/media/images/photography/city-at-night/2141-2-eng-US/city-at-night.jpg" package-path="simplefiles/fc0e2536.jpg"/>
+    <simple-file key="c29e1e3130195be826255593ae0b6bb5" original-path="var/site/storage/images/media/images/photography/keys/2145-2-eng-US/keys.jpg" package-path="simplefiles/b66693c5.jpg"/>
+    <simple-file key="ea6eee08677c04ed93769d7b7aad027d" original-path="var/site/storage/images/media/images/photography/color/2149-2-eng-US/color.jpg" package-path="simplefiles/ba3beb44.jpg"/>
+    <simple-file key="b6c70005461e08206ebcecdeb641ca09" original-path="var/site/storage/images/media/images/photography/bridges/2153-2-eng-US/bridges.jpg" package-path="simplefiles/e1459835.jpg"/>
+    <simple-file key="18d0dee63d27991723ba323bf3134a10" original-path="var/site/storage/images/media/images/photography/the-main-hall/2157-2-eng-US/the-main-hall.jpg" package-path="simplefiles/cc6e494a.jpg"/>
+    <simple-file key="576f54ebc93da3dbe3bd7398838a39a5" original-path="var/site/storage/images/media/images/photography/workshop-wall/2161-2-eng-US/workshop-wall.jpg" package-path="simplefiles/3626a782.jpg"/>
+    <simple-file key="b76c17ce68380ae9f692c21f58bc576d" original-path="var/site/storage/images/media/images/photography/seattle/2165-2-eng-US/seattle.jpg" package-path="simplefiles/2dcd5dd5.jpg"/>
+    <simple-file key="5c33c1e03038f5f3c42da75cd4f98e8e" original-path="var/site/storage/images/media/images/photography/berlin/2169-2-eng-US/berlin.jpg" package-path="simplefiles/6fc12075.jpg"/>
+    <simple-file key="2b07b0f1b3172a1a97ab3ff8a1f0080a" original-path="var/site/storage/images/media/images/photography/oslo/2173-2-eng-US/oslo.jpg" package-path="simplefiles/3670c974.jpg"/>
+    <simple-file key="2057b6c205d6ff83ef6e2cc80e505edf" original-path="var/site/storage/images/media/images/photography/singapore/2177-2-eng-US/singapore.jpg" package-path="simplefiles/e41781ce.jpg"/>
+    <simple-file key="ef23b1b44c555f87ea67e8d33cc6b530" original-path="var/site/storage/images/media/images/photography/where-we-work/2181-2-eng-US/where-we-work.jpg" package-path="simplefiles/6b0a8263.jpg"/>
+    <simple-file key="a7187c7283c0d0a3f8242d66c267b972" original-path="var/site/storage/images/media/images/photography/a-guiding-light/2185-2-eng-US/a-guiding-light.jpg" package-path="simplefiles/2fc18970.jpg"/>
+    <simple-file key="9d122fe72e1994481a7f902a54625593" original-path="var/site/storage/images/media/images/illustrations/standard-support/2189-2-eng-US/standard-support.jpg" package-path="simplefiles/f230eda8.jpg"/>
+    <simple-file key="e6115595d66ab76cdd5d4547427e2468" original-path="var/site/storage/images/media/images/illustrations/premium-support/2193-2-eng-US/premium-support.jpg" package-path="simplefiles/27013fa5.jpg"/>
+    <simple-file key="455eb5b7711a9c5c1cf363fb2b6915e7" original-path="var/site/storage/images/media/images/illustrations/velocity-hosting/2197-2-eng-US/velocity-hosting.jpg" package-path="simplefiles/9b02d12b.jpg"/>
+    <simple-file key="5f1ceaa7ee8575e6de4fc86a7b3e199d" original-path="var/site/storage/images/media/images/illustrations/migration-workshop/2201-2-eng-US/migration-workshop.jpg" package-path="simplefiles/ad82222f.jpg"/>
+    <simple-file key="aad329fdcde3ce068aa2829a5188c670" original-path="var/site/storage/images/media/images/illustrations/theme-design-package/2205-2-eng-US/theme-design-package.jpg" package-path="simplefiles/947ded96.jpg"/>
+    <simple-file key="6b2b489133533e2951ffd82345cf46c4" original-path="var/site/storage/images/media/images/illustrations/launch-banner/2209-2-eng-US/launch-banner.jpg" package-path="simplefiles/93f705d2.jpg"/>
+    <simple-file key="ddc36cb9096498dff00f9120a962b187" original-path="var/site/storage/images/media/images/illustrations/layouts-banner/2213-2-eng-US/layouts-banner.jpg" package-path="simplefiles/d1743a99.jpg"/>
+    <simple-file key="63d8f1a0d9bd25249683530892a2c973" original-path="var/site/storage/images/media/images/illustrations/community-banner/2217-2-eng-US/community-banner.jpg" package-path="simplefiles/16e1ff13.jpg"/>
+    <simple-file key="fbcf5d16d5475156ab52d20af90838dd" original-path="var/site/storage/images/media/images/illustrations/exponential-mark/2221-2-eng-US/exponential-mark.jpg" package-path="simplefiles/6d9b68cf.jpg"/>
+    <simple-file key="3d104148e6d6d6e02e9272747fd84932" original-path="var/site/storage/images/media/banners/exponential-6.0.15-is-here/2277-2-eng-US/exponential-6.0.15-is-here.jpg" package-path="simplefiles/feb33b5b.jpg"/>
+    <simple-file key="f8bfb5a1db720938be890067c23fa8b0" original-path="var/site/storage/images/media/banners/pages-block-by-block/2283-2-eng-US/pages-block-by-block.jpg" package-path="simplefiles/b9ca081e.jpg"/>
+    <simple-file key="3c351f3211085a2c7808c0fd8cd5cfdb" original-path="var/site/storage/images/media/banners/built-in-the-open/2289-2-eng-US/built-in-the-open.jpg" package-path="simplefiles/4ab5fd26.jpg"/>
+    <simple-file key="8b3c865725bb960d1672e5e8432db833" original-path="var/site/storage/original/application/22526a5f70486c9dc6b1fb0d366f1642.pdf" package-path="simplefiles/179c2d47.pdf"/>
+  </simple-files>
     <version>
         <number>5.4</number>
         <release>0</release>

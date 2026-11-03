@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="547" name="What will you build first?" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="24" ezremote:published="Tue, 03 Nov 2026 15:42:51 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:30 GMT" remote_id="ezdemo-poll-what-will-you-build" class_remote_id="232937a3a2eacbbf24e2601aebe16522" ezremote:class_identifier="poll" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:30 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:30 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="What will you build first?">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2669" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>What will you build first?</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2670" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Tell us what you plan to build with Exponential 6.0.15.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2671" ezremote:identifier="question" name="Question" type="ezoption">
+          <ezoption>
+            <name><![CDATA[What will you build first?]]></name>
+            <options>
+              <option id="0" additional_price="0"><![CDATA[A company website]]></option>
+              <option id="1" additional_price="0"><![CDATA[A news or magazine site]]></option>
+              <option id="2" additional_price="0"><![CDATA[An intranet]]></option>
+              <option id="3" additional_price="0"><![CDATA[An online shop]]></option>
+              <option id="4" additional_price="0"><![CDATA[Something else]]></option>
+            </options>
+          </ezoption>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2672" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title>What will you build first?</title>
+            <keywords>poll</keywords>
+            <description>A community poll</description>
+            <canonical_url/>
+            <priority>0.5</priority>
+            <change>weekly</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+            <license/>
+            <license_holder/>
+            <license_year/>
+            <license_custom_url/>
+            <license_custom_terms/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-community" name="What will you build first?" node-id="549" remote-id="ezdemo-node-poll-what-will-you-build" sort-field="path" sort-order="1" priority="30"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

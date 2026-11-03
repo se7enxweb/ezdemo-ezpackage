@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="515" name="Passkeys and two-factor sign-in" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="17" ezremote:published="Thu, 08 Oct 2026 08:15:00 GMT" ezremote:modified="Thu, 08 Oct 2026 08:15:00 GMT" remote_id="ezdemo-passkeys-and-two-factor-sign-in" class_remote_id="7ecb961056b7cbb30f22a91357e0a007" ezremote:class_identifier="blog_post" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:28 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:28 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Passkeys and two-factor sign-in">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2482" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Passkeys and two-factor sign-in</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2483" ezremote:identifier="body" name="Body" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+              <embed size="original" view="embed" align="center" object_remote_id="ezdemo-img-blog-passkeys"/>
+            </paragraph>
+            <paragraph>Passwords alone are no longer enough. Exponential 6.0.15 lets every user sign in with a passkey stored on their phone or computer, or add a one-time code from an authenticator app.</paragraph>
+            <section>
+              <section>
+                <header>Verify it's you</header>
+                <paragraph>Before a sensitive change, such as a new password or email address, Exponential asks the user to confirm who they are again. A stolen session alone can no longer take over an account.</paragraph>
+              </section>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2484" ezremote:identifier="publication_date" name="Publication date" type="ezdatetime">
+          <date_time>Thu, 08 Oct 2026 08:15:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2485" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string>security, passkeys</keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2486" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title>Passkeys and two-factor sign-in</title>
+            <keywords>security, passkeys</keywords>
+            <description>Passwords alone are no longer enough. Exponential 6.0.15 lets every user sign in with a passkey stored on their phone or computer, or add a one-time code from an authenticator app.</description>
+            <canonical_url/>
+            <priority>0.5</priority>
+            <change>weekly</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+            <license/>
+            <license_holder/>
+            <license_year/>
+            <license_custom_url/>
+            <license_custom_terms/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-blog" name="Passkeys and two-factor sign-in" node-id="517" remote-id="ezdemo-node-passkeys-and-two-factor-sign-in" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

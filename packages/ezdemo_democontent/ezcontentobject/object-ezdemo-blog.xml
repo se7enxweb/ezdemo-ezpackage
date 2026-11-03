@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="511" name="Blog" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="16" ezremote:published="Tue, 03 Nov 2026 15:42:50 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:28 GMT" remote_id="ezdemo-blog" class_remote_id="3a6f9c1f075b3bf49d7345576b196fe8" ezremote:class_identifier="blog" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:28 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:28 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Blog">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2463" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Blog</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2464" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Release notes, how-tos and stories from the people who build Exponential.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2465" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string>blog</keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2466" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title>Blog</title>
+            <keywords>blog</keywords>
+            <description>Release notes, how-tos and stories from the Exponential team</description>
+            <canonical_url/>
+            <priority>0.5</priority>
+            <change>weekly</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+            <license/>
+            <license_holder/>
+            <license_year/>
+            <license_custom_url/>
+            <license_custom_terms/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="f3e90596361e31d496d4026eb624c983" name="Blog" node-id="513" remote-id="ezdemo-node-blog" sort-field="published" sort-order="0" priority="40"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

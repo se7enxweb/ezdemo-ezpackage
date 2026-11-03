@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="500" name="Solutions" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="22" ezremote:published="Tue, 03 Nov 2026 15:42:49 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:30 GMT" remote_id="ezdemo-solutions" class_remote_id="e36c458e3e4a81298a0945f53a2c81f4" ezremote:class_identifier="landing_page" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="4">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="4" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:30 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:30 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Solutions">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2365" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Solutions</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2366" ezremote:identifier="page" name="Layout" type="ezpage">
+          <page>
+  <zone_layout>2ZonesLayout3</zone_layout>
+  <zone id="id_7619e9819370ee1213abdc9f4bc39cd8">
+    <zone_identifier>top</zone_identifier>
+    <block id="id_f80ec182287b50a8b0b1d600e94a98be">
+      <name>Solutions</name>
+      <zone_id>7619e9819370ee1213abdc9f4bc39cd8</zone_id>
+      <type>Campaign</type>
+      <view>default</view>
+      <overflow_id/>
+    </block>
+  </zone>
+  <zone id="id_1e23c118e7998d4137941b0110900775">
+    <zone_identifier>bottom</zone_identifier>
+    <block id="id_c1d9bb97577c33ae3f84814dc8bf52bd">
+      <name>Industries</name>
+      <zone_id>1e23c118e7998d4137941b0110900775</zone_id>
+      <type>ContentGrid</type>
+      <view>2_columns_2_rows</view>
+      <overflow_id/>
+    </block>
+    <block id="id_3f89ba0eb91b9029f5ed800597a887d9">
+      <name>Topics</name>
+      <zone_id>1e23c118e7998d4137941b0110900775</zone_id>
+      <type>TagCloud</type>
+      <view>default</view>
+      <overflow_id/>
+      <custom_attributes>
+        <subtree_node_id>2</subtree_node_id>
+      </custom_attributes>
+    </block>
+  </zone>
+</page>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2367" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title>Solutions</title>
+            <keywords>solutions</keywords>
+            <description>How publishers, governments, retailers and schools use Exponential</description>
+            <canonical_url/>
+            <priority>0.5</priority>
+            <change>weekly</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+            <license/>
+            <license_holder/>
+            <license_year/>
+            <license_custom_url/>
+            <license_custom_terms/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="f3e90596361e31d496d4026eb624c983" name="Solutions" node-id="502" remote-id="ezdemo-node-solutions" sort-field="path" sort-order="1" priority="20"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

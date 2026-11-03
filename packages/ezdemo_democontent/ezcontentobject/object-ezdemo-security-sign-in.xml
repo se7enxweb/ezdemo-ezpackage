@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="498" name="Security" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="2" ezremote:published="Tue, 03 Nov 2026 15:42:49 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:28 GMT" remote_id="ezdemo-security-sign-in" class_remote_id="c15b600eb9198b1924063b5a68758232" ezremote:class_identifier="article" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:28 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:28 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Security">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2349" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Security and sign-in</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2350" ezremote:identifier="short_title" name="Short title" type="ezstring">
+          <text>Security</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2351" ezremote:identifier="author" name="Author" type="ezauthor">
+          <ezauthor>
+            <authors>
+              <author id="0" name="Exponential Foundation" email=""/>
+            </authors>
+          </ezauthor>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2352" ezremote:identifier="intro" name="Intro" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Two-factor sign-in, passkeys, a Content Security Policy that blocks injected scripts and a "verify it's you" step for sensitive changes.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2353" ezremote:identifier="body" name="Body" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <section>
+              <section>
+                <header>Accounts that stay yours</header>
+                <paragraph>Exponential 6.0.15 supports passkeys and time-based one-time passwords for every account, and asks editors to verify it's them again before they change a password, an email address or a security setting.</paragraph>
+              </section>
+              <section>
+                <header>Defense in depth</header>
+                <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                  <ul>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Designs that run under a strict Content Security Policy: no inline scripts or styles.</paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Form tokens on every form that changes data.</paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Roles and policies that limit each user to exactly what they need.</paragraph>
+                    </li>
+                  </ul>
+                </paragraph>
+              </section>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2354" ezremote:identifier="enable_comments" name="Enable comments" type="ezboolean">
+          <value>0</value>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2355" ezremote:identifier="image" name="Image" type="ezobjectrelation">
+          <related-object-remote-id>ezdemo-img-feat-security</related-object-remote-id>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2356" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title>Security and sign-in</title>
+            <keywords>platform, security</keywords>
+            <description>Two-factor sign-in, passkeys, a Content Security Policy that blocks injected scripts and a "verify it's you" step for sensitive changes.</description>
+            <canonical_url/>
+            <priority>0.5</priority>
+            <change>weekly</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+            <license/>
+            <license_holder/>
+            <license_year/>
+            <license_custom_url/>
+            <license_custom_terms/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-platform" name="Security" node-id="500" remote-id="ezdemo-node-security-sign-in" sort-field="path" sort-order="1" priority="70"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

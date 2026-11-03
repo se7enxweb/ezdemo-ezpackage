@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="448" name="Secure by default" ezremote:section_id="3" ezremote:owner_id="14" ezremote:class_id="5" ezremote:published="Tue, 03 Nov 2026 15:42:47 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:25 GMT" remote_id="ezdemo-img-feat-security" class_remote_id="f6df12aa74e36230eb675f364fccd25a" ezremote:class_identifier="image" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:25 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:25 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Secure by default">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2111" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Secure by default</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2112" ezremote:identifier="caption" name="Caption" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Photo: Jebulon, CC0 1.0, via <link href="https://commons.wikimedia.org/wiki/File:Love_padlocks_Paris_pont_archev%C3%AAch%C3%A9.jpg">Wikimedia Commons</link>.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2113" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="f453cfd513e7fa27ee8473d3e11aa14b" alternative-text="Hundreds of padlocks on a bridge railing"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2114" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title>Secure by default</title>
+            <keywords>image</keywords>
+            <description>Hundreds of padlocks on a bridge railing</description>
+            <canonical_url/>
+            <priority>0.5</priority>
+            <change>weekly</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+            <license/>
+            <license_holder/>
+            <license_year/>
+            <license_custom_url/>
+            <license_custom_terms/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-images-photos" name="Secure by default" node-id="450" remote-id="ezdemo-node-img-feat-security" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

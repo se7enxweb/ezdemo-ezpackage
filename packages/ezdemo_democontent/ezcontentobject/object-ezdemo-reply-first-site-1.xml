@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="539" name="Re: Which site package should I start with?" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="28" ezremote:published="Tue, 03 Nov 2026 15:42:51 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" remote_id="ezdemo-reply-first-site-1" class_remote_id="80ee42a66b2b8b6ee15f5c5f4b361562" ezremote:class_identifier="forum_reply" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:29 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Re: Which site package should I start with?">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2631" ezremote:identifier="subject" name="Subject" type="ezstring">
+          <text>Re: Which site package should I start with?</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2632" ezremote:identifier="message" name="Message" type="eztext">
+          <text>This demo site is a good start: it has landing pages, a blog, a gallery, events and a shop. Install it, look around, then remove what you do not need.</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2633" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title>Reply</title>
+            <keywords>forum</keywords>
+            <description>A forum reply</description>
+            <canonical_url/>
+            <priority>0.5</priority>
+            <change>weekly</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+            <license/>
+            <license_holder/>
+            <license_year/>
+            <license_custom_url/>
+            <license_custom_terms/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-topic-first-site" name="Re: Which site package should I start with?" node-id="541" remote-id="ezdemo-node-reply-first-site-1" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

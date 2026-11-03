@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="531" name="Seattle" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="34" ezremote:published="Tue, 03 Nov 2026 15:42:50 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" remote_id="ezdemo-hub-seattle" class_remote_id="861f02510226434178f3859242fe40d7" ezremote:class_identifier="place" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:29 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Seattle">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2584" ezremote:identifier="name" name="Name" type="ezstring">
+          <text>Seattle</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2585" ezremote:identifier="description" name="Description" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>A monthly meetup for developers and editors in the Pacific Northwest.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2586" ezremote:identifier="image" name="Image" type="ezimage" image-file-key="8cf1c01a5f4e49ffc09b05c567aeaa05" alternative-text="Seattle"/>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2587" ezremote:identifier="location" name="Location" type="ezgmaplocation" ezgl_has_content="1">
+          <latitude>47.6062</latitude>
+          <longitude>-122.3321</longitude>
+          <address>Seattle, Washington, United States</address>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2588" ezremote:identifier="keyword" name="Keyword" type="ezkeyword">
+          <keyword-string>community, seattle</keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2589" ezremote:identifier="rating" name="Rating" type="ezsrrating">
+          <data-int></data-int>
+          <data-float>0</data-float>
+          <data-text></data-text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2590" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title>Seattle</title>
+            <keywords>community</keywords>
+            <description>A monthly meetup for developers and editors in the Pacific Northwest.</description>
+            <canonical_url/>
+            <priority>0.5</priority>
+            <change>weekly</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+            <license/>
+            <license_holder/>
+            <license_year/>
+            <license_custom_url/>
+            <license_custom_terms/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-community-hubs" name="Seattle" node-id="533" remote-id="ezdemo-node-hub-seattle" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

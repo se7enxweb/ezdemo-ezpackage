@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="514" name="Velocity, a PHP application server" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="17" ezremote:published="Mon, 19 Oct 2026 14:00:00 GMT" ezremote:modified="Mon, 19 Oct 2026 14:00:00 GMT" remote_id="ezdemo-velocity-a-php-application-server" class_remote_id="7ecb961056b7cbb30f22a91357e0a007" ezremote:class_identifier="blog_post" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:28 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:28 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Velocity, a PHP application server">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2477" ezremote:identifier="title" name="Title" type="ezstring">
+          <text>Velocity, a PHP application server</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2478" ezremote:identifier="body" name="Body" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+              <embed size="original" view="embed" align="center" object_remote_id="ezdemo-img-blog-velocity"/>
+            </paragraph>
+            <paragraph>Most PHP applications start from scratch on every request. Velocity starts Exponential once, keeps it warm in memory and hands each request to a worker that is ready to go.</paragraph>
+            <section>
+              <section>
+                <header>What changes for you</header>
+                <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">
+                  <ul>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Pages render faster, especially the first byte.</paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">The server is configured like Debian's Apache, so administrators feel at home.</paragraph>
+                    </li>
+                    <li>
+                      <paragraph xmlns:tmp="http://ez.no/namespaces/ezpublish3/temporary/">Deploying a change is one command that reloads what changed.</paragraph>
+                    </li>
+                  </ul>
+                </paragraph>
+              </section>
+            </section>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2479" ezremote:identifier="publication_date" name="Publication date" type="ezdatetime">
+          <date_time>Mon, 19 Oct 2026 14:00:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2480" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string>velocity, performance</keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2481" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title>Velocity, a PHP application server</title>
+            <keywords>velocity, performance</keywords>
+            <description>Most PHP applications start from scratch on every request. Velocity starts Exponential once, keeps it warm in memory and hands each request to a worker that is ready to go.</description>
+            <canonical_url/>
+            <priority>0.5</priority>
+            <change>weekly</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+            <license/>
+            <license_holder/>
+            <license_year/>
+            <license_custom_url/>
+            <license_custom_terms/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-blog" name="Velocity, a PHP application server" node-id="516" remote-id="ezdemo-node-velocity-a-php-application-server" sort-field="path" sort-order="1" priority="0"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

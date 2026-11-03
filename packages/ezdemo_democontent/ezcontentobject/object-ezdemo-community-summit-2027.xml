@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ezremote:object xmlns:ezremote="http://ez.no/ezobject" xmlns:ezobject="http://ez.no/object/" ezremote:id="525" name="Community Summit" ezremote:section_id="1" ezremote:owner_id="14" ezremote:class_id="29" ezremote:published="Tue, 03 Nov 2026 15:42:50 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" remote_id="ezdemo-community-summit-2027" class_remote_id="563cb5edc2adfd2b240efa456c81525f" ezremote:class_identifier="event" ezremote:always_available="1" initial_language="eng-US">
+  <ezobject:version-list xmlns:ezobject="http://ez.no/object/" active_version="2">
+    <ezobject:version xmlns:ezremote="http://ez.no/ezobject" ezremote:version="2" ezremote:status="1" ezremote:created="Tue, 03 Nov 2026 15:45:29 GMT" ezremote:modified="Tue, 03 Nov 2026 15:45:29 GMT" initial_language="eng-US">
+      <ezobject:object-translation language="eng-US" object_name="Community Summit">
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2540" ezremote:identifier="title" name="Full title" type="ezstring">
+          <text>Exponential Community Summit 2027</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2541" ezremote:identifier="short_title" name="Short title" type="ezstring">
+          <text>Community Summit</text>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2542" ezremote:identifier="text" name="Text" type="ezxmltext">
+          <section xmlns:image="http://ez.no/namespaces/ezpublish3/image/" xmlns:xhtml="http://ez.no/namespaces/ezpublish3/xhtml/" xmlns:custom="http://ez.no/namespaces/ezpublish3/custom/">
+            <paragraph>Three days of talks, workshops and hallway conversations about open source content management.</paragraph>
+            <paragraph>This is a sample event of the demo site.</paragraph>
+          </section>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2543" ezremote:identifier="category" name="Category" type="ezkeyword">
+          <keyword-string>Conference</keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2544" ezremote:identifier="from_time" name="From Time" type="ezdatetime">
+          <date_time>Tue, 18 May 2027 09:00:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2545" ezremote:identifier="to_time" name="To Time" type="ezdatetime">
+          <date_time>Thu, 20 May 2027 17:00:00 GMT</date_time>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2546" ezremote:identifier="tags" name="Tags" type="ezkeyword">
+          <keyword-string>conference, events</keyword-string>
+        </ezobject:attribute>
+        <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2547" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
+          <MetaData>
+            <title>Exponential Community Summit 2027</title>
+            <keywords>events</keywords>
+            <description>Three days of talks, workshops and hallway conversations about open source content management.</description>
+            <canonical_url/>
+            <priority>0.5</priority>
+            <change>weekly</change>
+            <sitemap_use>1</sitemap_use>
+            <og_image/>
+            <og_image_width/>
+            <og_image_height/>
+            <og_image_alt/>
+            <og_image_type/>
+            <license/>
+            <license_holder/>
+            <license_year/>
+            <license_custom_url/>
+            <license_custom_terms/>
+          </MetaData>
+        </ezobject:attribute>
+      </ezobject:object-translation>
+      <ezobject:node-assignment-list>
+        <node-assignment is-main-node="1" parent-node-remote-id="ezdemo-node-events" name="Community Summit" node-id="527" remote-id="ezdemo-node-community-summit-2027" sort-field="path" sort-order="1" priority="60"/>
+      </ezobject:node-assignment-list>
+    </ezobject:version>
+  </ezobject:version-list>
+</ezremote:object>

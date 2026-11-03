@@ -902,14 +902,14 @@ class ezdemoInstaller extends eZSiteInstaller
             array(
                 '_function' => 'setSection',
                  '_params' => array(
-                     'location' => 'partner',
+                     'location' => 'partner_portal',
                      'section_name' => 'Restricted'
                  )
             ), 
             array(
                 '_function' => 'setSection',
                  '_params' => array(
-                     'location' => 'getting_started/selected_features/getting_started_with_ez_publish_platform',
+                     'location' => 'platform/architecture_guide',
                      'section_name' => 'Premium content'
                  )
             ),
@@ -1304,17 +1304,17 @@ class ezdemoInstaller extends eZSiteInstaller
                 '_function' => 'setRSSExport', 
                 '_params' => array( 
                     'creator' => '14', 
-                    'access_url' => 'my_feed', 
+                    'access_url' => 'blog', 
                     'main_node_only' => '1', 
                     'number_of_objects' => '10', 
                     'rss_version' => '2.0', 
                     'status' => '1', 
-                    'title' => 'My RSS Feed', 
+                    'title' => 'Exponential blog', 
                     'rss_export_itmes' => array( 
                         0 => array( 
-                            'class_id' => '16', 
-                            'description' => 'intro', 
-                            'source_node_id' => '139', 
+                            'class_identifier' => 'blog_post', 
+                            'description' => 'body', 
+                            'source_node_path' => 'blog', 
                             'status' => '1', 
                             'title' => 'title' 
                         ) 
@@ -1329,6 +1329,138 @@ class ezdemoInstaller extends eZSiteInstaller
                 '_function' => 'raiseTitleFieldMaxLength',
                 '_params' => array()
             ), 
+            array(
+                '_function' => 'fillFlowBlocks',
+                '_params' => array(
+                    'blocks' => array(
+                        '1c554eac218ecd41723f4e8be92ea281' => array(
+                            'page' => '8a9c9c761004866fb458d89910f52bee',
+                            'zone' => '7edf5fa8b3c72a97e09f2918c05e5d35',
+                            'name' => 'Welcome',
+                            'type' => 'MainStory',
+                            'items' => array('ezdemo-launch-story'),
+                        ),
+                        '282e2c6ee3046ef8d5646e08f3baee66' => array(
+                            'page' => '8a9c9c761004866fb458d89910f52bee',
+                            'zone' => '26d6bda4d82488dea052de579483e7a1',
+                            'name' => 'Why teams choose Exponential',
+                            'type' => 'ContentGrid',
+                            'items' => array('ezdemo-structured-content', 'ezdemo-front-end-editing', 'ezdemo-multisite-multilingual', 'ezdemo-exponential-layouts', 'ezdemo-velocity-performance', 'ezdemo-security-sign-in'),
+                        ),
+                        '29d90c4aeb2aba42bbcaac0b88bf7989' => array(
+                            'page' => '8a9c9c761004866fb458d89910f52bee',
+                            'zone' => '26d6bda4d82488dea052de579483e7a1',
+                            'name' => 'Pages, block by block',
+                            'type' => 'HighlightedItem',
+                            'items' => array('ezdemo-exponential-layouts'),
+                        ),
+                        '9434896c9d6a676d30e086683cbf419b' => array(
+                            'page' => '8a9c9c761004866fb458d89910f52bee',
+                            'zone' => '26d6bda4d82488dea052de579483e7a1',
+                            'name' => 'Built for your industry',
+                            'type' => 'ContentGrid',
+                            'items' => array('ezdemo-publishers-media', 'ezdemo-public-sector', 'ezdemo-commerce', 'ezdemo-education-nonprofits'),
+                        ),
+                        'c3c5f9aa0b0db554c246dfa7897d1a41' => array(
+                            'page' => '8a9c9c761004866fb458d89910f52bee',
+                            'zone' => '26d6bda4d82488dea052de579483e7a1',
+                            'name' => 'From the gallery',
+                            'type' => 'Gallery',
+                            'items' => array('ezdemo-img-gal-lake', 'ezdemo-img-gal-fjord', 'ezdemo-img-gal-aurora', 'ezdemo-img-gal-canyon', 'ezdemo-img-gal-coast', 'ezdemo-img-gal-desert', 'ezdemo-img-gal-glacier', 'ezdemo-img-gal-meadow'),
+                        ),
+                        '9fc65a3a1e58353f5ed7b6f012b349e9' => array(
+                            'page' => '8a9c9c761004866fb458d89910f52bee',
+                            'zone' => '26d6bda4d82488dea052de579483e7a1',
+                            'name' => 'Latest from the blog',
+                            'type' => 'ItemList',
+                            'items' => array('ezdemo-exponential-6-0-15-is-here', 'ezdemo-front-end-editing-with-expwt', 'ezdemo-velocity-a-php-application-server', 'ezdemo-passkeys-and-two-factor-sign-in'),
+                        ),
+                        'bf6347cdb825e97cbac9e435018f1bec' => array(
+                            'page' => '8a9c9c761004866fb458d89910f52bee',
+                            'zone' => '26d6bda4d82488dea052de579483e7a1',
+                            'name' => 'Services',
+                            'type' => 'ContentGrid',
+                            'items' => array('ezdemo-standard-support', 'ezdemo-velocity-hosting', 'ezdemo-theme-design-package'),
+                        ),
+                        'bca47a6da8137e1b58b0eaef12d21393' => array(
+                            'page' => '8a9c9c761004866fb458d89910f52bee',
+                            'zone' => '26d6bda4d82488dea052de579483e7a1',
+                            'name' => 'Have your say',
+                            'type' => 'Poll',
+                            'items' => array(),
+                            'custom' => array(
+                                'poll_node_id' => 'ezdemo-node-poll-what-will-you-build',
+                            ),
+                        ),
+                        'df019b47b18fbf3938a02784751b5ff6' => array(
+                            'page' => '8a9c9c761004866fb458d89910f52bee',
+                            'zone' => '26d6bda4d82488dea052de579483e7a1',
+                            'name' => 'Talk to us',
+                            'type' => 'FeedbackForm',
+                            'items' => array('ezdemo-contact'),
+                        ),
+                        'be4bcfc588371eb0e03feec0f62fc674' => array(
+                            'page' => 'ezdemo-launch',
+                            'zone' => 'e848e258f1a46ffa6873b4a57b4c4c3d',
+                            'name' => 'Exponential 6.0.15',
+                            'type' => 'MainStory',
+                            'items' => array('ezdemo-launch-story'),
+                        ),
+                        '2a7bb5cc496329d5bc4d56d5884c420b' => array(
+                            'page' => 'ezdemo-launch',
+                            'zone' => '147f4ad3eddcf8c4880a5a1b0e5882ce',
+                            'name' => 'What is new',
+                            'type' => 'ContentGrid',
+                            'items' => array('ezdemo-front-end-editing', 'ezdemo-security-sign-in', 'ezdemo-velocity-performance', 'ezdemo-exponential-layouts', 'ezdemo-multisite-multilingual', 'ezdemo-structured-content'),
+                        ),
+                        '5c6ddb359de0d2f65a4041a8cb4ad589' => array(
+                            'page' => 'ezdemo-launch',
+                            'zone' => '147f4ad3eddcf8c4880a5a1b0e5882ce',
+                            'name' => 'Now available',
+                            'type' => 'Banner',
+                            'items' => array(),
+                            'custom' => array(
+                                'image_node_id' => 'ezdemo-node-banner-launch',
+                            ),
+                        ),
+                        '27bdeb4e2f7fd7174dbec2bf70bbc5ce' => array(
+                            'page' => 'ezdemo-launch',
+                            'zone' => '147f4ad3eddcf8c4880a5a1b0e5882ce',
+                            'name' => 'Join us live',
+                            'type' => 'ItemList',
+                            'items' => array('ezdemo-launch-webinar', 'ezdemo-velocity-office-hours', 'ezdemo-theme-builders-workshop'),
+                        ),
+                        '68891b91aa94545afe2657b441605eaa' => array(
+                            'page' => 'ezdemo-launch',
+                            'zone' => '147f4ad3eddcf8c4880a5a1b0e5882ce',
+                            'name' => 'See it with your content',
+                            'type' => 'ContentGrid',
+                            'items' => array('ezdemo-demo-request'),
+                        ),
+                        'f80ec182287b50a8b0b1d600e94a98be' => array(
+                            'page' => 'ezdemo-solutions',
+                            'zone' => '7619e9819370ee1213abdc9f4bc39cd8',
+                            'name' => 'Solutions',
+                            'type' => 'Campaign',
+                            'items' => array('ezdemo-publishers-media', 'ezdemo-public-sector', 'ezdemo-commerce', 'ezdemo-education-nonprofits'),
+                        ),
+                        'c1d9bb97577c33ae3f84814dc8bf52bd' => array(
+                            'page' => 'ezdemo-solutions',
+                            'zone' => '1e23c118e7998d4137941b0110900775',
+                            'name' => 'Industries',
+                            'type' => 'ContentGrid',
+                            'items' => array('ezdemo-publishers-media', 'ezdemo-public-sector', 'ezdemo-commerce', 'ezdemo-education-nonprofits'),
+                        ),
+                        '3f89ba0eb91b9029f5ed800597a887d9' => array(
+                            'page' => 'ezdemo-solutions',
+                            'zone' => '1e23c118e7998d4137941b0110900775',
+                            'name' => 'Topics',
+                            'type' => 'TagCloud',
+                            'items' => array(),
+                        ),
+                    )
+                )
+            ),
             array( 
                 '_function' => 'dbCommit', 
                 '_params' => array() 
@@ -1410,7 +1542,8 @@ class ezdemoInstaller extends eZSiteInstaller
         if( empty( $siteType ) || ( $siteType['existing_database'] != eZStepInstaller::DB_DATA_KEEP ) )
         {
             $this->insertDBFile( 'ezflow_extension', 'ezflow' );
-            $this->insertDBFile( 'ezdemo_extension', 'ezdemo', false, true );
+            // The blocks of the demo landing pages are filled by the fillFlowBlocks step (by remote id), not by
+            // the extension's democontent.sql, whose node and object ids no longer match an installation
             // Composer installs ezstarrating and ezgmaplocation (no package carries them any more): their tables
             // come from the extension's share/db_schema.dba, created where missing on any database engine.
             foreach ( array( 'ezstarrating', 'ezgmaplocation' ) as $extensionWithTables )
@@ -1826,7 +1959,7 @@ class ezdemoInstaller extends eZSiteInstaller
     function postInstallUserSiteaccessINIUpdate( $params = false )
     {
         $siteINI = eZINI::instance( "site.ini.append.php", "settings/siteaccess/" . $this->setting( 'user_siteaccess' ), null, false, null, true );
-        $siteINI->setVariable( "SiteSettings", "SiteDescription", "This is an eZ Publish website about online shopping!" );
+        $siteINI->setVariable( "SiteSettings", "SiteDescription", "A showcase of Exponential 6.0.15: landing pages, a blog, a gallery, events and a shop." );
         $siteINI->setVariable( "FileSettings", "VarDir", "var/site" );
         $siteINI->setVariable( "DesignSettings", "SiteDesign", $this->setting( 'main_site_design' ) );
         $siteINI->setVariable( "DesignSettings", "AdditionalSiteDesignList", array( 
@@ -2248,6 +2381,9 @@ class ezdemoInstaller extends eZSiteInstaller
             'name' => 'content.ini', 
             'reset_arrays' => true, 
             'settings' => array( 
+                'FooterSettings' => array(
+                    'NodeID' => $this->demoNodeID( 'ezdemo-footer', '60' )
+                ),
                 'VersionView' => array( 
                     'AvailableSiteDesignList' => $designList 
                 ) 
@@ -2857,14 +2993,12 @@ class ezdemoInstaller extends eZSiteInstaller
                         'insertmedia.js'
                     ) 
                 )
-/* , 
+,
+                // the kernel's default t02 colour sheets are not part of this design
                 'StylesheetSettings' => array(
                     'SiteCSS' => '',
-                    'ClassesCSS' => '',
-                    'CSSFileList' => array(
-                    )
+                    'ClassesCSS' => ''
                 )
-*/
             ) 
         );
         return $settings;
@@ -4359,7 +4493,7 @@ class ezdemoInstaller extends eZSiteInstaller
             'settings' => array( 
                 'BrowseSettings' => array( 
                     'AliasList' => array( 
-                        'banners' => '59' 
+                        'banners' => $this->demoNodeID( 'ezdemo-banners', '59' ) 
                     ) 
                 ), 
                 'AddRelatedBannerImageToDataType' => array( 
@@ -4429,5 +4563,114 @@ class ezdemoInstaller extends eZSiteInstaller
         }
         return parent::nodeByUrl( $params );
     }
+
+    // ezdemo showcase (6.0.15): ids are resolved at install time, never written into the package
+
+    /*!
+     The blocks of the demo landing pages and their items: an ezm_block row per block (the package's page XML
+     carries the blocks, not these rows) and the items in ezm_pool, all found by remote id. Custom attributes that
+     name a node (a poll, a banner image) get the installed node id.
+    */
+    function fillFlowBlocks( $params )
+    {
+        $db = eZDB::instance();
+        $now = time();
+        foreach ( $params['blocks'] as $blockID => $block )
+        {
+            $page = eZContentObject::fetchByRemoteID( $block['page'] );
+            if ( !$page instanceof eZContentObject || !$page->mainNodeID() )
+            {
+                eZDebug::writeWarning( "No landing page with remote id {$block['page']} for block $blockID", __METHOD__ );
+                continue;
+            }
+            $nodeID = (int)$page->mainNodeID();
+            $id = $db->escapeString( $blockID );
+            $rows = $db->arrayQuery( "SELECT COUNT(*) AS c FROM ezm_block WHERE id='$id'" );
+            if ( (int)$rows[0]['c'] === 0 )
+                $db->query( "INSERT INTO ezm_block ( id, zone_id, name, node_id, overflow_id, block_type, fetch_params, rotation_type, rotation_interval, is_removed ) VALUES ( '$id', '" . $db->escapeString( $block['zone'] ) . "', '" . $db->escapeString( $block['name'] ) . "', $nodeID, '', '" . $db->escapeString( $block['type'] ) . "', '', 0, 0, 0 )" );
+            $priority = count( $block['items'] );
+            foreach ( $block['items'] as $i => $remoteID )
+            {
+                $object = eZContentObject::fetchByRemoteID( $remoteID );
+                if ( !$object instanceof eZContentObject || !$object->mainNodeID() )
+                    continue;
+                $objectID = (int)$object->attribute( 'id' );
+                $exists = $db->arrayQuery( "SELECT COUNT(*) AS c FROM ezm_pool WHERE block_id='$id' AND object_id=$objectID" );
+                if ( (int)$exists[0]['c'] === 0 )
+                    $db->query( "INSERT INTO ezm_pool ( block_id, object_id, node_id, priority, ts_publication, ts_visible, ts_hidden, rotation_until, moved_to ) VALUES ( '$id', $objectID, " . (int)$object->mainNodeID() . ", " . ( $priority - $i ) . ", " . ( $now - $i ) . ", " . ( $now - $i ) . ", 0, 0, NULL )" );
+            }
+            if ( !empty( $block['custom'] ) )
+                $this->setFlowBlockCustomNodes( $page, $blockID, $block['custom'] );
+        }
+    }
+
+    /*!
+     Writes installed node ids (found by node remote id) into custom attributes of one block of a landing page.
+    */
+    function setFlowBlockCustomNodes( $page, $blockID, $custom )
+    {
+        foreach ( $page->contentObjectAttributes() as $attribute )
+        {
+            if ( $attribute->attribute( 'data_type_string' ) !== 'ezpage' )
+                continue;
+            $dom = new DOMDocument( '1.0', 'utf-8' );
+            if ( !@$dom->loadXML( $attribute->attribute( 'data_text' ) ) )
+                continue;
+            $changed = false;
+            foreach ( $dom->getElementsByTagName( 'block' ) as $blockNode )
+            {
+                if ( $blockNode->getAttribute( 'id' ) !== 'id_' . $blockID )
+                    continue;
+                foreach ( $custom as $name => $nodeRemoteID )
+                {
+                    $node = eZContentObjectTreeNode::fetchByRemoteID( $nodeRemoteID );
+                    if ( !$node )
+                        continue;
+                    foreach ( $blockNode->getElementsByTagName( $name ) as $el )
+                    {
+                        $el->nodeValue = (string)$node->attribute( 'node_id' );
+                        $changed = true;
+                    }
+                }
+            }
+            if ( $changed )
+            {
+                $attribute->setAttribute( 'data_text', $dom->saveXML() );
+                $attribute->store();
+            }
+        }
+    }
+
+    /*!
+     Re-impl.: an export item may name its class by identifier and its source by URL path.
+    */
+    function setRSSExport( $params )
+    {
+        foreach ( $params['rss_export_itmes'] as $key => $item )
+        {
+            if ( isset( $item['class_identifier'] ) )
+            {
+                $class = eZContentClass::fetchByIdentifier( $item['class_identifier'] );
+                $params['rss_export_itmes'][$key]['class_id'] = $class ? $class->attribute( 'id' ) : 0;
+            }
+            if ( isset( $item['source_node_path'] ) )
+            {
+                $node = eZContentObjectTreeNode::fetchByURLPath( $item['source_node_path'] );
+                $params['rss_export_itmes'][$key]['source_node_id'] = $node ? $node->attribute( 'node_id' ) : 2;
+            }
+        }
+        return parent::setRSSExport( $params );
+    }
+
+    /*!
+     The main node id of an object of the demo content, or $default when it is not installed.
+    */
+    function demoNodeID( $remoteID, $default )
+    {
+        $object = eZContentObject::fetchByRemoteID( $remoteID );
+        return $object instanceof eZContentObject && $object->mainNodeID() ? (string)$object->mainNodeID() : (string)$default;
+    }
+    // ezdemo showcase: end
+
 }
 ?>
