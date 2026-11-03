@@ -12,7 +12,7 @@
           </section>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2687" ezremote:identifier="location" name="Location" type="ezurl">
-          <url original-url-md5="2203c912522b83ab4783af843451f4f1" is-valid="1" last-checked="0" created="1793720569" modified="1793720569">https%3A%2F%2Fexponential.doc.exponential.earth%2F</url>
+          <url original-url-md5="72e37164a7387c7397415f006843a8d6" is-valid="1" last-checked="0" created="1793720569" modified="1793720569">https%3A%2F%2Fdoc.exponential.earth</url>
           <text>Documentation</text>
         </ezobject:attribute>
         <ezobject:attribute xmlns:ezremote="http://ez.no/ezobject" ezremote:id="2688" ezremote:identifier="metadata" name="Meta Data" type="xrowmetadata">
