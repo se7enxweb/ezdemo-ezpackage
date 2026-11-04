@@ -1,29 +1,19 @@
-{def $lang_selector = array()
-     $avail_translation = array()}
-<div id="lang-selector" class="transition-showed">
+{* The language switcher, when the content is available in more than one siteaccess language. *}
+{def $avail_translation = array()}
 {if and( is_set( $DesignKeys:used.url_alias ), $DesignKeys:used.url_alias|count|ge( 1 ) )}
     {set $avail_translation = language_switcher( $DesignKeys:used.url_alias )}
 {else}
     {set $avail_translation = language_switcher( $site.uri.original_uri )}
 {/if}
-
 {if $avail_translation|count|gt( 1 )}
+<ul class="ed-lang" aria-label="{'Languages'|i18n( 'design/ezdemo/pagelayout' )}">
     {foreach $avail_translation as $siteaccess => $lang}
-        {append-block variable=$lang_selector}
-        {if $siteaccess|eq( $access_type.name )}
-            <li class="current"><a href="#" style="background:url({$lang.locale|flag_icon()}) no-repeat 5px center">{$lang.text|wash}</a></li>
-        {else}
-            <li><a href={$lang.url|ezurl} style="background:url({$lang.locale|flag_icon()}) no-repeat 5px center">{$lang.text|wash}</a></li>
-        {/if}
-        {/append-block}
-        {if $siteaccess|eq( $access_type.name )}
-            <a href="#lang-selector" class="current-lang" style="background:url({$lang.locale|flag_icon()}) no-repeat 5px center">{$lang.text|wash()}&nbsp;↴</a>
-        {/if}
+    <li{if $siteaccess|eq( $access_type.name )} class="current"{/if}><a href={$lang.url|ezurl} hreflang="{$lang.locale|wash}"{if $siteaccess|eq( $access_type.name )} aria-current="true"{/if}>{$lang.text|wash}</a></li>
     {/foreach}
-
-    <ul class="lang-select">
-    {$lang_selector|implode( '' )}
-    </ul>
+</ul>
+{else}
+    {def $ed_launch = fetch( 'content', 'node', hash( 'node_path', 'launch' ) )}
+    {if $ed_launch}<p class="ed-topbar-note">{'New: Exponential 6.0.15 is here.'|i18n( 'design/ezdemo/pagelayout' )} <a href={$ed_launch.url_alias|ezurl}>{'See what is new'|i18n( 'design/ezdemo/pagelayout' )}</a></p>{else}<span></span>{/if}
+    {undef $ed_launch}
 {/if}
-{undef $lang_selector}
-</div>
+{undef $avail_translation}

@@ -56,6 +56,10 @@
         <source>%login_link_startLog in%login_link_end to comment.</source>
         <translation>Yorum yapmak için %login_link_startoturum açın%login_link_end.</translation>
     </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Yorum yazın</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/block/feedback_form</name>
@@ -63,12 +67,20 @@
         <source>Send form</source>
         <translation>Formu gönder</translation>
     </message>
+    <message>
+        <source>Send message</source>
+        <translation>Mesaj gönder</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/block_item/call_to_action</name>
     <message>
         <source>Download!</source>
         <translation>İndir!</translation>
+    </message>
+    <message>
+        <source>Get started</source>
+        <translation>Hemen başlayın</translation>
     </message>
 </context>
 <context>
@@ -80,6 +92,10 @@
     <message>
         <source>Buy</source>
         <translation>Satın al</translation>
+    </message>
+    <message>
+        <source>Add to basket</source>
+        <translation>Sepete ekle</translation>
     </message>
 </context>
 <context>
@@ -1079,12 +1095,20 @@
         <source>Latest News</source>
         <translation>Son haberler</translation>
     </message>
+    <message>
+        <source>Latest news</source>
+        <translation>Son haberler</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/footer/links</name>
     <message>
         <source>eZ Links</source>
         <translation>eZ bağlantıları</translation>
+    </message>
+    <message>
+        <source>Resources</source>
+        <translation>Kaynaklar</translation>
     </message>
 </context>
 <context>
@@ -1141,6 +1165,14 @@
         <source>Category</source>
         <translation>Kategori</translation>
     </message>
+    <message>
+        <source>Past event</source>
+        <translation>Geçmiş etkinlik</translation>
+    </message>
+    <message>
+        <source>until</source>
+        <translation>şu tarihe kadar:</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/full/event_view_calendar</name>
@@ -1194,6 +1226,18 @@
     <message>
         <source>Future events</source>
         <translation>Gelecek etkinlikler</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Olaylar</translation>
+    </message>
+    <message>
+        <source>Program</source>
+        <translation>Program</translation>
+    </message>
+    <message>
+        <source>Webinars, workshops and meetups. Add one to your calendar or join us live.</source>
+        <translation>Web seminerleri, atölyeler ve buluşmalar. Takviminize ekleyin veya canlı katılın.</translation>
     </message>
 </context>
 <context>
@@ -1349,6 +1393,10 @@
         <source>Related content</source>
         <translation>İlgili içerik</translation>
     </message>
+    <message>
+        <source>Pictures</source>
+        <translation>Görseller</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/full/multicalendar</name>
@@ -1393,6 +1441,18 @@
     <message>
         <source>Amount</source>
         <translation>Miktar</translation>
+    </message>
+    <message>
+        <source>Category</source>
+        <translation>Kategori</translation>
+    </message>
+    <message>
+        <source>Quantity</source>
+        <translation>Miktar</translation>
+    </message>
+    <message>
+        <source>incl. VAT</source>
+        <translation>KDV dahil</translation>
     </message>
 </context>
 <context>
@@ -1742,6 +1802,50 @@
     <message>
         <source>Search text</source>
         <translation>Arama metni</translation>
+    </message>
+    <message>
+        <source>Breadcrumb</source>
+        <translation>İçerik haritası</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Diller</translation>
+    </message>
+    <message>
+        <source>Main</source>
+        <translation>Ana</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menü</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Diğer</translation>
+    </message>
+    <message>
+        <source>New: Exponential 6.0.15 is here.</source>
+        <translation>Yeni: Exponential 6.0.15 yayında.</translation>
+    </message>
+    <message>
+        <source>Section menu</source>
+        <translation>Bölüm menüsü</translation>
+    </message>
+    <message>
+        <source>See what is new</source>
+        <translation>Yenilikleri görün</translation>
+    </message>
+    <message>
+        <source>Skip to content</source>
+        <translation>İçeriğe geç</translation>
+    </message>
+    <message>
+        <source>Use the dark theme</source>
+        <translation>Koyu temayı kullan</translation>
+    </message>
+    <message>
+        <source>Use the light theme</source>
+        <translation>Açık temayı kullan</translation>
     </message>
 </context>
 <context>
@@ -3384,6 +3488,188 @@
     <message>
         <source>Could not load LICENSE file! You should have a LICENSE file in your eZ Publish root directory.</source>
         <translation>LICENSE dosyası yüklenemedi! eZ Publish kök dizininizde bir LICENSE dosyası bulunmalıdır.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/block</name>
+    <message>
+        <source>Discover what is new</source>
+        <translation>Yenilikleri keşfedin</translation>
+    </message>
+    <message>
+        <source>Explore the platform</source>
+        <translation>Platformu keşfedin</translation>
+    </message>
+    <message>
+        <source>Learn more</source>
+        <translation>Daha fazla bilgi</translation>
+    </message>
+    <message>
+        <source>Next slide</source>
+        <translation>Sonraki slayt</translation>
+    </message>
+    <message>
+        <source>Previous slide</source>
+        <translation>Önceki slayt</translation>
+    </message>
+    <message>
+        <source>Read more</source>
+        <translation>Devamını okuyun</translation>
+    </message>
+    <message>
+        <source>Read the announcement</source>
+        <translation>Duyuruyu okuyun</translation>
+    </message>
+    <message>
+        <source>Read the story</source>
+        <translation>Yazıyı okuyun</translation>
+    </message>
+    <message>
+        <source>Scroll back</source>
+        <translation>Geri kaydır</translation>
+    </message>
+    <message>
+        <source>Scroll on</source>
+        <translation>İleri kaydır</translation>
+    </message>
+    <message>
+        <source>See the results</source>
+        <translation>Sonuçları görün</translation>
+    </message>
+    <message>
+        <source>Show slide %number</source>
+        <translation>%number. slaytı göster</translation>
+    </message>
+    <message>
+        <source>carousel</source>
+        <translation>karusel</translation>
+    </message>
+    <message>
+        <source>slide</source>
+        <translation>slayt</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer</name>
+    <message>
+        <source>Explore</source>
+        <translation>Keşfedin</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Altyapı:</translation>
+    </message>
+    <message>
+        <source>open source content management by the Exponential Foundation and 7x.</source>
+        <translation>Exponential Foundation ve 7x'in açık kaynak içerik yönetimi.</translation>
+    </message>
+    <message>
+        <source>Get in touch</source>
+        <translation>İletişim</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full</name>
+    <message>
+        <source>Contact us</source>
+        <translation>Bize ulaşın</translation>
+    </message>
+    <message>
+        <source>Questions?</source>
+        <translation>Sorularınız mı var?</translation>
+    </message>
+    <message>
+        <source>Talk to the team about your project.</source>
+        <translation>Projeniz hakkında ekiple konuşun.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/blog</name>
+    <message>
+        <source>All posts</source>
+        <translation>Tüm yazılar</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/folder</name>
+    <message>
+        <source>RSS feed</source>
+        <translation>RSS beslemesi</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/gallery</name>
+    <message>
+        <source>%count pictures</source>
+        <translation>%count görsel</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/place</name>
+    <message>
+        <source>View on the map</source>
+        <translation>Haritada görün</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/gallery</name>
+    <message>
+        <source>%index of %count</source>
+        <translation>%index / %count</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Kapat</translation>
+    </message>
+    <message>
+        <source>Gallery</source>
+        <translation>Galeri</translation>
+    </message>
+    <message>
+        <source>Next picture</source>
+        <translation>Sonraki görsel</translation>
+    </message>
+    <message>
+        <source>Previous picture</source>
+        <translation>Önceki görsel</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/share</name>
+    <message>
+        <source>Copy link</source>
+        <translation>Bağlantıyı kopyala</translation>
+    </message>
+    <message>
+        <source>Link copied</source>
+        <translation>Bağlantı kopyalandı</translation>
+    </message>
+    <message>
+        <source>Share</source>
+        <translation>Paylaş</translation>
+    </message>
+    <message>
+        <source>Share this page</source>
+        <translation>Bu sayfayı paylaş</translation>
+    </message>
+    <message>
+        <source>Share on LinkedIn</source>
+        <translation>LinkedIn'de paylaş</translation>
+    </message>
+    <message>
+        <source>Share on Bluesky</source>
+        <translation>Bluesky'da paylaş</translation>
+    </message>
+    <message>
+        <source>Share by email</source>
+        <translation>E-postayla paylaş</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/tagcloud</name>
+    <message>
+        <source>%count items tagged %tag</source>
+        <translation>%tag etiketli %count öğe</translation>
     </message>
 </context>
 </TS>

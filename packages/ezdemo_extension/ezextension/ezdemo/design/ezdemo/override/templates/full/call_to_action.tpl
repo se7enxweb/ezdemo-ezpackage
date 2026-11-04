@@ -5,9 +5,7 @@
 
 <section class="content-view-full">
     <article class="class-call-to-action">
-        <div class="attribute-header">
-            <h1>{$node.name|wash()}</h1>
-        </div>
+        <header class="ed-page-head"><h1>{$node.name|wash()}</h1></header>
         <div class="row">
             <div class="span7">
                 {attribute_view_gui attribute=$node.data_map.description}

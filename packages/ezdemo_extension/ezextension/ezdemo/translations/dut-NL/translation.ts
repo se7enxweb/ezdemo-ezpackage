@@ -56,6 +56,10 @@
         <source>%login_link_startLog in%login_link_end to comment.</source>
         <translation>%login_link_startLog in%login_link_end om te reageren.</translation>
     </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Schrijf een reactie</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/block/feedback_form</name>
@@ -63,12 +67,20 @@
         <source>Send form</source>
         <translation>Formulier verzenden</translation>
     </message>
+    <message>
+        <source>Send message</source>
+        <translation>Bericht versturen</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/block_item/call_to_action</name>
     <message>
         <source>Download!</source>
         <translation>Downloaden!</translation>
+    </message>
+    <message>
+        <source>Get started</source>
+        <translation>Aan de slag</translation>
     </message>
 </context>
 <context>
@@ -80,6 +92,10 @@
     <message>
         <source>Buy</source>
         <translation>Kopen</translation>
+    </message>
+    <message>
+        <source>Add to basket</source>
+        <translation>Aan winkelwagen toevoegen</translation>
     </message>
 </context>
 <context>
@@ -1079,12 +1095,20 @@
         <source>Latest News</source>
         <translation>Laatste nieuws</translation>
     </message>
+    <message>
+        <source>Latest news</source>
+        <translation>Laatste nieuws</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/footer/links</name>
     <message>
         <source>eZ Links</source>
         <translation>eZ-links</translation>
+    </message>
+    <message>
+        <source>Resources</source>
+        <translation>Bronnen</translation>
     </message>
 </context>
 <context>
@@ -1141,6 +1165,14 @@
         <source>Category</source>
         <translation>Categorie</translation>
     </message>
+    <message>
+        <source>Past event</source>
+        <translation>Afgelopen evenement</translation>
+    </message>
+    <message>
+        <source>until</source>
+        <translation>tot</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/full/event_view_calendar</name>
@@ -1194,6 +1226,18 @@
     <message>
         <source>Future events</source>
         <translation>Komende evenementen</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Gebeurtenissen</translation>
+    </message>
+    <message>
+        <source>Program</source>
+        <translation>Programma</translation>
+    </message>
+    <message>
+        <source>Webinars, workshops and meetups. Add one to your calendar or join us live.</source>
+        <translation>Webinars, workshops en meetups. Zet er een in uw agenda of doe live mee.</translation>
     </message>
 </context>
 <context>
@@ -1349,6 +1393,10 @@
         <source>Related content</source>
         <translation>Gerelateerde inhoud</translation>
     </message>
+    <message>
+        <source>Pictures</source>
+        <translation>Afbeeldingen</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/full/multicalendar</name>
@@ -1393,6 +1441,18 @@
     <message>
         <source>Amount</source>
         <translation>Bedrag</translation>
+    </message>
+    <message>
+        <source>Category</source>
+        <translation>Categorie</translation>
+    </message>
+    <message>
+        <source>Quantity</source>
+        <translation>Aantal</translation>
+    </message>
+    <message>
+        <source>incl. VAT</source>
+        <translation>incl. btw</translation>
     </message>
 </context>
 <context>
@@ -1742,6 +1802,50 @@
     <message>
         <source>Search text</source>
         <translation>Zoektekst</translation>
+    </message>
+    <message>
+        <source>Breadcrumb</source>
+        <translation>Kruimelpad</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Talen</translation>
+    </message>
+    <message>
+        <source>Main</source>
+        <translation>Hoofdtaal</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menu</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Meer</translation>
+    </message>
+    <message>
+        <source>New: Exponential 6.0.15 is here.</source>
+        <translation>Nieuw: Exponential 6.0.15 is er.</translation>
+    </message>
+    <message>
+        <source>Section menu</source>
+        <translation>Sectiemenu</translation>
+    </message>
+    <message>
+        <source>See what is new</source>
+        <translation>Bekijk wat er nieuw is</translation>
+    </message>
+    <message>
+        <source>Skip to content</source>
+        <translation>Naar de inhoud</translation>
+    </message>
+    <message>
+        <source>Use the dark theme</source>
+        <translation>Donker thema gebruiken</translation>
+    </message>
+    <message>
+        <source>Use the light theme</source>
+        <translation>Licht thema gebruiken</translation>
     </message>
 </context>
 <context>
@@ -3388,6 +3492,188 @@
     <message>
         <source>Could not load LICENSE file! You should have a LICENSE file in your eZ Publish root directory.</source>
         <translation>Kon het LICENSE-bestand niet laden! Er hoort een LICENSE-bestand in de hoofdmap van je eZ Publish-installatie te staan.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/block</name>
+    <message>
+        <source>Discover what is new</source>
+        <translation>Ontdek wat er nieuw is</translation>
+    </message>
+    <message>
+        <source>Explore the platform</source>
+        <translation>Verken het platform</translation>
+    </message>
+    <message>
+        <source>Learn more</source>
+        <translation>Meer informatie</translation>
+    </message>
+    <message>
+        <source>Next slide</source>
+        <translation>Volgende dia</translation>
+    </message>
+    <message>
+        <source>Previous slide</source>
+        <translation>Vorige dia</translation>
+    </message>
+    <message>
+        <source>Read more</source>
+        <translation>Lees verder</translation>
+    </message>
+    <message>
+        <source>Read the announcement</source>
+        <translation>Lees de aankondiging</translation>
+    </message>
+    <message>
+        <source>Read the story</source>
+        <translation>Lees het artikel</translation>
+    </message>
+    <message>
+        <source>Scroll back</source>
+        <translation>Terug scrollen</translation>
+    </message>
+    <message>
+        <source>Scroll on</source>
+        <translation>Verder scrollen</translation>
+    </message>
+    <message>
+        <source>See the results</source>
+        <translation>Bekijk de resultaten</translation>
+    </message>
+    <message>
+        <source>Show slide %number</source>
+        <translation>Toon dia %number</translation>
+    </message>
+    <message>
+        <source>carousel</source>
+        <translation>carrousel</translation>
+    </message>
+    <message>
+        <source>slide</source>
+        <translation>dia</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer</name>
+    <message>
+        <source>Explore</source>
+        <translation>Verkennen</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Mogelijk gemaakt door</translation>
+    </message>
+    <message>
+        <source>open source content management by the Exponential Foundation and 7x.</source>
+        <translation>opensource contentbeheer van de Exponential Foundation en 7x.</translation>
+    </message>
+    <message>
+        <source>Get in touch</source>
+        <translation>Contact</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full</name>
+    <message>
+        <source>Contact us</source>
+        <translation>Neem contact op</translation>
+    </message>
+    <message>
+        <source>Questions?</source>
+        <translation>Vragen?</translation>
+    </message>
+    <message>
+        <source>Talk to the team about your project.</source>
+        <translation>Bespreek uw project met het team.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/blog</name>
+    <message>
+        <source>All posts</source>
+        <translation>Alle berichten</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/folder</name>
+    <message>
+        <source>RSS feed</source>
+        <translation>RSS-feed</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/gallery</name>
+    <message>
+        <source>%count pictures</source>
+        <translation>%count afbeeldingen</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/place</name>
+    <message>
+        <source>View on the map</source>
+        <translation>Bekijk op de kaart</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/gallery</name>
+    <message>
+        <source>%index of %count</source>
+        <translation>%index van %count</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Sluiten</translation>
+    </message>
+    <message>
+        <source>Gallery</source>
+        <translation>Galerij</translation>
+    </message>
+    <message>
+        <source>Next picture</source>
+        <translation>Volgende afbeelding</translation>
+    </message>
+    <message>
+        <source>Previous picture</source>
+        <translation>Vorige afbeelding</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/share</name>
+    <message>
+        <source>Copy link</source>
+        <translation>Link kopiëren</translation>
+    </message>
+    <message>
+        <source>Link copied</source>
+        <translation>Link gekopieerd</translation>
+    </message>
+    <message>
+        <source>Share</source>
+        <translation>Delen</translation>
+    </message>
+    <message>
+        <source>Share this page</source>
+        <translation>Deze pagina delen</translation>
+    </message>
+    <message>
+        <source>Share on LinkedIn</source>
+        <translation>Delen op LinkedIn</translation>
+    </message>
+    <message>
+        <source>Share on Bluesky</source>
+        <translation>Delen op Bluesky</translation>
+    </message>
+    <message>
+        <source>Share by email</source>
+        <translation>Delen via e-mail</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/tagcloud</name>
+    <message>
+        <source>%count items tagged %tag</source>
+        <translation>%count items met de tag %tag</translation>
     </message>
 </context>
 </TS>

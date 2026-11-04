@@ -1,0 +1,14 @@
+Changes from 6.0.19 to 6.0.20 (2026-11-03)
+
+- Added: A modern theme with design tokens, light and dark mode and self-hosted fonts.
+- Added: Plain JavaScript on expui for the menu, theme switch, carousel and gallery.
+- Updated: The templates are rebuilt for a modern, accessible showcase design; tag lists wrap, the phone header fits and the lightbox closes.
+- Updated: The header search suggests content while typing, and the search page has filters.
+- Updated: Front-end editing uses the edit actions of expwt, the website sidebar, in place of ezwt's website toolbar.
+- Updated: Requires se7enxweb/expui ^1.0.0.1.
+- Removed: Bootstrap 2, its LESS sources, the jQuery scripts, video.js and the old toolbar parts; their features are kept by the new scripts.
+- Added: Translations of the design's new texts, in every catalog.
+- Updated: The page data no longer counts a missing path (a TypeError on PHP 8 for module views without one).
+- Updated: The about page names eZ Systems and its product only as past history and asks for the LICENSE file in the Exponential root.
+
+Upgrading: composer update, clear the caches, and install expwt in place of ezwt (exp:wt:migrate-from-ezwt --apply).

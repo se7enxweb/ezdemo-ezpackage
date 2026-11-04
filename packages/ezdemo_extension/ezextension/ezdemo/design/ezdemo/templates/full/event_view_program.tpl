@@ -74,56 +74,18 @@
 {set $daymode=true()}
 {/if}
 
-<div class="content-view-full">
- <div class="class-event-calendar event-calendar-programview">
-
-<div class="attribute-header">
+<div class="content-view-full class-event-calendar event-calendar-programview">
+<header class="ed-page-head">
+    <p class="ed-eyebrow">{'Program'|i18n( 'design/ezdemo/full/event_view_program' )}</p>
     <h1>{$node.name|wash()}</h1>
-</div>
-
-<div id="ezagenda_calendar_right">
+    <p class="ed-lead">{'Webinars, workshops and meetups. Add one to your calendar or join us live.'|i18n( 'design/ezdemo/full/event_view_program' )}</p>
+</header>
+<div class="ed-rows">
     {foreach $events as $event}
-    <table class="ezagenda_month_event" cellpadding="0" cellspacing="0"{if gt($curr_ts , $event.object.data_map.to_time.content.timestamp)} class="ezagenda_event_old"{/if} summary="Previw of event">
-    <tr>
-    {if $daymode}
-    <td  class="ezagenda_month_label"><h2>{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%j %M")}</h2></td>
-    {else}
-    <td class="ezagenda_month_label"><h2>{$event.object.data_map.from_time.content.timestamp|datetime(custom,"%M<br>%y")}</h2></td>
-    {/if}
-    <td class="ezagenda_month_info">
-    
-    <h4><a href={$event.url_alias|ezurl}>{$event.name|wash}</a></h4>
-
-    <p>
-    <span class="ezagenda_date">
-    {$event.object.data_map.from_time.content.timestamp|datetime(custom,"%H:%i")}
-    {if $event.object.data_map.to_time.has_content}
-        {if $event.object.data_map.to_time.content.day|int()|eq( $event.object.data_map.from_time.content.day|int() )}
-        - {$event.object.data_map.to_time.content.timestamp|datetime(custom,"%H:%i")}
-        {else}
-        - {$event.object.data_map.to_time.content.timestamp|datetime(custom,"%j %M %H:%i")}
-        {/if}
-    {/if}
-    </span>
-    
-    {if $event.object.data_map.category.has_content}
-        <span class="ezagenda_keyword">
-        {attribute_view_gui attribute=$event.object.data_map.category}
-        </span>
-    {/if}
-    </p>
-    
-    {if $event.object.data_map.text.has_content}
-        <div class="attribute-short">{attribute_view_gui attribute=$event.object.data_map.text}</div>
-    {/if}
-
-    </td>
-    </tr>
-    </table>
-
+        {node_view_gui view='line' content_node=$event}
     {/foreach}
 </div>
-<div class="block">
+<nav class="ed-pager" aria-label="{'Events'|i18n( 'design/ezdemo/full/event_view_program' )}">
 {if $direction}{* '-' direction  *}
     <div class="left">
     {if $older_event_count|gt(0)}
@@ -151,7 +113,6 @@
     {/if}
     </div>
 {/if}
-</div>
+</nav>
 {undef}
-</div>
 </div>

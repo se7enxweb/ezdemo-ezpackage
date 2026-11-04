@@ -1,13 +1,11 @@
 {def $video_path = concat( '/content/download/', $node.data_map.file.contentobject_id, '/', $node.data_map.file.id, '/', $node.data_map.file.content.original_filename )|ezurl( 'no', 'full' )}
 
-{ezcss_require( 'video.css' )}
-{ezscript_require( 'video.js' )}
 
 <div class="content-view-line">
     <article class="class-video row">
         <div class="span2">
             <div class="attribute-video">
-                <video id="video_{$node.contentobject_id}" class="video-js vjs-default-skin" controls preload="auto" width="100%" height="113" poster="" data-setup="">
+                <video id="video_{$node.contentobject_id}" class="ed-video" controls preload="auto" width="100%" height="113" poster="" data-setup="">
                   <source src="{$video_path}" type="video/mp4" />
                 </video>
             </div>

@@ -1,25 +1,2 @@
-{def $valid_nodes = $block.valid_nodes}
-
-<div class="block-type-content-grid block-view-{$block.view}">
-
-    {if ne( $block.name, '' )}
-    <div class="attribute-header">
-        <h2>{$block.name|wash()}</h2>
-    </div>
-    {/if}
-
-    <div class="row">
-    {foreach $valid_nodes as $valid_node}
-        <div class="span3">
-        {node_view_gui view='block_item' image_class='contentgrid' content_node=$valid_node}
-        </div>
-        {delimiter modulo=4}
-        </div>
-        <div class="row">
-        {/delimiter}
-    {/foreach}
-    </div>
-
-</div>
-
-{undef $valid_nodes}
+{* Content grid, 4cols_2rows: up to 8 items in 4 columns (parts/ezdemo/grid.tpl). *}
+{include uri='design:parts/ezdemo/grid.tpl' block=$block max=8 cols=4 alt=false()}

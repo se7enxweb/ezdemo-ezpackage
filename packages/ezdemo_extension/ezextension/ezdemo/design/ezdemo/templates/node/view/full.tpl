@@ -1,3 +1,5 @@
+{* place lists and places: parts/ezdemo/full_<class>.tpl; every other class without a full view of its own: the general view below *}
+{if array( 'place_list', 'place' )|contains( $node.class_identifier )}{include uri=concat( 'design:parts/ezdemo/full_', $node.class_identifier, '.tpl' )}{else}
 <div class="content-view-full">
     <div class="class-{$node.object.class_identifier}">
 
@@ -108,3 +110,4 @@
 
     </div>
 </div>
+{/if}

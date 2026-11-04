@@ -28,30 +28,30 @@
     <name>design/admin/content/edit_attribute</name>
     <message>
         <source>not translatable</source>
-        <translation type="unfinished"></translation>
+        <translation>ne može se prevesti</translation>
     </message>
     <message>
         <source>required</source>
-        <translation type="unfinished"></translation>
+        <translation>obavezno</translation>
     </message>
     <message>
         <source>information collector</source>
-        <translation type="unfinished"></translation>
+        <translation>sakupljač informacija</translation>
     </message>
 </context>
 <context>
     <name>design/admin/preview/article</name>
     <message>
         <source>Comments allowed</source>
-        <translation type="unfinished"></translation>
+        <translation>Komentari su dozvoljeni</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Da</translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne</translation>
     </message>
 </context>
 <context>
@@ -79,12 +79,20 @@
         <source>%login_link_startLog in%login_link_end or %create_link_startcreate a user account%create_link_end to comment.</source>
         <translation>%login_link_startLog in%login_link_end ili %create_link_startcreate korisnik account%create_link_end za komentar.</translation>
     </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Napišite komentar</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/block/feedback_form</name>
     <message>
         <source>Send form</source>
-        <translation type="unfinished">Pošalji</translation>
+        <translation>Pošalji obrazac</translation>
+    </message>
+    <message>
+        <source>Send message</source>
+        <translation>Pošalji poruku</translation>
     </message>
 </context>
 <context>
@@ -93,16 +101,24 @@
         <source>Download!</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Get started</source>
+        <translation>Započnite</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/block_item/product</name>
     <message>
         <source>Amount</source>
-        <translation type="unfinished">Iznos</translation>
+        <translation>Iznos</translation>
     </message>
     <message>
         <source>Buy</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add to basket</source>
+        <translation>Dodaj u korpu</translation>
     </message>
 </context>
 <context>
@@ -160,11 +176,11 @@
     </message>
     <message>
         <source>Tag cloud</source>
-        <translation type="unfinished"></translation>
+        <translation>Oblak oznaka</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished">Opis</translation>
+        <translation>Opis</translation>
     </message>
 </context>
 <context>
@@ -243,11 +259,11 @@
     <name>design/ezdemo/colledtedinfomail</name>
     <message>
         <source>Collected information from %1</source>
-        <translation type="unfinished">Podaci skupljeni sa %1</translation>
+        <translation>Prikupljene informacije od %1</translation>
     </message>
     <message>
         <source>The following information was collected</source>
-        <translation type="unfinished">Sledeće povratne informacije su sakupljene</translation>
+        <translation>Prikupljene su sledeće informacije</translation>
     </message>
 </context>
 <context>
@@ -258,11 +274,11 @@
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">Uredi</translation>
+        <translation>Izmeni</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Obriši</translation>
     </message>
 </context>
 <context>
@@ -489,27 +505,27 @@
     </message>
     <message>
         <source>Edit &lt;%object_name&gt; (%class_name)</source>
-        <translation type="unfinished"></translation>
+        <translation>Izmeni &lt;%object_name&gt; (%class_name)</translation>
     </message>
     <message>
         <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Objavite sadržaj skice koja se uređuje. Skica će postati objavljena verzija objekta.</translation>
     </message>
     <message>
         <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sačuvajte sadržaj skice koja se menja i nastavite sa izmenom. Koristite ovo dugme da povremeno sačuvate svoj rad tokom izmene.</translation>
     </message>
     <message>
         <source>Store draft and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Sačuvaj skicu i izađi</translation>
     </message>
     <message>
         <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sačuvajte skicu koja se menja i izađite iz režima izmene. Koristite kada treba da prekinete rad i nastavite kasnije.</translation>
     </message>
     <message>
         <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
-        <translation type="unfinished"></translation>
+        <translation>Odbacite skicu koja se izmenja. Ovo će takođe ukloniti prevode koji pripadaju skici (ako ih ima).</translation>
     </message>
 </context>
 <context>
@@ -566,7 +582,8 @@
     <message>
         <source>This object is already being edited by you.
         You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ovaj objekat već vi uređujete.
+        Možete ili nastaviti sa uređivanjem jedne od svojih skica ili napraviti novu skicu.</translation>
     </message>
     <message>
         <source>This object is already being edited by someone else.
@@ -1109,12 +1126,20 @@
         <source>Latest News</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Latest news</source>
+        <translation>Najnovije vesti</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/footer/links</name>
     <message>
         <source>eZ Links</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Resources</source>
+        <translation>Resursi</translation>
     </message>
 </context>
 <context>
@@ -1141,7 +1166,7 @@
     </message>
     <message>
         <source>Location</source>
-        <translation type="unfinished">Lokacija</translation>
+        <translation>Lokacija</translation>
     </message>
 </context>
 <context>
@@ -1170,6 +1195,14 @@
     <message>
         <source>Category</source>
         <translation>Kategorija</translation>
+    </message>
+    <message>
+        <source>Past event</source>
+        <translation>Prošli događaj</translation>
+    </message>
+    <message>
+        <source>until</source>
+        <translation>do</translation>
     </message>
 </context>
 <context>
@@ -1224,6 +1257,18 @@
     <message>
         <source>Future events</source>
         <translation>Budući događaji</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Događaji</translation>
+    </message>
+    <message>
+        <source>Program</source>
+        <translation>Program</translation>
+    </message>
+    <message>
+        <source>Webinars, workshops and meetups. Add one to your calendar or join us live.</source>
+        <translation>Vebinari, radionice i susreti. Dodajte jedan u kalendar ili se pridružite uživo.</translation>
     </message>
 </context>
 <context>
@@ -1379,6 +1424,10 @@
         <source>Related content</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Pictures</source>
+        <translation>Slike</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/full/multicalendar</name>
@@ -1422,14 +1471,26 @@
     </message>
     <message>
         <source>Amount</source>
-        <translation type="unfinished">Iznos</translation>
+        <translation>Iznos</translation>
+    </message>
+    <message>
+        <source>Category</source>
+        <translation>Kategorija</translation>
+    </message>
+    <message>
+        <source>Quantity</source>
+        <translation>Količina</translation>
+    </message>
+    <message>
+        <source>incl. VAT</source>
+        <translation>uklj. PDV</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/full/video</name>
     <message>
         <source>Download</source>
-        <translation type="unfinished"></translation>
+        <translation>Preuzmi</translation>
     </message>
 </context>
 <context>
@@ -1476,7 +1537,7 @@
     </message>
     <message>
         <source>Modified:</source>
-        <translation type="unfinished">Modifikovan:</translation>
+        <translation>Izmenjeno:</translation>
     </message>
     <message>
         <source>Download file</source>
@@ -1531,7 +1592,7 @@
     <name>design/ezdemo/line/product</name>
     <message>
         <source>Amount</source>
-        <translation type="unfinished">Iznos</translation>
+        <translation>Iznos</translation>
     </message>
     <message>
         <source>Buy</source>
@@ -1624,7 +1685,7 @@
     </message>
     <message>
         <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
-        <translation type="unfinished"></translation>
+        <translation>Stavke sadrže više od maksimalnog mogućeg broja čvorova za uklanjanje podstabla i neće biti obrisane. Ovo podstablo možete ukloniti pomoću skripte ezsubtreeremove.php.</translation>
     </message>
 </context>
 <context>
@@ -1731,47 +1792,91 @@
     </message>
     <message>
         <source>Tag cloud</source>
-        <translation type="unfinished"></translation>
+        <translation>Oblak oznaka</translation>
     </message>
     <message>
         <source>Site map</source>
-        <translation type="unfinished">Mapa sajta</translation>
+        <translation>Sadržaj</translation>
     </message>
     <message>
         <source>Shopping basket</source>
-        <translation type="unfinished">Korpa za kupovinu</translation>
+        <translation>Korpa za kupovinu</translation>
     </message>
     <message>
         <source>My profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Moj profil</translation>
     </message>
     <message>
         <source>Logout</source>
-        <translation type="unfinished"></translation>
+        <translation>Odjava</translation>
     </message>
     <message>
         <source>Register</source>
-        <translation type="unfinished">Registruj se</translation>
+        <translation>Registruj se</translation>
     </message>
     <message>
         <source>Login</source>
-        <translation type="unfinished">Prijava</translation>
+        <translation>Prijava</translation>
     </message>
     <message>
         <source>Username</source>
-        <translation type="unfinished">Ime korisnika</translation>
+        <translation>Korisničko ime</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation type="unfinished">Lozinka</translation>
+        <translation>Lozinka</translation>
     </message>
     <message>
         <source>Forgot your password?</source>
-        <translation type="unfinished">Zaboravili ste lozinku?</translation>
+        <translation>Zaboravili ste lozinku?</translation>
     </message>
     <message>
         <source>Search text</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Breadcrumb</source>
+        <translation>Putanja navigacije</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Jezici</translation>
+    </message>
+    <message>
+        <source>Main</source>
+        <translation>Glavni</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Meni</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Više</translation>
+    </message>
+    <message>
+        <source>New: Exponential 6.0.15 is here.</source>
+        <translation>Novo: stigao je Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Section menu</source>
+        <translation>Meni odeljka</translation>
+    </message>
+    <message>
+        <source>See what is new</source>
+        <translation>Pogledajte novosti</translation>
+    </message>
+    <message>
+        <source>Skip to content</source>
+        <translation>Preskoči na sadržaj</translation>
+    </message>
+    <message>
+        <source>Use the dark theme</source>
+        <translation>Koristi tamnu temu</translation>
+    </message>
+    <message>
+        <source>Use the light theme</source>
+        <translation>Koristi svetlu temu</translation>
     </message>
 </context>
 <context>
@@ -1789,39 +1894,39 @@
     <name>design/ezdemo/rss/edit_export</name>
     <message>
         <source>Edit &lt;%rss_export_name&gt; [RSS Export]</source>
-        <translation type="unfinished"></translation>
+        <translation>Izmeni &lt;%rss_export_name&gt; [RSS izvoz]</translation>
     </message>
     <message>
         <source>Invalid input</source>
-        <translation type="unfinished"></translation>
+        <translation>Neispravan unos</translation>
     </message>
     <message>
         <source>If RSS Export is Active then a valid Access URL is required.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ako je RSS izvoz aktivan, potreban je važeći URL za pristup.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Ime</translation>
+        <translation>Naziv</translation>
     </message>
     <message>
         <source>Name of the RSS export. This name is used in the Administration Interface only, to distinguish the different exports from each other.</source>
-        <translation type="unfinished"></translation>
+        <translation>Naziv RSS izvoza. Ovaj naziv se koristi samo u administrativnom interfejsu, da bi se razlikovali različiti izvozi.</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished">Opis</translation>
+        <translation>Opis</translation>
     </message>
     <message>
         <source>Use the description field to write a text explaining what users can expect from the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Upotrebite polje za opis da napišete tekst koji objašnjava šta korisnici mogu očekivati od RSS izvoza.</translation>
     </message>
     <message>
         <source>Site URL</source>
-        <translation type="unfinished"></translation>
+        <translation>URL sajta</translation>
     </message>
     <message>
         <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and Exponential configuration.</source>
-        <translation type="unfinished"></translation>
+        <translation>Koristite ovo polje da unesete osnovni URL vašeg sajta. Koristi se za stvaranje URL-ova u izvozu, a sastoji se od URL-a sajta (npr. „http://www.example.com/index.php“) i putanje do objekta (npr. „/articles/my_article“). URL sajta zavisi od vašeg veb servera i Exponential konfiguracije.</translation>
     </message>
     <message>
         <source>Leave this field emty if you want system automaticaly detect the URL of your site from the URL you access feed with</source>
@@ -1829,274 +1934,274 @@
     </message>
     <message>
         <source>Image</source>
-        <translation type="unfinished"></translation>
+        <translation>Slika</translation>
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">Listaj</translation>
+        <translation>Pregledaj</translation>
     </message>
     <message>
         <source>Click this button to select an image for the RSS export. Note that images only work with RSS version 2.0</source>
-        <translation type="unfinished"></translation>
+        <translation>Kliknite na ovo dugme da izaberete sliku za RSS izvoz. Imajte u vidu da slike rade samo sa RSS verzijom 2.0</translation>
     </message>
     <message>
         <source>Remove image</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukloni sliku</translation>
     </message>
     <message>
         <source>Click to remove image from RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kliknite da uklonite sliku iz RSS izvoza.</translation>
     </message>
     <message>
         <source>RSS version</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS verzija</translation>
     </message>
     <message>
         <source>Use this drop-down menu to select the RSS version to use for the export. You must select RSS 2.0 in order to export the image selected above.</source>
-        <translation type="unfinished"></translation>
+        <translation>Upotrebite ovu padajuću listu da izaberete RSS verziju koja će se koristiti za izvoz. Morate izabrati RSS 2.0 da biste izvezli sliku izabranu iznad.</translation>
     </message>
     <message>
         <source>Number of objects</source>
-        <translation type="unfinished"></translation>
+        <translation>Broj objekata</translation>
     </message>
     <message>
         <source>Use this drop-down to select the maximum number of objects included in the RSS feed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomoću ove padajuće liste izaberite najveći broj objekata koji se uključuju u RSS izvor.</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivno</translation>
     </message>
     <message>
         <source>Use this checkbox to control if the RSS export is active or not. An inactive export will not be automatically updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Upotrebite ovo polje za potvrdu da kontrolišete da li je RSS izvoz aktivan ili ne. Neaktivan izvoz neće biti automatski ažuriran.</translation>
     </message>
     <message>
         <source>Main node only</source>
-        <translation type="unfinished"></translation>
+        <translation>Samo glavni čvor</translation>
     </message>
     <message>
         <source>Check if you want to only feed the object from the main node.</source>
-        <translation type="unfinished"></translation>
+        <translation>Označite ako želite da izvor sadrži samo objekat iz glavnog čvora.</translation>
     </message>
     <message>
         <source>Access URL</source>
-        <translation type="unfinished"></translation>
+        <translation>URL za pristup</translation>
     </message>
     <message>
         <source>Use this field to set the URL where the RSS export should be available. Note that &quot;rss/feed/&quot; will be appended to the real URL. </source>
-        <translation type="unfinished"></translation>
+        <translation>Upotrebite ovo polje da podesite URL na kojem RSS izvoz treba da bude dostupan. Imajte u vidu da će „rss/feed/“ biti dodato stvarnom URL-u. </translation>
     </message>
     <message>
         <source>Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Izvor</translation>
     </message>
     <message>
         <source>Source path</source>
-        <translation type="unfinished"></translation>
+        <translation>Putanja izvora</translation>
     </message>
     <message>
         <source>Click this button to select the source node for the RSS export source. Objects of the type selected in the drop-down below published as sub items of the selected node will be included in the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kliknite na ovo dugme da izaberete izvorni čvor za RSS izvoz. U RSS izvoz biće uključeni objekti tipa izabranog u padajućoj listi ispod koji su objavljeni kao podstavke izabranog čvora.</translation>
     </message>
     <message>
         <source>Subnodes</source>
-        <translation type="unfinished"></translation>
+        <translation>Podčvorovi</translation>
     </message>
     <message>
         <source>Activate this checkbox if objects from the subnodes of the source should also be fed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivirajte ovo polje za potvrdu ako želite da se u izvor uključe i objekti iz podčvorova izvornog čvora.</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Klasa</translation>
+        <translation>Klasa</translation>
     </message>
     <message>
         <source>Use this drop-down to select the type of object that triggers the export. Click the &quot;Set&quot; button to load the correct attribute types for the remaining fields.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomoću ove padajuće liste izaberite tip objekta koji pokreće izvoz. Kliknite na dugme „Postavi“ da učitate ispravne tipove atributa za preostala polja.</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished"></translation>
+        <translation>Postavi</translation>
     </message>
     <message>
         <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kliknite na ovo dugme da učitate ispravne vrednosti u padajuće liste ispod. Pomoću padajućeg menija sa leve strane izaberite klasu.</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished"></translation>
+        <translation>Naslov</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the title of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomoću ove padajuće liste izaberite atribut koji će se izvoziti kao naslov stavke RSS izvoza.</translation>
     </message>
     <message>
         <source>optional</source>
-        <translation type="unfinished"></translation>
+        <translation>neobavezno</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the description of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomoću ove padajuće liste izaberite atribut koji će se izvoziti kao opis stavke RSS izvoza.</translation>
     </message>
     <message>
         <source>Skip</source>
-        <translation type="unfinished"></translation>
+        <translation>Preskoči</translation>
     </message>
     <message>
         <source>Category</source>
-        <translation type="unfinished">Kategorija</translation>
+        <translation>Kategorija</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the category of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomoću ove padajuće liste izaberite atribut koji će se izvoziti kao kategorija stavke RSS izvoza.</translation>
     </message>
     <message>
         <source>Remove this source</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukloni ovaj izvor</translation>
     </message>
     <message>
         <source>Click to remove this source from the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kliknite da uklonite ovaj izvor iz RSS izvoza.</translation>
     </message>
     <message>
         <source>Add source</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj izvor</translation>
     </message>
     <message>
         <source>Click to add a new source to the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kliknite da dodate novi izvor u RSS izvoz.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">OK</translation>
+        <translation>U redu</translation>
     </message>
     <message>
         <source>Apply the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Primeni izmene i vrati se na RSS pregled.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Poništi</translation>
+        <translation>Odustani</translation>
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Odustani od izmena i vrati se na RSS pregled.</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/rss/edit_import</name>
     <message>
         <source>Edit &lt;%rss_import_name&gt; [RSS Import]</source>
-        <translation type="unfinished"></translation>
+        <translation>Izmeni &lt;%rss_import_name&gt; [RSS uvoz]</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Ime</translation>
+        <translation>Naziv</translation>
     </message>
     <message>
         <source>Name of the RSS import. This name is used in the Administration Interface only, to distinguish the different imports from each other.</source>
-        <translation type="unfinished"></translation>
+        <translation>Naziv RSS uvoza. Ovaj naziv se koristi samo u administrativnom interfejsu, da bi se razlikovali različiti uvozi.</translation>
     </message>
     <message>
         <source>Source URL</source>
-        <translation type="unfinished"></translation>
+        <translation>URL izvora</translation>
     </message>
     <message>
         <source>Use this field to enter the source URL of the RSS feed to import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Koristite ovo polje da unesete URL izvora RSS izvora za uvoz.</translation>
     </message>
     <message>
         <source>Update</source>
-        <translation type="unfinished">Ažuriraj</translation>
+        <translation>Ažuriraj</translation>
     </message>
     <message>
         <source>Click this button to proceed and analyze the import feed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kliknite na ovo dugme da nastavite i analizirate izvor uvoza.</translation>
     </message>
     <message>
         <source>RSS Version</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS verzija</translation>
     </message>
     <message>
         <source>Destination path</source>
-        <translation type="unfinished"></translation>
+        <translation>Putanja odredišta</translation>
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">Listaj</translation>
+        <translation>Pregledaj</translation>
     </message>
     <message>
         <source>Click this button to select the destination node where objects created by the import are located.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kliknite na ovo dugme da izaberete odredišni čvor u kojem se nalaze objekti napravljeni uvozom.</translation>
     </message>
     <message>
         <source>Imported objects will be owned by</source>
-        <translation type="unfinished"></translation>
+        <translation>Uvezeni objekti će pripadati korisniku</translation>
     </message>
     <message>
         <source>Change user</source>
-        <translation type="unfinished"></translation>
+        <translation>Promeni korisnika</translation>
     </message>
     <message>
         <source>Click this button to select the user who should own the objects created by the import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kliknite na ovo dugme da izaberete korisnika koji će biti vlasnik objekata napravljenih uvozom.</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Klasa</translation>
+        <translation>Klasa</translation>
     </message>
     <message>
         <source>Use this drop-down to select the type of object the import should create. Click the &quot;Set&quot; button to load the attribute types for the remaining fields.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomoću ove padajuće liste izaberite tip objekta koji uvoz treba da napravi. Kliknite na dugme „Postavi“ da učitate tipove atributa za preostala polja.</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished"></translation>
+        <translation>Postavi</translation>
     </message>
     <message>
         <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kliknite na ovo dugme da učitate ispravne vrednosti u padajuće liste ispod. Pomoću padajućeg menija sa leve strane izaberite klasu.</translation>
     </message>
     <message>
         <source>Class attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>Atributi klase</translation>
     </message>
     <message>
         <source>Use this drop-down menu to select the attribute that should bet set as information from the RSS stream.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomoću ove padajuće liste izaberite atribut koji treba da bude postavljen kao informacije iz RSS toka.</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignoriši</translation>
     </message>
     <message>
         <source>Object attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>Atributi objekta</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivno</translation>
     </message>
     <message>
         <source>Use this checkbox to control if the RSS feed is active or not. An inactive feed will not be automatically updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomoću ovog polja za potvrdu određujete da li je RSS izvor aktivan ili ne. Neaktivan izvor se neće automatski ažurirati.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">OK</translation>
+        <translation>U redu</translation>
     </message>
     <message>
         <source>Apply the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Primeni izmene i vrati se na RSS pregled.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Poništi</translation>
+        <translation>Odustani</translation>
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Odustani od izmena i vrati se na RSS pregled.</translation>
     </message>
 </context>
 <context>
@@ -2107,71 +2212,71 @@
     </message>
     <message>
         <source>Invert selection</source>
-        <translation type="unfinished">Obrnuti izbor</translation>
+        <translation>Obrni izbor</translation>
     </message>
     <message>
         <source>Invert selection.</source>
-        <translation type="unfinished">Obrnuti izbor.</translation>
+        <translation>Obrni izbor.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Ime</translation>
+        <translation>Naziv</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished">Verzija</translation>
+        <translation>Verzija</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation type="unfinished">Status</translation>
+        <translation>Stanje</translation>
     </message>
     <message>
         <source>Modifier</source>
-        <translation type="unfinished"></translation>
+        <translation>Izmenjivač</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation type="unfinished">Modifikovan</translation>
+        <translation>Izmenjeno</translation>
     </message>
     <message>
         <source>Select RSS export for removal.</source>
-        <translation type="unfinished"></translation>
+        <translation>Izaberite RSS izvoz za brisanje.</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivno</translation>
     </message>
     <message>
         <source>Inactive</source>
-        <translation type="unfinished"></translation>
+        <translation>Neaktivno</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">Uredi</translation>
+        <translation>Izmeni</translation>
     </message>
     <message>
         <source>Edit the &lt;%name&gt; RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Izmeni RSS izvoz &lt;%name&gt;.</translation>
     </message>
     <message>
         <source>The RSS export list is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista RSS izvoza je prazna.</translation>
     </message>
     <message>
         <source>Remove selected</source>
-        <translation type="unfinished">Ukloni izabrano</translation>
+        <translation>Ukloni izabrano</translation>
     </message>
     <message>
         <source>Remove selected RSS exports.</source>
-        <translation type="unfinished"></translation>
+        <translation>Obriši izabrane RSS izvoze.</translation>
     </message>
     <message>
         <source>New export</source>
-        <translation type="unfinished"></translation>
+        <translation>Novi izvoz</translation>
     </message>
     <message>
         <source>Create a new RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Napravi novi RSS izvoz.</translation>
     </message>
     <message>
         <source>RSS imports [%imports_count]</source>
@@ -2179,27 +2284,27 @@
     </message>
     <message>
         <source>Select RSS import for removal.</source>
-        <translation type="unfinished"></translation>
+        <translation>Izaberite RSS uvoz za brisanje.</translation>
     </message>
     <message>
         <source>Edit the &lt;%name&gt; RSS import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Izmeni RSS uvoz &lt;%name&gt;.</translation>
     </message>
     <message>
         <source>The RSS import list is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista RSS uvoza je prazna.</translation>
     </message>
     <message>
         <source>Remove selected RSS imports.</source>
-        <translation type="unfinished"></translation>
+        <translation>Obriši izabrane RSS uvoze.</translation>
     </message>
     <message>
         <source>New import</source>
-        <translation type="unfinished"></translation>
+        <translation>Novi uvoz</translation>
     </message>
     <message>
         <source>Create a new RSS import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Napravi novi RSS uvoz.</translation>
     </message>
 </context>
 <context>
@@ -2381,15 +2486,15 @@
     </message>
     <message>
         <source>Summary</source>
-        <translation type="unfinished">Zbir</translation>
+        <translation>Rezime</translation>
     </message>
     <message>
         <source>Total ex. VAT</source>
-        <translation type="unfinished">Ukupno bez PDV-a</translation>
+        <translation>Ukupno bez PDV-a</translation>
     </message>
     <message>
         <source>Total inc. VAT</source>
-        <translation type="unfinished">Ukupno sa PDV-om</translation>
+        <translation>Ukupno sa PDV-om</translation>
     </message>
 </context>
 <context>
@@ -2941,11 +3046,11 @@
     </message>
     <message>
         <source>Your browser does not support html5 video.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaš pregledač ne podržava HTML5 video.</translation>
     </message>
     <message>
         <source>Your browser does not support html5 audio.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaš pregledač ne podržava HTML5 audio.</translation>
     </message>
 </context>
 <context>
@@ -2974,31 +3079,31 @@
     <name>design/ezdemo/websitetoolbar/objectstates</name>
     <message>
         <source>Object states for object</source>
-        <translation type="unfinished"></translation>
+        <translation>Stanja objekta za objekat</translation>
     </message>
     <message>
         <source>Content object state group</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupa stanja objekta sadržaja</translation>
     </message>
     <message>
         <source>Available states</source>
-        <translation type="unfinished"></translation>
+        <translation>Dostupna stanja</translation>
     </message>
     <message>
         <source>No content object state is configured. This can be done %urlstart here %urlend.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nijedno stanje objekta sadržaja nije podešeno. To možete uraditi %urlstart ovde %urlend.</translation>
     </message>
     <message>
         <source>Set states</source>
-        <translation type="unfinished"></translation>
+        <translation>Postavi stanja</translation>
     </message>
     <message>
         <source>Apply states from the list above.</source>
-        <translation type="unfinished"></translation>
+        <translation>Primeni stanja sa liste iznad.</translation>
     </message>
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nema stanja koje se može primeniti na ovaj objekat sadržaja. Možda vam je potrebna politika pristupa sa više dozvola.</translation>
     </message>
 </context>
 <context>
@@ -3009,11 +3114,11 @@
     </message>
     <message>
         <source>Search</source>
-        <translation type="unfinished">Traži</translation>
+        <translation>Pretraži</translation>
     </message>
     <message>
         <source>Results</source>
-        <translation type="unfinished">Rezultati</translation>
+        <translation>Rezultati</translation>
     </message>
     <message>
         <source>Select:</source>
@@ -3025,11 +3130,11 @@
     </message>
     <message>
         <source>Edit &lt;%object_name&gt; (%class_name)</source>
-        <translation type="unfinished"></translation>
+        <translation>Izmeni &lt;%object_name&gt; (%class_name)</translation>
     </message>
     <message>
         <source>Translating content from %from_lang to %to_lang</source>
-        <translation type="unfinished">Prevod sadržaja sa jezika %from_lang na %to_lang</translation>
+        <translation>Prevođenje sadržaja sa %from_lang na %to_lang</translation>
     </message>
     <message>
         <source>Content in %language</source>
@@ -3037,41 +3142,41 @@
     </message>
     <message>
         <source>Send for publishing</source>
-        <translation type="unfinished">Pošalji na objavljivanje</translation>
+        <translation>Pošalji na objavljivanje</translation>
     </message>
     <message>
         <source>Store draft</source>
-        <translation type="unfinished">Sačuvaj skicu</translation>
+        <translation>Sačuvaj skicu</translation>
     </message>
     <message>
         <source>Discard draft</source>
-        <translation type="unfinished">Odbaci skicu</translation>
+        <translation>Odbaci skicu</translation>
     </message>
 </context>
 <context>
     <name>design/ezflow/embed/poll</name>
     <message>
         <source>Vote</source>
-        <translation type="unfinished">Glasaj</translation>
+        <translation>Glasaj</translation>
     </message>
 </context>
 <context>
     <name>design/standard/user</name>
     <message>
         <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaša adresa e-pošte je potvrđena. Administrator mora da odobri vaš zahtev za registraciju pre nego što vaša prijava postane važeća.</translation>
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation type="unfinished">Vaš je račun aktiviran.</translation>
+        <translation>Vaš nalog je sada aktiviran.</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation type="unfinished">Vaš je račun vež aktiviran.</translation>
+        <translation>Vaš nalog je već aktivan.</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="unfinished">Nažalost, uneseni ključ nije odgovarajući ključ. Račun nije aktiviran.</translation>
+        <translation>Nažalost, poslati ključ nije važeći. Nalog nije aktiviran.</translation>
     </message>
 </context>
 <context>
@@ -3104,7 +3209,7 @@
     </message>
     <message>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Naziv:</translation>
     </message>
     <message>
         <source>Website:</source>
@@ -3148,7 +3253,7 @@
     </message>
     <message>
         <source>Remember me</source>
-        <translation type="unfinished">Zapamti me</translation>
+        <translation>Zapamti me</translation>
     </message>
     <message>
         <source>Add comment</source>
@@ -3157,6 +3262,188 @@
     <message>
         <source>Reset form</source>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/block</name>
+    <message>
+        <source>Discover what is new</source>
+        <translation>Otkrijte novosti</translation>
+    </message>
+    <message>
+        <source>Explore the platform</source>
+        <translation>Istražite platformu</translation>
+    </message>
+    <message>
+        <source>Learn more</source>
+        <translation>Saznajte više</translation>
+    </message>
+    <message>
+        <source>Next slide</source>
+        <translation>Sledeći slajd</translation>
+    </message>
+    <message>
+        <source>Previous slide</source>
+        <translation>Prethodni slajd</translation>
+    </message>
+    <message>
+        <source>Read more</source>
+        <translation>Pročitajte više</translation>
+    </message>
+    <message>
+        <source>Read the announcement</source>
+        <translation>Pročitajte najavu</translation>
+    </message>
+    <message>
+        <source>Read the story</source>
+        <translation>Pročitajte članak</translation>
+    </message>
+    <message>
+        <source>Scroll back</source>
+        <translation>Pomeri nazad</translation>
+    </message>
+    <message>
+        <source>Scroll on</source>
+        <translation>Pomeri napred</translation>
+    </message>
+    <message>
+        <source>See the results</source>
+        <translation>Pogledajte rezultate</translation>
+    </message>
+    <message>
+        <source>Show slide %number</source>
+        <translation>Prikaži slajd %number</translation>
+    </message>
+    <message>
+        <source>carousel</source>
+        <translation>karusel</translation>
+    </message>
+    <message>
+        <source>slide</source>
+        <translation>slajd</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer</name>
+    <message>
+        <source>Explore</source>
+        <translation>Istražite</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Pokreće</translation>
+    </message>
+    <message>
+        <source>open source content management by the Exponential Foundation and 7x.</source>
+        <translation>upravljanje sadržajem otvorenog koda Exponential Foundationa i 7x.</translation>
+    </message>
+    <message>
+        <source>Get in touch</source>
+        <translation>Kontakt</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full</name>
+    <message>
+        <source>Contact us</source>
+        <translation>Kontaktirajte nas</translation>
+    </message>
+    <message>
+        <source>Questions?</source>
+        <translation>Pitanja?</translation>
+    </message>
+    <message>
+        <source>Talk to the team about your project.</source>
+        <translation>Razgovarajte sa timom o svom projektu.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/blog</name>
+    <message>
+        <source>All posts</source>
+        <translation>Sve objave</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/folder</name>
+    <message>
+        <source>RSS feed</source>
+        <translation>RSS fid</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/gallery</name>
+    <message>
+        <source>%count pictures</source>
+        <translation>%count slika</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/place</name>
+    <message>
+        <source>View on the map</source>
+        <translation>Prikaži na mapi</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/gallery</name>
+    <message>
+        <source>%index of %count</source>
+        <translation>%index od %count</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Zatvori</translation>
+    </message>
+    <message>
+        <source>Gallery</source>
+        <translation>Galerija</translation>
+    </message>
+    <message>
+        <source>Next picture</source>
+        <translation>Sledeća slika</translation>
+    </message>
+    <message>
+        <source>Previous picture</source>
+        <translation>Prethodna slika</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/share</name>
+    <message>
+        <source>Copy link</source>
+        <translation>Kopiraj link</translation>
+    </message>
+    <message>
+        <source>Link copied</source>
+        <translation>Veza je kopirana</translation>
+    </message>
+    <message>
+        <source>Share</source>
+        <translation>Podeli</translation>
+    </message>
+    <message>
+        <source>Share this page</source>
+        <translation>Podeli ovu stranicu</translation>
+    </message>
+    <message>
+        <source>Share on LinkedIn</source>
+        <translation>Podeli na LinkedInu</translation>
+    </message>
+    <message>
+        <source>Share on Bluesky</source>
+        <translation>Podeli na Blueskyju</translation>
+    </message>
+    <message>
+        <source>Share by email</source>
+        <translation>Podeli e-poštom</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/tagcloud</name>
+    <message>
+        <source>%count items tagged %tag</source>
+        <translation>%count stavki sa oznakom %tag</translation>
     </message>
 </context>
 </TS>

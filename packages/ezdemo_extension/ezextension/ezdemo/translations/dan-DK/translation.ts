@@ -56,6 +56,10 @@
         <source>%login_link_startLog in%login_link_end to comment.</source>
         <translation>%login_link_startLog ind%login_link_end for at kommentere.</translation>
     </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Skriv en kommentar</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/block/feedback_form</name>
@@ -63,12 +67,20 @@
         <source>Send form</source>
         <translation>Send formular</translation>
     </message>
+    <message>
+        <source>Send message</source>
+        <translation>Send besked</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/block_item/call_to_action</name>
     <message>
         <source>Download!</source>
         <translation>Hent!</translation>
+    </message>
+    <message>
+        <source>Get started</source>
+        <translation>Kom i gang</translation>
     </message>
 </context>
 <context>
@@ -80,6 +92,10 @@
     <message>
         <source>Buy</source>
         <translation>Køb</translation>
+    </message>
+    <message>
+        <source>Add to basket</source>
+        <translation>Læg i indkøbskurv</translation>
     </message>
 </context>
 <context>
@@ -1079,12 +1095,20 @@
         <source>Latest News</source>
         <translation>Seneste nyheder</translation>
     </message>
+    <message>
+        <source>Latest news</source>
+        <translation>Seneste nyt</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/footer/links</name>
     <message>
         <source>eZ Links</source>
         <translation>eZ-links</translation>
+    </message>
+    <message>
+        <source>Resources</source>
+        <translation>Ressourcer</translation>
     </message>
 </context>
 <context>
@@ -1141,6 +1165,14 @@
         <source>Category</source>
         <translation>Kategori</translation>
     </message>
+    <message>
+        <source>Past event</source>
+        <translation>Tidligere begivenhed</translation>
+    </message>
+    <message>
+        <source>until</source>
+        <translation>til</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/full/event_view_calendar</name>
@@ -1194,6 +1226,18 @@
     <message>
         <source>Future events</source>
         <translation>Kommende arrangementer</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Hændelser</translation>
+    </message>
+    <message>
+        <source>Program</source>
+        <translation>Program</translation>
+    </message>
+    <message>
+        <source>Webinars, workshops and meetups. Add one to your calendar or join us live.</source>
+        <translation>Webinarer, workshops og møder. Føj et til din kalender, eller vær med live.</translation>
     </message>
 </context>
 <context>
@@ -1349,6 +1393,10 @@
         <source>Related content</source>
         <translation>Relateret indhold</translation>
     </message>
+    <message>
+        <source>Pictures</source>
+        <translation>Billeder</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/full/multicalendar</name>
@@ -1393,6 +1441,18 @@
     <message>
         <source>Amount</source>
         <translation>Beløb</translation>
+    </message>
+    <message>
+        <source>Category</source>
+        <translation>Kategori</translation>
+    </message>
+    <message>
+        <source>Quantity</source>
+        <translation>Antal</translation>
+    </message>
+    <message>
+        <source>incl. VAT</source>
+        <translation>inkl. moms</translation>
     </message>
 </context>
 <context>
@@ -1742,6 +1802,50 @@
     <message>
         <source>Search text</source>
         <translation>Søgetekst</translation>
+    </message>
+    <message>
+        <source>Breadcrumb</source>
+        <translation>Brødkrummesti</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Sprog</translation>
+    </message>
+    <message>
+        <source>Main</source>
+        <translation>Hoved</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menu</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Mere</translation>
+    </message>
+    <message>
+        <source>New: Exponential 6.0.15 is here.</source>
+        <translation>Nyt: Exponential 6.0.15 er her.</translation>
+    </message>
+    <message>
+        <source>Section menu</source>
+        <translation>Sektionsmenu</translation>
+    </message>
+    <message>
+        <source>See what is new</source>
+        <translation>Se nyhederne</translation>
+    </message>
+    <message>
+        <source>Skip to content</source>
+        <translation>Spring til indholdet</translation>
+    </message>
+    <message>
+        <source>Use the dark theme</source>
+        <translation>Brug mørkt tema</translation>
+    </message>
+    <message>
+        <source>Use the light theme</source>
+        <translation>Brug lyst tema</translation>
     </message>
 </context>
 <context>
@@ -3384,6 +3488,188 @@
     <message>
         <source>Could not load LICENSE file! You should have a LICENSE file in your eZ Publish root directory.</source>
         <translation>LICENSE-filen kunne ikke indlæses! Der skal være en LICENSE-fil i rodmappen for eZ Publish.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/block</name>
+    <message>
+        <source>Discover what is new</source>
+        <translation>Se nyhederne</translation>
+    </message>
+    <message>
+        <source>Explore the platform</source>
+        <translation>Udforsk platformen</translation>
+    </message>
+    <message>
+        <source>Learn more</source>
+        <translation>Læs mere</translation>
+    </message>
+    <message>
+        <source>Next slide</source>
+        <translation>Næste dias</translation>
+    </message>
+    <message>
+        <source>Previous slide</source>
+        <translation>Forrige dias</translation>
+    </message>
+    <message>
+        <source>Read more</source>
+        <translation>Læs mere</translation>
+    </message>
+    <message>
+        <source>Read the announcement</source>
+        <translation>Læs meddelelsen</translation>
+    </message>
+    <message>
+        <source>Read the story</source>
+        <translation>Læs artiklen</translation>
+    </message>
+    <message>
+        <source>Scroll back</source>
+        <translation>Rul tilbage</translation>
+    </message>
+    <message>
+        <source>Scroll on</source>
+        <translation>Rul videre</translation>
+    </message>
+    <message>
+        <source>See the results</source>
+        <translation>Se resultaterne</translation>
+    </message>
+    <message>
+        <source>Show slide %number</source>
+        <translation>Vis dias %number</translation>
+    </message>
+    <message>
+        <source>carousel</source>
+        <translation>karrusel</translation>
+    </message>
+    <message>
+        <source>slide</source>
+        <translation>dias</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer</name>
+    <message>
+        <source>Explore</source>
+        <translation>Udforsk</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Drevet af</translation>
+    </message>
+    <message>
+        <source>open source content management by the Exponential Foundation and 7x.</source>
+        <translation>open source-indholdsstyring fra Exponential Foundation og 7x.</translation>
+    </message>
+    <message>
+        <source>Get in touch</source>
+        <translation>Kontakt</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full</name>
+    <message>
+        <source>Contact us</source>
+        <translation>Kontakt os</translation>
+    </message>
+    <message>
+        <source>Questions?</source>
+        <translation>Spørgsmål?</translation>
+    </message>
+    <message>
+        <source>Talk to the team about your project.</source>
+        <translation>Tal med teamet om dit projekt.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/blog</name>
+    <message>
+        <source>All posts</source>
+        <translation>Alle indlæg</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/folder</name>
+    <message>
+        <source>RSS feed</source>
+        <translation>RSS-feed</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/gallery</name>
+    <message>
+        <source>%count pictures</source>
+        <translation>%count billeder</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/place</name>
+    <message>
+        <source>View on the map</source>
+        <translation>Vis på kortet</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/gallery</name>
+    <message>
+        <source>%index of %count</source>
+        <translation>%index af %count</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Luk</translation>
+    </message>
+    <message>
+        <source>Gallery</source>
+        <translation>Galleri</translation>
+    </message>
+    <message>
+        <source>Next picture</source>
+        <translation>Næste billede</translation>
+    </message>
+    <message>
+        <source>Previous picture</source>
+        <translation>Forrige billede</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/share</name>
+    <message>
+        <source>Copy link</source>
+        <translation>Kopiér link</translation>
+    </message>
+    <message>
+        <source>Link copied</source>
+        <translation>Link kopieret</translation>
+    </message>
+    <message>
+        <source>Share</source>
+        <translation>Del</translation>
+    </message>
+    <message>
+        <source>Share this page</source>
+        <translation>Del denne side</translation>
+    </message>
+    <message>
+        <source>Share on LinkedIn</source>
+        <translation>Del på LinkedIn</translation>
+    </message>
+    <message>
+        <source>Share on Bluesky</source>
+        <translation>Del på Bluesky</translation>
+    </message>
+    <message>
+        <source>Share by email</source>
+        <translation>Del via e-mail</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/tagcloud</name>
+    <message>
+        <source>%count items tagged %tag</source>
+        <translation>%count elementer med tagget %tag</translation>
     </message>
 </context>
 </TS>

@@ -28,30 +28,30 @@
     <name>design/admin/content/edit_attribute</name>
     <message>
         <source>not translatable</source>
-        <translation type="unfinished"></translation>
+        <translation>no traduïble</translation>
     </message>
     <message>
         <source>required</source>
-        <translation type="unfinished"></translation>
+        <translation>obligatori</translation>
     </message>
     <message>
         <source>information collector</source>
-        <translation type="unfinished"></translation>
+        <translation>recol·lector d&apos;informació</translation>
     </message>
 </context>
 <context>
     <name>design/admin/preview/article</name>
     <message>
         <source>Comments allowed</source>
-        <translation type="unfinished"></translation>
+        <translation>Es permeten comentaris</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Sí</translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>No</translation>
     </message>
 </context>
 <context>
@@ -79,12 +79,20 @@
         <source>%login_link_startLog in%login_link_end to comment.</source>
         <translation>%login_link_startLog in%login_link_end per a incloure comentaris.</translation>
     </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Escriu un comentari</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/block/feedback_form</name>
     <message>
         <source>Send form</source>
-        <translation type="unfinished">Envia formulari</translation>
+        <translation>Envia el formulari</translation>
+    </message>
+    <message>
+        <source>Send message</source>
+        <translation>Envia el missatge</translation>
     </message>
 </context>
 <context>
@@ -93,16 +101,24 @@
         <source>Download!</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Get started</source>
+        <translation>Comença</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/block_item/product</name>
     <message>
         <source>Amount</source>
-        <translation type="unfinished">Quantitat</translation>
+        <translation>Import</translation>
     </message>
     <message>
         <source>Buy</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add to basket</source>
+        <translation>Afegeix a la cistella</translation>
     </message>
 </context>
 <context>
@@ -160,11 +176,11 @@
     </message>
     <message>
         <source>Tag cloud</source>
-        <translation type="unfinished"></translation>
+        <translation>Núvol d&apos;etiquetes</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished">Descripció</translation>
+        <translation>Descripció</translation>
     </message>
 </context>
 <context>
@@ -243,11 +259,11 @@
     <name>design/ezdemo/colledtedinfomail</name>
     <message>
         <source>Collected information from %1</source>
-        <translation type="unfinished">Informació recollida de %1</translation>
+        <translation>Informació recollida de %1</translation>
     </message>
     <message>
         <source>The following information was collected</source>
-        <translation type="unfinished">S&apos;ha recollit la següent informació</translation>
+        <translation>S&apos;ha recollit la informació següent</translation>
     </message>
 </context>
 <context>
@@ -258,11 +274,11 @@
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">Edita</translation>
+        <translation>Edita</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Suprimeix</translation>
     </message>
 </context>
 <context>
@@ -490,27 +506,27 @@
     </message>
     <message>
         <source>Edit &lt;%object_name&gt; (%class_name)</source>
-        <translation type="unfinished"></translation>
+        <translation>Edita &lt;%object_name&gt; (%class_name)</translation>
     </message>
     <message>
         <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Publica el contingut de l&apos;esborrany que s&apos;està editant. L&apos;esborrany passarà a ser la versió publicada de l&apos;objecte.</translation>
     </message>
     <message>
         <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Desa el contingut de l&apos;esborrany que s&apos;està editant i continua editant. Fes servir aquest botó per desar la feina de tant en tant mentre edites.</translation>
     </message>
     <message>
         <source>Store draft and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Desa l&apos;esborrany i surt</translation>
     </message>
     <message>
         <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
-        <translation type="unfinished"></translation>
+        <translation>Desa l&apos;esborrany que s&apos;està editant i surt del mode d&apos;edició. Fes-ho servir quan hagis de deixar la feina i tornar-hi més tard.</translation>
     </message>
     <message>
         <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
-        <translation type="unfinished"></translation>
+        <translation>Descarta l&apos;esborrany que s&apos;està editant. Això també suprimeix les traduccions que pertanyen a l&apos;esborrany (si n&apos;hi ha).</translation>
     </message>
 </context>
 <context>
@@ -1118,12 +1134,20 @@
         <source>Latest News</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Latest news</source>
+        <translation>Darreres notícies</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/footer/links</name>
     <message>
         <source>eZ Links</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Resources</source>
+        <translation>Recursos</translation>
     </message>
 </context>
 <context>
@@ -1150,7 +1174,7 @@
     </message>
     <message>
         <source>Location</source>
-        <translation type="unfinished">Localització</translation>
+        <translation>Ubicació</translation>
     </message>
 </context>
 <context>
@@ -1179,6 +1203,14 @@
     <message>
         <source>Category</source>
         <translation>Categoria</translation>
+    </message>
+    <message>
+        <source>Past event</source>
+        <translation>Esdeveniment passat</translation>
+    </message>
+    <message>
+        <source>until</source>
+        <translation>fins al</translation>
     </message>
 </context>
 <context>
@@ -1233,6 +1265,18 @@
     <message>
         <source>Future events</source>
         <translation>Events futurs</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Esdeveniments</translation>
+    </message>
+    <message>
+        <source>Program</source>
+        <translation>Programa</translation>
+    </message>
+    <message>
+        <source>Webinars, workshops and meetups. Add one to your calendar or join us live.</source>
+        <translation>Seminaris web, tallers i trobades. Afegeix-ne un al calendari o connecta't en directe.</translation>
     </message>
 </context>
 <context>
@@ -1388,6 +1432,10 @@
         <source>Related content</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Pictures</source>
+        <translation>Imatges</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/full/multicalendar</name>
@@ -1431,14 +1479,26 @@
     </message>
     <message>
         <source>Amount</source>
-        <translation type="unfinished">Quantitat</translation>
+        <translation>Import</translation>
+    </message>
+    <message>
+        <source>Category</source>
+        <translation>Categoria</translation>
+    </message>
+    <message>
+        <source>Quantity</source>
+        <translation>Quantitat</translation>
+    </message>
+    <message>
+        <source>incl. VAT</source>
+        <translation>IVA incl.</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/full/video</name>
     <message>
         <source>Download</source>
-        <translation type="unfinished"></translation>
+        <translation>Baixa</translation>
     </message>
 </context>
 <context>
@@ -1485,7 +1545,7 @@
     </message>
     <message>
         <source>Modified:</source>
-        <translation type="unfinished">Modificat:</translation>
+        <translation>Modificat:</translation>
     </message>
     <message>
         <source>Download file</source>
@@ -1540,7 +1600,7 @@
     <name>design/ezdemo/line/product</name>
     <message>
         <source>Amount</source>
-        <translation type="unfinished">Quantitat</translation>
+        <translation>Import</translation>
     </message>
     <message>
         <source>Buy</source>
@@ -1633,7 +1693,7 @@
     </message>
     <message>
         <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
-        <translation type="unfinished"></translation>
+        <translation>Els elements contenen més nodes dels que es poden suprimir en treure un subarbre, de manera que no se suprimiran. Pots treure aquest subarbre amb l&apos;script ezsubtreeremove.php.</translation>
     </message>
 </context>
 <context>
@@ -1740,47 +1800,91 @@
     </message>
     <message>
         <source>Tag cloud</source>
-        <translation type="unfinished"></translation>
+        <translation>Núvol d&apos;etiquetes</translation>
     </message>
     <message>
         <source>Site map</source>
-        <translation type="unfinished">Mapa del lloc</translation>
+        <translation>Contingut</translation>
     </message>
     <message>
         <source>Shopping basket</source>
-        <translation type="unfinished">Cistella</translation>
+        <translation>Cistella de la compra</translation>
     </message>
     <message>
         <source>My profile</source>
-        <translation type="unfinished"></translation>
+        <translation>El meu perfil</translation>
     </message>
     <message>
         <source>Logout</source>
-        <translation type="unfinished"></translation>
+        <translation>Tanca la sessió</translation>
     </message>
     <message>
         <source>Register</source>
-        <translation type="unfinished">Subscriu</translation>
+        <translation>Registra</translation>
     </message>
     <message>
         <source>Login</source>
-        <translation type="unfinished">Connecta</translation>
+        <translation>Inicia la sessió</translation>
     </message>
     <message>
         <source>Username</source>
-        <translation type="unfinished">Nom d&apos;usuari</translation>
+        <translation>Nom d&apos;usuari</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation type="unfinished">Contrasenya</translation>
+        <translation>Contrasenya</translation>
     </message>
     <message>
         <source>Forgot your password?</source>
-        <translation type="unfinished">Has oblidat la teva contrasenya?</translation>
+        <translation>Has oblidat la contrasenya?</translation>
     </message>
     <message>
         <source>Search text</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Breadcrumb</source>
+        <translation>Ruta de navegació</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Idiomes</translation>
+    </message>
+    <message>
+        <source>Main</source>
+        <translation>Principal</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menú</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Més</translation>
+    </message>
+    <message>
+        <source>New: Exponential 6.0.15 is here.</source>
+        <translation>Novetat: ja és aquí Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Section menu</source>
+        <translation>Menú de la secció</translation>
+    </message>
+    <message>
+        <source>See what is new</source>
+        <translation>Mostra les novetats</translation>
+    </message>
+    <message>
+        <source>Skip to content</source>
+        <translation>Salta al contingut</translation>
+    </message>
+    <message>
+        <source>Use the dark theme</source>
+        <translation>Fes servir el tema fosc</translation>
+    </message>
+    <message>
+        <source>Use the light theme</source>
+        <translation>Fes servir el tema clar</translation>
     </message>
 </context>
 <context>
@@ -1798,39 +1902,39 @@
     <name>design/ezdemo/rss/edit_export</name>
     <message>
         <source>Edit &lt;%rss_export_name&gt; [RSS Export]</source>
-        <translation type="unfinished"></translation>
+        <translation>Edita &lt;%rss_export_name&gt; [Exportació RSS]</translation>
     </message>
     <message>
         <source>Invalid input</source>
-        <translation type="unfinished"></translation>
+        <translation>Entrada no vàlida</translation>
     </message>
     <message>
         <source>If RSS Export is Active then a valid Access URL is required.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si l&apos;exportació RSS està activa, cal un URL d&apos;accés vàlid.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Nom</translation>
+        <translation>Nom</translation>
     </message>
     <message>
         <source>Name of the RSS export. This name is used in the Administration Interface only, to distinguish the different exports from each other.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nom de l&apos;exportació RSS. Aquest nom només es fa servir a la interfície d&apos;administració, per distingir les diferents exportacions entre si.</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished">Descripció</translation>
+        <translation>Descripció</translation>
     </message>
     <message>
         <source>Use the description field to write a text explaining what users can expect from the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes servir el camp de descripció per escriure un text que expliqui què poden esperar els usuaris de l&apos;exportació RSS.</translation>
     </message>
     <message>
         <source>Site URL</source>
-        <translation type="unfinished"></translation>
+        <translation>URL del lloc</translation>
     </message>
     <message>
         <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and Exponential configuration.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes servir aquest camp per introduir l&apos;URL base del teu lloc. Serveix per generar els URL de l&apos;exportació, que es componen de l&apos;URL del lloc (per exemple, «http://www.example.com/index.php») i la ruta a l&apos;objecte (per exemple, «/articles/my_article»). L&apos;URL del lloc depèn del teu servidor web i de la configuració d&apos;Exponential.</translation>
     </message>
     <message>
         <source>Leave this field emty if you want system automaticaly detect the URL of your site from the URL you access feed with</source>
@@ -1838,274 +1942,274 @@
     </message>
     <message>
         <source>Image</source>
-        <translation type="unfinished"></translation>
+        <translation>Imatge</translation>
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">Navega</translation>
+        <translation>Explora</translation>
     </message>
     <message>
         <source>Click this button to select an image for the RSS export. Note that images only work with RSS version 2.0</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes clic en aquest botó per seleccionar una imatge per a l&apos;exportació RSS. Tingues en compte que les imatges només funcionen amb RSS versió 2.0</translation>
     </message>
     <message>
         <source>Remove image</source>
-        <translation type="unfinished"></translation>
+        <translation>Treu la imatge</translation>
     </message>
     <message>
         <source>Click to remove image from RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes clic per treure la imatge de l&apos;exportació RSS.</translation>
     </message>
     <message>
         <source>RSS version</source>
-        <translation type="unfinished"></translation>
+        <translation>Versió de RSS</translation>
     </message>
     <message>
         <source>Use this drop-down menu to select the RSS version to use for the export. You must select RSS 2.0 in order to export the image selected above.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes servir aquest menú desplegable per seleccionar la versió de RSS de l&apos;exportació. Has de triar RSS 2.0 per poder exportar la imatge seleccionada més amunt.</translation>
     </message>
     <message>
         <source>Number of objects</source>
-        <translation type="unfinished"></translation>
+        <translation>Nombre d&apos;objectes</translation>
     </message>
     <message>
         <source>Use this drop-down to select the maximum number of objects included in the RSS feed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes servir aquest desplegable per triar el nombre màxim d&apos;objectes inclosos al canal RSS.</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Actiu</translation>
     </message>
     <message>
         <source>Use this checkbox to control if the RSS export is active or not. An inactive export will not be automatically updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes servir aquesta casella de selecció per controlar si l&apos;exportació RSS és activa o no. Una exportació inactiva no s&apos;actualitzarà automàticament.</translation>
     </message>
     <message>
         <source>Main node only</source>
-        <translation type="unfinished"></translation>
+        <translation>Només el node principal</translation>
     </message>
     <message>
         <source>Check if you want to only feed the object from the main node.</source>
-        <translation type="unfinished"></translation>
+        <translation>Marca-ho si vols subministrar només l&apos;objecte des del node principal.</translation>
     </message>
     <message>
         <source>Access URL</source>
-        <translation type="unfinished"></translation>
+        <translation>URL d&apos;accés</translation>
     </message>
     <message>
         <source>Use this field to set the URL where the RSS export should be available. Note that &quot;rss/feed/&quot; will be appended to the real URL. </source>
-        <translation type="unfinished"></translation>
+        <translation>Fes servir aquest camp per indicar l&apos;URL on ha d&apos;estar disponible l&apos;exportació RSS. Tingues en compte que s&apos;afegirà «rss/feed/» a l&apos;URL real. </translation>
     </message>
     <message>
         <source>Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Origen</translation>
     </message>
     <message>
         <source>Source path</source>
-        <translation type="unfinished"></translation>
+        <translation>Ruta d&apos;origen</translation>
     </message>
     <message>
         <source>Click this button to select the source node for the RSS export source. Objects of the type selected in the drop-down below published as sub items of the selected node will be included in the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes clic en aquest botó per triar el node d&apos;origen de l&apos;origen de l&apos;exportació RSS. S&apos;inclouran a l&apos;exportació RSS els objectes del tipus seleccionat al menú desplegable de sota publicats com a subelements del node seleccionat.</translation>
     </message>
     <message>
         <source>Subnodes</source>
-        <translation type="unfinished"></translation>
+        <translation>Subnodes</translation>
     </message>
     <message>
         <source>Activate this checkbox if objects from the subnodes of the source should also be fed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Activa aquesta casella de selecció si també s&apos;han de subministrar els objectes dels subnodes de l&apos;origen.</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Classe</translation>
+        <translation>Classe</translation>
     </message>
     <message>
         <source>Use this drop-down to select the type of object that triggers the export. Click the &quot;Set&quot; button to load the correct attribute types for the remaining fields.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes servir aquest menú desplegable per triar el tipus d&apos;objecte que activa l&apos;exportació. Fes clic al botó «Defineix» per carregar els tipus d&apos;atribut correctes per als camps restants.</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished">Establir</translation>
+        <translation>Defineix</translation>
     </message>
     <message>
         <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes clic en aquest botó per carregar els valors correctes als camps desplegables de sota. Fes servir el menú desplegable de l&apos;esquerra per triar la classe.</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished"></translation>
+        <translation>Títol</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the title of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes servir aquest desplegable per triar l&apos;atribut que s&apos;ha d&apos;exportar com a títol de l&apos;entrada de l&apos;exportació RSS.</translation>
     </message>
     <message>
         <source>optional</source>
-        <translation type="unfinished"></translation>
+        <translation>opcional</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the description of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes servir aquest desplegable per triar l&apos;atribut que s&apos;ha d&apos;exportar com a descripció de l&apos;entrada de l&apos;exportació RSS.</translation>
     </message>
     <message>
         <source>Skip</source>
-        <translation type="unfinished"></translation>
+        <translation>Omet</translation>
     </message>
     <message>
         <source>Category</source>
-        <translation type="unfinished">Categoria</translation>
+        <translation>Categoria</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the category of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes servir aquest desplegable per triar l&apos;atribut que s&apos;ha d&apos;exportar com a categoria de l&apos;entrada de l&apos;exportació RSS.</translation>
     </message>
     <message>
         <source>Remove this source</source>
-        <translation type="unfinished"></translation>
+        <translation>Treu aquest origen</translation>
     </message>
     <message>
         <source>Click to remove this source from the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes clic per treure aquest origen de l&apos;exportació RSS.</translation>
     </message>
     <message>
         <source>Add source</source>
-        <translation type="unfinished"></translation>
+        <translation>Afegeix un origen</translation>
     </message>
     <message>
         <source>Click to add a new source to the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes clic per afegir un origen nou a l&apos;exportació RSS.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">D&apos;acord</translation>
+        <translation>D&apos;acord</translation>
     </message>
     <message>
         <source>Apply the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplica els canvis i torna a la vista general de RSS.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Cancel·la</translation>
+        <translation>Cancel·la</translation>
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cancel·la els canvis i torna a la vista general de RSS.</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/rss/edit_import</name>
     <message>
         <source>Edit &lt;%rss_import_name&gt; [RSS Import]</source>
-        <translation type="unfinished"></translation>
+        <translation>Edita &lt;%rss_import_name&gt; [Importació d&apos;RSS]</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Nom</translation>
+        <translation>Nom</translation>
     </message>
     <message>
         <source>Name of the RSS import. This name is used in the Administration Interface only, to distinguish the different imports from each other.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nom de la importació d&apos;RSS. Aquest nom només es fa servir a la interfície d&apos;administració, per distingir les diferents importacions.</translation>
     </message>
     <message>
         <source>Source URL</source>
-        <translation type="unfinished"></translation>
+        <translation>URL d&apos;origen</translation>
     </message>
     <message>
         <source>Use this field to enter the source URL of the RSS feed to import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes servir aquest camp per escriure l&apos;URL d&apos;origen del canal RSS que s&apos;ha d&apos;importar.</translation>
     </message>
     <message>
         <source>Update</source>
-        <translation type="unfinished">Actualitza</translation>
+        <translation>Actualitza</translation>
     </message>
     <message>
         <source>Click this button to proceed and analyze the import feed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes clic en aquest botó per continuar i analitzar el canal d&apos;importació.</translation>
     </message>
     <message>
         <source>RSS Version</source>
-        <translation type="unfinished"></translation>
+        <translation>Versió d&apos;RSS</translation>
     </message>
     <message>
         <source>Destination path</source>
-        <translation type="unfinished"></translation>
+        <translation>Camí de destinació</translation>
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">Navega</translation>
+        <translation>Explora</translation>
     </message>
     <message>
         <source>Click this button to select the destination node where objects created by the import are located.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes clic en aquest botó per triar el node de destinació on se situaran els objectes creats per la importació.</translation>
     </message>
     <message>
         <source>Imported objects will be owned by</source>
-        <translation type="unfinished"></translation>
+        <translation>Els objectes importats seran propietat de</translation>
     </message>
     <message>
         <source>Change user</source>
-        <translation type="unfinished"></translation>
+        <translation>Canvia d&apos;usuari</translation>
     </message>
     <message>
         <source>Click this button to select the user who should own the objects created by the import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes clic en aquest botó per triar l&apos;usuari que serà propietari dels objectes creats per la importació.</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">Classe</translation>
+        <translation>Classe</translation>
     </message>
     <message>
         <source>Use this drop-down to select the type of object the import should create. Click the &quot;Set&quot; button to load the attribute types for the remaining fields.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes servir aquesta llista desplegable per triar el tipus d&apos;objecte que ha de crear la importació. Fes clic en el botó «Especifica» per carregar els tipus d&apos;atribut dels camps restants.</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished">Establir</translation>
+        <translation>Defineix</translation>
     </message>
     <message>
         <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes clic en aquest botó per carregar els valors correctes als camps desplegables de sota. Fes servir el menú desplegable de l&apos;esquerra per triar la classe.</translation>
     </message>
     <message>
         <source>Class attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>Atributs de la classe</translation>
     </message>
     <message>
         <source>Use this drop-down menu to select the attribute that should bet set as information from the RSS stream.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes servir aquesta llista desplegable per triar l&apos;atribut que s&apos;ha de definir com a informació del flux RSS.</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignora</translation>
     </message>
     <message>
         <source>Object attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>Atributs de l&apos;objecte</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Actiu</translation>
     </message>
     <message>
         <source>Use this checkbox to control if the RSS feed is active or not. An inactive feed will not be automatically updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fes servir aquesta casella de selecció per controlar si el canal RSS és actiu o no. Un canal inactiu no s&apos;actualitzarà automàticament.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">D&apos;acord</translation>
+        <translation>D&apos;acord</translation>
     </message>
     <message>
         <source>Apply the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplica els canvis i torna a la vista general de RSS.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">Cancel·la</translation>
+        <translation>Cancel·la</translation>
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cancel·la els canvis i torna a la vista general de RSS.</translation>
     </message>
 </context>
 <context>
@@ -2116,71 +2220,71 @@
     </message>
     <message>
         <source>Invert selection</source>
-        <translation type="unfinished">Inverteix selecció</translation>
+        <translation>Inverteix la selecció</translation>
     </message>
     <message>
         <source>Invert selection.</source>
-        <translation type="unfinished">Invertir la selecció.</translation>
+        <translation>Inverteix la selecció.</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">Nom</translation>
+        <translation>Nom</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished">Versió</translation>
+        <translation>Versió</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation type="unfinished">Estat</translation>
+        <translation>Estat</translation>
     </message>
     <message>
         <source>Modifier</source>
-        <translation type="unfinished">Modificador</translation>
+        <translation>Modificador</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation type="unfinished">Modificat</translation>
+        <translation>Modificat</translation>
     </message>
     <message>
         <source>Select RSS export for removal.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecciona l&apos;exportació d&apos;RSS que vols suprimir.</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Actiu</translation>
     </message>
     <message>
         <source>Inactive</source>
-        <translation type="unfinished"></translation>
+        <translation>Inactiu</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">Edita</translation>
+        <translation>Edita</translation>
     </message>
     <message>
         <source>Edit the &lt;%name&gt; RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Edita l&apos;exportació d&apos;RSS &lt;%name&gt;.</translation>
     </message>
     <message>
         <source>The RSS export list is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>La llista d&apos;exportacions d&apos;RSS és buida.</translation>
     </message>
     <message>
         <source>Remove selected</source>
-        <translation type="unfinished">Esborra seleccionats</translation>
+        <translation>Suprimeix els seleccionats</translation>
     </message>
     <message>
         <source>Remove selected RSS exports.</source>
-        <translation type="unfinished"></translation>
+        <translation>Suprimeix les exportacions d&apos;RSS seleccionades.</translation>
     </message>
     <message>
         <source>New export</source>
-        <translation type="unfinished"></translation>
+        <translation>Nova exportació</translation>
     </message>
     <message>
         <source>Create a new RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>Crea una exportació d&apos;RSS nova.</translation>
     </message>
     <message>
         <source>RSS imports [%imports_count]</source>
@@ -2188,27 +2292,27 @@
     </message>
     <message>
         <source>Select RSS import for removal.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecciona la importació d&apos;RSS que vols suprimir.</translation>
     </message>
     <message>
         <source>Edit the &lt;%name&gt; RSS import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Edita la importació d&apos;RSS &lt;%name&gt;.</translation>
     </message>
     <message>
         <source>The RSS import list is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>La llista d&apos;importacions d&apos;RSS és buida.</translation>
     </message>
     <message>
         <source>Remove selected RSS imports.</source>
-        <translation type="unfinished"></translation>
+        <translation>Suprimeix les importacions d&apos;RSS seleccionades.</translation>
     </message>
     <message>
         <source>New import</source>
-        <translation type="unfinished"></translation>
+        <translation>Nova importació</translation>
     </message>
     <message>
         <source>Create a new RSS import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Crea una importació d&apos;RSS nova.</translation>
     </message>
 </context>
 <context>
@@ -2390,15 +2494,15 @@
     </message>
     <message>
         <source>Summary</source>
-        <translation type="unfinished">Sumari</translation>
+        <translation>Resum</translation>
     </message>
     <message>
         <source>Total ex. VAT</source>
-        <translation type="unfinished">Total sense IVA</translation>
+        <translation>Total sense IVA</translation>
     </message>
     <message>
         <source>Total inc. VAT</source>
-        <translation type="unfinished">Total amb IVA</translation>
+        <translation>Total amb IVA</translation>
     </message>
 </context>
 <context>
@@ -2950,11 +3054,11 @@
     </message>
     <message>
         <source>Your browser does not support html5 video.</source>
-        <translation type="unfinished"></translation>
+        <translation>El teu navegador no admet el vídeo HTML5.</translation>
     </message>
     <message>
         <source>Your browser does not support html5 audio.</source>
-        <translation type="unfinished"></translation>
+        <translation>El teu navegador no admet l&apos;àudio HTML5.</translation>
     </message>
 </context>
 <context>
@@ -2983,31 +3087,31 @@
     <name>design/ezdemo/websitetoolbar/objectstates</name>
     <message>
         <source>Object states for object</source>
-        <translation type="unfinished">Estat de l&apos;objecte</translation>
+        <translation>Estats de l&apos;objecte per a l&apos;objecte</translation>
     </message>
     <message>
         <source>Content object state group</source>
-        <translation type="unfinished">Grup d&apos;estat de l&apos;objecte</translation>
+        <translation>Grup d&apos;estats de l&apos;objecte de contingut</translation>
     </message>
     <message>
         <source>Available states</source>
-        <translation type="unfinished">Estats disponibles</translation>
+        <translation>Estats disponibles</translation>
     </message>
     <message>
         <source>No content object state is configured. This can be done %urlstart here %urlend.</source>
-        <translation type="unfinished">Cap estat del objecte de contingut està configurat. Això, pot ser fet %urlstart aquí %urlend.</translation>
+        <translation>No hi ha cap estat d&apos;objecte de contingut configurat. Ho pots fer %urlstart aquí %urlend.</translation>
     </message>
     <message>
         <source>Set states</source>
-        <translation type="unfinished">Establir estats</translation>
+        <translation>Defineix els estats</translation>
     </message>
     <message>
         <source>Apply states from the list above.</source>
-        <translation type="unfinished">Aplica els estats en el llistat d&apos;adalt.</translation>
+        <translation>Aplica els estats de la llista de dalt.</translation>
     </message>
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
-        <translation type="unfinished">Cap estat està aplicat a aquest objecte de contingut. És necessari assignar una política més permissiva.</translation>
+        <translation>No hi ha cap estat per aplicar a aquest objecte de contingut. Potser necessites una política d&apos;accés més permissiva.</translation>
     </message>
 </context>
 <context>
@@ -3018,11 +3122,11 @@
     </message>
     <message>
         <source>Search</source>
-        <translation type="unfinished">Cerca</translation>
+        <translation>Cerca</translation>
     </message>
     <message>
         <source>Results</source>
-        <translation type="unfinished">Resultats</translation>
+        <translation>Resultats</translation>
     </message>
     <message>
         <source>Select:</source>
@@ -3034,11 +3138,11 @@
     </message>
     <message>
         <source>Edit &lt;%object_name&gt; (%class_name)</source>
-        <translation type="unfinished"></translation>
+        <translation>Edita &lt;%object_name&gt; (%class_name)</translation>
     </message>
     <message>
         <source>Translating content from %from_lang to %to_lang</source>
-        <translation type="unfinished">Traduint el contingut de %from_lang%to_lang</translation>
+        <translation>Traducció de contingut de %from_lang a %to_lang</translation>
     </message>
     <message>
         <source>Content in %language</source>
@@ -3046,41 +3150,41 @@
     </message>
     <message>
         <source>Send for publishing</source>
-        <translation type="unfinished">Envia per publicar</translation>
+        <translation>Envia per a publicar</translation>
     </message>
     <message>
         <source>Store draft</source>
-        <translation type="unfinished">Emmagatzema esborrany</translation>
+        <translation>Desa l&apos;esborrany</translation>
     </message>
     <message>
         <source>Discard draft</source>
-        <translation type="unfinished">Descarta esborrany</translation>
+        <translation>Descarta l&apos;esborrany</translation>
     </message>
 </context>
 <context>
     <name>design/ezflow/embed/poll</name>
     <message>
         <source>Vote</source>
-        <translation type="unfinished">Vota</translation>
+        <translation>Vota</translation>
     </message>
 </context>
 <context>
     <name>design/standard/user</name>
     <message>
         <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;ha confirmat la teva adreça de correu electrònic. Un administrador ha d&apos;aprovar la teva sol·licitud de registre abans que el teu inici de sessió sigui vàlid.</translation>
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation type="unfinished">S&apos;ha activat el teu compte.</translation>
+        <translation>El teu compte ja està activat.</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation type="unfinished">El teu compte ja s&apos;havia activat.</translation>
+        <translation>El teu compte ja està actiu.</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="unfinished">Ho sentim, la clau subministrada no és vàlida. El compte no s&apos;ha activat.</translation>
+        <translation>La clau enviada no és vàlida. No s&apos;ha activat el compte.</translation>
     </message>
 </context>
 <context>
@@ -3113,7 +3217,7 @@
     </message>
     <message>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nom:</translation>
     </message>
     <message>
         <source>Website:</source>
@@ -3157,7 +3261,7 @@
     </message>
     <message>
         <source>Remember me</source>
-        <translation type="unfinished">Recorda&apos;m</translation>
+        <translation>Recorda'm</translation>
     </message>
     <message>
         <source>Add comment</source>
@@ -3166,6 +3270,188 @@
     <message>
         <source>Reset form</source>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/block</name>
+    <message>
+        <source>Discover what is new</source>
+        <translation>Descobreix les novetats</translation>
+    </message>
+    <message>
+        <source>Explore the platform</source>
+        <translation>Explora la plataforma</translation>
+    </message>
+    <message>
+        <source>Learn more</source>
+        <translation>Més informació</translation>
+    </message>
+    <message>
+        <source>Next slide</source>
+        <translation>Diapositiva següent</translation>
+    </message>
+    <message>
+        <source>Previous slide</source>
+        <translation>Diapositiva anterior</translation>
+    </message>
+    <message>
+        <source>Read more</source>
+        <translation>Llegeix-ne més</translation>
+    </message>
+    <message>
+        <source>Read the announcement</source>
+        <translation>Llegeix l'anunci</translation>
+    </message>
+    <message>
+        <source>Read the story</source>
+        <translation>Llegeix l'article</translation>
+    </message>
+    <message>
+        <source>Scroll back</source>
+        <translation>Desplaça enrere</translation>
+    </message>
+    <message>
+        <source>Scroll on</source>
+        <translation>Desplaça endavant</translation>
+    </message>
+    <message>
+        <source>See the results</source>
+        <translation>Mostra els resultats</translation>
+    </message>
+    <message>
+        <source>Show slide %number</source>
+        <translation>Mostra la diapositiva %number</translation>
+    </message>
+    <message>
+        <source>carousel</source>
+        <translation>carrusel</translation>
+    </message>
+    <message>
+        <source>slide</source>
+        <translation>diapositiva</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer</name>
+    <message>
+        <source>Explore</source>
+        <translation>Explora</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Funciona amb</translation>
+    </message>
+    <message>
+        <source>open source content management by the Exponential Foundation and 7x.</source>
+        <translation>gestió de continguts de codi obert de l'Exponential Foundation i 7x.</translation>
+    </message>
+    <message>
+        <source>Get in touch</source>
+        <translation>Contacte</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full</name>
+    <message>
+        <source>Contact us</source>
+        <translation>Contacta'ns</translation>
+    </message>
+    <message>
+        <source>Questions?</source>
+        <translation>Preguntes?</translation>
+    </message>
+    <message>
+        <source>Talk to the team about your project.</source>
+        <translation>Parla amb l'equip del teu projecte.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/blog</name>
+    <message>
+        <source>All posts</source>
+        <translation>Totes les entrades</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/folder</name>
+    <message>
+        <source>RSS feed</source>
+        <translation>Canal RSS</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/gallery</name>
+    <message>
+        <source>%count pictures</source>
+        <translation>%count imatges</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/place</name>
+    <message>
+        <source>View on the map</source>
+        <translation>Mostra al mapa</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/gallery</name>
+    <message>
+        <source>%index of %count</source>
+        <translation>%index de %count</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Tanca</translation>
+    </message>
+    <message>
+        <source>Gallery</source>
+        <translation>Galeria</translation>
+    </message>
+    <message>
+        <source>Next picture</source>
+        <translation>Imatge següent</translation>
+    </message>
+    <message>
+        <source>Previous picture</source>
+        <translation>Imatge anterior</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/share</name>
+    <message>
+        <source>Copy link</source>
+        <translation>Copia l'enllaç</translation>
+    </message>
+    <message>
+        <source>Link copied</source>
+        <translation>Enllaç copiat</translation>
+    </message>
+    <message>
+        <source>Share</source>
+        <translation>Comparteix</translation>
+    </message>
+    <message>
+        <source>Share this page</source>
+        <translation>Comparteix aquesta pàgina</translation>
+    </message>
+    <message>
+        <source>Share on LinkedIn</source>
+        <translation>Comparteix a LinkedIn</translation>
+    </message>
+    <message>
+        <source>Share on Bluesky</source>
+        <translation>Comparteix a Bluesky</translation>
+    </message>
+    <message>
+        <source>Share by email</source>
+        <translation>Comparteix per correu electrònic</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/tagcloud</name>
+    <message>
+        <source>%count items tagged %tag</source>
+        <translation>%count elements amb l'etiqueta %tag</translation>
     </message>
 </context>
 </TS>

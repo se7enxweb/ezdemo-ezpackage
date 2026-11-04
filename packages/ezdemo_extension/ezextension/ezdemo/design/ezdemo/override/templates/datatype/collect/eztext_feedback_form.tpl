@@ -5,5 +5,5 @@
 {if ne( $label, '' )}
 <label for="{$attribute_base}_data_text_{$attribute.id}">{$label}</label>
 {/if}
-<textarea class="box {$css_class}" type="text" cols="70" name="{$attribute_base}_data_text_{$attribute.id}" rows="{$attribute.contentclass_attribute.data_int1}" placeholder="{$placeholder}">{$data_text|wash( xhtml )}</textarea>
+<textarea class="box {$css_class}" cols="70" id="{$attribute_base}_data_text_{$attribute.id}" name="{$attribute_base}_data_text_{$attribute.id}" rows="{$attribute.contentclass_attribute.data_int1}" placeholder="{$placeholder}">{$data_text|wash( xhtml )}</textarea>
 {undef $data_text}

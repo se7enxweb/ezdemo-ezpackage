@@ -5,30 +5,30 @@
     <name>design/admin/content/edit_attribute</name>
     <message>
         <source>not translatable</source>
-        <translation type="unfinished"></translation>
+        <translation>不可翻译</translation>
     </message>
     <message>
         <source>required</source>
-        <translation type="unfinished"></translation>
+        <translation>必填</translation>
     </message>
     <message>
         <source>information collector</source>
-        <translation type="unfinished"></translation>
+        <translation>信息收集器</translation>
     </message>
 </context>
 <context>
     <name>design/admin/preview/article</name>
     <message>
         <source>Comments allowed</source>
-        <translation type="unfinished"></translation>
+        <translation>允许评论</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>是</translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>否</translation>
     </message>
 </context>
 <context>
@@ -56,12 +56,20 @@
         <source>%login_link_startLog in%login_link_end to comment.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>发表评论</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/block/feedback_form</name>
     <message>
         <source>Send form</source>
-        <translation type="unfinished">发送表单</translation>
+        <translation>提交表单</translation>
+    </message>
+    <message>
+        <source>Send message</source>
+        <translation>发送消息</translation>
     </message>
 </context>
 <context>
@@ -70,16 +78,24 @@
         <source>Download!</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Get started</source>
+        <translation>立即开始</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/block_item/product</name>
     <message>
         <source>Amount</source>
-        <translation type="unfinished">总数</translation>
+        <translation>金额</translation>
     </message>
     <message>
         <source>Buy</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add to basket</source>
+        <translation>添加到购物车</translation>
     </message>
 </context>
 <context>
@@ -137,11 +153,11 @@
     </message>
     <message>
         <source>Tag cloud</source>
-        <translation type="unfinished"></translation>
+        <translation>标签云</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished">简介</translation>
+        <translation>描述</translation>
     </message>
 </context>
 <context>
@@ -220,11 +236,11 @@
     <name>design/ezdemo/colledtedinfomail</name>
     <message>
         <source>Collected information from %1</source>
-        <translation type="unfinished">从%1收集的信息</translation>
+        <translation>来自 %1 的已收集信息</translation>
     </message>
     <message>
         <source>The following information was collected</source>
-        <translation type="unfinished">以下的信息已被收集</translation>
+        <translation>已收集以下信息</translation>
     </message>
 </context>
 <context>
@@ -235,11 +251,11 @@
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">编辑</translation>
+        <translation>编辑</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>删除</translation>
     </message>
 </context>
 <context>
@@ -451,27 +467,27 @@
     </message>
     <message>
         <source>Edit &lt;%object_name&gt; (%class_name)</source>
-        <translation type="unfinished"></translation>
+        <translation>编辑 &lt;%object_name&gt; (%class_name)</translation>
     </message>
     <message>
         <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>发布正在编辑的草稿内容。该草稿将成为对象的已发布版本。</translation>
     </message>
     <message>
         <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
-        <translation type="unfinished"></translation>
+        <translation>保存正在编辑的草稿内容并继续编辑。编辑时可使用此按钮随时保存修改。</translation>
     </message>
     <message>
         <source>Store draft and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>保存草稿并退出</translation>
     </message>
     <message>
         <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
-        <translation type="unfinished"></translation>
+        <translation>保存正在编辑的草稿并退出编辑模式。需要先结束工作、稍后再继续时使用。</translation>
     </message>
     <message>
         <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
-        <translation type="unfinished"></translation>
+        <translation>放弃正在编辑的草稿。属于该草稿的翻译（如果有）也会一并删除。</translation>
     </message>
 </context>
 <context>
@@ -528,7 +544,8 @@
     <message>
         <source>This object is already being edited by you.
         You can either continue editing one of your drafts or you can create a new draft.</source>
-        <translation type="unfinished"></translation>
+        <translation>您已在编辑此对象。
+        您可以继续编辑自己的某个草稿，也可以创建新草稿。</translation>
     </message>
     <message>
         <source>This object is already being edited by someone else.
@@ -789,31 +806,31 @@
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">名称</translation>
+        <translation>名称</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">类</translation>
+        <translation>类</translation>
     </message>
     <message>
         <source>Section</source>
-        <translation type="unfinished">分区</translation>
+        <translation>分区</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished">版本</translation>
+        <translation>版本</translation>
     </message>
     <message>
         <source>Last modified</source>
-        <translation type="unfinished">最后修改</translation>
+        <translation>最后修改时间</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">未知</translation>
+        <translation>未知</translation>
     </message>
     <message>
         <source>Your pending list is empty</source>
-        <translation type="unfinished"></translation>
+        <translation>您的待处理列表为空</translation>
     </message>
 </context>
 <context>
@@ -1071,12 +1088,20 @@
         <source>Latest News</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Latest news</source>
+        <translation>最新消息</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/footer/links</name>
     <message>
         <source>eZ Links</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Resources</source>
+        <translation>资源</translation>
     </message>
 </context>
 <context>
@@ -1103,7 +1128,7 @@
     </message>
     <message>
         <source>Location</source>
-        <translation type="unfinished">位置</translation>
+        <translation>位置</translation>
     </message>
 </context>
 <context>
@@ -1132,6 +1157,14 @@
     <message>
         <source>Category</source>
         <translation>分类</translation>
+    </message>
+    <message>
+        <source>Past event</source>
+        <translation>已结束的活动</translation>
+    </message>
+    <message>
+        <source>until</source>
+        <translation>至</translation>
     </message>
 </context>
 <context>
@@ -1186,6 +1219,18 @@
     <message>
         <source>Future events</source>
         <translation>未来的活动</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>事件</translation>
+    </message>
+    <message>
+        <source>Program</source>
+        <translation>日程</translation>
+    </message>
+    <message>
+        <source>Webinars, workshops and meetups. Add one to your calendar or join us live.</source>
+        <translation>网络研讨会、工作坊和聚会。加入您的日历或在线参加。</translation>
     </message>
 </context>
 <context>
@@ -1341,6 +1386,10 @@
         <source>Related content</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Pictures</source>
+        <translation>图片</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/full/multicalendar</name>
@@ -1384,14 +1433,26 @@
     </message>
     <message>
         <source>Amount</source>
-        <translation type="unfinished">总数</translation>
+        <translation>金额</translation>
+    </message>
+    <message>
+        <source>Category</source>
+        <translation>分类</translation>
+    </message>
+    <message>
+        <source>Quantity</source>
+        <translation>数量</translation>
+    </message>
+    <message>
+        <source>incl. VAT</source>
+        <translation>含增值税</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/full/video</name>
     <message>
         <source>Download</source>
-        <translation type="unfinished"></translation>
+        <translation>下载</translation>
     </message>
 </context>
 <context>
@@ -1438,7 +1499,7 @@
     </message>
     <message>
         <source>Modified:</source>
-        <translation type="unfinished">修改:</translation>
+        <translation>修改时间：</translation>
     </message>
     <message>
         <source>Download file</source>
@@ -1493,7 +1554,7 @@
     <name>design/ezdemo/line/product</name>
     <message>
         <source>Amount</source>
-        <translation type="unfinished">总数</translation>
+        <translation>金额</translation>
     </message>
     <message>
         <source>Buy</source>
@@ -1518,7 +1579,7 @@
     <name>design/ezdemo/line/silverlight</name>
     <message>
         <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation>查看</translation>
     </message>
 </context>
 <context>
@@ -1586,7 +1647,7 @@
     </message>
     <message>
         <source>The items contain more than the maximum possible nodes for subtree removal and will not be deleted. You can remove this subtree using the ezsubtreeremove.php script.</source>
-        <translation type="unfinished"></translation>
+        <translation>这些项目包含的节点数超过子树移除所允许的最大数量，因此不会被删除。您可以使用 ezsubtreeremove.php 脚本移除此子树。</translation>
     </message>
 </context>
 <context>
@@ -1612,27 +1673,27 @@
     <name>design/ezdemo/notification/handler/ezgeneraldigest/settings/edit</name>
     <message>
         <source>Receive all messages combined in one digest</source>
-        <translation type="unfinished"></translation>
+        <translation>将所有消息合并为一封摘要接收</translation>
     </message>
     <message>
         <source>Receive digests</source>
-        <translation type="unfinished"></translation>
+        <translation>接收摘要</translation>
     </message>
     <message>
         <source>Daily, at</source>
-        <translation type="unfinished"></translation>
+        <translation>每天，时间为</translation>
     </message>
     <message>
         <source>Once per week, on </source>
-        <translation type="unfinished"></translation>
+        <translation>每周一次，时间为 </translation>
     </message>
     <message>
         <source>Once per month, on day number</source>
-        <translation type="unfinished"></translation>
+        <translation>每月一次，日期为</translation>
     </message>
     <message>
         <source>If day number is larger than the number of days within the current month, the last day of the current month will be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果日期数大于当前月份的天数，将使用当前月份的最后一天。</translation>
     </message>
 </context>
 <context>
@@ -1643,35 +1704,35 @@
     </message>
     <message>
         <source>Invert selection.</source>
-        <translation type="unfinished"></translation>
+        <translation>反选。</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">名称</translation>
+        <translation>名称</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">类型</translation>
+        <translation>类型</translation>
     </message>
     <message>
         <source>Section</source>
-        <translation type="unfinished">分区</translation>
+        <translation>分区</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">未知</translation>
+        <translation>未知</translation>
     </message>
     <message>
         <source>You have not subscribed to receive notifications about any items.</source>
-        <translation type="unfinished"></translation>
+        <translation>您尚未订阅任何项目的通知。</translation>
     </message>
     <message>
         <source>Remove selected</source>
-        <translation type="unfinished">删除所选项目</translation>
+        <translation>移除所选项</translation>
     </message>
     <message>
         <source>Add items</source>
-        <translation type="unfinished"></translation>
+        <translation>添加项目</translation>
     </message>
 </context>
 <context>
@@ -1682,7 +1743,7 @@
     </message>
     <message>
         <source>Apply changes</source>
-        <translation type="unfinished"></translation>
+        <translation>应用更改</translation>
     </message>
 </context>
 <context>
@@ -1693,47 +1754,91 @@
     </message>
     <message>
         <source>Tag cloud</source>
-        <translation type="unfinished"></translation>
+        <translation>标签云</translation>
     </message>
     <message>
         <source>Site map</source>
-        <translation type="unfinished">站点地图</translation>
+        <translation>站点地图</translation>
     </message>
     <message>
         <source>Shopping basket</source>
-        <translation type="unfinished">购物车</translation>
+        <translation>购物车</translation>
     </message>
     <message>
         <source>My profile</source>
-        <translation type="unfinished"></translation>
+        <translation>我的个人资料</translation>
     </message>
     <message>
         <source>Logout</source>
-        <translation type="unfinished"></translation>
+        <translation>退出登录</translation>
     </message>
     <message>
         <source>Register</source>
-        <translation type="unfinished">注册</translation>
+        <translation>注册</translation>
     </message>
     <message>
         <source>Login</source>
-        <translation type="unfinished">登录</translation>
+        <translation>登录</translation>
     </message>
     <message>
         <source>Username</source>
-        <translation type="unfinished">用户名</translation>
+        <translation>用户名</translation>
     </message>
     <message>
         <source>Password</source>
-        <translation type="unfinished">密码</translation>
+        <translation>密码</translation>
     </message>
     <message>
         <source>Forgot your password?</source>
-        <translation type="unfinished">忘记密码?</translation>
+        <translation>忘记密码？</translation>
     </message>
     <message>
         <source>Search text</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Breadcrumb</source>
+        <translation>面包屑导航</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>语言</translation>
+    </message>
+    <message>
+        <source>Main</source>
+        <translation>主语言</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>菜单</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>更多</translation>
+    </message>
+    <message>
+        <source>New: Exponential 6.0.15 is here.</source>
+        <translation>新消息：Exponential 6.0.15 现已发布。</translation>
+    </message>
+    <message>
+        <source>Section menu</source>
+        <translation>栏目菜单</translation>
+    </message>
+    <message>
+        <source>See what is new</source>
+        <translation>查看新功能</translation>
+    </message>
+    <message>
+        <source>Skip to content</source>
+        <translation>跳到内容</translation>
+    </message>
+    <message>
+        <source>Use the dark theme</source>
+        <translation>使用深色主题</translation>
+    </message>
+    <message>
+        <source>Use the light theme</source>
+        <translation>使用浅色主题</translation>
     </message>
 </context>
 <context>
@@ -1751,39 +1856,39 @@
     <name>design/ezdemo/rss/edit_export</name>
     <message>
         <source>Edit &lt;%rss_export_name&gt; [RSS Export]</source>
-        <translation type="unfinished"></translation>
+        <translation>编辑 &lt;%rss_export_name&gt;［RSS 导出］</translation>
     </message>
     <message>
         <source>Invalid input</source>
-        <translation type="unfinished"></translation>
+        <translation>无效输入</translation>
     </message>
     <message>
         <source>If RSS Export is Active then a valid Access URL is required.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果 RSS 导出处于活动状态，则需要有效的访问 URL。</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">名称</translation>
+        <translation>名称</translation>
     </message>
     <message>
         <source>Name of the RSS export. This name is used in the Administration Interface only, to distinguish the different exports from each other.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS 导出的名称。该名称仅在管理界面中使用，用于区分不同的导出。</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished">简介</translation>
+        <translation>描述</translation>
     </message>
     <message>
         <source>Use the description field to write a text explaining what users can expect from the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用描述字段撰写一段文字，说明用户可以从该 RSS 导出中获得什么。</translation>
     </message>
     <message>
         <source>Site URL</source>
-        <translation type="unfinished"></translation>
+        <translation>站点 URL</translation>
     </message>
     <message>
         <source>Use this field to enter the base URL of your site. It is used to produce the URLs in the export, composed by the Site URL (e.g. &quot;http://www.example.com/index.php&quot;) and the path to the object (e.g. &quot;/articles/my_article&quot;). The Site URL depends on your web server and Exponential configuration.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用此字段输入站点的基础 URL。它用于生成导出中的 URL，由站点 URL 和对象路径组成，前者例如“http://www.example.com/index.php”，后者例如“/articles/my_article”。站点 URL 取决于 Web 服务器和 Exponential 配置。</translation>
     </message>
     <message>
         <source>Leave this field emty if you want system automaticaly detect the URL of your site from the URL you access feed with</source>
@@ -1791,274 +1896,274 @@
     </message>
     <message>
         <source>Image</source>
-        <translation type="unfinished"></translation>
+        <translation>图片</translation>
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">浏览</translation>
+        <translation>浏览</translation>
     </message>
     <message>
         <source>Click this button to select an image for the RSS export. Note that images only work with RSS version 2.0</source>
-        <translation type="unfinished"></translation>
+        <translation>单击此按钮可为 RSS 导出选择图片。请注意，图片仅适用于 RSS 2.0 版本。</translation>
     </message>
     <message>
         <source>Remove image</source>
-        <translation type="unfinished"></translation>
+        <translation>移除图片</translation>
     </message>
     <message>
         <source>Click to remove image from RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>单击可从 RSS 导出中移除图片。</translation>
     </message>
     <message>
         <source>RSS version</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS 版本</translation>
     </message>
     <message>
         <source>Use this drop-down menu to select the RSS version to use for the export. You must select RSS 2.0 in order to export the image selected above.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用此下拉列表选择导出所用的 RSS 版本。必须选择 RSS 2.0，才能导出上面选择的图片。</translation>
     </message>
     <message>
         <source>Number of objects</source>
-        <translation type="unfinished"></translation>
+        <translation>对象数</translation>
     </message>
     <message>
         <source>Use this drop-down to select the maximum number of objects included in the RSS feed.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用此下拉列表选择 RSS 源中最多包含的对象数。</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>活动</translation>
     </message>
     <message>
         <source>Use this checkbox to control if the RSS export is active or not. An inactive export will not be automatically updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用此复选框控制 RSS 导出是否处于活动状态。非活动的导出不会自动更新。</translation>
     </message>
     <message>
         <source>Main node only</source>
-        <translation type="unfinished"></translation>
+        <translation>仅主节点</translation>
     </message>
     <message>
         <source>Check if you want to only feed the object from the main node.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果只想输出主节点的对象，请勾选。</translation>
     </message>
     <message>
         <source>Access URL</source>
-        <translation type="unfinished"></translation>
+        <translation>访问 URL</translation>
     </message>
     <message>
         <source>Use this field to set the URL where the RSS export should be available. Note that &quot;rss/feed/&quot; will be appended to the real URL. </source>
-        <translation type="unfinished"></translation>
+        <translation>使用此字段设置 RSS 导出可访问的 URL。请注意，“rss/feed/”将附加到实际 URL 之后。 </translation>
     </message>
     <message>
         <source>Source</source>
-        <translation type="unfinished"></translation>
+        <translation>源</translation>
     </message>
     <message>
         <source>Source path</source>
-        <translation type="unfinished"></translation>
+        <translation>源路径</translation>
     </message>
     <message>
         <source>Click this button to select the source node for the RSS export source. Objects of the type selected in the drop-down below published as sub items of the selected node will be included in the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>单击此按钮可选择 RSS 导出源的源节点。在下方下拉列表中所选类型的对象，若发布为所选节点的子项目，将包含在 RSS 导出中。</translation>
     </message>
     <message>
         <source>Subnodes</source>
-        <translation type="unfinished"></translation>
+        <translation>子节点</translation>
     </message>
     <message>
         <source>Activate this checkbox if objects from the subnodes of the source should also be fed.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果还要输出源的子节点中的对象，请勾选此复选框。</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">类</translation>
+        <translation>类</translation>
     </message>
     <message>
         <source>Use this drop-down to select the type of object that triggers the export. Click the &quot;Set&quot; button to load the correct attribute types for the remaining fields.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用此下拉列表选择触发导出的对象类型。单击“设置”按钮可为其余字段加载正确的属性类型。</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished"></translation>
+        <translation>设置</translation>
     </message>
     <message>
         <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
-        <translation type="unfinished"></translation>
+        <translation>单击此按钮可将正确的值加载到下方的下拉字段中。使用左侧的下拉列表选择类。</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished"></translation>
+        <translation>标题</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the title of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用此下拉列表选择要作为 RSS 导出条目标题导出的属性。</translation>
     </message>
     <message>
         <source>optional</source>
-        <translation type="unfinished"></translation>
+        <translation>可选</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the description of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用此下拉列表选择要作为 RSS 导出条目描述导出的属性。</translation>
     </message>
     <message>
         <source>Skip</source>
-        <translation type="unfinished"></translation>
+        <translation>跳过</translation>
     </message>
     <message>
         <source>Category</source>
-        <translation type="unfinished">分类</translation>
+        <translation>分类</translation>
     </message>
     <message>
         <source>Use this drop-down to select the attribute that should be exported as the category of the RSS export entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用此下拉列表选择要作为 RSS 导出条目分类导出的属性。</translation>
     </message>
     <message>
         <source>Remove this source</source>
-        <translation type="unfinished"></translation>
+        <translation>移除此源</translation>
     </message>
     <message>
         <source>Click to remove this source from the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>单击可从 RSS 导出中移除此源。</translation>
     </message>
     <message>
         <source>Add source</source>
-        <translation type="unfinished"></translation>
+        <translation>添加源</translation>
     </message>
     <message>
         <source>Click to add a new source to the RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>单击可向 RSS 导出添加新源。</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">确定</translation>
+        <translation>确定</translation>
     </message>
     <message>
         <source>Apply the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>应用更改并返回 RSS 概览。</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>取消更改并返回 RSS 概览。</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/rss/edit_import</name>
     <message>
         <source>Edit &lt;%rss_import_name&gt; [RSS Import]</source>
-        <translation type="unfinished"></translation>
+        <translation>编辑 &lt;%rss_import_name&gt; [RSS 导入]</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">名称</translation>
+        <translation>名称</translation>
     </message>
     <message>
         <source>Name of the RSS import. This name is used in the Administration Interface only, to distinguish the different imports from each other.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS 导入的名称。此名称仅用于管理界面，用来区分不同的导入。</translation>
     </message>
     <message>
         <source>Source URL</source>
-        <translation type="unfinished"></translation>
+        <translation>源 URL</translation>
     </message>
     <message>
         <source>Use this field to enter the source URL of the RSS feed to import.</source>
-        <translation type="unfinished"></translation>
+        <translation>在此字段中输入要导入的 RSS 源的源 URL。</translation>
     </message>
     <message>
         <source>Update</source>
-        <translation type="unfinished">更新</translation>
+        <translation>更新</translation>
     </message>
     <message>
         <source>Click this button to proceed and analyze the import feed.</source>
-        <translation type="unfinished"></translation>
+        <translation>单击此按钮可继续并分析导入源。</translation>
     </message>
     <message>
         <source>RSS Version</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS 版本</translation>
     </message>
     <message>
         <source>Destination path</source>
-        <translation type="unfinished"></translation>
+        <translation>目标路径</translation>
     </message>
     <message>
         <source>Browse</source>
-        <translation type="unfinished">浏览</translation>
+        <translation>浏览</translation>
     </message>
     <message>
         <source>Click this button to select the destination node where objects created by the import are located.</source>
-        <translation type="unfinished"></translation>
+        <translation>单击此按钮可选择放置导入所创建对象的目标节点。</translation>
     </message>
     <message>
         <source>Imported objects will be owned by</source>
-        <translation type="unfinished"></translation>
+        <translation>导入的对象将归属于</translation>
     </message>
     <message>
         <source>Change user</source>
-        <translation type="unfinished"></translation>
+        <translation>更改用户</translation>
     </message>
     <message>
         <source>Click this button to select the user who should own the objects created by the import.</source>
-        <translation type="unfinished"></translation>
+        <translation>单击此按钮可选择将成为导入所创建对象的所有者的用户。</translation>
     </message>
     <message>
         <source>Class</source>
-        <translation type="unfinished">类</translation>
+        <translation>类</translation>
     </message>
     <message>
         <source>Use this drop-down to select the type of object the import should create. Click the &quot;Set&quot; button to load the attribute types for the remaining fields.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用此下拉列表选择导入应创建的对象类型。单击“设置”按钮可为其余字段加载属性类型。</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished"></translation>
+        <translation>设置</translation>
     </message>
     <message>
         <source>Click this button to load the correct values into the drop-down fields below. Use the drop-down menu on the left to select the class.</source>
-        <translation type="unfinished"></translation>
+        <translation>单击此按钮可将正确的值加载到下方的下拉字段中。使用左侧的下拉列表选择类。</translation>
     </message>
     <message>
         <source>Class attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>类属性</translation>
     </message>
     <message>
         <source>Use this drop-down menu to select the attribute that should bet set as information from the RSS stream.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用此下拉列表选择应设置为 RSS 流信息的属性。</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation type="unfinished"></translation>
+        <translation>忽略</translation>
     </message>
     <message>
         <source>Object attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>对象属性</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>活动</translation>
     </message>
     <message>
         <source>Use this checkbox to control if the RSS feed is active or not. An inactive feed will not be automatically updated.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用此复选框控制 RSS 源是否处于启用状态。未启用的源不会自动更新。</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished">确定</translation>
+        <translation>确定</translation>
     </message>
     <message>
         <source>Apply the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>应用更改并返回 RSS 概览。</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Cancel the changes and return to the RSS overview.</source>
-        <translation type="unfinished"></translation>
+        <translation>取消更改并返回 RSS 概览。</translation>
     </message>
 </context>
 <context>
@@ -2069,71 +2174,71 @@
     </message>
     <message>
         <source>Invert selection</source>
-        <translation type="unfinished">反选</translation>
+        <translation>反选</translation>
     </message>
     <message>
         <source>Invert selection.</source>
-        <translation type="unfinished"></translation>
+        <translation>反选。</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">名称</translation>
+        <translation>名称</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation type="unfinished">版本</translation>
+        <translation>版本</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation type="unfinished">状态</translation>
+        <translation>状态</translation>
     </message>
     <message>
         <source>Modifier</source>
-        <translation type="unfinished"></translation>
+        <translation>修改者</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation type="unfinished">修改</translation>
+        <translation>修改时间</translation>
     </message>
     <message>
         <source>Select RSS export for removal.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择要移除的 RSS 导出。</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>活动</translation>
     </message>
     <message>
         <source>Inactive</source>
-        <translation type="unfinished"></translation>
+        <translation>未激活</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">编辑</translation>
+        <translation>编辑</translation>
     </message>
     <message>
         <source>Edit the &lt;%name&gt; RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>编辑 &lt;%name&gt; RSS 导出。</translation>
     </message>
     <message>
         <source>The RSS export list is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS 导出列表为空。</translation>
     </message>
     <message>
         <source>Remove selected</source>
-        <translation type="unfinished">删除所选项目</translation>
+        <translation>移除所选项</translation>
     </message>
     <message>
         <source>Remove selected RSS exports.</source>
-        <translation type="unfinished"></translation>
+        <translation>移除所选 RSS 导出。</translation>
     </message>
     <message>
         <source>New export</source>
-        <translation type="unfinished"></translation>
+        <translation>新建导出</translation>
     </message>
     <message>
         <source>Create a new RSS export.</source>
-        <translation type="unfinished"></translation>
+        <translation>创建新的 RSS 导出。</translation>
     </message>
     <message>
         <source>RSS imports [%imports_count]</source>
@@ -2141,27 +2246,27 @@
     </message>
     <message>
         <source>Select RSS import for removal.</source>
-        <translation type="unfinished"></translation>
+        <translation>选择要移除的 RSS 导入。</translation>
     </message>
     <message>
         <source>Edit the &lt;%name&gt; RSS import.</source>
-        <translation type="unfinished"></translation>
+        <translation>编辑 &lt;%name&gt; RSS 导入。</translation>
     </message>
     <message>
         <source>The RSS import list is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS 导入列表为空。</translation>
     </message>
     <message>
         <source>Remove selected RSS imports.</source>
-        <translation type="unfinished"></translation>
+        <translation>移除所选 RSS 导入。</translation>
     </message>
     <message>
         <source>New import</source>
-        <translation type="unfinished"></translation>
+        <translation>新建导入</translation>
     </message>
     <message>
         <source>Create a new RSS import.</source>
-        <translation type="unfinished"></translation>
+        <translation>创建新的 RSS 导入。</translation>
     </message>
 </context>
 <context>
@@ -2343,15 +2448,15 @@
     </message>
     <message>
         <source>Summary</source>
-        <translation type="unfinished">订单小计</translation>
+        <translation>摘要</translation>
     </message>
     <message>
         <source>Total ex. VAT</source>
-        <translation type="unfinished">总额(不含增值税)</translation>
+        <translation>合计（不含增值税）</translation>
     </message>
     <message>
         <source>Total inc. VAT</source>
-        <translation type="unfinished">总额(含增值税)</translation>
+        <translation>含增值税总计</translation>
     </message>
 </context>
 <context>
@@ -2524,11 +2629,11 @@
     </message>
     <message>
         <source>Date</source>
-        <translation type="unfinished">日期</translation>
+        <translation>日期</translation>
     </message>
     <message>
         <source>Order status</source>
-        <translation type="unfinished"></translation>
+        <translation>订单状态</translation>
     </message>
 </context>
 <context>
@@ -2634,7 +2739,7 @@
     </message>
     <message>
         <source>Empty wish list</source>
-        <translation type="unfinished">购物清单为空</translation>
+        <translation>清空愿望清单</translation>
     </message>
 </context>
 <context>
@@ -2703,7 +2808,7 @@
     </message>
     <message>
         <source>My pending items</source>
-        <translation type="unfinished"></translation>
+        <translation>我的待处理项目</translation>
     </message>
 </context>
 <context>
@@ -2903,11 +3008,11 @@
     </message>
     <message>
         <source>Your browser does not support html5 video.</source>
-        <translation type="unfinished"></translation>
+        <translation>您的浏览器不支持 HTML5 视频。</translation>
     </message>
     <message>
         <source>Your browser does not support html5 audio.</source>
-        <translation type="unfinished"></translation>
+        <translation>您的浏览器不支持 HTML5 音频。</translation>
     </message>
 </context>
 <context>
@@ -2936,31 +3041,31 @@
     <name>design/ezdemo/websitetoolbar/objectstates</name>
     <message>
         <source>Object states for object</source>
-        <translation type="unfinished"></translation>
+        <translation>对象状态，对象：</translation>
     </message>
     <message>
         <source>Content object state group</source>
-        <translation type="unfinished"></translation>
+        <translation>内容对象状态组</translation>
     </message>
     <message>
         <source>Available states</source>
-        <translation type="unfinished"></translation>
+        <translation>可用状态</translation>
     </message>
     <message>
         <source>No content object state is configured. This can be done %urlstart here %urlend.</source>
-        <translation type="unfinished"></translation>
+        <translation>尚未配置内容对象状态。可通过 %urlstart 此处 %urlend 配置。</translation>
     </message>
     <message>
         <source>Set states</source>
-        <translation type="unfinished"></translation>
+        <translation>设置状态</translation>
     </message>
     <message>
         <source>Apply states from the list above.</source>
-        <translation type="unfinished"></translation>
+        <translation>应用上方列表中的状态。</translation>
     </message>
     <message>
         <source>No state to be applied to this content object. You might need to be assigned a more permissive access policy.</source>
-        <translation type="unfinished"></translation>
+        <translation>没有可应用于此内容对象的状态。您可能需要被分配权限更宽松的访问策略。</translation>
     </message>
 </context>
 <context>
@@ -2971,11 +3076,11 @@
     </message>
     <message>
         <source>Search</source>
-        <translation type="unfinished">搜索</translation>
+        <translation>搜索</translation>
     </message>
     <message>
         <source>Results</source>
-        <translation type="unfinished">结果</translation>
+        <translation>结果</translation>
     </message>
     <message>
         <source>Select:</source>
@@ -2987,11 +3092,11 @@
     </message>
     <message>
         <source>Edit &lt;%object_name&gt; (%class_name)</source>
-        <translation type="unfinished"></translation>
+        <translation>编辑 &lt;%object_name&gt; (%class_name)</translation>
     </message>
     <message>
         <source>Translating content from %from_lang to %to_lang</source>
-        <translation type="unfinished">将内容从%from_lang翻译至%to_lang</translation>
+        <translation>将内容从 %from_lang 翻译为 %to_lang</translation>
     </message>
     <message>
         <source>Content in %language</source>
@@ -2999,41 +3104,41 @@
     </message>
     <message>
         <source>Send for publishing</source>
-        <translation type="unfinished">发布</translation>
+        <translation>提交发布</translation>
     </message>
     <message>
         <source>Store draft</source>
-        <translation type="unfinished">保存草稿</translation>
+        <translation>保存草稿</translation>
     </message>
     <message>
         <source>Discard draft</source>
-        <translation type="unfinished">放弃草稿</translation>
+        <translation>放弃草稿</translation>
     </message>
 </context>
 <context>
     <name>design/ezflow/embed/poll</name>
     <message>
         <source>Vote</source>
-        <translation type="unfinished">投票</translation>
+        <translation>投票</translation>
     </message>
 </context>
 <context>
     <name>design/standard/user</name>
     <message>
         <source>Your email address has been confirmed. An administrator needs to approve your sign up request, before your login becomes valid.</source>
-        <translation type="unfinished"></translation>
+        <translation>您的电子邮件地址已确认。管理员需要先批准您的注册请求，您的登录才会生效。</translation>
     </message>
     <message>
         <source>Your account is now activated.</source>
-        <translation type="unfinished">您的帐号被激活。</translation>
+        <translation>您的帐户现已激活。</translation>
     </message>
     <message>
         <source>Your account is already active.</source>
-        <translation type="unfinished">您的帐号已经被激活。</translation>
+        <translation>您的帐户已处于激活状态。</translation>
     </message>
     <message>
         <source>Sorry, the key submitted was not a valid key. Account was not activated.</source>
-        <translation type="unfinished">抱歉，您发送的key不是一个合法的key。帐号没有被激活。</translation>
+        <translation>抱歉，提交的密钥无效，帐户未激活。</translation>
     </message>
 </context>
 <context>
@@ -3066,7 +3171,7 @@
     </message>
     <message>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>名称：</translation>
     </message>
     <message>
         <source>Website:</source>
@@ -3110,7 +3215,7 @@
     </message>
     <message>
         <source>Remember me</source>
-        <translation type="unfinished">记住登录状态</translation>
+        <translation>记住我</translation>
     </message>
     <message>
         <source>Add comment</source>
@@ -3119,6 +3224,188 @@
     <message>
         <source>Reset form</source>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/block</name>
+    <message>
+        <source>Discover what is new</source>
+        <translation>了解新功能</translation>
+    </message>
+    <message>
+        <source>Explore the platform</source>
+        <translation>探索平台</translation>
+    </message>
+    <message>
+        <source>Learn more</source>
+        <translation>了解更多</translation>
+    </message>
+    <message>
+        <source>Next slide</source>
+        <translation>下一张幻灯片</translation>
+    </message>
+    <message>
+        <source>Previous slide</source>
+        <translation>上一张幻灯片</translation>
+    </message>
+    <message>
+        <source>Read more</source>
+        <translation>阅读更多</translation>
+    </message>
+    <message>
+        <source>Read the announcement</source>
+        <translation>阅读公告</translation>
+    </message>
+    <message>
+        <source>Read the story</source>
+        <translation>阅读文章</translation>
+    </message>
+    <message>
+        <source>Scroll back</source>
+        <translation>向后滚动</translation>
+    </message>
+    <message>
+        <source>Scroll on</source>
+        <translation>向前滚动</translation>
+    </message>
+    <message>
+        <source>See the results</source>
+        <translation>查看结果</translation>
+    </message>
+    <message>
+        <source>Show slide %number</source>
+        <translation>显示第 %number 张幻灯片</translation>
+    </message>
+    <message>
+        <source>carousel</source>
+        <translation>轮播</translation>
+    </message>
+    <message>
+        <source>slide</source>
+        <translation>幻灯片</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer</name>
+    <message>
+        <source>Explore</source>
+        <translation>探索</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>技术支持</translation>
+    </message>
+    <message>
+        <source>open source content management by the Exponential Foundation and 7x.</source>
+        <translation>由 Exponential Foundation 和 7x 提供的开源内容管理。</translation>
+    </message>
+    <message>
+        <source>Get in touch</source>
+        <translation>联系我们</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full</name>
+    <message>
+        <source>Contact us</source>
+        <translation>联系我们</translation>
+    </message>
+    <message>
+        <source>Questions?</source>
+        <translation>有疑问？</translation>
+    </message>
+    <message>
+        <source>Talk to the team about your project.</source>
+        <translation>与团队聊聊您的项目。</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/blog</name>
+    <message>
+        <source>All posts</source>
+        <translation>全部文章</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/folder</name>
+    <message>
+        <source>RSS feed</source>
+        <translation>RSS 订阅</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/gallery</name>
+    <message>
+        <source>%count pictures</source>
+        <translation>%count 张图片</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/place</name>
+    <message>
+        <source>View on the map</source>
+        <translation>在地图上查看</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/gallery</name>
+    <message>
+        <source>%index of %count</source>
+        <translation>第 %index 张，共 %count 张</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>关闭</translation>
+    </message>
+    <message>
+        <source>Gallery</source>
+        <translation>图库</translation>
+    </message>
+    <message>
+        <source>Next picture</source>
+        <translation>下一张图片</translation>
+    </message>
+    <message>
+        <source>Previous picture</source>
+        <translation>上一张图片</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/share</name>
+    <message>
+        <source>Copy link</source>
+        <translation>复制链接</translation>
+    </message>
+    <message>
+        <source>Link copied</source>
+        <translation>链接已复制</translation>
+    </message>
+    <message>
+        <source>Share</source>
+        <translation>分享</translation>
+    </message>
+    <message>
+        <source>Share this page</source>
+        <translation>分享此页面</translation>
+    </message>
+    <message>
+        <source>Share on LinkedIn</source>
+        <translation>分享到 LinkedIn</translation>
+    </message>
+    <message>
+        <source>Share on Bluesky</source>
+        <translation>分享到 Bluesky</translation>
+    </message>
+    <message>
+        <source>Share by email</source>
+        <translation>通过电子邮件分享</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/tagcloud</name>
+    <message>
+        <source>%count items tagged %tag</source>
+        <translation>%count 个带有标签 %tag 的条目</translation>
     </message>
 </context>
 </TS>

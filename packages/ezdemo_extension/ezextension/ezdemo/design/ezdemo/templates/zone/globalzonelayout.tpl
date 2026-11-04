@@ -1,3 +1,4 @@
+<div class="ed-wrap ed-zone-cols">
 <section class="content-view-block content-view-aside">
     {if and( is_set( $zones[0].blocks ), $zones[0].blocks|count() )}
     {foreach $zones[0].blocks as $block}
@@ -5,3 +6,4 @@
     {/foreach}
     {/if}
 </section>
+</div>

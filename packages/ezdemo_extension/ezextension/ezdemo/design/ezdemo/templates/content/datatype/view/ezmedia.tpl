@@ -72,11 +72,11 @@
             <param name="source" value="{concat( "content/download/", $attribute.contentobject_id, "/", $attribute.content.contentobject_attribute_id, "/", $attribute.content.original_filename)|ezurl( 'no' )}" />
             <param name="onError" value="onErrorHandler" />
             <param name="onResize" value="onResizeHandler" />
-            <a href="http://go.microsoft.com/fwlink/?LinkID=108182" style="text-decoration: none;">
-                <img src="http://go.microsoft.com/fwlink/?LinkId=108181" alt="Get Microsoft Silverlight" style="border-style: none;" />
+            <a href="http://go.microsoft.com/fwlink/?LinkID=108182">
+                <img src="http://go.microsoft.com/fwlink/?LinkId=108181" alt="Get Microsoft Silverlight" />
             </a>
         </object>
-        <iframe style="visibility: hidden; height: 0; width: 0; border: 0px;"></iframe>
+        <iframe class="ed-hidden-frame" title="" hidden="hidden"></iframe>
     </div>
     {/case}
 

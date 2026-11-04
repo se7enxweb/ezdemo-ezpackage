@@ -1,8 +1,17 @@
+{* Banner, internal: the banner image of the block's image_node_id, linked to the block's url. *}
 {def $image_node = fetch( 'content', 'node', hash( 'node_id', $block.custom_attributes.image_node_id ) )
-     $image = $image_node.data_map.image.content['banner']
      $has_url = and( is_set( $block.custom_attributes.url ), ne( $block.custom_attributes.url, '' ) )}
-
-<div class="block-type-banner-internal">
-    {if $has_url}<a href="{$block.custom_attributes.url}" title="{$image_node.name|wash}">{/if}<img src={$image.url|ezroot} width="{$image.width}" height="{$image.height}" alt="{$image_node.name|wash}" />{if $has_url}</a>{/if}
-</div>
-{undef $image_node $image $has_url}
+{if $image_node}
+<section class="ed-section ed-block ed-block-banner">
+    <div class="ed-wrap">
+        <div class="ed-cta ed-reveal">
+            <div>
+                {if $block.name|ne( '' )}<p class="ed-eyebrow">{$block.name|wash}</p>{/if}
+                <h2>{$image_node.name|wash}</h2>
+            </div>
+            <div class="ed-cta-actions">{if $has_url}<a class="ed-btn ed-btn-primary" href={$block.custom_attributes.url|ezurl}>{'Read the announcement'|i18n( 'design/ezdemo/block' )}</a>{/if}</div>
+        </div>
+    </div>
+</section>
+{/if}
+{undef $image_node $has_url}

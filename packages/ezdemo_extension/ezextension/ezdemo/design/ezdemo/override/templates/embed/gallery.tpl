@@ -21,7 +21,7 @@
         {/foreach}
     </div>
     <div class="gallery-navigator">
-        <a href="#" class="navig prev" style="opacity:0;"><span class="hide">&lt;</span></a>
+        <a href="#" class="navig prev"><span class="hide">&lt;</span></a>
         <a href="#" class="navig next"><span class="hide">&gt;</span></a>
 
         <img src={'fg-selected.png'|ezimage} alt="Selected indicator" class="cursor" />

@@ -20,9 +20,9 @@
 </div>
 
 {if $license}
-    <pre style="height: 300px; overflow:scroll;">{$license|wash}</pre>
+    <pre class="ed-license">{$license|wash}</pre>
 {else}
-    <p>{'Could not load LICENSE file! You should have a LICENSE file in your eZ Publish root directory.'|i18n( 'design/admin/ezinfo/about' )}</p>
+    <p>{'Could not load LICENSE file! You should have a LICENSE file in your Exponential root directory.'|i18n( 'design/admin/ezinfo/about' )}</p>
 {/if}
 
 {if and( is_set( $contributors ), is_array( $contributors ), count( $contributors )|ge( 1 ) )}
@@ -31,10 +31,11 @@
     </div>
 
     <p>
-        The following is a list of <a href="https://exponential.earth">Exponential</a> contributors who have licensed their work for use by <a href="http://ez.no/">eZ Systems AS</a> under the terms and conditions of
-        the eZ Contributor Licensing Agreement. As permitted by this agreement with the contributors, <a href="http://ez.no/">eZ Systems AS</a> is redistributing the
-        contribution under the same license as the file that the contribution is included in. The list of contributors includes the contributors&apos;s
-        name, optional contact info and a list of files that they have either contributed or contributed work to.
+        The following is a list of contributors who licensed their work for use by eZ Systems AS, which developed
+        eZ Publish, the discontinued predecessor of <a href="https://exponential.earth">Exponential</a>, under the terms and conditions of the eZ Contributor
+        Licensing Agreement. As that agreement permitted, eZ Systems AS redistributed each contribution under the same license as the file
+        it is included in, and Exponential continues to do so. The list gives each contributor&apos;s name, optional contact info and the
+        files they contributed to.
     </p>
 
     <ul>
@@ -49,7 +50,7 @@
 </div>
 
 <p>
-    Copyright for eZ Publish is included in the License shown above. Portions are copyright by other parties. A complete list of all contributors and third-party
+    <a href="https://exponential.earth">Exponential</a> Copyright &copy; 1998-2026 Exponential Foundation and <a href="https://se7enx.com">7x</a>. Copyright &copy; 1999-2014 eZ Systems AS. Portions are copyright by other parties. A complete list of all contributors and third-party
     software follows.
 </p>
 

@@ -1,37 +1,16 @@
-{def $valid_nodes = $block.valid_nodes
-     $first = $valid_nodes.0
-     $big_image_class = 'gallery'
-     $render_image_once = false()}
-<!-- BLOCK: START -->
-<div class="block-type-gallery" data-ezdemo-gallery="block">
-
-    <div class="block-gallery">
-        <div class="gallery-viewer">
-            {node_view_gui view='gallery_viewer' big_class=$big_image_class total_items=$valid_nodes|count content_node=$first}
-            {foreach $valid_nodes as $gallery_item offset 1}
-                {if eq( $gallery_item.class_identifier, 'video' )}
-                    {node_view_gui view='gallery_viewer' is_hidden=true() big_class=$big_image_class total_items=$valid_nodes|count content_node=$gallery_item}
-                {/if}
-                {if and( eq( $gallery_item.class_identifier, 'image' ), $render_image_once|not() )}
-                    {node_view_gui view='gallery_viewer' is_hidden=true() big_class=$big_image_class total_items=$valid_nodes|count content_node=$gallery_item}
-                    {set $render_image_once = true()}
-                {/if}
-            {/foreach}
+{* Gallery block: a scrolling strip of pictures; a click opens them in the lightbox (javascript/ezdemo/gallery.js),
+   without JavaScript the image page. *}
+{def $valid_nodes = $block.valid_nodes}
+<section class="ed-section ed-block ed-block-gallery">
+    <div class="ed-wrap" data-ed-strip="1">
+        <div class="ed-section-head ed-reveal">
+            <h2>{$block.name|wash}</h2>
+            <div class="ed-strip-nav">
+                <button type="button" class="ed-icon-btn" data-ed-strip-go="prev" aria-label="{'Scroll back'|i18n( 'design/ezdemo/block' )}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+                <button type="button" class="ed-icon-btn" data-ed-strip-go="next" aria-label="{'Scroll on'|i18n( 'design/ezdemo/block' )}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+            </div>
         </div>
-        <div class="gallery-navigator">
-            <a href="#" class="navig prev" style="opacity:0;"><span class="hide">&lt;</span></a>
-            <a href="#" class="navig next"><span class="hide">&gt;</span></a>
-
-            <img src={'fg-selected.png'|ezimage} alt="Selected indicator" class="cursor" />
-            <ul class="images">
-            {foreach $valid_nodes as $gallery_item}
-                <li>{node_view_gui view='gallery_item' thumb_class='gallerythumbnail' big_class=$big_image_class content_node=$gallery_item}</li>
-            {/foreach}
-            </ul>
-        </div>
-
+        {include uri='design:parts/ezdemo/gallery_items.tpl' items=$valid_nodes layout='strip' id=$block.id}
     </div>
-    {ezscript( array( 'ezdemo_actions.js' ) )}
-{undef $valid_nodes $first $big_image_class $render_image_once}
-</div>
-<!-- BLOCK: END -->
+</section>
+{undef $valid_nodes}

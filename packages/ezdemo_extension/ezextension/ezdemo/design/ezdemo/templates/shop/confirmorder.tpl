@@ -77,7 +77,7 @@
 </tr>
 {section show=$ProductItem:item.item_object.option_list}
 <tr>
-  <td colspan="6" style="padding: 0;">
+  <td colspan="6" class="ed-cell-flush">
      <table width="100%" cellpadding="0" cellspacing="0">
 <tr>
 <td colspan="3">

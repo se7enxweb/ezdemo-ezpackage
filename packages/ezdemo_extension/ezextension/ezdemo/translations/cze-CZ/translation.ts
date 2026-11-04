@@ -56,6 +56,10 @@
         <source>%login_link_startLog in%login_link_end to comment.</source>
         <translation>Chcete-li přidat komentář, %login_link_startpřihlaste se%login_link_end.</translation>
     </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Napsat komentář</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/block/feedback_form</name>
@@ -63,12 +67,20 @@
         <source>Send form</source>
         <translation>Odeslat formulář</translation>
     </message>
+    <message>
+        <source>Send message</source>
+        <translation>Odeslat zprávu</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/block_item/call_to_action</name>
     <message>
         <source>Download!</source>
         <translation>Stáhnout!</translation>
+    </message>
+    <message>
+        <source>Get started</source>
+        <translation>Začít</translation>
     </message>
 </context>
 <context>
@@ -80,6 +92,10 @@
     <message>
         <source>Buy</source>
         <translation>Koupit</translation>
+    </message>
+    <message>
+        <source>Add to basket</source>
+        <translation>Přidat do košíku</translation>
     </message>
 </context>
 <context>
@@ -1079,12 +1095,20 @@
         <source>Latest News</source>
         <translation>Nejnovější zprávy</translation>
     </message>
+    <message>
+        <source>Latest news</source>
+        <translation>Nejnovější zprávy</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/footer/links</name>
     <message>
         <source>eZ Links</source>
         <translation>Odkazy eZ</translation>
+    </message>
+    <message>
+        <source>Resources</source>
+        <translation>Zdroje</translation>
     </message>
 </context>
 <context>
@@ -1141,6 +1165,14 @@
         <source>Category</source>
         <translation>Kategorie</translation>
     </message>
+    <message>
+        <source>Past event</source>
+        <translation>Proběhlá akce</translation>
+    </message>
+    <message>
+        <source>until</source>
+        <translation>do</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/full/event_view_calendar</name>
@@ -1194,6 +1226,18 @@
     <message>
         <source>Future events</source>
         <translation>Budoucí události</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Události</translation>
+    </message>
+    <message>
+        <source>Program</source>
+        <translation>Program</translation>
+    </message>
+    <message>
+        <source>Webinars, workshops and meetups. Add one to your calendar or join us live.</source>
+        <translation>Webináře, workshopy a setkání. Přidejte si akci do kalendáře nebo se připojte živě.</translation>
     </message>
 </context>
 <context>
@@ -1349,6 +1393,10 @@
         <source>Related content</source>
         <translation>Související obsah</translation>
     </message>
+    <message>
+        <source>Pictures</source>
+        <translation>Obrázky</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/full/multicalendar</name>
@@ -1393,6 +1441,18 @@
     <message>
         <source>Amount</source>
         <translation>Částka</translation>
+    </message>
+    <message>
+        <source>Category</source>
+        <translation>Kategorie</translation>
+    </message>
+    <message>
+        <source>Quantity</source>
+        <translation>Množství</translation>
+    </message>
+    <message>
+        <source>incl. VAT</source>
+        <translation>vč. DPH</translation>
     </message>
 </context>
 <context>
@@ -1742,6 +1802,50 @@
     <message>
         <source>Search text</source>
         <translation>Hledaný text</translation>
+    </message>
+    <message>
+        <source>Breadcrumb</source>
+        <translation>Drobečková navigace</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Jazyky</translation>
+    </message>
+    <message>
+        <source>Main</source>
+        <translation>Hlavní</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Nabídka</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Další</translation>
+    </message>
+    <message>
+        <source>New: Exponential 6.0.15 is here.</source>
+        <translation>Novinka: Exponential 6.0.15 je tu.</translation>
+    </message>
+    <message>
+        <source>Section menu</source>
+        <translation>Menu sekce</translation>
+    </message>
+    <message>
+        <source>See what is new</source>
+        <translation>Zobrazit novinky</translation>
+    </message>
+    <message>
+        <source>Skip to content</source>
+        <translation>Přejít na obsah</translation>
+    </message>
+    <message>
+        <source>Use the dark theme</source>
+        <translation>Použít tmavý motiv</translation>
+    </message>
+    <message>
+        <source>Use the light theme</source>
+        <translation>Použít světlý motiv</translation>
     </message>
 </context>
 <context>
@@ -3384,6 +3488,188 @@
     <message>
         <source>Could not load LICENSE file! You should have a LICENSE file in your eZ Publish root directory.</source>
         <translation>Soubor LICENSE nelze načíst! V kořenovém adresáři eZ Publish by měl být soubor LICENSE.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/block</name>
+    <message>
+        <source>Discover what is new</source>
+        <translation>Objevte novinky</translation>
+    </message>
+    <message>
+        <source>Explore the platform</source>
+        <translation>Prozkoumat platformu</translation>
+    </message>
+    <message>
+        <source>Learn more</source>
+        <translation>Další informace</translation>
+    </message>
+    <message>
+        <source>Next slide</source>
+        <translation>Další snímek</translation>
+    </message>
+    <message>
+        <source>Previous slide</source>
+        <translation>Předchozí snímek</translation>
+    </message>
+    <message>
+        <source>Read more</source>
+        <translation>Číst dál</translation>
+    </message>
+    <message>
+        <source>Read the announcement</source>
+        <translation>Přečíst oznámení</translation>
+    </message>
+    <message>
+        <source>Read the story</source>
+        <translation>Přečíst článek</translation>
+    </message>
+    <message>
+        <source>Scroll back</source>
+        <translation>Posunout zpět</translation>
+    </message>
+    <message>
+        <source>Scroll on</source>
+        <translation>Posunout dál</translation>
+    </message>
+    <message>
+        <source>See the results</source>
+        <translation>Zobrazit výsledky</translation>
+    </message>
+    <message>
+        <source>Show slide %number</source>
+        <translation>Zobrazit snímek %number</translation>
+    </message>
+    <message>
+        <source>carousel</source>
+        <translation>karusel</translation>
+    </message>
+    <message>
+        <source>slide</source>
+        <translation>snímek</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer</name>
+    <message>
+        <source>Explore</source>
+        <translation>Prozkoumat</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Běží na</translation>
+    </message>
+    <message>
+        <source>open source content management by the Exponential Foundation and 7x.</source>
+        <translation>open source správa obsahu od Exponential Foundation a 7x.</translation>
+    </message>
+    <message>
+        <source>Get in touch</source>
+        <translation>Kontakt</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full</name>
+    <message>
+        <source>Contact us</source>
+        <translation>Kontaktujte nás</translation>
+    </message>
+    <message>
+        <source>Questions?</source>
+        <translation>Máte otázky?</translation>
+    </message>
+    <message>
+        <source>Talk to the team about your project.</source>
+        <translation>Proberte svůj projekt s týmem.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/blog</name>
+    <message>
+        <source>All posts</source>
+        <translation>Všechny příspěvky</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/folder</name>
+    <message>
+        <source>RSS feed</source>
+        <translation>Kanál RSS</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/gallery</name>
+    <message>
+        <source>%count pictures</source>
+        <translation>%count obrázků</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/place</name>
+    <message>
+        <source>View on the map</source>
+        <translation>Zobrazit na mapě</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/gallery</name>
+    <message>
+        <source>%index of %count</source>
+        <translation>%index z %count</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Zavřít</translation>
+    </message>
+    <message>
+        <source>Gallery</source>
+        <translation>Galerie</translation>
+    </message>
+    <message>
+        <source>Next picture</source>
+        <translation>Další obrázek</translation>
+    </message>
+    <message>
+        <source>Previous picture</source>
+        <translation>Předchozí obrázek</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/share</name>
+    <message>
+        <source>Copy link</source>
+        <translation>Kopírovat odkaz</translation>
+    </message>
+    <message>
+        <source>Link copied</source>
+        <translation>Odkaz zkopírován</translation>
+    </message>
+    <message>
+        <source>Share</source>
+        <translation>Sdílet</translation>
+    </message>
+    <message>
+        <source>Share this page</source>
+        <translation>Sdílet tuto stránku</translation>
+    </message>
+    <message>
+        <source>Share on LinkedIn</source>
+        <translation>Sdílet na LinkedIn</translation>
+    </message>
+    <message>
+        <source>Share on Bluesky</source>
+        <translation>Sdílet na Bluesky</translation>
+    </message>
+    <message>
+        <source>Share by email</source>
+        <translation>Sdílet e-mailem</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/tagcloud</name>
+    <message>
+        <source>%count items tagged %tag</source>
+        <translation>%count položek se štítkem %tag</translation>
     </message>
 </context>
 </TS>

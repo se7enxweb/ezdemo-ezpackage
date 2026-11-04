@@ -1,41 +1,18 @@
-<article class="selected-products">
-    <div class="attribute-image">
-        {attribute_view_gui href=$node.url_alias|ezurl image_class=productthumbnail attribute=$node.data_map.image}
-    </div>
-    <div class="product-info">
-        <div class="attribute-header">
-            <a href="{$node.url_alias|ezurl( 'no' )}" class="teaser-link">
-                <h3>{$node.name|wash()}</h3>
-            </a>
+{* A product in a block: picture, name, short description, price and "Add to basket". *}
+<article class="ed-card ed-reveal ed-card-product">
+    <div class="ed-card-media">{include uri='design:parts/ezdemo/image.tpl' node=$node alias='ezdemo_card' alt=''}</div>
+    <div class="ed-card-body">
+        <h3><a href={$node.url_alias|ezurl}>{$node.name|wash}</a></h3>
+        {if $node.data_map.short_description.has_content}<div class="ed-card-text">{attribute_view_gui attribute=$node.data_map.short_description}</div>{/if}
+        <div class="ed-card-foot">
+            <span class="ed-price">{$node.data_map.price.content.inc_vat_price|l10n( 'currency' )}</span>
+            <form method="post" action={'content/action'|ezurl}>
+                <input type="hidden" name="Quantity" value="1" />
+                <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
+                <input type="hidden" name="ContentObjectID" value="{$node.object.id}" />
+                <input type="hidden" name="ViewMode" value="full" />
+                <button class="ed-btn ed-btn-primary ed-btn-s" type="submit" name="ActionAddToBasket">{'Add to basket'|i18n( 'design/ezdemo/block_item/product' )}<span class="ed-sr">: {$node.name|wash}</span></button>
+            </form>
         </div>
-        <ul class="breadcrumb">
-            {foreach $node.path as $path_item}
-            <li>
-                <a href="{$path_item.url_alias|ezurl( 'no' )}">{$path_item.name|wash()}</a>
-                {delimiter}
-                <span class="divider">»</span>
-                {/delimiter}
-            </li>
-            {/foreach}
-        </ul>
-        <form method="post" action={"content/action"|ezurl}>
-            <fieldset>
-                <div class="item-price">
-                    {$node.data_map.price.content.inc_vat_price|l10n( 'currency' )}
-                </div>
-                <div class="item-buying-action form-inline">
-                    <label>
-                        <span class="hidden">{'Amount'|i18n("design/ezdemo/block_item/product")}</span>
-                        <input type="text" name="Quantity" />
-                    </label>
-                    <button class="btn btn-warning" type="submit" name="ActionAddToBasket">
-                        {'Buy'|i18n("design/ezdemo/block_item/product")}
-                    </button>
-                </div>
-            </fieldset>
-            <input type="hidden" name="ContentNodeID" value="{$node.node_id}" />
-            <input type="hidden" name="ContentObjectID" value="{$node.object.id}" />
-            <input type="hidden" name="ViewMode" value="full" />
-        </form>
     </div>
 </article>

@@ -1,3 +1,4 @@
+<div class="ed-wrap ed-zone-cols">
 <div class="zone-layout-{$zone_layout|downcase()} row">
     <div class="span4">
         <aside>
@@ -28,4 +29,5 @@
             {/if}
         </section>
     </div>
+</div>
 </div>

@@ -1,8 +1,6 @@
 {def $node = $block.valid_nodes[0]
      $video_path = concat( '/content/download/', $node.data_map.file.contentobject_id, '/', $node.data_map.file.id, '/', $node.data_map.file.content.original_filename )|ezurl( 'no', 'full' )}
 
-{ezcss_require( 'video.css' )}
-{ezscript_require( 'video.js' )}
 
 <div class="block-type-video">
     <div class="attribute-header">
@@ -10,7 +8,7 @@
     </div>
     <article>
         <div class="attribute-video">
-            <video id="video_{$block.id}" data-ezdemo-video-swf="{'flash/video-js.swf'|ezdesign( 'no' )|wash}" class="video-js vjs-default-skin" controls preload="auto" width="330" height="264" poster="" data-setup="{ldelim}{rdelim}">
+            <video id="video_{$block.id}" class="ed-video" controls preload="auto" width="330" height="264" poster="" data-setup="{ldelim}{rdelim}">
               <source src="{$video_path}" type="video/mp4" />
             </video>
             {ezscript( array( 'ezdemo_actions.js' ) )}

@@ -224,7 +224,7 @@
 {foreach $events as $event}
     {if and( ne($view_parameters.offset, 2), eq($loop_count, 8))}
         <a id="ezagenda_month_hidden_show" href={$url_reload|ezurl} data-ezdemo-show="ezagenda_month_hidden">{"Show All Events.."|i18n("design/ezdemo/full/event_view_calendar")}</a>
-        <div id="ezagenda_month_hidden" style="display:none;">
+        <div id="ezagenda_month_hidden" hidden="hidden">
     {/if}
     
     <table class="ezagenda_month_event" cellpadding="0" cellspacing="0"{if gt($curr_ts , $event.object.data_map.to_time.content.timestamp)} class="ezagenda_event_old"{/if} summary="Previw of event">

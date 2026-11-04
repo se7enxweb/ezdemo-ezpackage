@@ -56,6 +56,10 @@
         <source>%login_link_startLog in%login_link_end to comment.</source>
         <translation>%login_link_startPrijavite se%login_link_end da biste komentirali.</translation>
     </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Napišite komentar</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/block/feedback_form</name>
@@ -63,12 +67,20 @@
         <source>Send form</source>
         <translation>Pošalji obrazac</translation>
     </message>
+    <message>
+        <source>Send message</source>
+        <translation>Pošalji poruku</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/block_item/call_to_action</name>
     <message>
         <source>Download!</source>
         <translation>Preuzmi!</translation>
+    </message>
+    <message>
+        <source>Get started</source>
+        <translation>Započnite</translation>
     </message>
 </context>
 <context>
@@ -80,6 +92,10 @@
     <message>
         <source>Buy</source>
         <translation>Kupi</translation>
+    </message>
+    <message>
+        <source>Add to basket</source>
+        <translation>Dodaj u košaricu</translation>
     </message>
 </context>
 <context>
@@ -1079,12 +1095,20 @@
         <source>Latest News</source>
         <translation>Najnovije vijesti</translation>
     </message>
+    <message>
+        <source>Latest news</source>
+        <translation>Najnovije vijesti</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/footer/links</name>
     <message>
         <source>eZ Links</source>
         <translation>eZ poveznice</translation>
+    </message>
+    <message>
+        <source>Resources</source>
+        <translation>Resursi</translation>
     </message>
 </context>
 <context>
@@ -1141,6 +1165,14 @@
         <source>Category</source>
         <translation>Kategorija</translation>
     </message>
+    <message>
+        <source>Past event</source>
+        <translation>Prošli događaj</translation>
+    </message>
+    <message>
+        <source>until</source>
+        <translation>do</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/full/event_view_calendar</name>
@@ -1194,6 +1226,18 @@
     <message>
         <source>Future events</source>
         <translation>Budući događaji</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Događaji</translation>
+    </message>
+    <message>
+        <source>Program</source>
+        <translation>Program</translation>
+    </message>
+    <message>
+        <source>Webinars, workshops and meetups. Add one to your calendar or join us live.</source>
+        <translation>Webinari, radionice i susreti. Dodajte jedan u kalendar ili se pridružite uživo.</translation>
     </message>
 </context>
 <context>
@@ -1349,6 +1393,10 @@
         <source>Related content</source>
         <translation>Povezani sadržaj</translation>
     </message>
+    <message>
+        <source>Pictures</source>
+        <translation>Slike</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/full/multicalendar</name>
@@ -1393,6 +1441,18 @@
     <message>
         <source>Amount</source>
         <translation>Količina</translation>
+    </message>
+    <message>
+        <source>Category</source>
+        <translation>Kategorija</translation>
+    </message>
+    <message>
+        <source>Quantity</source>
+        <translation>Količina</translation>
+    </message>
+    <message>
+        <source>incl. VAT</source>
+        <translation>uklj. PDV</translation>
     </message>
 </context>
 <context>
@@ -1742,6 +1802,50 @@
     <message>
         <source>Search text</source>
         <translation>Tekst za pretraživanje</translation>
+    </message>
+    <message>
+        <source>Breadcrumb</source>
+        <translation>Navigacijski put</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Jezici</translation>
+    </message>
+    <message>
+        <source>Main</source>
+        <translation>Glavni</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Izbornik</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Više</translation>
+    </message>
+    <message>
+        <source>New: Exponential 6.0.15 is here.</source>
+        <translation>Novo: stigao je Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Section menu</source>
+        <translation>Izbornik odjeljka</translation>
+    </message>
+    <message>
+        <source>See what is new</source>
+        <translation>Pogledajte novosti</translation>
+    </message>
+    <message>
+        <source>Skip to content</source>
+        <translation>Preskoči na sadržaj</translation>
+    </message>
+    <message>
+        <source>Use the dark theme</source>
+        <translation>Koristi tamnu temu</translation>
+    </message>
+    <message>
+        <source>Use the light theme</source>
+        <translation>Koristi svijetlu temu</translation>
     </message>
 </context>
 <context>
@@ -3384,6 +3488,188 @@
     <message>
         <source>Could not load LICENSE file! You should have a LICENSE file in your eZ Publish root directory.</source>
         <translation>Nije moguće učitati datoteku LICENSE! Datoteka LICENSE trebala bi se nalaziti u korijenskom direktoriju sustava eZ Publish.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/block</name>
+    <message>
+        <source>Discover what is new</source>
+        <translation>Otkrijte novosti</translation>
+    </message>
+    <message>
+        <source>Explore the platform</source>
+        <translation>Istražite platformu</translation>
+    </message>
+    <message>
+        <source>Learn more</source>
+        <translation>Saznajte više</translation>
+    </message>
+    <message>
+        <source>Next slide</source>
+        <translation>Sljedeći slajd</translation>
+    </message>
+    <message>
+        <source>Previous slide</source>
+        <translation>Prethodni slajd</translation>
+    </message>
+    <message>
+        <source>Read more</source>
+        <translation>Pročitajte više</translation>
+    </message>
+    <message>
+        <source>Read the announcement</source>
+        <translation>Pročitajte objavu</translation>
+    </message>
+    <message>
+        <source>Read the story</source>
+        <translation>Pročitajte članak</translation>
+    </message>
+    <message>
+        <source>Scroll back</source>
+        <translation>Pomakni natrag</translation>
+    </message>
+    <message>
+        <source>Scroll on</source>
+        <translation>Pomakni naprijed</translation>
+    </message>
+    <message>
+        <source>See the results</source>
+        <translation>Pogledajte rezultate</translation>
+    </message>
+    <message>
+        <source>Show slide %number</source>
+        <translation>Prikaži slajd %number</translation>
+    </message>
+    <message>
+        <source>carousel</source>
+        <translation>vrtuljak</translation>
+    </message>
+    <message>
+        <source>slide</source>
+        <translation>slajd</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer</name>
+    <message>
+        <source>Explore</source>
+        <translation>Istražite</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Pokreće</translation>
+    </message>
+    <message>
+        <source>open source content management by the Exponential Foundation and 7x.</source>
+        <translation>upravljanje sadržajem otvorenog koda Exponential Foundationa i 7x.</translation>
+    </message>
+    <message>
+        <source>Get in touch</source>
+        <translation>Kontakt</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full</name>
+    <message>
+        <source>Contact us</source>
+        <translation>Kontaktirajte nas</translation>
+    </message>
+    <message>
+        <source>Questions?</source>
+        <translation>Pitanja?</translation>
+    </message>
+    <message>
+        <source>Talk to the team about your project.</source>
+        <translation>Razgovarajte s timom o svom projektu.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/blog</name>
+    <message>
+        <source>All posts</source>
+        <translation>Sve objave</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/folder</name>
+    <message>
+        <source>RSS feed</source>
+        <translation>RSS kanal</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/gallery</name>
+    <message>
+        <source>%count pictures</source>
+        <translation>%count slika</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/place</name>
+    <message>
+        <source>View on the map</source>
+        <translation>Prikaži na karti</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/gallery</name>
+    <message>
+        <source>%index of %count</source>
+        <translation>%index od %count</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Zatvori</translation>
+    </message>
+    <message>
+        <source>Gallery</source>
+        <translation>Galerija</translation>
+    </message>
+    <message>
+        <source>Next picture</source>
+        <translation>Sljedeća slika</translation>
+    </message>
+    <message>
+        <source>Previous picture</source>
+        <translation>Prethodna slika</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/share</name>
+    <message>
+        <source>Copy link</source>
+        <translation>Kopiraj poveznicu</translation>
+    </message>
+    <message>
+        <source>Link copied</source>
+        <translation>Poveznica je kopirana</translation>
+    </message>
+    <message>
+        <source>Share</source>
+        <translation>Podijeli</translation>
+    </message>
+    <message>
+        <source>Share this page</source>
+        <translation>Podijeli ovu stranicu</translation>
+    </message>
+    <message>
+        <source>Share on LinkedIn</source>
+        <translation>Podijeli na LinkedInu</translation>
+    </message>
+    <message>
+        <source>Share on Bluesky</source>
+        <translation>Podijeli na Blueskyju</translation>
+    </message>
+    <message>
+        <source>Share by email</source>
+        <translation>Podijeli e-poštom</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/tagcloud</name>
+    <message>
+        <source>%count items tagged %tag</source>
+        <translation>%count stavki s oznakom %tag</translation>
     </message>
 </context>
 </TS>

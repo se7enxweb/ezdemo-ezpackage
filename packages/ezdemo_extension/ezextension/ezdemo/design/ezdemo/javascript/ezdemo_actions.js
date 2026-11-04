@@ -19,12 +19,11 @@
  *   data-ezdemo-reset="<id>"                 change sets the value of the element <id> to 0
  *   data-ezdemo-autofocus                    the field is selected and focused when the page has loaded
  *   meta[name="ezdemo-print-link"]           adds the print <link> with the current query string
- *   fieldset.ezcca-collapsible                collapsible attribute groups of the edit page (jQuery)
+ *   fieldset.ezcca-collapsible                collapsible attribute groups of the edit page
  *   object[data-ezdemo-silverlight-autosize] the Silverlight plug-in takes the size of its content
  *   video[data-ezdemo-video-swf]             Flash fallback of video.js (_V_.options.flash.swf), set when printed
  *   .twitter-share-button, .fb-like + #fb-root, .g-plusone   the social buttons' scripts are loaded
- *   [data-ezdemo-campaign]                   campaign block: ezSimpleGallery()
- *   [data-ezdemo-gallery="full|embed|block"] the $.eZ.Gallery of the gallery full view, embed view and gallery block
+ *   [data-ed-carousel], [data-ed-gallery]     campaign block and galleries: javascript/ezdemo/carousel.js, gallery.js
  *   select[data-ezdemo-add-block="<attribute id>"]  landing page editor: names #addtoblock after the chosen block
  *   [data-ezdemo-ajax-search="<object id>"]  landing page editor: eZAJAXSearch with data-ezdemo-ajax-search-bullet
  *   [data-ezdemo-gmap-id]                    Google map of a location (data-ezdemo-gmap-lat, -lng) once the page loaded
@@ -252,52 +251,34 @@
             hidden[i].removeAttribute( 'hidden' );
         }
 
-        var $ = window.jQuery;
-        if ( $ && document.querySelector( 'fieldset.ezcca-collapsible' ) )
+        // collapsible attribute groups of the edit page (was jQuery slideUp/slideDown)
+        var groups = document.querySelectorAll( 'fieldset.ezcca-collapsible' );
+        for ( var g = 0; g < groups.length; g++ )
         {
-            $( 'fieldset.ezcca-collapsible legend a' ).on( 'click', function ( e )
+            var inner = groups[g].querySelector( 'div.ezcca-collapsible-fieldset-content' );
+            groups[g].classList.add( 'ezcca-collapsed' );
+            if ( inner )
             {
-                e.preventDefault();
-                var container = $( this.parentNode.parentNode ), inner = container.find( 'div.ezcca-collapsible-fieldset-content' );
-                if ( container.hasClass( 'ezcca-collapsed' ) )
-                {
-                    container.removeClass( 'ezcca-collapsed' );
-                    inner.slideDown( 150 );
-                }
-                else
-                {
-                    inner.slideUp( 150, function ()
-                    {
-                        $( this.parentNode ).addClass( 'ezcca-collapsed' );
-                    } );
-                }
-            } );
-            // Collapse by default
-            $( 'fieldset.ezcca-collapsible' ).addClass( 'ezcca-collapsed' ).find( 'div.ezcca-collapsible-fieldset-content' ).hide();
+                inner.hidden = true;
+            }
         }
-
-        if ( $ && $.fn.ezSimpleGallery && document.querySelector( '[data-ezdemo-campaign]' ) )
+        document.addEventListener( 'click', function ( e )
         {
-            $( '[data-ezdemo-campaign]' ).ezSimpleGallery();
-        }
-
-        if ( $ && $.eZ && $.eZ.Gallery )
-        {
-            $( '[data-ezdemo-gallery]' ).each( function ()
+            var link = e.target.closest ? e.target.closest( 'fieldset.ezcca-collapsible legend a' ) : null;
+            if ( !link )
             {
-                var kind = this.getAttribute( 'data-ezdemo-gallery' ), conf = galleryConf();
-                if ( kind === 'block' )
-                {
-                    conf.autoScrollOnSelect = false;
-                    conf.navigator = { gallery: $( this ).find( '.block-gallery' ) };
-                }
-                else
-                {
-                    conf.navigator = { gallery: kind === 'embed' ? '.embed-gallery' : '.full-gallery' };
-                }
-                new $.eZ.Gallery( conf );
-            } );
-        }
+                return;
+            }
+            e.preventDefault();
+            var box = link.closest( 'fieldset' ), content = box.querySelector( 'div.ezcca-collapsible-fieldset-content' ),
+                collapsed = box.classList.toggle( 'ezcca-collapsed' );
+            if ( content )
+            {
+                content.hidden = collapsed;
+            }
+            link.setAttribute( 'aria-expanded', collapsed ? 'false' : 'true' );
+        } );
+        // the campaign block and the galleries: javascript/ezdemo/carousel.js and javascript/ezdemo/gallery.js
 
         var search = document.querySelector( '[data-ezdemo-ajax-search]' );
         if ( search && window.eZAJAXSearch )
@@ -315,62 +296,6 @@
         }
     }
 
-    // The $.eZ.Gallery configuration shared by the gallery views
-    function galleryConf()
-    {
-        return {
-            title: 'h3 a',
-            caption: 'figcaption div',
-            autoFixSizes: false,
-            initFunc: function ()
-            {
-                var imgs = this.navigator.getImages();
-
-                // make the browser caches images
-                setTimeout( function ()
-                {
-                    imgs.each( function ( i, elem )
-                    {
-                        ( new Image() ).src = elem.getAttribute( 'data-gallery-src' );
-                    } );
-                }, 0 );
-            },
-            updateFunc: function ( item )
-            {
-                var node = item.imageNode,
-                    viewerImage = this.container.find( '.gallery-viewer-image' ).first(),
-                    img = viewerImage.children( 'img' ).first();
-
-                if ( node.attr( 'data-gallery-item' ) == 'image' )
-                {
-                    this.container.find( '.visible' ).first().removeClass( 'visible' ).addClass( 'hidden' );
-                    viewerImage.removeClass( 'hidden' ).addClass( 'visible' );
-                }
-                else if ( node.attr( 'data-gallery-item' ) == 'video' )
-                {
-                    viewerImage.removeClass( 'visible' ).addClass( 'hidden' );
-                    this.container.find( '#gallery-viewer-video-' + node.attr( 'data-gallery-node-id' ) ).first().removeClass( 'hidden' ).addClass( 'visible' );
-                }
-
-                if ( img.length )
-                {
-                    img.attr( 'src', node.attr( 'data-gallery-src' ) );
-                    img.attr( 'height', node.attr( 'data-gallery-height' ) );
-                    img.attr( 'width', node.attr( 'data-gallery-width' ) );
-                    img.attr( 'alt', node.prop( 'title' ) );
-                }
-
-                var t = this.container.find( '.visible ' + this.conf.title ).first(),
-                    cap = this.container.find( '.visible ' + this.conf.caption ).first(),
-                    c = this.container.find( '.visible ' + this.conf.counter ).first();
-
-                t.text( node.prop( 'title' ) );
-                t.attr( 'href', node.attr( 'data-gallery-node-url' ) );
-                c.text( item.index + 1 );
-                cap.html( node.find( 'figcaption' ).html() );
-            }
-        };
-    }
 
     window.addEventListener( 'load', function ()
     {

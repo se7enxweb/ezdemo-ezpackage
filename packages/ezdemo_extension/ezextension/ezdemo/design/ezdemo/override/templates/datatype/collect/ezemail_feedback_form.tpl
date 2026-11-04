@@ -3,5 +3,5 @@
 {/if}
 {def $data_text = cond( is_set( $#collection_attributes[$attribute.id] ), $#collection_attributes[$attribute.id].data_text, $attribute.content )}
 <label for="{$attribute_base}_data_text_{$attribute.id}">{$label}</label>
-<input class="box {$css_class}" type="text" size="70" name="{$attribute_base}_data_text_{$attribute.id}" value="{$data_text|wash( xhtml )}" placeholder="{$placeholder}" />
+<input class="box {$css_class}" type="email" size="70" id="{$attribute_base}_data_text_{$attribute.id}" name="{$attribute_base}_data_text_{$attribute.id}" autocomplete="email" value="{$data_text|wash( xhtml )}" placeholder="{$placeholder}" />
 {undef $data_text}

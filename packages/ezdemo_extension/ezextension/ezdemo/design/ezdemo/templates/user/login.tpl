@@ -42,7 +42,7 @@
 {/if}
 {if ezini( 'Session', 'RememberMeTimeout' )}
 <div class="block">
-<input type="checkbox" tabindex="1" name="Cookie" id="id4" checked="checked" /><label for="id4" style="display:inline;">{"Remember me"|i18n("design/ezdemo/user/login")}</label>
+<input type="checkbox" tabindex="1" name="Cookie" id="id4" checked="checked" /><label for="id4" class="ed-inline-label">{"Remember me"|i18n("design/ezdemo/user/login")}</label>
 </div>
 {/if}
 

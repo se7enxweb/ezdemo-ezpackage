@@ -122,7 +122,7 @@
 </tr>
 {section show=$Basket:ProductItem:item.item_object.option_list}
 <tr>
-  <td colspan="7" style="padding: 0;">
+  <td colspan="7" class="ed-cell-flush">
      <table cellpadding="0" cellspacing="0">
 <tr>
 <td colspan="3">

@@ -30,11 +30,11 @@
             <param name="onError" value="onErrorHandler" />
             <param name="onLoad" value="onLoadHandler" />
             <param name="onResize" value="onResizeHandler" />
-            <a href="http://go2.microsoft.com/fwlink/?LinkId=108181" style="text-decoration: none;">
-                <img src="http://go2.microsoft.com/fwlink/?LinkId=108181" alt="Get Microsoft Silverlight" style="border-style: none;" />
+            <a href="http://go2.microsoft.com/fwlink/?LinkId=108181">
+                <img src="http://go2.microsoft.com/fwlink/?LinkId=108181" alt="Get Microsoft Silverlight" />
             </a>
         </object>
-        <iframe style="visibility: hidden; height: 0; width: 0; border: 0px;"></iframe>
+        <iframe class="ed-hidden-frame" title="" hidden="hidden"></iframe>
     </div>
 
     </div>

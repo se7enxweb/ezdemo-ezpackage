@@ -1,54 +1,20 @@
-{* Gallery - Full view *}
-
-<div class="content-view-full">
-    <div class="class-gallery">
-
-        <div class="attribute-header">
-            <h1>{$node.name|wash()}</h1>
-        </div>
-
-        {def $children_count = fetch( 'content', 'list_count', hash( 'parent_node_id', $node.node_id,
-                                                                     'class_filter_type', 'include',
-                                                                     'class_filter_array', array( 'image', 'video' ) ) )
-             $children = array()
-             $first = false()
-             $big_image_class = 'galleryfull'
-             $render_image_once = false()}
-
-        {if $children_count}
-        <div class="full-gallery" data-ezdemo-gallery="full">
-            {set $children = fetch( 'content', 'list', hash( 'parent_node_id', $node.node_id,
-                                                             'class_filter_type', 'include',
-                                                             'class_filter_array', array( 'image', 'video' ),
-                                                             'sort_by', $node.sort_array ) )
-                 $first = $children.0}
-            <div class="gallery-viewer">
-                {node_view_gui view='gallery_viewer' big_class=$big_image_class total_items=$children_count content_node=$first}
-                {foreach $children as $gallery_item offset 1}
-                    {if eq( $gallery_item.class_identifier, 'video' )}
-                        {node_view_gui view='gallery_viewer' is_hidden=true() big_class=$big_image_class total_items=$children_count content_node=$gallery_item}
-                    {/if}
-                    {if and( eq( $gallery_item.class_identifier, 'image' ), $render_image_once|not() )}
-                        {node_view_gui view='gallery_viewer' is_hidden=true() big_class=$big_image_class total_items=$children_count content_node=$gallery_item}
-                        {set $render_image_once = true()}
-                    {/if}
-                {/foreach}
-            </div>
-            <div class="gallery-navigator">
-                <a href="#" class="navig prev" style="opacity:0;"><span class="hide">&lt;</span></a>
-                <a href="#" class="navig next"><span class="hide">&gt;</span></a>
-
-                <img src={'fg-selected.png'|ezimage} alt="Selected indicator" class="cursor" />
-                <ul class="images">
-                {foreach $children as $gallery_item}
-                    <li>{node_view_gui view='gallery_item' thumb_class='gallerythumbnail' big_class=$big_image_class content_node=$gallery_item}</li>
-                {/foreach}
-                </ul>
-            </div>
-
-        </div>
-        {ezscript( array( 'ezdemo_actions.js' ) )}
-        {/if}
-        {undef $children_count $children $first $big_image_class $render_image_once}
-    </div>
-</div>
+{* Gallery - Full view: header with name and descriptions, the pictures as a masonry wall that opens the lightbox
+   (javascript/ezdemo/gallery.js), paged by the view parameter offset. *}
+{set scope=global persistent_variable=hash( 'left_menu', false(), 'extra_menu', false() )}
+{def $page_limit = 24
+     $children_count = fetch( 'content', 'list_count', hash( 'parent_node_id', $node.node_id, 'class_filter_type', 'include', 'class_filter_array', array( 'image' ) ) )
+     $children = fetch( 'content', 'list', hash( 'parent_node_id', $node.node_id, 'class_filter_type', 'include', 'class_filter_array', array( 'image' ),
+                                                 'sort_by', $node.sort_array, 'offset', $view_parameters.offset, 'limit', $page_limit ) )}
+<section class="content-view-full class-gallery">
+    <header class="ed-page-head">
+        <h1>{$node.name|wash}</h1>
+        {if $node.data_map.short_description.has_content}<div class="ed-lead">{attribute_view_gui attribute=$node.data_map.short_description}</div>{/if}
+        {if $node.data_map.description.has_content}<div class="ed-meta">{attribute_view_gui attribute=$node.data_map.description}</div>{/if}
+        <p class="ed-meta">{'%count pictures'|i18n( 'design/ezdemo/full/gallery', '', hash( '%count', $children_count ) )}</p>
+    </header>
+    {if $children_count}
+        {include uri='design:parts/ezdemo/gallery_items.tpl' items=$children layout='masonry' id=$node.node_id}
+        {include name=navigator uri='design:navigator/google.tpl' page_uri=$node.url_alias item_count=$children_count view_parameters=$view_parameters item_limit=$page_limit}
+    {/if}
+</section>
+{undef $page_limit $children_count $children}

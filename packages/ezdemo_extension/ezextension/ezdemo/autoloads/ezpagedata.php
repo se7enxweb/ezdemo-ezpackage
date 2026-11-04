@@ -156,7 +156,7 @@ class eZPageData
                 {
                    $currentNodeId = (int) $moduleResult['node_id'];
                 }
-                else if ( isset( $moduleResult['path'][count( $moduleResult['path'] ) - 1]['node_id'] ) )
+                else if ( isset( $moduleResult['path'] ) && is_array( $moduleResult['path'] ) && isset( $moduleResult['path'][count( $moduleResult['path'] ) - 1]['node_id'] ) )
                 {
                    $currentNodeId = (int) $moduleResult['path'][count( $moduleResult['path'] ) - 1]['node_id'];
                 }
@@ -173,7 +173,7 @@ class eZPageData
                 $pageData['node_id']             = $currentNodeId;
                 $pageData['is_edit']             = false;
                 $pageData['page_root_depth']     = 0;
-                $pageData['page_depth']          = count( $moduleResult['path'] );
+                $pageData['page_depth']          = ( isset( $moduleResult['path'] ) && is_array( $moduleResult['path'] ) ) ? count( $moduleResult['path'] ) : 0;
                 $pageData['root_node']           = (int) $contentIni->variable( 'NodeSettings', 'RootNode' );
                 $pageData['canonical_url']       = false;
                 $pageData['canonical_language_url'] = false;

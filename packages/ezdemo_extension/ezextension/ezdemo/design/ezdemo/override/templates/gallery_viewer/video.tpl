@@ -1,9 +1,7 @@
 {def $video_path = concat( '/content/download/', $node.data_map.file.contentobject_id, '/', $node.data_map.file.id, '/', $node.data_map.file.content.original_filename )|ezurl( 'no', 'full' )}
 
-{ezcss_require( 'video.css' )}
-{ezscript_require( 'video.js' )}
 <figure id="gallery-viewer-video-{$node.node_id}" {if $is_hidden}class="hidden"{else}class="visible"{/if}>
-    <video id="video_{$node.node_id}" data-ezdemo-video-swf="{'flash/video-js.swf'|ezdesign( 'no' )|wash}" class="video-js vjs-default-skin" controls preload="auto" width="330" height="264" poster="" data-setup="{ldelim}{rdelim}">
+    <video id="video_{$node.node_id}" class="ed-video" controls preload="auto" width="330" height="264" poster="" data-setup="{ldelim}{rdelim}">
       <source src="{$video_path}" type="video/mp4" />
     </video>
     {ezscript( array( 'ezdemo_actions.js' ) )}

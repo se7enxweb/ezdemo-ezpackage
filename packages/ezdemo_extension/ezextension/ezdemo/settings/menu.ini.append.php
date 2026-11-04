@@ -46,6 +46,13 @@ ExtraMenuSubitemsCheck=disabled
 # {set scope=global persistent_variable=hash('left_menu', false(),
 #                                            'extra_menu', false(),
 #                                            'show_path', false())}
+[EzdemoTopMenu]
+# The main navigation (templates/parts/ezdemo/topmenu.tpl): this many items, the rest under "More"; the classes of
+# CallToActionClasses (the contact form) as a button at the end.
+VisibleItems=5
+CallToActionClasses[]
+CallToActionClasses[]=feedback_form
+
 [MenuSettings]
 #HideLeftMenuClasses[]
 HideLeftMenuClasses[]=landing_page

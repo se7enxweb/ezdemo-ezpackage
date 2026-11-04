@@ -1,20 +1,11 @@
-<div class="zone-layout-{$zone_layout|downcase()} row">
-    <div class="span12">
-        <section class="content-view-block">
-            {if and( is_set( $zones[0].blocks ), $zones[0].blocks|count() )}
-            {foreach $zones[0].blocks as $block}
-                {include uri='design:parts/zone_block.tpl' zone=$zones[0]}
-            {/foreach}
-            {/if}
-        </section>
-    </div>
-    <div class="span12">
-        <section class="content-view-block">
-            {if and( is_set( $zones[1].blocks ), $zones[1].blocks|count() )}
-            {foreach $zones[1].blocks as $block}
-                {include uri='design:parts/zone_block.tpl' zone=$zones[1]}
-            {/foreach}
-            {/if}
-        </section>
-    </div>
+{* 2 zones (layout 3): the top zone and the bottom zone one below the other, at full width; every block draws its
+   own section (override/templates/block/*.tpl). *}
+<div class="zone-layout-{$zone_layout|downcase()} ed-zone-stack">
+    {foreach $zones as $zone}
+        {if and( is_set( $zone.blocks ), $zone.blocks|count() )}
+        {foreach $zone.blocks as $block}
+            {include uri='design:parts/zone_block.tpl' zone=$zone}
+        {/foreach}
+        {/if}
+    {/foreach}
 </div>

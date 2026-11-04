@@ -1,6 +1,6 @@
 <form enctype="multipart/form-data" id="editform" name="editform" method="post" action={concat("/content/edit/",$object.id,"/",$edit_version,"/",$edit_language|not|choose(concat($edit_language,"/"),''))|ezurl}>
 
-{include uri='design:parts/website_toolbar_edit.tpl'}
+{include uri='design:parts/expwt_edit_actions.tpl'}
 
 <div class="content-edit row">
     <div class="span3">
@@ -21,7 +21,7 @@
 
     <div class="block search-results">
         <span class="header">{'Results'|i18n( 'design/ezflow/edit/frontpage' )}</span>
-        <div id="search-results-{$object.id}" style="overflow: hidden">
+        <div id="search-results-{$object.id}" class="ed-search-results">
     </div>
 
     {foreach $content_attributes as $content_attribute}
@@ -89,12 +89,12 @@
         {def $from_language_object = $object.languages[$from_language]}
 
         {'Translating content from %from_lang to %to_lang'|i18n( 'design/ezflow/edit/frontpage',, hash(
-            '%from_lang', concat( $from_language_object.name, '&nbsp;<img src="', $from_language_object.locale|flag_icon, '" style="vertical-align: middle;" alt="', $from_language_object.locale, '" />' ),
-            '%to_lang', concat( $translation_list[$language_index].locale.intl_language_name, '&nbsp;<img src="', $translation_list[$language_index].language_code|flag_icon, '" style="vertical-align: middle;" alt="', $translation_list[$language_index].language_code, '" />' ) ) )}
+            '%from_lang', concat( $from_language_object.name, '&nbsp;<img src="', $from_language_object.locale|flag_icon, '" class="ed-flag" alt="', $from_language_object.locale, '" />' ),
+            '%to_lang', concat( $translation_list[$language_index].locale.intl_language_name, '&nbsp;<img src="', $translation_list[$language_index].language_code|flag_icon, '" class="ed-flag" alt="', $translation_list[$language_index].language_code, '" />' ) ) )}
 
     {else}
 
-        {'Content in %language'|i18n( 'design/ezflow/edit/frontpage',, hash( '%language', $translation_list[$language_index].locale.intl_language_name ))}&nbsp;<img src="{$translation_list[$language_index].language_code|flag_icon}" style="vertical-align: middle;" alt="{$translation_list[$language_index].language_code}" />
+        {'Content in %language'|i18n( 'design/ezflow/edit/frontpage',, hash( '%language', $translation_list[$language_index].locale.intl_language_name ))}&nbsp;<img src="{$translation_list[$language_index].language_code|flag_icon}" class="ed-flag" alt="{$translation_list[$language_index].language_code}" />
 
     {/if}
     </p>

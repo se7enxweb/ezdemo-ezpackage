@@ -1,6 +1,6 @@
 <form name="editform" id="editform" enctype="multipart/form-data" method="post" action={concat( '/content/edit/', $object.id, '/', $edit_version, '/', $edit_language|not|choose( concat( $edit_language, '/' ), '/' ), $is_translating_content|not|choose( concat( $from_language, '/' ), '' ) )|ezurl}>
 
-{include uri='design:parts/website_toolbar_edit.tpl'}
+{include uri='design:parts/expwt_edit_actions.tpl'}
 
 <div class="content-edit">
 
@@ -35,12 +35,12 @@
         {def $from_language_object = $object.languages[$from_language]}
 
         {'Translating content from %from_lang to %to_lang'|i18n( 'design/ezdemo/content/edit',, hash(
-            '%from_lang', concat( $from_language_object.name, '&nbsp;<img src="', $from_language_object.locale|flag_icon, '" style="vertical-align: middle;" alt="', $from_language_object.locale, '" />' ),
-            '%to_lang', concat( $translation_list[$language_index].locale.intl_language_name, '&nbsp;<img src="', $translation_list[$language_index].language_code|flag_icon, '" style="vertical-align: middle;" alt="', $translation_list[$language_index].language_code, '" />' ) ) )}
+            '%from_lang', concat( $from_language_object.name, '&nbsp;<img src="', $from_language_object.locale|flag_icon, '" class="ed-flag" alt="', $from_language_object.locale, '" />' ),
+            '%to_lang', concat( $translation_list[$language_index].locale.intl_language_name, '&nbsp;<img src="', $translation_list[$language_index].language_code|flag_icon, '" class="ed-flag" alt="', $translation_list[$language_index].language_code, '" />' ) ) )}
 
     {else}
 
-        {'Content in %language'|i18n( 'design/ezdemo/content/edit',, hash( '%language', $translation_list[$language_index].locale.intl_language_name ))}&nbsp;<img src="{$translation_list[$language_index].language_code|flag_icon}" style="vertical-align: middle;" alt="{$translation_list[$language_index].language_code}" />
+        {'Content in %language'|i18n( 'design/ezdemo/content/edit',, hash( '%language', $translation_list[$language_index].locale.intl_language_name ))}&nbsp;<img src="{$translation_list[$language_index].language_code|flag_icon}" class="ed-flag" alt="{$translation_list[$language_index].language_code}" />
 
     {/if}
     </p>

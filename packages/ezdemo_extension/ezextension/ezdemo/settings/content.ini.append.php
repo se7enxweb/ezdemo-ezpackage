@@ -3,6 +3,8 @@
 
 [FooterSettings]
 ContentObjectName=footer
+# The footer article, by remote id (the demo content); NodeID when no object has it
+RemoteID=ezdemo-footer
 NodeID=60
 
 [CustomTagSettings]

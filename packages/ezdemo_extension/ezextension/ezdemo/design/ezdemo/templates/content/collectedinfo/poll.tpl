@@ -67,9 +67,7 @@
                             <div class="chart-bar-edge-start">
                                 <div class="chart-bar-edge-end">
                                     <div class="chart-bar-resultbox">
-                                        <div class="chart-bar-resultbar chart-bar-{$percentage}-of-100 chart-bar-{$tenth}-of-10" style="width: {$percentage}%;">
-                                            <div class="chart-bar-result-divider"></div>
-                                        </div>
+                                        <progress class="ed-poll-progress chart-bar-{$percentage}-of-100" max="100" value="{$percentage}">{$percentage}%</progress>
                                     </div>
                                 </div>
                             </div>

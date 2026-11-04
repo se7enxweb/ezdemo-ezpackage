@@ -5,7 +5,7 @@
   <name>ezdemo_extension</name>
   <summary>ezdemo extension</summary>
   <description>ezdemo extension</description>
-  <vendor>eZ systems</vendor>
+  <vendor>Exponential Foundation and 7x</vendor>
   <type value="extension" />
   <ezpublish>
     <version>6.0.15</version>
@@ -13,7 +13,7 @@
   </ezpublish>
   <packaging>
     <timestamp>1793301927</timestamp>
-    <host>packages.ez.no</host>
+    <host>packages.exponential.earth</host>
   </packaging>
   <documents>
     <document mime-type="text/plain"
@@ -22,7 +22,7 @@
   <simple-files />
   <version>
     <number>6.0</number>
-    <release>19</release>
+    <release>20</release>
   </version>
   <licence>GPL</licence>
   <state>stable</state>

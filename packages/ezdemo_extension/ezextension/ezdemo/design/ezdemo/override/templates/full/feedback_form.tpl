@@ -3,17 +3,13 @@
 <section class="content-view-full">
     <article class="class-feedback-form">
 
-        <div class="attribute-header">
-            <h1>{$node.name|wash()}</h1>
-        </div>
+        <header class="ed-page-head"><h1>{$node.name|wash()}</h1></header>
 
         {include name=Validation uri='design:content/collectedinfo_validation.tpl'
                  class='message-warning'
                  validation=$validation collection_attributes=$collection_attributes}
 
-        <div class="attribute-short">
-                {attribute_view_gui attribute=$node.data_map.description}
-        </div>
+        <div class="ed-lead ed-wrap-text ed-form-intro">{attribute_view_gui attribute=$node.data_map.description}</div>
         <form method="post" action={"content/action"|ezurl}>
 
         <div class="row">

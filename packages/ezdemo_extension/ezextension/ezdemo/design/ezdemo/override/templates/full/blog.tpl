@@ -1,10 +1,14 @@
 {* Blog - Full view *}
 {set scope=global persistent_variable=hash('left_menu', false(),
                                            'extra_menu', false())}
-<section class="content-view-full">
-    <div class="class-blog">
-        <div class="row">
-            <div class="span8">
+<section class="content-view-full class-blog">
+    <header class="ed-page-head">
+        <h1>{$node.name|wash}</h1>
+        {if $node.data_map.description.has_content}<div class="ed-lead">{attribute_view_gui attribute=$node.data_map.description}</div>{/if}
+        {if $view_parameters.tag}<p class="ed-meta"><span class="ed-tag">{rawurldecode( $view_parameters.tag )|wash}</span> <a href={$node.url_alias|ezurl}>{'All posts'|i18n( 'design/ezdemo/full/blog' )}</a></p>{/if}
+    </header>
+    <div class="ed-article-layout">
+            <div>
             {def $page_limit = 10
                  $blogs_count = 0
                  $uniq_id = 0
@@ -15,7 +19,7 @@
                                                                  'classid', 'blog_post',
                                                                  'parent_node_id', $node.node_id ) )}
                 {if $blogs_count}
-                <section class="content-view-children">
+                <section class="content-view-children ed-grid ed-grid-2">
                     {foreach fetch( 'content', 'keyword', hash( 'alphabet', rawurldecode( $view_parameters.tag ),
                                                                 'classid', 'blog_post',
                                                                 'parent_node_id', $node.node_id,
@@ -40,7 +44,7 @@
                                                                                      array( 'blog_post/publication_date', '>=', $start_date ),
                                                                                      array( 'blog_post/publication_date', '<=', $end_date) ) ) )}
                     {if $blogs_count}
-                    <section class="content-view-children">
+                    <section class="content-view-children ed-grid ed-grid-2">
                         {foreach fetch( 'content', 'list', hash( 'parent_node_id', $node.node_id,
                                                                  'offset', $view_parameters.offset,
                                                                  'attribute_filter', array( and,
@@ -55,7 +59,7 @@
                 {else}
                     {set $blogs_count = fetch( 'content', 'list_count', hash( 'parent_node_id', $node.node_id ) )}
                     {if $blogs_count}
-                    <section class="content-view-children">
+                    <section class="content-view-children ed-grid ed-grid-2">
                         {foreach fetch( 'content', 'list', hash( 'parent_node_id', $node.node_id,
                                                                  'offset', $view_parameters.offset,
                                                                  'sort_by', array( 'attribute', false(), 'blog_post/publication_date' ),
@@ -74,13 +78,8 @@
                      view_parameters=$view_parameters
                      item_limit=$page_limit}
             </div>
-            <div class="span4">
-                <aside>
-                    <section class="content-view-aside">
-                        {include uri='design:parts/blog/extra_info.tpl' used_node=$node}
-                    </section>
-                </aside>
-            </div>
-        </div>
+            <aside class="ed-aside ed-blog-aside">
+                <div class="ed-aside-box">{include uri='design:parts/blog/extra_info.tpl' used_node=$node}</div>
+            </aside>
     </div>
 </section>

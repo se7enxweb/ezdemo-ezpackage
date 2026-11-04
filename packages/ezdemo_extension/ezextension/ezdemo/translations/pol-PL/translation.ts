@@ -56,6 +56,10 @@
         <source>%login_link_startLog in%login_link_end to comment.</source>
         <translation>%login_link_startZalogować się%login_link_end, aby dodać komentarz.</translation>
     </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Napisz komentarz</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/block/feedback_form</name>
@@ -63,12 +67,20 @@
         <source>Send form</source>
         <translation>Wysłać formularz</translation>
     </message>
+    <message>
+        <source>Send message</source>
+        <translation>Wyślij wiadomość</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/block_item/call_to_action</name>
     <message>
         <source>Download!</source>
         <translation>Pobrać!</translation>
+    </message>
+    <message>
+        <source>Get started</source>
+        <translation>Zacznij teraz</translation>
     </message>
 </context>
 <context>
@@ -80,6 +92,10 @@
     <message>
         <source>Buy</source>
         <translation>Kupić</translation>
+    </message>
+    <message>
+        <source>Add to basket</source>
+        <translation>Dodać do koszyka</translation>
     </message>
 </context>
 <context>
@@ -1079,12 +1095,20 @@
         <source>Latest News</source>
         <translation>Najnowsze wiadomości</translation>
     </message>
+    <message>
+        <source>Latest news</source>
+        <translation>Najnowsze wiadomości</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/footer/links</name>
     <message>
         <source>eZ Links</source>
         <translation>Linki eZ</translation>
+    </message>
+    <message>
+        <source>Resources</source>
+        <translation>Zasoby</translation>
     </message>
 </context>
 <context>
@@ -1141,6 +1165,14 @@
         <source>Category</source>
         <translation>Kategoria</translation>
     </message>
+    <message>
+        <source>Past event</source>
+        <translation>Wydarzenie minione</translation>
+    </message>
+    <message>
+        <source>until</source>
+        <translation>do</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/full/event_view_calendar</name>
@@ -1194,6 +1226,18 @@
     <message>
         <source>Future events</source>
         <translation>Wydarzenia nadchodzące</translation>
+    </message>
+    <message>
+        <source>Events</source>
+        <translation>Zdarzenia</translation>
+    </message>
+    <message>
+        <source>Program</source>
+        <translation>Program</translation>
+    </message>
+    <message>
+        <source>Webinars, workshops and meetups. Add one to your calendar or join us live.</source>
+        <translation>Webinary, warsztaty i spotkania. Dodaj jedno do kalendarza lub dołącz na żywo.</translation>
     </message>
 </context>
 <context>
@@ -1349,6 +1393,10 @@
         <source>Related content</source>
         <translation>Treści powiązane</translation>
     </message>
+    <message>
+        <source>Pictures</source>
+        <translation>Zdjęcia</translation>
+    </message>
 </context>
 <context>
     <name>design/ezdemo/full/multicalendar</name>
@@ -1393,6 +1441,18 @@
     <message>
         <source>Amount</source>
         <translation>Kwota</translation>
+    </message>
+    <message>
+        <source>Category</source>
+        <translation>Kategoria</translation>
+    </message>
+    <message>
+        <source>Quantity</source>
+        <translation>Ilość</translation>
+    </message>
+    <message>
+        <source>incl. VAT</source>
+        <translation>z VAT</translation>
     </message>
 </context>
 <context>
@@ -1742,6 +1802,50 @@
     <message>
         <source>Search text</source>
         <translation>Szukany tekst</translation>
+    </message>
+    <message>
+        <source>Breadcrumb</source>
+        <translation>Ścieżka nawigacji</translation>
+    </message>
+    <message>
+        <source>Languages</source>
+        <translation>Języki</translation>
+    </message>
+    <message>
+        <source>Main</source>
+        <translation>Główny</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>Menu</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Więcej</translation>
+    </message>
+    <message>
+        <source>New: Exponential 6.0.15 is here.</source>
+        <translation>Nowość: Exponential 6.0.15 jest już dostępny.</translation>
+    </message>
+    <message>
+        <source>Section menu</source>
+        <translation>Menu działu</translation>
+    </message>
+    <message>
+        <source>See what is new</source>
+        <translation>Zobacz nowości</translation>
+    </message>
+    <message>
+        <source>Skip to content</source>
+        <translation>Przejdź do treści</translation>
+    </message>
+    <message>
+        <source>Use the dark theme</source>
+        <translation>Użyj ciemnego motywu</translation>
+    </message>
+    <message>
+        <source>Use the light theme</source>
+        <translation>Użyj jasnego motywu</translation>
     </message>
 </context>
 <context>
@@ -3384,6 +3488,188 @@
     <message>
         <source>Could not load LICENSE file! You should have a LICENSE file in your eZ Publish root directory.</source>
         <translation>Nie można wczytać pliku LICENSE! W katalogu głównym eZ Publish powinien znajdować się plik LICENSE.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/block</name>
+    <message>
+        <source>Discover what is new</source>
+        <translation>Poznaj nowości</translation>
+    </message>
+    <message>
+        <source>Explore the platform</source>
+        <translation>Poznaj platformę</translation>
+    </message>
+    <message>
+        <source>Learn more</source>
+        <translation>Dowiedz się więcej</translation>
+    </message>
+    <message>
+        <source>Next slide</source>
+        <translation>Następny slajd</translation>
+    </message>
+    <message>
+        <source>Previous slide</source>
+        <translation>Poprzedni slajd</translation>
+    </message>
+    <message>
+        <source>Read more</source>
+        <translation>Czytaj dalej</translation>
+    </message>
+    <message>
+        <source>Read the announcement</source>
+        <translation>Przeczytaj ogłoszenie</translation>
+    </message>
+    <message>
+        <source>Read the story</source>
+        <translation>Przeczytaj artykuł</translation>
+    </message>
+    <message>
+        <source>Scroll back</source>
+        <translation>Przewiń wstecz</translation>
+    </message>
+    <message>
+        <source>Scroll on</source>
+        <translation>Przewiń dalej</translation>
+    </message>
+    <message>
+        <source>See the results</source>
+        <translation>Zobacz wyniki</translation>
+    </message>
+    <message>
+        <source>Show slide %number</source>
+        <translation>Pokaż slajd %number</translation>
+    </message>
+    <message>
+        <source>carousel</source>
+        <translation>karuzela</translation>
+    </message>
+    <message>
+        <source>slide</source>
+        <translation>slajd</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/footer</name>
+    <message>
+        <source>Explore</source>
+        <translation>Odkrywaj</translation>
+    </message>
+    <message>
+        <source>Powered by</source>
+        <translation>Działa na</translation>
+    </message>
+    <message>
+        <source>open source content management by the Exponential Foundation and 7x.</source>
+        <translation>otwartoźródłowe zarządzanie treścią od Exponential Foundation i 7x.</translation>
+    </message>
+    <message>
+        <source>Get in touch</source>
+        <translation>Kontakt</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full</name>
+    <message>
+        <source>Contact us</source>
+        <translation>Skontaktuj się z nami</translation>
+    </message>
+    <message>
+        <source>Questions?</source>
+        <translation>Pytania?</translation>
+    </message>
+    <message>
+        <source>Talk to the team about your project.</source>
+        <translation>Porozmawiaj z zespołem o swoim projekcie.</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/blog</name>
+    <message>
+        <source>All posts</source>
+        <translation>Wszystkie wpisy</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/folder</name>
+    <message>
+        <source>RSS feed</source>
+        <translation>Kanał RSS</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/gallery</name>
+    <message>
+        <source>%count pictures</source>
+        <translation>%count zdjęć</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/full/place</name>
+    <message>
+        <source>View on the map</source>
+        <translation>Pokaż na mapie</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/gallery</name>
+    <message>
+        <source>%index of %count</source>
+        <translation>%index z %count</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Zamknąć</translation>
+    </message>
+    <message>
+        <source>Gallery</source>
+        <translation>Galeria</translation>
+    </message>
+    <message>
+        <source>Next picture</source>
+        <translation>Następne zdjęcie</translation>
+    </message>
+    <message>
+        <source>Previous picture</source>
+        <translation>Poprzednie zdjęcie</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/share</name>
+    <message>
+        <source>Copy link</source>
+        <translation>Kopiuj link</translation>
+    </message>
+    <message>
+        <source>Link copied</source>
+        <translation>Skopiowano link</translation>
+    </message>
+    <message>
+        <source>Share</source>
+        <translation>Udostępnij</translation>
+    </message>
+    <message>
+        <source>Share this page</source>
+        <translation>Udostępnij tę stronę</translation>
+    </message>
+    <message>
+        <source>Share on LinkedIn</source>
+        <translation>Udostępnij w LinkedIn</translation>
+    </message>
+    <message>
+        <source>Share on Bluesky</source>
+        <translation>Udostępnij w Bluesky</translation>
+    </message>
+    <message>
+        <source>Share by email</source>
+        <translation>Udostępnij e-mailem</translation>
+    </message>
+</context>
+<context>
+    <name>design/ezdemo/tagcloud</name>
+    <message>
+        <source>%count items tagged %tag</source>
+        <translation>%count elementów z tagiem %tag</translation>
     </message>
 </context>
 </TS>
