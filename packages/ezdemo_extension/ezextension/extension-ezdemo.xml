@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension name="ezdemo">
-  <file name=".github" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="FUNDING.yml" path="/.github" md5sum="a65c763ef0340e232cfe8c274f56fca0"/>
   <file name="LICENSE" md5sum="eee5f9135e5b658adce09e7e046c881f"/>
   <file name="README" md5sum="d41d8cd98f00b204e9800998ecf8427e"/>
   <file name="autoloads" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
@@ -137,7 +135,7 @@
   <file name="article.tpl" path="/design/ezdemo/override/templates/block_item_campaign" md5sum="7f8a4987b4025a60fcf7be77f9d235a5"/>
   <file name="image.tpl" path="/design/ezdemo/override/templates/block_item_campaign" md5sum="fb9106404f3b7c5fd27d3e609b4dd1d6"/>
   <file name="collectedinfomail" path="/design/ezdemo/override/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="call_to_action.tpl" path="/design/ezdemo/override/templates/collectedinfomail" md5sum="48fceb1880683510ba6883300f30829d"/>
+  <file name="call_to_action.tpl" path="/design/ezdemo/override/templates/collectedinfomail" md5sum="53326c43404b0852f82994ed9c361401"/>
   <file name="datatype" path="/design/ezdemo/override/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="collect" path="/design/ezdemo/override/templates/datatype" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="ezemail_feedback_form.tpl" path="/design/ezdemo/override/templates/datatype/collect" md5sum="f9c924c8890f31eaa3049d1301d61ba1"/>
@@ -298,8 +296,8 @@
   <file name="form.tpl" path="/design/ezdemo/templates/content/collectedinfo" md5sum="35416c6b19f71b5f282fbbf00b6def49"/>
   <file name="poll.tpl" path="/design/ezdemo/templates/content/collectedinfo" md5sum="914ba297361bdba06c9db3f708e4a223"/>
   <file name="collectedinfomail" path="/design/ezdemo/templates/content" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="feedback.tpl" path="/design/ezdemo/templates/content/collectedinfomail" md5sum="afbd9f7e52434e47f7da0f20163ff346"/>
-  <file name="form.tpl" path="/design/ezdemo/templates/content/collectedinfomail" md5sum="cf3cba6a7bc4ef23e9fdc52db024a761"/>
+  <file name="feedback.tpl" path="/design/ezdemo/templates/content/collectedinfomail" md5sum="4caf50695811ae764523bbe60943506f"/>
+  <file name="form.tpl" path="/design/ezdemo/templates/content/collectedinfomail" md5sum="358c0bae14532ea5d0d36b833d3d35eb"/>
   <file name="datatype" path="/design/ezdemo/templates/content" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="view" path="/design/ezdemo/templates/content/datatype" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="ezauthor.tpl" path="/design/ezdemo/templates/content/datatype/view" md5sum="2651c44b1eeb3d3de2916526c88f3ce2"/>
@@ -453,8 +451,9 @@
   <file name="changelogs" path="/doc" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="6.0" path="/doc/changelogs" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="CHANGELOG-6.0.19-to-6.0.20" path="/doc/changelogs/6.0" md5sum="ceb2d328355791e884d6e35a7b723957"/>
-  <file name="extension.xml" md5sum="3ad4ba59efc34be50c54953c2d287058"/>
-  <file name="ezinfo.php" md5sum="dc21869c587a0b843cece20d77698284"/>
+  <file name="CHANGELOG-6.0.20-to-6.0.21" path="/doc/changelogs/6.0" md5sum="6909d801ef4ddce920f0c36b3ec94bc9"/>
+  <file name="extension.xml" md5sum="347bf449fd78d1cb081f7c24ff19b3b8"/>
+  <file name="ezinfo.php" md5sum="fd1917f3658de2d3214c65ed7d9904f8"/>
   <file name="packages" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="5.0" path="/packages" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="call_to_action-1.0-1.ezpkg" path="/packages/5.0" md5sum="cb56671d0446152c9de15f1fd84663fb"/>
