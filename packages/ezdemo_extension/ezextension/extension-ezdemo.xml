@@ -438,7 +438,7 @@
   <file name="forgotpassword.tpl" path="/design/ezdemo/templates/user" md5sum="0b7e7f631a2f941b5acd22e9fdda7a3d"/>
   <file name="login.tpl" path="/design/ezdemo/templates/user" md5sum="0d0d8f0805661894b5e00151cad46a46"/>
   <file name="password.tpl" path="/design/ezdemo/templates/user" md5sum="6704c8c3abfa00629100f4d437643934"/>
-  <file name="register.tpl" path="/design/ezdemo/templates/user" md5sum="26a8f3cf9be31b30b3c78f7d5f9af043"/>
+  <file name="register.tpl" path="/design/ezdemo/templates/user" md5sum="56a76d96f11e16b649121072fa3f280a"/>
   <file name="success.tpl" path="/design/ezdemo/templates/user" md5sum="fdfa828521febee481c78e65c0fcb831"/>
   <file name="zone" path="/design/ezdemo/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="2zoneslayout1.tpl" path="/design/ezdemo/templates/zone" md5sum="71db6402c49db58f35c72e66071814ce"/>
@@ -452,8 +452,9 @@
   <file name="6.0" path="/doc/changelogs" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="CHANGELOG-6.0.19-to-6.0.20" path="/doc/changelogs/6.0" md5sum="ceb2d328355791e884d6e35a7b723957"/>
   <file name="CHANGELOG-6.0.20-to-6.0.21" path="/doc/changelogs/6.0" md5sum="6909d801ef4ddce920f0c36b3ec94bc9"/>
-  <file name="extension.xml" md5sum="347bf449fd78d1cb081f7c24ff19b3b8"/>
-  <file name="ezinfo.php" md5sum="fd1917f3658de2d3214c65ed7d9904f8"/>
+  <file name="CHANGELOG-6.0.21-to-6.0.22" path="/doc/changelogs/6.0" md5sum="aa97860beef06e6d2422086244bc3473"/>
+  <file name="extension.xml" md5sum="23a27442cd0fa1115f91b3a6c9fb88c7"/>
+  <file name="ezinfo.php" md5sum="3789a933bef9667655e0aae73e54671c"/>
   <file name="packages" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="5.0" path="/packages" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="call_to_action-1.0-1.ezpkg" path="/packages/5.0" md5sum="cb56671d0446152c9de15f1fd84663fb"/>
