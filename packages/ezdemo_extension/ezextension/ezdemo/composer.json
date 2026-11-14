@@ -18,7 +18,7 @@
         "se7enxweb/ezdemo-ls-extension": "self.version"
     },
     "suggest": {
-        "se7enxweb/expwt": "~0.1",
+        "se7enxweb/expwt": "~0.1.1",
         "se7enxweb/ezgmaplocation": "~6.1",
         "se7enxweb/ezstarrating": "~6.0.16"
     },

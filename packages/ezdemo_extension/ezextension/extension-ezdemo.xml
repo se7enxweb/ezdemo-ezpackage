@@ -8,7 +8,7 @@
   <file name="ezpagedata.php" path="/autoloads" md5sum="5c8490411ef921942c3979a5b50d5591"/>
   <file name="eztagcloud.php" path="/autoloads" md5sum="e6ae0f73f6bf1daea70d5284947e6d30"/>
   <file name="eztemplateautoload.php" path="/autoloads" md5sum="aab5dfaa5598f862629636cf4f4ab45d"/>
-  <file name="composer.json" md5sum="ab41d7b48c82a82cef475f6c02193f26"/>
+  <file name="composer.json" md5sum="e03b9eee06f3c08b1e9257efc34895aa"/>
   <file name="design" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="admin" path="/design" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="override" path="/design/admin" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
@@ -453,8 +453,9 @@
   <file name="CHANGELOG-6.0.19-to-6.0.20" path="/doc/changelogs/6.0" md5sum="ceb2d328355791e884d6e35a7b723957"/>
   <file name="CHANGELOG-6.0.20-to-6.0.21" path="/doc/changelogs/6.0" md5sum="6909d801ef4ddce920f0c36b3ec94bc9"/>
   <file name="CHANGELOG-6.0.21-to-6.0.22" path="/doc/changelogs/6.0" md5sum="aa97860beef06e6d2422086244bc3473"/>
-  <file name="extension.xml" md5sum="23a27442cd0fa1115f91b3a6c9fb88c7"/>
-  <file name="ezinfo.php" md5sum="3789a933bef9667655e0aae73e54671c"/>
+  <file name="CHANGELOG-6.0.22-to-6.0.23" path="/doc/changelogs/6.0" md5sum="18e0e3828e4afe28496674e2a9a3c1f4"/>
+  <file name="extension.xml" md5sum="bccfb8ef78b9ae87bfc87ae6e6bae550"/>
+  <file name="ezinfo.php" md5sum="43afacf4576f8405e05eaab4a372bb31"/>
   <file name="packages" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="5.0" path="/packages" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="call_to_action-1.0-1.ezpkg" path="/packages/5.0" md5sum="cb56671d0446152c9de15f1fd84663fb"/>
